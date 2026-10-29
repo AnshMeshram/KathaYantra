@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Pydantic v2](https://img.shields.io/badge/Pydantic-v2.10-E92063?style=flat-square&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
-[![Pytest](https://img.shields.io/badge/Tests-21%20Passed%20(100%25)-success?style=flat-square&logo=pytest&logoColor=white)](tests/)
+[![Pytest](https://img.shields.io/badge/Tests-60%20Passed%20(100%25)-success?style=flat-square&logo=pytest&logoColor=white)](tests/)
 [![Local AI](https://img.shields.io/badge/Local%20AI-Ollama%20%2B%20Gemma%202-FF6F00?style=flat-square&logo=google&logoColor=white)](https://ollama.ai/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Target Scope](https://img.shields.io/badge/Scope-15%20Countries%20%7C%20300%20Stories-blueviolet?style=flat-square)](#-target-country-matrix)
@@ -56,7 +56,7 @@ Unlike commercial scrapers or black-box generative bots, KathaYantra is engineer
 3. **Transparent Source Tracking:** Every narrative links back to an inspectable physical publication, national archive, or open academic database.
 4. **Local-First Open-Weight AI:** An integrated local archivist running locally via **Ollama + Gemma 2**, assisting users in discovering comparative themes across cultures without inventing sources, fabricating legends, or sending data to third-party cloud APIs.
 
-> **Phase 1 Milestone:** Establishes the core backend architecture, Pydantic v2 schemas, deterministic data auditing engine, 15-country seed repositories, rights-aware manifest tracking, and 21 passing unit tests.
+> **Phase 2 Milestone:** Establishes strict versioned data schemas (`2.0.0`), Draft 2020-12 JSON Schema contracts, deterministic 8-rule publication governance (`PublicationPolicy`), separate models for AI fiction (`GeneratedFictionRecord`) and candidate staging (`ImportCandidate`), full migration of all 30 country seed files to `DatasetEnvelope 2.0.0`, and **60 passing unit tests**.
 
 ---
 
@@ -264,12 +264,18 @@ KathaYantra/
 │   ├── api/routes/health.py        # GET /api/v1/health system probe
 │   ├── core/config.py              # Pydantic v2 application settings
 │   ├── integrations/registry.py    # Source registry query manager
-│   ├── schemas/                    # Pydantic v2 data models
+│   ├── schemas/                    # Pydantic v2 data models (Schema v2.0.0)
 │   │   ├── country.py              # CountryRecord & ISO code constraints
+│   │   ├── dataset.py              # DatasetEnvelope 2.0.0 & dataset envelope
+│   │   ├── generated_fiction.py    # GeneratedFictionRecord (isolated AI fiction)
+│   │   ├── import_candidate.py     # ImportCandidate & raw staging disposition
 │   │   ├── manifest.py             # DatasetManifest & quota models
-│   │   ├── source.py               # SourceRegistryItem & API status enums
-│   │   └── story.py                # StoryRecord, StorySource & rights models
-│   ├── services/manifest_service.py# Real-time actual count calculator
+│   │   ├── source.py               # StorySource & SourceRegistryItem
+│   │   └── story.py                # StoryRecord & rights models
+│   ├── services/                   # Governance & validation services
+│   │   ├── data_validation.py      # DataQualityValidator (17 integrity checks)
+│   │   ├── manifest_service.py     # Real-time actual count calculator
+│   │   └── publication_policy.py   # PublicationPolicy (8-rule gating engine)
 │   └── main.py                     # FastAPI application factory
 ├── data/
 │   ├── manifests/
@@ -279,26 +285,49 @@ KathaYantra/
 │   ├── raw/
 │   │   └── .gitkeep                # Raw CSV folder (CSVs gitignored)
 │   ├── processed/.gitkeep          # Staged reviewed pipeline folder
+│   ├── schemas/                    # Draft 2020-12 JSON Schema exports
+│   │   ├── country.schema.json
+│   │   ├── dataset_envelope.schema.json
+│   │   ├── dataset_manifest.schema.json
+│   │   ├── generated_fiction.schema.json
+│   │   ├── import_candidate.schema.json
+│   │   ├── source_registry.schema.json
+│   │   ├── story_record.schema.json
+│   │   └── story_source.schema.json
 │   └── seed/
 │       ├── countries.json          # 15 target countries catalog
 │       ├── source_registry.json    # 17 registered sources & APIs
-│       ├── folklore/               # 15 country seed files (IN.json, US.json...)
-│       └── urban_legends/          # 15 country seed files (IN.json, US.json...)
+│       ├── folklore/               # 15 country seed files (DatasetEnvelope 2.0.0)
+│       └── urban_legends/          # 15 country seed files (DatasetEnvelope 2.0.0)
 ├── docs/
 │   ├── architecture.md             # Architecture & system boundaries
-│   ├── data-schema.md              # Pydantic v2 model documentation
+│   ├── data-schema.md              # Pydantic v2 & JSON Schema contracts
 │   ├── data-sources.md             # Detailed profiles of 17 sources
 │   ├── folk-tales-dataset-audit.md # Comprehensive CSV audit findings
-│   └── licensing-policy.md         # Rights, copyright & AI policy
+│   ├── licensing-policy.md         # Rights, copyright, AI policy & gating
+│   └── schema-versioning.md        # Semantic versioning & deprecation guide
 ├── scripts/
-│   └── audit_folktales_csv.py      # Deterministic CSV audit engine
+│   ├── audit_folktales_csv.py      # Deterministic CSV audit engine
+│   ├── export_json_schemas.py      # Automated JSON Schema 2020-12 exporter
+│   ├── migrate_seed_json.py        # Safe seed dataset migrator & linter
+│   └── validate_json_datasets.py   # Comprehensive dataset quality validator
 ├── tests/
 │   ├── test_app.py                 # Startup, CORS, and health route tests
 │   ├── test_audit.py               # CSV parsing & duplicate audit tests
 │   ├── test_config.py              # Configuration validation tests
+│   ├── test_country_schema.py      # Country schema Phase 2 tests
+│   ├── test_data_validation.py     # 17-point DataQualityValidator tests
+│   ├── test_dataset_envelope.py    # Envelope structure & validation tests
+│   ├── test_generated_fiction.py   # AI fiction segregation & disclaimer tests
+│   ├── test_import_candidate.py    # ImportCandidate & disposition tests
+│   ├── test_json_schema_export.py  # JSON Schema generation & sync tests
 │   ├── test_manifest.py            # Manifest calculation tests
-│   ├── test_schemas.py             # Pydantic model constraint tests
-│   └── test_source_registry.py     # Registry schema & honesty tests
+│   ├── test_migration.py           # Seed migration idempotent tests
+│   ├── test_publication_policy.py  # 8-rule publication gate tests
+│   ├── test_schemas.py             # Phase 1 schema regression tests
+│   ├── test_source_registry.py     # Registry schema & honesty tests
+│   ├── test_source_schema_phase2.py# StorySource Phase 2 tests
+│   └── test_story_schema_phase2.py # StoryRecord Phase 2 constraint tests
 ├── .env.example                    # Environment template
 ├── .gitignore                      # Git rules (raw data & secrets protected)
 ├── LICENSE                         # MIT License
@@ -332,19 +361,31 @@ cp .env.example .env
 pip install -r requirements.txt
 ```
 
-### 4. Execute the Deterministic Audit
-To audit the raw folk tales CSV independently:
+### 4. Execute Data Quality & Integrity Validation
+To inspect and validate all 30 country seed files and manifests:
 ```bash
-python scripts/audit_folktales_csv.py data/raw/folk_tales_deduplicated.csv
+python scripts/validate_json_datasets.py
 ```
 
-### 5. Run the Test Suite
+### 5. Check Seed File Schema Migration Status
+To verify that all seed files comply with schema v2.0.0 without mutating files:
+```bash
+python scripts/migrate_seed_json.py --check
+```
+
+### 6. Export Draft 2020-12 JSON Schema Contracts
+To regenerate or inspect canonical JSON Schemas in `data/schemas/`:
+```bash
+python scripts/export_json_schemas.py
+```
+
+### 7. Run the Full Test Suite
 ```bash
 python -m pytest -v
 ```
-*All 21 unit tests run offline in ~2.3 seconds with 100% pass rate.*
+*All 60 unit tests across 16 test modules run offline in ~2.6 seconds with 100% pass rate.*
 
-### 6. Launch the Development Server
+### 8. Launch the Development Server
 ```bash
 python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
 ```
@@ -354,31 +395,27 @@ Server is live at: `http://127.0.0.1:8000`
 
 ## ✅ Verification & Test Results
 
-The KathaYantra test suite covers all 15 core architectural invariants mandated in Phase 1:
+The KathaYantra test suite covers all Phase 1 foundations and Phase 2 data governance invariants (60 passing tests across 16 suites):
 
-| Test Module | Test Case | Target Invariant Verified | Status |
-|---|---|---|:---:|
-| `test_app.py` | `test_app_startup` | FastAPI instance creation, lifespan, and root route | **PASS** |
-| `test_app.py` | `test_health_endpoint_response` | Structured JSON health response and accuracy | **PASS** |
-| `test_app.py` | `test_cors_middleware_configured` | CORS headers restricted to configured development origins | **PASS** |
-| `test_audit.py` | `test_missing_or_malformed_csv_handling` | Graceful failure on missing file or bad column schemas | **PASS** |
-| `test_audit.py` | `test_missing_csv_values_detection` | Detecting missing fields (missing nation in 6 rows) | **PASS** |
-| `test_audit.py` | `test_deterministic_csv_auditing` | Idempotent, deterministic JSON and Markdown outputs | **PASS** |
-| `test_config.py` | `test_configuration_validation` | Pydantic BaseSettings loading, validation, and defaults | **PASS** |
-| `test_config.py` | `test_cors_origins_comma_separated_parsing` | Flexible JSON list and comma-separated CORS parsing | **PASS** |
-| `test_config.py` | `test_missing_dataset_directories` | Resilient property access when folders are absent | **PASS** |
-| `test_manifest.py` | `test_manifest_calculation_from_actual_data` | True counts calculated from actual files (0 actual, 300 target) | **PASS** |
-| `test_manifest.py` | `test_manifest_dynamic_calculation_with_fixture` | Dynamic incrementing when valid records are present | **PASS** |
-| `test_schemas.py` | `test_country_code_validation` | Enforcing 15 ISO codes; rejecting invalid codes | **PASS** |
-| `test_schemas.py` | `test_invalid_story_categories` | Restricting categories to `folklore` and `urban_legend` | **PASS** |
-| `test_schemas.py` | `test_missing_source_urls` | Rejecting stories without at least 1 validated source | **PASS** |
-| `test_schemas.py` | `test_invalid_source_url_formats` | Validating HTTP/HTTPS schemes and network locations | **PASS** |
-| `test_schemas.py` | `test_duplicate_record_ids` | Duplicate identifier collision detection | **PASS** |
-| `test_schemas.py` | `test_missing_or_invalid_rights_status` | Enforcing RightsStatusEnum and defaulting to review | **PASS** |
-| `test_source_registry.py` | `test_source_registry_schema_validation` | All 17 sources match Pydantic schema strictly | **PASS** |
-| `test_source_registry.py` | `test_required_phase1_sources_present` | Presence of all 14+ required external sources | **PASS** |
-| `test_source_registry.py` | `test_honest_access_and_rights_representation` | Unverified sources are never claimed as working APIs | **PASS** |
-| `test_source_registry.py` | `test_filtering_sources` | Filtering sources by status and country code | **PASS** |
+| Test Module | Scope / Target Tested | Test Count | Status |
+|---|---|:---:|:---:|
+| `test_app.py` | FastAPI application lifecycle, CORS middleware, and health route probe | 3 | **PASS** |
+| `test_audit.py` | CSV parsing, error handling, missing field detection, and duplicate auditing | 3 | **PASS** |
+| `test_config.py` | Pydantic BaseSettings loading, comma-delimited CORS parsing, directory resilience | 3 | **PASS** |
+| `test_country_schema.py` | Canonical CountryRecord v2.0.0, ISO alpha-2 constraints, record targets | 4 | **PASS** |
+| `test_data_validation.py` | 17-point DataQualityValidator suite: duplicate IDs, missing files, manifest reconciliation | 4 | **PASS** |
+| `test_dataset_envelope.py` | DatasetEnvelope v2.0.0, dataset_id convention, backward-compatible aliases | 3 | **PASS** |
+| `test_generated_fiction.py` | GeneratedFictionRecord AI segregation, fiction disclaimer, AI-FIC ID pattern | 4 | **PASS** |
+| `test_import_candidate.py` | ImportCandidate staging model, disposition state machine, quarantine logic | 3 | **PASS** |
+| `test_json_schema_export.py` | Draft 2020-12 JSON Schema generation, $defs handling, contract synchronization | 2 | **PASS** |
+| `test_manifest.py` | DatasetManifest dynamic calculation, target quotas vs actual published counts | 2 | **PASS** |
+| `test_migration.py` | Seed migration script idempotent upgrades, --check dry run mode | 2 | **PASS** |
+| `test_publication_policy.py` | 8-rule deterministic PublicationPolicy evaluation and gating invariants | 7 | **PASS** |
+| `test_schemas.py` | Phase 1 schema regression tests: ISO validation, category constraints, URL schemes | 6 | **PASS** |
+| `test_source_registry.py` | 17 registered sources schema conformance, honest access reporting, filtering | 4 | **PASS** |
+| `test_source_schema_phase2.py` | StorySource v2.0.0, attribution requirements, full-text reuse flags | 4 | **PASS** |
+| `test_story_schema_phase2.py` | StoryRecord v2.0.0: ID prefix matching, AI fiction rejection, length constraints | 6 | **PASS** |
+| **Total** | **16 Test Suites Covering Phases 1 & 2** | **60** | **ALL PASS** |
 
 ---
 

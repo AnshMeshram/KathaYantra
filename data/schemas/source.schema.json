@@ -1,0 +1,243 @@
+{
+  "$defs": {
+    "RightsStatusEnum": {
+      "description": "Rights assessment status.",
+      "enum": [
+        "approved",
+        "metadata_only",
+        "public_domain_verified",
+        "permission_required",
+        "needs_rights_review",
+        "restricted",
+        "unknown"
+      ],
+      "title": "RightsStatusEnum",
+      "type": "string"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Canonical bibliographic source citation embedded within a story record.",
+  "properties": {
+    "access_date": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "ISO date when source was referenced (compatibility)",
+      "title": "Access Date"
+    },
+    "attribution_required": {
+      "default": true,
+      "description": "Whether explicit attribution text must be rendered",
+      "title": "Attribution Required",
+      "type": "boolean"
+    },
+    "attribution_text": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Mandatory attribution statement",
+      "title": "Attribution Text"
+    },
+    "canonical_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Authoritative canonical permanent URL",
+      "title": "Canonical Url"
+    },
+    "citation": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Formal Chicago/MLA bibliographic citation string",
+      "title": "Citation"
+    },
+    "external_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "External catalog ID (e.g. ISBN, LoC call, OCLC)",
+      "title": "External Id"
+    },
+    "full_text_reuse_allowed": {
+      "default": false,
+      "description": "Whether full narrative text redistribution is cleared",
+      "title": "Full Text Reuse Allowed",
+      "type": "boolean"
+    },
+    "id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Stable source slug or registry link identifier",
+      "title": "Id"
+    },
+    "language": {
+      "default": "en",
+      "description": "Source document language (ISO 639-1)",
+      "title": "Language",
+      "type": "string"
+    },
+    "license_name": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Documented license name (e.g. Public Domain, CC0)",
+      "title": "License Name"
+    },
+    "license_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "License terms URL if available",
+      "title": "License Url"
+    },
+    "name": {
+      "default": "",
+      "description": "Human-readable citation label (Phase 1 compatibility)",
+      "title": "Name",
+      "type": "string"
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Archival or editorial notes on source provenance",
+      "title": "Notes"
+    },
+    "published_at": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Publication date or historical era string",
+      "title": "Published At"
+    },
+    "publisher": {
+      "default": "",
+      "description": "Publisher, holding institution, or archive name",
+      "title": "Publisher",
+      "type": "string"
+    },
+    "retrieved_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Timestamp when data was accessed",
+      "title": "Retrieved At"
+    },
+    "reuse_scope": {
+      "default": "metadata_and_citation",
+      "description": "Permitted scope of reuse",
+      "title": "Reuse Scope",
+      "type": "string"
+    },
+    "rights_status": {
+      "$ref": "#/$defs/RightsStatusEnum",
+      "default": "needs_rights_review",
+      "description": "Rights assessment classification for this citation"
+    },
+    "source_type": {
+      "default": "web",
+      "description": "Type of source (book, academic, archive, web, api)",
+      "title": "Source Type",
+      "type": "string"
+    },
+    "title": {
+      "default": "",
+      "description": "Title of the source publication, article, or narrative entry",
+      "title": "Title",
+      "type": "string"
+    },
+    "updated_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Source update timestamp",
+      "title": "Updated At"
+    },
+    "url": {
+      "description": "Canonical or web URL of the source",
+      "title": "Url",
+      "type": "string"
+    }
+  },
+  "required": [
+    "url"
+  ],
+  "title": "StorySource",
+  "type": "object"
+}

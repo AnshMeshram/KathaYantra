@@ -1,0 +1,116 @@
+{
+  "$defs": {
+    "VerificationStatusEnum": {
+      "description": "Curatorial verification state.",
+      "enum": [
+        "verified",
+        "needs_review",
+        "rejected"
+      ],
+      "title": "VerificationStatusEnum",
+      "type": "string"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Schema for AI-generated creative fiction narratives inspired by world folklore.",
+  "properties": {
+    "content_type": {
+      "const": "ai_generated_fiction",
+      "default": "ai_generated_fiction",
+      "description": "Fixed type token identifying synthetic fiction",
+      "title": "Content Type",
+      "type": "string"
+    },
+    "fiction_disclaimer": {
+      "default": "This narrative is an AI-generated work of creative fiction inspired by traditional folklore motifs. It is not an authentic traditional folklore record and must not be cited as historical folklore.",
+      "description": "Mandatory prominent disclaimer separating synthetic content from real folklore",
+      "minLength": 20,
+      "title": "Fiction Disclaimer",
+      "type": "string"
+    },
+    "generated_at": {
+      "description": "Timestamp of creative generation",
+      "format": "date-time",
+      "title": "Generated At",
+      "type": "string"
+    },
+    "id": {
+      "description": "Unique fictional record identifier (format: AI-FIC-[INDEX], e.g. AI-FIC-001)",
+      "minLength": 6,
+      "title": "Id",
+      "type": "string"
+    },
+    "inspiration_source_ids": {
+      "description": "IDs of external folklore references or motifs consulted",
+      "items": {
+        "type": "string"
+      },
+      "title": "Inspiration Source Ids",
+      "type": "array"
+    },
+    "inspiration_story_ids": {
+      "description": "IDs of authentic KathaYantra stories used as creative inspiration",
+      "items": {
+        "type": "string"
+      },
+      "title": "Inspiration Story Ids",
+      "type": "array"
+    },
+    "model_provider": {
+      "default": "ollama",
+      "description": "Local inference runtime provider (e.g. ollama)",
+      "title": "Model Provider",
+      "type": "string"
+    },
+    "model_tag": {
+      "default": "gemma2",
+      "description": "Exact model weight identifier (e.g. gemma2, gemma2:9b)",
+      "title": "Model Tag",
+      "type": "string"
+    },
+    "prompt_template_version": {
+      "default": "1.0.0",
+      "description": "Semantic version of generation prompt template",
+      "title": "Prompt Template Version",
+      "type": "string"
+    },
+    "record_version": {
+      "default": "1.0.0",
+      "description": "Semantic record version",
+      "title": "Record Version",
+      "type": "string"
+    },
+    "schema_version": {
+      "default": "2.0.0",
+      "description": "Generated fiction schema contract version",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "story_text": {
+      "description": "Complete generated fictional story text",
+      "maxLength": 150000,
+      "minLength": 20,
+      "title": "Story Text",
+      "type": "string"
+    },
+    "title": {
+      "description": "Title of the creative narrative",
+      "maxLength": 300,
+      "minLength": 2,
+      "title": "Title",
+      "type": "string"
+    },
+    "verification_status": {
+      "$ref": "#/$defs/VerificationStatusEnum",
+      "default": "needs_review",
+      "description": "Quality and safety review stage of the generated text"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "story_text"
+  ],
+  "title": "GeneratedFictionRecord",
+  "type": "object"
+}

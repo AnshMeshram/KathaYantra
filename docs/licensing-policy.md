@@ -66,3 +66,49 @@ To prevent hallucinations, cultural misrepresentation, and historical distortion
 - **Respect for Sacred Narratives:** Traditions designated as sacred or restricted by their originating communities must not be harvested or adapted for entertainment.
 - **Living Urban Legends:** Urban legends regarding living persons, active criminal investigations, or malicious hoaxes are excluded from publication to uphold ethical and safety standards.
 
+---
+
+## 6. Phase 2 Publication Policy Engine
+
+KathaYantra Phase 2 implements a strict, deterministic publication gate (`PublicationPolicy` in [`app/services/publication_policy.py`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/app/services/publication_policy.py)) evaluating every candidate record before it can be published or counted towards verified target metrics:
+
+1. **Schema Compliance:** The record must validate strictly against Pydantic `StoryRecord` v2.0.0 without unknown fields or malformed types.
+2. **Deterministic ID Prefix Match:** The record ID must match `^[A-Z]{2}-(FOLK|URBAN)-[0-9]{3,}$`, and the prefix must match both the country code and category tag (e.g. `IN-FOLK-001` for India folklore, `JP-URBAN-001` for Japan urban legends).
+3. **Supported Country Registration:** The country code must belong to the 15 supported national archives (`IN`, `US`, `JP`, `MX`, `IE`, `GB`, `BR`, `GR`, `CN`, `NG`, `KR`, `PH`, `ID`, `EG`, `DE`).
+4. **Authentic Content Origin:** Synthetic fiction (`ai_generated_fiction`) is strictly prohibited from entering `StoryRecord` and rejected by the validator. Only authentic cultural origins (`licensed_dataset`, `public_domain_source`, `original_summary`, `community_contribution`, `verified_archive`) are permitted.
+5. **Curated Summary Completeness:** Every story summary must be substantive, informative, and at least 30 characters in length.
+6. **Traceable Source Provenance:** At least one valid, documented bibliographic source (`StorySource`) with an authenticated `url` or `canonical_url` and valid scheme (`http`/`https`) is required.
+7. **Curatorial Editorial Status:** The record must have an explicit verification status of `verified`. Candidates marked `needs_review` or `rejected` are excluded from published metrics.
+8. **Rights Clearance & Attribution:** The rights status must be cleared (`approved`, `public_domain_verified`, or `metadata_only`). If attribution is legally required by the license, non-empty `attribution_text` must be present.
+
+---
+
+## 7. Metadata-Only Record Constraints
+
+When a cultural record's narrative prose is proprietary, commercial, or copyrighted by a third-party anthology:
+- The record's `rights_status` must be set to `metadata_only`.
+- Full narrative prose (`long_description`) must **never** contain copyrighted full text; it is omitted or restricted to a scholarly citation overview.
+- The record must provide an authoritative `canonical_url` and explicit `attribution_text` directing users to the primary source or published work.
+
+---
+
+## 8. Candidate Lifecycle & State Transitions
+
+Raw and scraped records never enter the seed datasets directly. They progress through a staged lifecycle:
+
+```mermaid
+stateDiagram-v2
+    [*] --> new_candidate: Scraped / Ingested
+    new_candidate --> needs_mapping_review: Ambiguous Country / Cultural Entity
+    new_candidate --> needs_source_verification: Unverified URL / Missing Publisher
+    new_candidate --> needs_rights_review: Unchecked License / Fairytalez Scrape
+    needs_mapping_review --> eligible_for_editorial_review: Normalized & Mapped
+    needs_source_verification --> eligible_for_editorial_review: Primary Archive Linked
+    needs_rights_review --> eligible_for_editorial_review: Rights Cleared (PD or Metadata-Only)
+    needs_rights_review --> rejected: Commercial / Unclear Rights
+    eligible_for_editorial_review --> approved_for_publication: Editorial Verification Passed
+    eligible_for_editorial_review --> rejected: Inaccurate / Inappropriate
+    approved_for_publication --> [*]: Migrated to Seed Dataset Envelope (StoryRecord)
+```
+
+

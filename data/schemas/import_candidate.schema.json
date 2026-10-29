@@ -1,0 +1,270 @@
+{
+  "$defs": {
+    "CandidateDispositionEnum": {
+      "description": "Review and lifecycle disposition of an import candidate.",
+      "enum": [
+        "new_candidate",
+        "needs_mapping_review",
+        "needs_source_verification",
+        "needs_rights_review",
+        "eligible_for_editorial_review",
+        "approved_for_publication",
+        "rejected",
+        "duplicate_candidate"
+      ],
+      "title": "CandidateDispositionEnum",
+      "type": "string"
+    },
+    "CategoryEnum": {
+      "description": "Primary content category.",
+      "enum": [
+        "folklore",
+        "urban_legend"
+      ],
+      "title": "CategoryEnum",
+      "type": "string"
+    },
+    "RightsStatusEnum": {
+      "description": "Rights assessment status.",
+      "enum": [
+        "approved",
+        "metadata_only",
+        "public_domain_verified",
+        "permission_required",
+        "needs_rights_review",
+        "restricted",
+        "unknown"
+      ],
+      "title": "RightsStatusEnum",
+      "type": "string"
+    },
+    "VerificationStatusEnum": {
+      "description": "Curatorial verification state.",
+      "enum": [
+        "verified",
+        "needs_review",
+        "rejected"
+      ],
+      "title": "VerificationStatusEnum",
+      "type": "string"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Staging model for unreviewed or partially processed raw narrative records.",
+  "properties": {
+    "candidate_id": {
+      "description": "Unique candidate identifier (e.g. CAND-FT-0001)",
+      "minLength": 3,
+      "title": "Candidate Id",
+      "type": "string"
+    },
+    "disposition": {
+      "$ref": "#/$defs/CandidateDispositionEnum",
+      "default": "new_candidate",
+      "description": "Current candidate review disposition"
+    },
+    "external_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Upstream accession or item identifier",
+      "title": "External Id"
+    },
+    "import_batch_id": {
+      "description": "Batch identifier for this import run",
+      "minLength": 2,
+      "title": "Import Batch Id",
+      "type": "string"
+    },
+    "imported_at": {
+      "description": "Timestamp of candidate import",
+      "format": "date-time",
+      "title": "Imported At",
+      "type": "string"
+    },
+    "proposed_category": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/CategoryEnum"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Proposed primary category"
+    },
+    "proposed_country_code": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Proposed ISO country code pending review",
+      "title": "Proposed Country Code"
+    },
+    "proposed_summary": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Draft or extracted summary",
+      "title": "Proposed Summary"
+    },
+    "raw_language": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Raw language code or label",
+      "title": "Raw Language"
+    },
+    "raw_metadata": {
+      "description": "Raw unparsed metadata payload",
+      "title": "Raw Metadata",
+      "type": "object"
+    },
+    "raw_nation": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Raw nation / cultural tag from upstream data",
+      "title": "Raw Nation"
+    },
+    "raw_text_available": {
+      "default": false,
+      "description": "Whether raw story text payload is accessible in raw storage",
+      "title": "Raw Text Available",
+      "type": "boolean"
+    },
+    "raw_title": {
+      "description": "Raw title as provided by upstream source",
+      "minLength": 1,
+      "title": "Raw Title",
+      "type": "string"
+    },
+    "raw_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Raw upstream web URL",
+      "title": "Raw Url"
+    },
+    "review_notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Human curator notes or provenance warnings",
+      "title": "Review Notes"
+    },
+    "reviewed_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Timestamp of human review action",
+      "title": "Reviewed At"
+    },
+    "reviewed_by": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Curator identifier who conducted review",
+      "title": "Reviewed By"
+    },
+    "rights_status": {
+      "$ref": "#/$defs/RightsStatusEnum",
+      "default": "needs_rights_review",
+      "description": "Assessed rights state of this candidate"
+    },
+    "schema_version": {
+      "default": "2.0.0",
+      "description": "Import candidate schema contract version",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_registry_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Slug of registered source in source_registry.json",
+      "title": "Source Registry Id"
+    },
+    "validation_errors": {
+      "description": "Validation issues detected during staging",
+      "items": {
+        "type": "string"
+      },
+      "title": "Validation Errors",
+      "type": "array"
+    },
+    "verification_status": {
+      "$ref": "#/$defs/VerificationStatusEnum",
+      "default": "needs_review",
+      "description": "Verification stage"
+    }
+  },
+  "required": [
+    "candidate_id",
+    "import_batch_id",
+    "raw_title"
+  ],
+  "title": "ImportCandidate",
+  "type": "object"
+}

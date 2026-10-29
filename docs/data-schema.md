@@ -1,153 +1,186 @@
-# KathaYantra Data Schema Reference
+# KathaYantra Data Schema & Contracts Reference (Version 2.0.0)
 
-This document provides the authoritative reference for the KathaYantra data models implemented in [`app/schemas/`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/app/schemas/).
+This document provides the authoritative reference for the KathaYantra data contracts implemented in [`app/schemas/`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/app/schemas/).
 
-All schemas are validated at runtime via **Pydantic v2**.
+All schemas are validated at runtime via **Pydantic v2** and exported as **JSON Schema Draft 2020-12** specifications in [`data/schemas/`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/schemas/).
 
 ---
 
-## 1. Story Record Schema (`StoryRecord`)
+## 1. Canonical Story Record (`StoryRecord`)
 
-Every folklore narrative and urban legend is stored as a structured JSON object matching `StoryRecord`.
+Defined in [`app/schemas/story.py`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/app/schemas/story.py). Represents an authentic, documented folklore narrative or modern urban legend.
 
-| Field Name | Type | Required | Description | Constraints / Allowed Values |
+| Field Name | Type | Required | Description | Constraints / Notes |
 |---|---|---|---|---|
-| `id` | `str` | Yes | Stable record identifier | Format: `^[A-Z]{2}-(FOLK\|URBAN)-[0-9]{3,}$` (e.g. `IN-FOLK-001`, `JP-URBAN-010`) |
-| `title` | `str` | Yes | Canonical title of the narrative | Min length: 2 |
-| `country_code` | `str` | Yes | Target ISO 2-letter country code | One of the 15 supported countries (`IN`, `US`, `JP`, etc.) |
-| `region_or_community` | `str` | No | Specific cultural, ethnic, regional, or Indigenous provenance | e.g. "Navajo Nation", "Yoruba", "Kyoto Prefecture", "Bavaria" |
+| `id` | `str` | Yes | Stable primary identifier | Pattern: `^[A-Z]{2}-(FOLK\|URBAN)-[0-9]{3,}$` |
+| `schema_version` | `str` | Yes | Schema contract version | Default: `"2.0.0"` |
+| `record_version` | `str` | Yes | Semantic record version | Default: `"1.0.0"` |
+| `title` | `str` | Yes | Canonical title | Min length 2, max length 300 |
+| `slug` | `str` | Yes | URL-safe slug | Auto-generated from `title` if empty |
+| `country_code` | `str` | Yes | Target ISO 3166-1 alpha-2 code | One of the 15 supported countries |
 | `category` | `CategoryEnum` | Yes | Primary archive partition | `folklore` or `urban_legend` |
-| `subtype` | `str` | No | Sub-classification | e.g. `ghost_story`, `trickster_tale`, `cryptid`, `warning_legend`, `kaidan` |
-| `summary` | `str` | Yes | Concise narrative synopsis | Min length: 10 chars |
-| `long_description` | `str` | No | Detailed narrative text or translation | Optional; omitted in metadata-only records |
-| `alternate_names` | `list[str]` | No | Regional, linguistic, or historical variant titles | Default: `[]` |
-| `language` | `str` | Yes | Primary language code of this record text | Default: `"en"` |
-| `motifs` | `list[str]` | No | Thompson motif index codes or folk motif tags | e.g. `["E235.1", "J1791"]` |
-| `themes` | `list[str]` | No | Curatorial tags / themes | e.g. `["shapeshifting", "haunted_crossing", "vengeful_spirit"]` |
-| `historical_period` | `str` | No | Earliest documented era or origin | e.g. "Edo Period", "Late 20th Century", "Vedic Era" |
-| `variant_notes` | `str` | No | Editorial commentary on regional variations | |
-| `sources` | `list[StorySource]` | Yes | Bibliographic or web source citations | At least 1 validated source required |
-| `source_type` | `str` | Yes | Primary source classification | e.g. `academic_archive`, `public_domain_anthology`, `encyclopedia` |
-| `license` | `str` | Yes | Legal copyright or license declaration | e.g. "Public Domain", "CC BY-SA 4.0", "Rights Managed" |
-| `rights_status` | `RightsStatusEnum` | Yes | Rights assessment status | See enum values below; default: `needs_rights_review` |
-| `attribution_text` | `str` | No | Mandatory attribution statement | e.g. "Adapted from Joseph Jacobs (1892)" |
-| `canonical_url` | `str` | No | Primary canonical URL | Must parse as valid HTTP/HTTPS URL |
-| `retrieved_at` | `datetime` | No | ISO timestamp when record was sourced | |
-| `verification_status` | `VerificationStatusEnum` | Yes | Editorial verification stage | `verified`, `needs_review`, `rejected` |
-| `content_origin` | `ContentOriginEnum` | Yes | Content origin classification | See enum values below |
+| `subtype` | `str?` | No | Sub-classification | e.g. `ghost_story`, `jataka_tale`, `cryptid`, `kaidan` |
+| `summary` | `str` | Yes | Original narrative synopsis | Min 10 chars, max 5,000 chars |
+| `long_description` | `str?` | No | Full narrative prose | Optional; omitted in metadata-only records (max 250k) |
+| `alternate_names` | `list[str]` | No | Regional or indigenous variant titles | Max 50 items |
+| `language` | `str` | Yes | Primary language of this text | Default: `"en"` |
+| `alternate_languages` | `list[str]` | No | Traditional telling language codes | Max 20 items |
+| `motifs` | `list[str]` | No | Thompson motif index codes / tags | Max 50 items |
+| `themes` | `list[str]` | No | Curatorial keywords | Max 50 items |
+| `historical_period` | `str?` | No | Earliest documented era | e.g. "Edo Period", "Vedic Era" |
+| `region_or_community` | `str?` | No | Cultural, ethnic, or regional group | e.g. "Navajo Nation", "Yoruba", "Kyoto" |
+| `community_attributions` | `list[str]` | No | Specific sovereign indigenous nations | Max 20 items |
+| `geographic_associations` | `list[str]` | No | Landmarks, cities, or haunted sites | Max 20 items |
+| `variant_notes` | `str?` | No | Comparative editorial notes | |
+| `related_record_ids` | `list[str]` | No | Cross-references to other record IDs | Max 50 items |
+| `sources` | `list[StorySource]` | Yes | Bibliographic citations | Min 1 required; no duplicate URLs |
+| `source_type` | `str` | Yes | Primary source classification | e.g. `public_domain_anthology`, `academic_archive` |
+| `license` | `str` | Yes | Legal copyright or license declaration | Default: `"Rights Managed / Educational Use"` |
+| `rights_status` | `RightsStatusEnum` | Yes | Rights assessment status | Default: `needs_rights_review` |
+| `attribution_text` | `str?` | No | Mandatory attribution statement | Required if source mandates attribution |
+| `canonical_url` | `str?` | No | Canonical link for authoritative record | Validated HTTP/HTTPS URL |
+| `retrieved_at` | `datetime?` | No | Timestamp of data retrieval | |
+| `verification_status` | `VerificationStatusEnum` | Yes | Curatorial review stage | `verified`, `needs_review`, `rejected` |
+| `content_origin` | `ContentOriginEnum` | Yes | Content origin classification | Synthetic fiction is strictly rejected |
 | `created_at` | `datetime` | Yes | Record creation timestamp | ISO 8601 UTC |
 | `updated_at` | `datetime` | Yes | Record modification timestamp | ISO 8601 UTC |
-| `record_version` | `str` | Yes | Semantic version of the record | Default: `"1.0.0"` |
 
 ---
 
-## 2. Controlled Enums
+## 2. Bibliographic Source Reference (`StorySource`)
 
-### A. Primary Category (`CategoryEnum`)
-- `folklore`: Traditional narratives, ancient myths, oral traditions, cultural beings, and historical folklore.
-- `urban_legend`: Modern legends, circulating rumors, contemporary folklore, and ghost stories.
+Defined in [`app/schemas/source.py`](file:///C:/Users/shrin\Desktop\Hactoberfest2026\KathaYantra\app\schemas\source.py). Embedded within `StoryRecord.sources`.
 
-### B. Verification Status (`VerificationStatusEnum`)
-- `verified`: Record has been verified against documented sources and approved for public display.
-- `needs_review`: Candidate record awaiting cultural, geographic, or source verification.
-- `rejected`: Record rejected due to fabricated sources, factual inaccuracy, or rights violation.
-
-### C. Rights Status (`RightsStatusEnum`)
-- `approved`: Clear legal permission to distribute text and metadata (e.g. CC0, CC BY, original summary).
-- `metadata_only`: Only bibliographic citations, metadata, and links may be displayed; full text withheld.
-- `public_domain_verified`: Text verified as public domain in author jurisdiction and under US law (pre-1929).
-- `permission_required`: Source requires written permission before text reproduction.
-- `needs_rights_review`: Default status for unreviewed incoming data (e.g. raw CSV).
-- `restricted`: Commercial or proprietary source; strict reference only.
-- `unknown`: Source license unknown; treated as restricted until audited.
-
-### D. Content Origin (`ContentOriginEnum`)
-- `licensed_dataset`: Sourced from an openly licensed dataset (e.g. CC BY 4.0).
-- `public_domain_source`: Transcribed from a verified historical public-domain publication.
-- `original_summary`: Written by KathaYantra editors based on documented folklore research.
-- `metadata_only`: Citation and entity metadata only; no prose body stored.
-- `user_contributed`: Submitted by a community contributor with explicit licensing.
-- `ai_generated_fiction`: Generated by local AI (Gemma 2). Strictly segregated from authentic folklore.
-
----
-
-## 3. Story Source Schema (`StorySource`)
-
-| Field | Type | Required | Description |
+| Field Name | Type | Required | Description |
 |---|---|---|---|
-| `name` | `str` | Yes | Institutional archive, publication, or website name |
+| `id` | `str?` | No | Source registry slug or citation identifier |
+| `title` | `str` | Yes | Title of source work, book, or article |
+| `publisher` | `str` | Yes | Publisher, archive, or holding institution |
+| `name` | `str` | Yes | Citation label (Phase 1 compatibility; synced with title/publisher) |
 | `url` | `str` | Yes | Validated HTTP/HTTPS URL |
-| `source_type` | `str` | Yes | e.g. `book`, `journal`, `archive_portal`, `oral_collection` |
-| `citation` | `str` | No | Formal Chicago/MLA bibliographic citation |
-| `access_date` | `str` | No | ISO date when source was referenced |
+| `canonical_url` | `str?` | No | Permanent canonical URL |
+| `external_id` | `str?` | No | Catalog accession ID (ISBN, LoC, OCLC) |
+| `source_type` | `str` | Yes | Type: `book`, `academic`, `archive`, `web`, `api` |
+| `language` | `str` | Yes | Source text language code (default: `"en"`) |
+| `published_at` | `str?` | No | Publication date or historical era string |
+| `license_name` | `str?` | No | Documented license (e.g. Public Domain, CC0) |
+| `license_url` | `str?` | No | License URL if publicly documented |
+| `rights_status` | `RightsStatusEnum` | Yes | Assessed rights classification |
+| `reuse_scope` | `str` | Yes | Default: `"metadata_and_citation"` |
+| `attribution_required` | `bool` | Yes | Whether explicit attribution is mandatory |
+| `attribution_text` | `str?` | No | Mandatory attribution statement |
+| `full_text_reuse_allowed` | `bool` | Yes | Whether full text redistribution is cleared |
+| `notes` | `str?` | No | Curatorial provenance notes |
+| `citation` | `str?` | No | Formal Chicago/MLA citation string |
 
 ---
 
-## 4. Annotated Story Record Example
+## 3. Country Registry Schema (`CountryRecord`)
 
-```json
-{
-  "id": "IN-FOLK-001",
-  "title": "The Demon with the Matted Hair",
-  "country_code": "IN",
-  "region_or_community": "Varanasi / Buddhist Jataka Tradition",
-  "category": "folklore",
-  "subtype": "jataka_tale",
-  "summary": "Prince Brahmadatta encounters the demon Sticky-Hair in a forest. When all his weapons are caught in the demon's enchanted fur, the prince confronts the creature with fearless resolve, compelling the demon to repent.",
-  "alternate_names": [
-    "Pancasavudha Jataka",
-    "Jataka 55"
-  ],
-  "language": "en",
-  "motifs": [
-    "G510.4",
-    "D1654.4.1"
-  ],
-  "themes": [
-    "courage",
-    "monsters",
-    "buddhist_moral"
-  ],
-  "historical_period": "Classical Ancient India (circa 4th century BCE)",
-  "sources": [
-    {
-      "name": "Indian Fairy Tales",
-      "url": "https://www.gutenberg.org/ebooks/7128",
-      "source_type": "public_domain_book",
-      "citation": "Jacobs, Joseph. Indian Fairy Tales. London: David Nutt, 1892, pp. 194-198.",
-      "access_date": "2026-10-29"
-    }
-  ],
-  "source_type": "public_domain_anthology",
-  "license": "Public Domain in the United States",
-  "rights_status": "public_domain_verified",
-  "attribution_text": "Collected by Joseph Jacobs (1892); based on traditional Jataka Pali canon.",
-  "canonical_url": "https://www.gutenberg.org/ebooks/7128",
-  "verification_status": "verified",
-  "content_origin": "public_domain_source",
-  "created_at": "2026-10-29T12:00:00Z",
-  "updated_at": "2026-10-29T12:00:00Z",
-  "record_version": "1.0.0"
-}
+Defined in [`app/schemas/country.py`](file:///C:/Users/shrin\Desktop\Hactoberfest2026\KathaYantra\app\schemas\country.py).
+
+| Field Name | Type | Description |
+|---|---|---|
+| `code` | `str` | Canonical ISO 3166-1 alpha-2 code (`IN`, `US`, `JP`, etc.) |
+| `name` | `str` | Standard country name |
+| `display_name` | `str` | Formal display title (e.g. "Republic of India") |
+| `iso_alpha2` | `str` | Matches `code` via equality validator |
+| `region` | `str` | Geographic region (e.g. South Asia, Latin America) |
+| `primary_languages` | `list[str]` | Key language codes for traditional storytelling |
+| `regions_or_communities` | `list[str]` | Prominent regional or cultural communities |
+| `cultural_context` | `str` | Overview of folkloric and supernatural narrative traditions |
+| `enabled` | `bool` | Whether country is active for ingestion |
+| `record_targets` | `CountryRecordTargets` | Target quotas (`folklore: 10`, `urban_legends: 10`, `total: 20`) |
+| `schema_version` | `str` | Default: `"2.0.0"` |
+
+---
+
+## 4. Import Candidate Staging Schema (`ImportCandidate`)
+
+Defined in [`app/schemas/import_candidate.py`](file:///C:/Users/shrin\Desktop\Hactoberfest2026\KathaYantra\app\schemas\import_candidate.py). Maintains strict separation between raw incoming inputs and curated, published story records.
+
+### Candidate Dispositions (`CandidateDispositionEnum`)
+- `new_candidate`: Newly ingested raw candidate record.
+- `needs_mapping_review`: Requires geographic or cultural mapping verification.
+- `needs_source_verification`: Awaiting primary source traceable URL verification.
+- `needs_rights_review`: Requires copyright and licensing investigation.
+- `eligible_for_editorial_review`: Cleared for original summary writing.
+- `approved_for_publication`: Passed editorial curation; ready for promotion to `StoryRecord`.
+- `rejected`: Incompatible with project standards or duplicate.
+- `duplicate_candidate`: Identified as duplicate of an existing record.
+
+---
+
+## 5. AI-Generated Creative Fiction Schema (`GeneratedFictionRecord`)
+
+Defined in [`app/schemas/generated_fiction.py`](file:///C:/Users/shrin\Desktop\Hactoberfest2026\KathaYantra\app\schemas\generated_fiction.py).
+
+```python
+class GeneratedFictionRecord(BaseModel):
+    id: str                                  # Pattern: ^AI-FIC-[0-9]{3,}$
+    title: str                               # Creative story title
+    content_type: Literal["ai_generated_fiction"] = "ai_generated_fiction"
+    story_text: str                          # Complete generated narrative
+    inspiration_story_ids: list[str] = []    # Grounded KathaYantra authentic story IDs
+    inspiration_source_ids: list[str] = []   # External motif / archive references
+    model_provider: str = "ollama"           # Local inference provider
+    model_tag: str = "gemma2"                # Local open-weight model tag
+    prompt_template_version: str = "1.0.0"   # Version of prompt harness
+    generated_at: datetime                   # Generation timestamp
+    fiction_disclaimer: str                  # Mandatory prominent disclosure (min 20 chars)
+    verification_status: VerificationStatusEnum = VerificationStatusEnum.NEEDS_REVIEW
+    record_version: str = "1.0.0"
+    schema_version: str = "2.0.0"
 ```
 
+> **Archival Safeguard:** The `StoryRecord` model strictly rejects any record with `content_origin: ai_generated_fiction`. AI fiction records cannot enter `data/seed/folklore/` or `data/seed/urban_legends/`.
+
 ---
 
-## 5. Country Seed File Schema (`CountrySeedFile`)
+## 6. Dataset Envelope Schema (`DatasetEnvelope`)
 
-Every country seed file (e.g. `data/seed/folklore/IN.json` or `data/seed/urban_legends/US.json`) follows this structure:
+Defined in [`app/schemas/dataset.py`](file:///C:/Users/shrin\Desktop\Hactoberfest2026\KathaYantra\app\schemas\dataset.py). Governs all 30 country seed files:
 
 ```json
 {
+  "schema_version": "2.0.0",
+  "dataset_id": "IN-folklore",
   "country_code": "IN",
   "category": "folklore",
   "records": [],
   "metadata": {
-    "total_records": 0,
+    "description": "Folklore archive partition for India (IN)",
+    "dataset_version": "2.0.0",
+    "created_at": "2026-10-29T12:00:00Z",
+    "updated_at": "2026-10-29T12:00:00Z",
+    "provenance_notes": "Canonical Phase 2 DatasetEnvelope schema format",
     "target_count": 10,
+    "actual_record_count": 0,
+    "total_records": 0,
     "status": "pending_curation",
-    "last_updated": "2026-10-29T12:00:00Z"
+    "validation_status": "valid",
+    "last_updated": "2026-10-29T12:00:00Z",
+    "import_batch_references": []
   }
 }
 ```
 
+---
+
+## 7. Publication Eligibility Policy Engine
+
+Implemented in [`app/services/publication_policy.py`](file:///C:/Users/shrin\Desktop\Hactoberfest2026\KathaYantra\app\services\publication_policy.py).
+
+A record is publishable **only** when all 8 criteria pass:
+
+1. **Schema Integrity:** Valid `StoryRecord` adhering to ID regex and prefix constraints.
+2. **Country Code:** Must be one of the 15 supported countries.
+3. **Authentic Origin:** `content_origin` must NOT be `ai_generated_fiction`.
+4. **Summary Quality:** Minimum 15 characters of original narrative prose.
+5. **Traceable Provenance:** At least one source with a valid HTTP/HTTPS URL.
+6. **Curatorial Verification:** `verification_status` must equal `verified`.
+7. **Rights Clearance:**
+   - `approved` or `public_domain_verified`: Cleared for full publication.
+   - `metadata_only`: Cleared for metadata only (strictly prohibits full-text payload).
+   - `needs_rights_review`, `permission_required`, `restricted`, `unknown`: **BLOCKED**.
+8. **Attribution:** If source specifies `attribution_required: true`, attribution text must be present.

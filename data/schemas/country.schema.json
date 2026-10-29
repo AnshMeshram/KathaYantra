@@ -1,0 +1,151 @@
+{
+  "$defs": {
+    "CountryRecordTargets": {
+      "description": "Target quotas for verified story curation per country.",
+      "properties": {
+        "folklore": {
+          "default": 10,
+          "description": "Minimum target folklore records",
+          "minimum": 0,
+          "title": "Folklore",
+          "type": "integer"
+        },
+        "urban_legends": {
+          "default": 10,
+          "description": "Minimum target urban legend records",
+          "minimum": 0,
+          "title": "Urban Legends",
+          "type": "integer"
+        }
+      },
+      "title": "CountryRecordTargets",
+      "type": "object"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Canonical country registry model for KathaYantra.",
+  "properties": {
+    "code": {
+      "description": "Canonical ISO 2-letter country code",
+      "maxLength": 2,
+      "minLength": 2,
+      "title": "Code",
+      "type": "string"
+    },
+    "created_at": {
+      "description": "Record registration timestamp",
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "cultural_context": {
+      "default": "",
+      "description": "High-level narrative and folkloric tradition overview",
+      "title": "Cultural Context",
+      "type": "string"
+    },
+    "cultural_context_notes": {
+      "default": "",
+      "description": "Additional archival curation notes (compatibility)",
+      "title": "Cultural Context Notes",
+      "type": "string"
+    },
+    "display_name": {
+      "default": "",
+      "description": "Localized or formal display title",
+      "title": "Display Name",
+      "type": "string"
+    },
+    "enabled": {
+      "default": true,
+      "description": "Whether country is active for collection ingestion",
+      "title": "Enabled",
+      "type": "boolean"
+    },
+    "iso_alpha2": {
+      "default": "",
+      "description": "ISO 3166-1 alpha-2 code",
+      "maxLength": 2,
+      "minLength": 2,
+      "title": "Iso Alpha2",
+      "type": "string"
+    },
+    "name": {
+      "description": "Standard English country name",
+      "minLength": 2,
+      "title": "Name",
+      "type": "string"
+    },
+    "primary_languages": {
+      "description": "ISO 639-1 language codes representing predominant storytelling traditions",
+      "items": {
+        "type": "string"
+      },
+      "title": "Primary Languages",
+      "type": "array"
+    },
+    "record_targets": {
+      "$ref": "#/$defs/CountryRecordTargets",
+      "description": "Target story quotas for this country"
+    },
+    "region": {
+      "default": "",
+      "description": "Geographic cultural region (e.g. South Asia, East Asia)",
+      "title": "Region",
+      "type": "string"
+    },
+    "regions_or_communities": {
+      "description": "Key regional, ethnic, or cultural community designations",
+      "items": {
+        "type": "string"
+      },
+      "title": "Regions Or Communities",
+      "type": "array"
+    },
+    "schema_version": {
+      "default": "2.0.0",
+      "description": "Country schema contract version",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "status": {
+      "default": "active_target",
+      "description": "Curation status lifecycle",
+      "title": "Status",
+      "type": "string"
+    },
+    "target_folklore_count": {
+      "default": 10,
+      "description": "Target folklore count (compatibility)",
+      "minimum": 0,
+      "title": "Target Folklore Count",
+      "type": "integer"
+    },
+    "target_urban_legends_count": {
+      "default": 10,
+      "description": "Target urban legends count (compatibility)",
+      "minimum": 0,
+      "title": "Target Urban Legends Count",
+      "type": "integer"
+    },
+    "total_target": {
+      "default": 20,
+      "description": "Total target stories (compatibility)",
+      "minimum": 0,
+      "title": "Total Target",
+      "type": "integer"
+    },
+    "updated_at": {
+      "description": "Record last updated timestamp",
+      "format": "date-time",
+      "title": "Updated At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "code",
+    "name"
+  ],
+  "title": "CountryRecord",
+  "type": "object"
+}

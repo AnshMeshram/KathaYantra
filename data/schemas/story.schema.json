@@ -1,0 +1,562 @@
+{
+  "$defs": {
+    "CategoryEnum": {
+      "description": "Primary content category.",
+      "enum": [
+        "folklore",
+        "urban_legend"
+      ],
+      "title": "CategoryEnum",
+      "type": "string"
+    },
+    "ContentOriginEnum": {
+      "description": "Origin classification of narrative text content.",
+      "enum": [
+        "licensed_dataset",
+        "public_domain_source",
+        "original_summary",
+        "metadata_only",
+        "user_contributed",
+        "ai_generated_fiction"
+      ],
+      "title": "ContentOriginEnum",
+      "type": "string"
+    },
+    "RightsStatusEnum": {
+      "description": "Rights assessment status.",
+      "enum": [
+        "approved",
+        "metadata_only",
+        "public_domain_verified",
+        "permission_required",
+        "needs_rights_review",
+        "restricted",
+        "unknown"
+      ],
+      "title": "RightsStatusEnum",
+      "type": "string"
+    },
+    "StorySource": {
+      "description": "Canonical bibliographic source citation embedded within a story record.",
+      "properties": {
+        "access_date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ISO date when source was referenced (compatibility)",
+          "title": "Access Date"
+        },
+        "attribution_required": {
+          "default": true,
+          "description": "Whether explicit attribution text must be rendered",
+          "title": "Attribution Required",
+          "type": "boolean"
+        },
+        "attribution_text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Mandatory attribution statement",
+          "title": "Attribution Text"
+        },
+        "canonical_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Authoritative canonical permanent URL",
+          "title": "Canonical Url"
+        },
+        "citation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Formal Chicago/MLA bibliographic citation string",
+          "title": "Citation"
+        },
+        "external_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "External catalog ID (e.g. ISBN, LoC call, OCLC)",
+          "title": "External Id"
+        },
+        "full_text_reuse_allowed": {
+          "default": false,
+          "description": "Whether full narrative text redistribution is cleared",
+          "title": "Full Text Reuse Allowed",
+          "type": "boolean"
+        },
+        "id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Stable source slug or registry link identifier",
+          "title": "Id"
+        },
+        "language": {
+          "default": "en",
+          "description": "Source document language (ISO 639-1)",
+          "title": "Language",
+          "type": "string"
+        },
+        "license_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Documented license name (e.g. Public Domain, CC0)",
+          "title": "License Name"
+        },
+        "license_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "License terms URL if available",
+          "title": "License Url"
+        },
+        "name": {
+          "default": "",
+          "description": "Human-readable citation label (Phase 1 compatibility)",
+          "title": "Name",
+          "type": "string"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Archival or editorial notes on source provenance",
+          "title": "Notes"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Publication date or historical era string",
+          "title": "Published At"
+        },
+        "publisher": {
+          "default": "",
+          "description": "Publisher, holding institution, or archive name",
+          "title": "Publisher",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Timestamp when data was accessed",
+          "title": "Retrieved At"
+        },
+        "reuse_scope": {
+          "default": "metadata_and_citation",
+          "description": "Permitted scope of reuse",
+          "title": "Reuse Scope",
+          "type": "string"
+        },
+        "rights_status": {
+          "$ref": "#/$defs/RightsStatusEnum",
+          "default": "needs_rights_review",
+          "description": "Rights assessment classification for this citation"
+        },
+        "source_type": {
+          "default": "web",
+          "description": "Type of source (book, academic, archive, web, api)",
+          "title": "Source Type",
+          "type": "string"
+        },
+        "title": {
+          "default": "",
+          "description": "Title of the source publication, article, or narrative entry",
+          "title": "Title",
+          "type": "string"
+        },
+        "updated_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Source update timestamp",
+          "title": "Updated At"
+        },
+        "url": {
+          "description": "Canonical or web URL of the source",
+          "title": "Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "title": "StorySource",
+      "type": "object"
+    },
+    "VerificationStatusEnum": {
+      "description": "Curatorial verification state.",
+      "enum": [
+        "verified",
+        "needs_review",
+        "rejected"
+      ],
+      "title": "VerificationStatusEnum",
+      "type": "string"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Canonical KathaYantra story record model for folklore and urban legends.",
+  "properties": {
+    "alternate_languages": {
+      "description": "Other languages associated with traditional tellings",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 20,
+      "title": "Alternate Languages",
+      "type": "array"
+    },
+    "alternate_names": {
+      "description": "Variant titles, indigenous names, or regional designations",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 50,
+      "title": "Alternate Names",
+      "type": "array"
+    },
+    "attribution_text": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Mandatory attribution string if required",
+      "title": "Attribution Text"
+    },
+    "canonical_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Canonical link for authoritative record",
+      "title": "Canonical Url"
+    },
+    "category": {
+      "$ref": "#/$defs/CategoryEnum",
+      "description": "Primary category: folklore or urban_legend"
+    },
+    "community_attributions": {
+      "description": "Specific sovereign tribal nations, ethnic groups, or regional communities",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 20,
+      "title": "Community Attributions",
+      "type": "array"
+    },
+    "content_origin": {
+      "$ref": "#/$defs/ContentOriginEnum",
+      "default": "metadata_only",
+      "description": "Origin classification of content"
+    },
+    "country_code": {
+      "description": "ISO 2-letter country code",
+      "maxLength": 2,
+      "minLength": 2,
+      "title": "Country Code",
+      "type": "string"
+    },
+    "created_at": {
+      "description": "Record creation timestamp",
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "geographic_associations": {
+      "description": "Geographic landmarks, cities, or sites associated with the narrative",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 20,
+      "title": "Geographic Associations",
+      "type": "array"
+    },
+    "historical_period": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Historical era, century, or earliest documented period",
+      "title": "Historical Period"
+    },
+    "id": {
+      "description": "Unique stable record identifier (e.g. IN-FOLK-001 or US-URBAN-001)",
+      "minLength": 3,
+      "title": "Id",
+      "type": "string"
+    },
+    "language": {
+      "default": "en",
+      "description": "Language of this record text (ISO 639-1)",
+      "title": "Language",
+      "type": "string"
+    },
+    "license": {
+      "default": "Rights Managed / Educational Use",
+      "description": "Copyright or license notice",
+      "title": "License",
+      "type": "string"
+    },
+    "long_description": {
+      "anyOf": [
+        {
+          "maxLength": 250000,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Detailed story text or translation (omitted if metadata-only)",
+      "title": "Long Description"
+    },
+    "motifs": {
+      "description": "Thompson motif index codes or folk motif tags",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 50,
+      "title": "Motifs",
+      "type": "array"
+    },
+    "record_version": {
+      "default": "1.0.0",
+      "description": "Semantic record version",
+      "title": "Record Version",
+      "type": "string"
+    },
+    "region_or_community": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Specific cultural, ethnic, indigenous, or regional community",
+      "title": "Region Or Community"
+    },
+    "related_record_ids": {
+      "description": "Cross-references to related folklore or urban legend record IDs",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 50,
+      "title": "Related Record Ids",
+      "type": "array"
+    },
+    "retrieved_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Timestamp of data retrieval",
+      "title": "Retrieved At"
+    },
+    "rights_status": {
+      "$ref": "#/$defs/RightsStatusEnum",
+      "default": "needs_rights_review",
+      "description": "Rights assessment classification"
+    },
+    "schema_version": {
+      "default": "2.0.0",
+      "description": "Story schema contract version",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "slug": {
+      "default": "",
+      "description": "URL-safe slug identifier",
+      "title": "Slug",
+      "type": "string"
+    },
+    "source_type": {
+      "default": "reference",
+      "description": "Primary source classification",
+      "title": "Source Type",
+      "type": "string"
+    },
+    "sources": {
+      "description": "At least one documented source is required",
+      "items": {
+        "$ref": "#/$defs/StorySource"
+      },
+      "minItems": 1,
+      "title": "Sources",
+      "type": "array"
+    },
+    "subtype": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Sub-genre classification (e.g. ghost_story, jataka_tale, cryptid, kaidan)",
+      "title": "Subtype"
+    },
+    "summary": {
+      "description": "Original concise synopsis of the narrative",
+      "maxLength": 5000,
+      "minLength": 10,
+      "title": "Summary",
+      "type": "string"
+    },
+    "themes": {
+      "description": "Keywords or thematic curatorial tags",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 50,
+      "title": "Themes",
+      "type": "array"
+    },
+    "title": {
+      "description": "Canonical title of the narrative",
+      "maxLength": 300,
+      "minLength": 2,
+      "title": "Title",
+      "type": "string"
+    },
+    "updated_at": {
+      "description": "Record last updated timestamp",
+      "format": "date-time",
+      "title": "Updated At",
+      "type": "string"
+    },
+    "variant_notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Notes on regional or cultural variants",
+      "title": "Variant Notes"
+    },
+    "verification_status": {
+      "$ref": "#/$defs/VerificationStatusEnum",
+      "default": "needs_review",
+      "description": "Curatorial review state"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "country_code",
+    "category",
+    "summary",
+    "sources"
+  ],
+  "title": "StoryRecord",
+  "type": "object"
+}

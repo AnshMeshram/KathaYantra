@@ -1,5 +1,10 @@
 {
+  "schema_version": "2.0.0",
   "dataset_version": "0.1.0",
+  "generated_at": "2026-10-29T08:09:26.662313+00:00",
+  "last_validation_timestamp": "2026-10-29T08:09:26.662336+00:00",
+  "target_country_count": 15,
+  "actual_country_count": 15,
   "country_list": [
     "BR",
     "CN",
@@ -18,16 +23,22 @@
     "US"
   ],
   "required_record_count": 300,
+  "total_target_records": 300,
   "target_breakdown": {
     "per_country_folklore": 10,
     "per_country_urban_legends": 10,
     "total_countries": 15
+  },
+  "target_records_per_category": {
+    "folklore": 10,
+    "urban_legends": 10
   },
   "current_actual_counts": {
     "total_records": 0,
     "folklore_records": 0,
     "urban_legend_records": 0
   },
+  "actual_record_count": 0,
   "folklore_counts_by_country": {
     "BR": 0,
     "CN": 0,
@@ -62,14 +73,56 @@
     "PH": 0,
     "US": 0
   },
+  "published_and_verified_records": 0,
   "unverified_records": 0,
+  "unverified_candidates": 0,
+  "rejected_records": 0,
   "rights_pending_records": 0,
+  "metadata_only_records": 0,
+  "records_by_content_origin": {},
+  "records_by_source": {},
+  "records_by_language": {},
   "source_coverage": [],
-  "last_validation_timestamp": "2026-10-29T07:01:55.866693+00:00",
+  "duplicate_findings_count": 0,
+  "schema_invalid_count": 0,
+  "source_link_validation_findings": [],
+  "coverage_gaps": [
+    "BR-folklore",
+    "CN-folklore",
+    "DE-folklore",
+    "EG-folklore",
+    "GB-folklore",
+    "GR-folklore",
+    "ID-folklore",
+    "IE-folklore",
+    "IN-folklore",
+    "JP-folklore",
+    "KR-folklore",
+    "MX-folklore",
+    "NG-folklore",
+    "PH-folklore",
+    "US-folklore",
+    "BR-urban_legend",
+    "CN-urban_legend",
+    "DE-urban_legend",
+    "EG-urban_legend",
+    "GB-urban_legend",
+    "GR-urban_legend",
+    "ID-urban_legend",
+    "IE-urban_legend",
+    "IN-urban_legend",
+    "JP-urban_legend",
+    "KR-urban_legend",
+    "MX-urban_legend",
+    "NG-urban_legend",
+    "PH-urban_legend",
+    "US-urban_legend"
+  ],
+  "dataset_validation_status": "valid_empty_staging",
   "dataset_limitations": [
-    "Phase 1 Foundation: Actual published record count is currently 0. The target is 300 records (15 countries * 20 records).",
-    "Raw CSV (folk_tales_deduplicated.csv) contains 2,938 records under review and is restricted to data/raw pending individual rights clearance.",
-    "External APIs (LOC, Wikimedia, Europeana, etc.) are registered in data/seed/source_registry.json for Phase 2 integration.",
-    "No synthetic AI stories are accepted into seed folklore files without explicit ai_generated_fiction classification."
+    "Phase 2 Governance: Actual published record count is currently 0. The target is 300 records (15 countries * 20 records).",
+    "Raw CSV (folk_tales_deduplicated.csv) contains 2,938 records quarantined under review in data/raw/.",
+    "External APIs (LOC, Wikimedia, Europeana, etc.) are registered in data/seed/source_registry.json for Phase 3 integration.",
+    "AI-generated creative fiction is segregated into GeneratedFictionRecord and cannot enter folklore seed files."
   ]
 }

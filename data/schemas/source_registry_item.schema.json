@@ -1,0 +1,151 @@
+{
+  "$defs": {
+    "RightsStatusEnum": {
+      "description": "Rights assessment status.",
+      "enum": [
+        "approved",
+        "metadata_only",
+        "public_domain_verified",
+        "permission_required",
+        "needs_rights_review",
+        "restricted",
+        "unknown"
+      ],
+      "title": "RightsStatusEnum",
+      "type": "string"
+    },
+    "SourceApiStatusEnum": {
+      "description": "API or dataset integration status in the registry.",
+      "enum": [
+        "documented_api",
+        "public_dataset",
+        "searchable_catalogue",
+        "reference_only",
+        "requires_credentials",
+        "requires_permission",
+        "not_yet_verified"
+      ],
+      "title": "SourceApiStatusEnum",
+      "type": "string"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Schema for a registered external data source or API.",
+  "properties": {
+    "api_status": {
+      "$ref": "#/$defs/SourceApiStatusEnum",
+      "description": "API availability status"
+    },
+    "auth_required": {
+      "default": false,
+      "description": "Whether authentication or API key is required",
+      "title": "Auth Required",
+      "type": "boolean"
+    },
+    "canonical_url": {
+      "description": "Canonical source homepage or domain",
+      "title": "Canonical Url",
+      "type": "string"
+    },
+    "content_format": {
+      "description": "Data formats provided (e.g. JSON, HTML, SPARQL)",
+      "title": "Content Format",
+      "type": "string"
+    },
+    "docs_or_dataset_url": {
+      "description": "Documentation, portal, or dataset URL",
+      "title": "Docs Or Dataset Url",
+      "type": "string"
+    },
+    "full_text_reuse_verified": {
+      "default": false,
+      "description": "Whether full text redistribution is permitted",
+      "title": "Full Text Reuse Verified",
+      "type": "boolean"
+    },
+    "geographic_or_cultural_coverage": {
+      "description": "Covered countries or global scope",
+      "items": {
+        "type": "string"
+      },
+      "title": "Geographic Or Cultural Coverage",
+      "type": "array"
+    },
+    "id": {
+      "description": "Stable source slug identifier",
+      "minLength": 2,
+      "title": "Id",
+      "type": "string"
+    },
+    "implementation_status": {
+      "default": "registered_planned",
+      "description": "Current implementation stage",
+      "title": "Implementation Status",
+      "type": "string"
+    },
+    "known_limitations": {
+      "description": "Known risks, limitations, or caveats",
+      "title": "Known Limitations",
+      "type": "string"
+    },
+    "last_checked_date": {
+      "description": "ISO date when source details were last verified",
+      "title": "Last Checked Date",
+      "type": "string"
+    },
+    "licensing_info": {
+      "description": "Applicable copyright and license terms",
+      "title": "Licensing Info",
+      "type": "string"
+    },
+    "name": {
+      "description": "Human-readable source name",
+      "minLength": 2,
+      "title": "Name",
+      "type": "string"
+    },
+    "rate_limit_info": {
+      "description": "Rate limiting or access throttling policy",
+      "title": "Rate Limit Info",
+      "type": "string"
+    },
+    "retain_metadata_only": {
+      "default": true,
+      "description": "Whether KathaYantra should only store metadata and links",
+      "title": "Retain Metadata Only",
+      "type": "boolean"
+    },
+    "rights_assessment_status": {
+      "$ref": "#/$defs/RightsStatusEnum",
+      "description": "Rights assessment classification"
+    },
+    "source_type": {
+      "description": "Type of source (e.g. encyclopedic_api, open_dataset)",
+      "title": "Source Type",
+      "type": "string"
+    },
+    "supported_research_purpose": {
+      "description": "Role of this source in KathaYantra",
+      "title": "Supported Research Purpose",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "canonical_url",
+    "docs_or_dataset_url",
+    "source_type",
+    "api_status",
+    "rate_limit_info",
+    "content_format",
+    "supported_research_purpose",
+    "geographic_or_cultural_coverage",
+    "licensing_info",
+    "rights_assessment_status",
+    "last_checked_date",
+    "known_limitations"
+  ],
+  "title": "SourceRegistryItem",
+  "type": "object"
+}

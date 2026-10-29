@@ -1,7 +1,7 @@
-# KathaYantra Backend Architecture
+# KathaYantra Backend Architecture (Phase 2)
 
 > **Central Principle:**  
-> *Preserve the story. Trace the source. Respect the culture. Keep the AI honest.*
+> _Preserve the story. Trace the source. Respect the culture. Keep the AI honest._
 
 ---
 
@@ -9,106 +9,105 @@
 
 KathaYantra is designed as a **local-first, rights-aware digital archive and exploration engine** for world folklore and urban legends across 15 target countries.
 
-The backend is built with Python 3, FastAPI, Pydantic v2, and version-controlled JSON seed repositories, designed to integrate seamlessly with a locally running open-weight large language model (**Ollama + Gemma 2**) without relying on paid hosted LLMs, cloud databases, or third-party vector databases.
+In Phase 2, the architecture introduces **formal schema contracts, an import candidate staging pipeline, a deterministic publication policy engine, Draft 2020-12 JSON Schema exports, and automated data quality validation**.
 
 ```mermaid
 flowchart TD
-    subgraph Data Tier
-        RAW["data/raw/<br>Restricted Raw Data<br>(folk_tales_deduplicated.csv)"]
-        AUDIT["data/manifests/<br>Audit Reports & Review<br>(nation_mapping_review.json)"]
-        SEED["data/seed/<br>Reviewed JSON Datasets<br>(folklore/ & urban_legends/)"]
-        REGISTRY["data/seed/<br>source_registry.json<br>(17 Registered Sources)"]
+    subgraph Tier 1: Ingestion & Staging
+        RAW["data/raw/<br>Restricted Raw Datasets<br>(folk_tales_deduplicated.csv)"]
+        CANDIDATES["app/schemas/import_candidate.py<br>ImportCandidate Staging Model"]
+        RAW --> CANDIDATES
     end
 
-    subgraph Backend Core
-        FASTAPI["FastAPI Backend<br>(app/main.py)"]
-        CONFIG["Core Config & Security<br>(app/core/config.py)"]
-        SCHEMAS["Pydantic v2 Schemas<br>(StoryRecord, Country, Manifest)"]
-        SERVICES["Manifest & Registry Services<br>(manifest_service.py)"]
-        HEALTH["Health & Readiness API<br>(GET /api/v1/health)"]
+    subgraph Tier 2: Governance & Publication Policy
+        POLICY["app/services/publication_policy.py<br>Deterministic Publication Policy Engine"]
+        VALIDATOR["app/services/data_validation.py<br>DataQualityValidator (17 Checks)"]
+        CANDIDATES --> POLICY
+        POLICY --> VALIDATOR
     end
 
-    subgraph Future Connectors
-        API_CONNECTORS["Phase 2 API Connectors<br>(Wikimedia, Wikidata, LOC, Europeana)"]
+    subgraph Tier 3: Curated Seed Repositories
+        SEED["data/seed/folklore/ & urban_legends/<br>30 Canonical DatasetEnvelopes (2.0.0)"]
+        REGISTRY["data/seed/source_registry.json<br>17 External Repositories & APIs"]
+        COUNTRIES["data/seed/countries.json<br>15 Country Canonical Records"]
+        VALIDATOR --> SEED
     end
 
-    subgraph Local AI Tier
+    subgraph Tier 4: Schemas & Contracts
+        PYDANTIC["app/schemas/<br>Pydantic v2 Canonical Models"]
+        EXPORTS["data/schemas/<br>8 JSON Schema Draft 2020-12 Documents"]
+        PYDANTIC --> EXPORTS
+    end
+
+    subgraph Tier 5: Local AI & Exploration
         OLLAMA["Local Ollama Daemon<br>(http://127.0.0.1:11434)"]
-        GEMMA["Gemma 2 Open-Weight LLM<br>(gemma2)"]
+        GEMMA["Gemma 2 Open-Weight LLM"]
+        FICTION["app/schemas/generated_fiction.py<br>GeneratedFictionRecord (Segregated)"]
+        SEED -.-> OLLAMA
+        OLLAMA --- GEMMA
+        GEMMA -.-> FICTION
     end
-
-    RAW --> AUDIT
-    AUDIT -.-> SEED
-    SEED --> SERVICES
-    REGISTRY --> SERVICES
-    CONFIG --> FASTAPI
-    SCHEMAS --> FASTAPI
-    SERVICES --> HEALTH
-    HEALTH --> FASTAPI
-    API_CONNECTORS -.-> SEED
-    SEED --> FASTAPI
-    FASTAPI -.-> OLLAMA
-    OLLAMA --- GEMMA
 ```
 
 ---
 
-## 2. Strict Boundary Separation
+## 2. Decoupled Ingestion & Staging Pipeline
 
-A primary architectural requirement is strict segregation between raw unreviewed data, reviewed seed collections, future API ingestions, and AI services:
-
-### A. Raw Data Tier (`data/raw/`)
-- Contains untouched, incoming data assets (e.g. `folk_tales_deduplicated.csv`).
-- Protected by `.gitignore` to prevent unauthorized publication in public repositories.
-- Records are classified as `needs_rights_review` and are **never** directly exposed via the public API or mixed with verified stories.
-
-### B. Curated Seed Datasets (`data/seed/`)
-- Version-controlled, human-inspectable JSON files.
-- Structured by country code (`data/seed/folklore/<CODE>.json` and `data/seed/urban_legends/<CODE>.json`).
-- Every story record must pass strict Pydantic schema validation, including documented sources, verified license state, cultural provenance, and rights classification.
-- In Phase 1, all 30 files are initialized with documented, empty structures (`records: []`) to accurately reflect actual curated status.
-
-### C. Future API Ingestion Tier (`app/integrations/`)
-- Standardized connectors to external archives (Library of Congress, Wikimedia, Europeana, Japan Search).
-- Governed by `data/seed/source_registry.json`.
-- Enforces rate limits, attribution requirements, and credential segregation (e.g., API keys in `.env`).
-
-### D. Local AI Inference Tier (Ollama + Gemma 2)
-- Architecture: `Curated JSON data + approved metadata -> Retrieval Service -> FastAPI -> Ollama / Gemma 2`.
-- AI outputs are strictly segregated using `content_origin: ai_generated_fiction`.
-- The AI is **never** permitted to fabricate folklore sources, invent historical events, or act as an authoritative substitute for historical provenance.
-- The system is completely resilient: if Ollama is offline or uninstalled, the archive browsing, search, and validation workflows function without disruption.
-
----
-
-## 3. Data Flow and Ingestion Pipeline
+A critical Phase 2 enhancement is the formal decoupling of incomplete incoming data from published cultural records:
 
 ```mermaid
 sequenceDiagram
     autonumber
-    actor Curator as Data Curator / Ingestion Script
-    participant Raw as Raw Data Asset (CSV/API)
-    participant Audit as Audit & Validation Engine
-    participant Review as Review Manifest
-    participant Seed as Curated Seed JSON
-    participant API as FastAPI Backend
+    actor Curator as Ingestion Pipeline / Curator
+    participant Raw as Raw Source Data (CSV / API)
+    participant Staging as ImportCandidate (Staging)
+    participant Policy as PublicationPolicy Service
+    participant Seed as DatasetEnvelope (Curated Seed)
+    participant AI as Local AI (Gemma 2)
 
-    Curator->>Raw: Ingest raw source asset
-    Curator->>Audit: Run audit_folktales_csv.py
-    Audit->>Review: Output missing values, duplicates, and nation mapping
-    Review->>Curator: Flag records requiring cultural/rights review
-    Curator->>Seed: Commit verified original summaries and citations
-    Seed->>API: Load validated records into API service
-    API->>Curator: GET /api/v1/health (true counts and coverage)
+    Curator->>Raw: Harvest or audit raw inputs
+    Raw->>Staging: Ingest into ImportCandidate (new_candidate)
+    Note over Staging: Incomplete fields, unverified URLs, missing country allowed in staging
+    Curator->>Staging: Review rights, nation mapping, and write original summary
+    Staging->>Policy: Submit candidate for publication review
+    alt Passes All 8 Policy Checks
+        Policy->>Seed: Promote to StoryRecord in DatasetEnvelope
+    else Fails Policy (e.g. Needs Rights Review or Unverified)
+        Policy-->>Curator: Return validation violations; remain in staging
+    end
+    AI-->>Curator: Generates creative story with mandatory disclaimer
+    Note over AI: AI fiction saved strictly to GeneratedFictionRecord; rejected by StoryRecord
 ```
 
 ---
 
-## 4. Key Invariants
+## 3. The 17 Data Quality Checks
 
-1. **Source Provenance:** Every single story record must have at least one validated source citation with a functioning URL.
-2. **Deterministic Processing:** Auditing and manifest generation scripts are deterministic, idempotent, and non-destructive.
-3. **No Phantom Quotas:** Actual counts reflect strictly validated records. The target of 300 records is documented as a milestone, never faked.
-4. **Cultural Integrity:** Regional, ethnic, and Indigenous traditions (e.g., Native American, Hawaiian, Celtic, Yoruba) are preserved with specific cultural attribution rather than flattened into modern national borders.
-5. **Zero Cloud Dependencies:** No paid cloud APIs, external vector databases, or hosted LLM endpoints.
+The `DataQualityValidator` ([`app/services/data_validation.py`](file:///C:/Users/shrin\Desktop\Hactoberfest2026\KathaYantra\app\services\data_validation.py)) evaluates:
 
+1. **JSON Syntax:** Clean JSON parsing without truncation or syntax errors.
+2. **Dataset Envelope:** Proper `DatasetEnvelope` root structure (`schema_version: "2.0.0"`).
+3. **Country/Category Alignment:** File `IN.json` in `folklore/` must declare `country_code: "IN"` and `category: "folklore"`.
+4. **Story Schema Conformance:** Validates every record against `StoryRecord`.
+5. **Stable ID Format:** Matches `^[A-Z]{2}-(FOLK|URBAN)-[0-9]{3,}$`.
+6. **Global Duplicate IDs:** Zero duplicate record IDs across all 30 seed files.
+7. **Recurring Titles:** Identifies duplicate titles across regions for editorial review.
+8. **Source URL Validity:** Enforces valid HTTP/HTTPS schemes and network locations.
+9. **Mandatory Sources:** Every story record must contain $\ge 1$ traceable source.
+10. **Rights Status Presence:** Assesses explicit legal rights state.
+11. **Unverified Records:** Prevents unverified records from being labeled "approved".
+12. **Prefix Consistency:** Enforces that record ID prefixes match country code and category tag.
+13. **AI Fiction Segregation:** Rejects any record with `content_origin: ai_generated_fiction` from seed files.
+14. **Manifest Discrepancy:** Verifies that actual counts match manifest totals.
+15. **Source Registry References:** Verifies citation links to `source_registry.json`.
+16. **Controlled Enums:** Restricts categories, verification states, and rights to approved enums.
+17. **Timestamps & Languages:** Validates ISO 8601 UTC timestamps and ISO language codes.
+
+---
+
+## 4. Key Archival Invariants
+
+- **Zero Fabricated Records:** The actual published story count remains **0** in Phase 2 until records pass human curatorial review.
+- **Quarantined Raw Corpus:** The 2,938-row `folk_tales_deduplicated.csv` remains strictly in `data/raw/` (gitignored).
+- **Draft 2020-12 Contract Exports:** Machine-readable schemas in `data/schemas/` are regenerated automatically from Pydantic models.
+- **Fail-Safe Local AI:** The entire backend and validation suite operates with 100% functionality when Ollama is offline.

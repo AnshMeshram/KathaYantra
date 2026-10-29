@@ -1,6 +1,6 @@
 """Story Narrative Schemas for KathaYantra Folklore and Urban Legends.
 
-Defines the Pydantic v2 data models for folklore and urban legend records,
+Defines the canonical Pydantic v2 data models for folklore and urban legend records,
 verifying provenance, category integrity, rights states, and cultural attribution.
 """
 
@@ -9,8 +9,9 @@ from enum import Enum
 import re
 from typing import Optional
 from urllib.parse import urlparse
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, Field, field_validator, model_validator
 from app.schemas.country import SUPPORTED_COUNTRY_CODES
+from app.schemas.source import RightsStatusEnum, StorySource, validate_web_url
 
 
 class CategoryEnum(str, Enum):
@@ -28,20 +29,8 @@ class VerificationStatusEnum(str, Enum):
     REJECTED = "rejected"
 
 
-class RightsStatusEnum(str, Enum):
-    """Rights assessment status."""
-
-    APPROVED = "approved"
-    METADATA_ONLY = "metadata_only"
-    PUBLIC_DOMAIN_VERIFIED = "public_domain_verified"
-    PERMISSION_REQUIRED = "permission_required"
-    NEEDS_RIGHTS_REVIEW = "needs_rights_review"
-    RESTRICTED = "restricted"
-    UNKNOWN = "unknown"
-
-
 class ContentOriginEnum(str, Enum):
-    """Origin of narrative text content."""
+    """Origin classification of narrative text content."""
 
     LICENSED_DATASET = "licensed_dataset"
     PUBLIC_DOMAIN_SOURCE = "public_domain_source"
@@ -51,73 +40,95 @@ class ContentOriginEnum(str, Enum):
     AI_GENERATED_FICTION = "ai_generated_fiction"
 
 
-def validate_web_url(url_str: str) -> str:
-    """Validate that a URL string has valid HTTP or HTTPS scheme and network location."""
-    if not url_str or not isinstance(url_str, str):
-        raise ValueError("URL must be a non-empty string.")
-    parsed = urlparse(url_str.strip())
-    if parsed.scheme not in ("http", "https"):
-        raise ValueError(f"Invalid URL scheme '{parsed.scheme}'; expected 'http' or 'https'.")
-    if not parsed.netloc:
-        raise ValueError("URL is missing a valid host / network location.")
-    return url_str.strip()
-
-
-class StorySource(BaseModel):
-    """Documented reference or citation for a story record."""
-
-    name: str = Field(..., min_length=2, description="Name of source publication, archive, or institution")
-    url: str = Field(..., description="Canonical or web URL of the source")
-    source_type: str = Field(default="web", description="Type of source (e.g. academic, archive, website, book)")
-    citation: Optional[str] = Field(default=None, description="Formal bibliographic citation")
-    access_date: Optional[str] = Field(default=None, description="ISO date when source was referenced")
-
-    @field_validator("url")
-    @classmethod
-    def check_url(cls, v: str) -> str:
-        return validate_web_url(v)
+def generate_slug(title: str) -> str:
+    """Generate a clean URL-safe slug from a narrative title."""
+    clean = re.sub(r"[^\w\s-]", "", title.lower())
+    slug = re.sub(r"[-\s]+", "-", clean).strip("-")
+    return slug or "untitled-story"
 
 
 class StoryRecord(BaseModel):
-    """Full KathaYantra story record model."""
+    """Canonical KathaYantra story record model for folklore and urban legends."""
 
     id: str = Field(
         ...,
         min_length=3,
         description="Unique stable record identifier (e.g. IN-FOLK-001 or US-URBAN-001)",
     )
-    title: str = Field(..., min_length=2, description="Standardized title of the narrative")
+    schema_version: str = Field(default="2.0.0", description="Story schema contract version")
+    record_version: str = Field(default="1.0.0", description="Semantic record version")
+    title: str = Field(..., min_length=2, max_length=300, description="Canonical title of the narrative")
+    slug: str = Field(default="", description="URL-safe slug identifier")
     country_code: str = Field(..., min_length=2, max_length=2, description="ISO 2-letter country code")
-    region_or_community: Optional[str] = Field(
-        default=None,
-        description="Specific cultural, ethnic, indigenous, or regional group",
-    )
     category: CategoryEnum = Field(..., description="Primary category: folklore or urban_legend")
     subtype: Optional[str] = Field(
         default=None,
-        description="Sub-genre (e.g. ghost_story, fairy_tale, warning_legend, cryptid)",
+        description="Sub-genre classification (e.g. ghost_story, jataka_tale, cryptid, kaidan)",
     )
-    summary: str = Field(..., min_length=10, description="Concise synopsis of the narrative")
-    long_description: Optional[str] = Field(default=None, description="Detailed story text or transcription")
-    alternate_names: list[str] = Field(default_factory=list, description="Variant titles or regional names")
-    language: str = Field(default="en", description="Language of this record text")
-    motifs: list[str] = Field(default_factory=list, description="Thompson motif index codes or thematic motifs")
-    themes: list[str] = Field(default_factory=list, description="Keywords or thematic tags")
-    historical_period: Optional[str] = Field(default=None, description="Historical origin or first documented era")
+    summary: str = Field(..., min_length=10, max_length=5000, description="Original concise synopsis of the narrative")
+    long_description: Optional[str] = Field(
+        default=None,
+        max_length=250000,
+        description="Detailed story text or translation (omitted if metadata-only)",
+    )
+    alternate_names: list[str] = Field(
+        default_factory=list,
+        max_length=50,
+        description="Variant titles, indigenous names, or regional designations",
+    )
+    language: str = Field(default="en", description="Language of this record text (ISO 639-1)")
+    alternate_languages: list[str] = Field(
+        default_factory=list,
+        max_length=20,
+        description="Other languages associated with traditional tellings",
+    )
+    motifs: list[str] = Field(
+        default_factory=list,
+        max_length=50,
+        description="Thompson motif index codes or folk motif tags",
+    )
+    themes: list[str] = Field(
+        default_factory=list,
+        max_length=50,
+        description="Keywords or thematic curatorial tags",
+    )
+    historical_period: Optional[str] = Field(
+        default=None,
+        description="Historical era, century, or earliest documented period",
+    )
+    region_or_community: Optional[str] = Field(
+        default=None,
+        description="Specific cultural, ethnic, indigenous, or regional community",
+    )
+    community_attributions: list[str] = Field(
+        default_factory=list,
+        max_length=20,
+        description="Specific sovereign tribal nations, ethnic groups, or regional communities",
+    )
+    geographic_associations: list[str] = Field(
+        default_factory=list,
+        max_length=20,
+        description="Geographic landmarks, cities, or sites associated with the narrative",
+    )
     variant_notes: Optional[str] = Field(default=None, description="Notes on regional or cultural variants")
+    related_record_ids: list[str] = Field(
+        default_factory=list,
+        max_length=50,
+        description="Cross-references to related folklore or urban legend record IDs",
+    )
     sources: list[StorySource] = Field(..., min_length=1, description="At least one documented source is required")
     source_type: str = Field(default="reference", description="Primary source classification")
     license: str = Field(default="Rights Managed / Educational Use", description="Copyright or license notice")
     rights_status: RightsStatusEnum = Field(
         default=RightsStatusEnum.NEEDS_RIGHTS_REVIEW,
-        description="Rights assessment state",
+        description="Rights assessment classification",
     )
     attribution_text: Optional[str] = Field(default=None, description="Mandatory attribution string if required")
     canonical_url: Optional[str] = Field(default=None, description="Canonical link for authoritative record")
     retrieved_at: Optional[datetime] = Field(default=None, description="Timestamp of data retrieval")
     verification_status: VerificationStatusEnum = Field(
         default=VerificationStatusEnum.NEEDS_REVIEW,
-        description="Verification state",
+        description="Curatorial review state",
     )
     content_origin: ContentOriginEnum = Field(
         default=ContentOriginEnum.METADATA_ONLY,
@@ -131,7 +142,6 @@ class StoryRecord(BaseModel):
         default_factory=lambda: datetime.now(timezone.utc),
         description="Record last updated timestamp",
     )
-    record_version: str = Field(default="1.0.0", description="Semantic record version")
 
     @field_validator("id")
     @classmethod
@@ -158,10 +168,45 @@ class StoryRecord(BaseModel):
             return validate_web_url(v)
         return v
 
+    @model_validator(mode="after")
+    def validate_record_integrity(self) -> "StoryRecord":
+        # 1. Enforce ID prefix agreement with country_code
+        expected_country_prefix = self.id[:2]
+        if expected_country_prefix != self.country_code:
+            raise ValueError(
+                f"Record ID prefix '{expected_country_prefix}' does not match country_code '{self.country_code}'"
+            )
+
+        # 2. Enforce ID category tag agreement with category
+        if self.category == CategoryEnum.FOLKLORE and "-FOLK-" not in self.id:
+            raise ValueError(f"Folklore record ID '{self.id}' must contain '-FOLK-'")
+        elif self.category == CategoryEnum.URBAN_LEGEND and "-URBAN-" not in self.id:
+            raise ValueError(f"Urban legend record ID '{self.id}' must contain '-URBAN-'")
+
+        # 3. AI-Generated Fiction REJECTION in StoryRecord
+        if self.content_origin == ContentOriginEnum.AI_GENERATED_FICTION:
+            raise ValueError(
+                "AI-generated fiction cannot be saved as an authentic StoryRecord. "
+                "Use GeneratedFictionRecord instead to maintain archival integrity."
+            )
+
+        # 4. Auto-generate slug if empty
+        if not self.slug and self.title:
+            self.slug = generate_slug(self.title)
+
+        # 5. Check duplicate source URLs within record
+        source_urls = [s.url.lower() for s in self.sources]
+        if len(source_urls) != len(set(source_urls)):
+            raise ValueError(f"StoryRecord '{self.id}' contains duplicate source URLs in its citations.")
+
+        return self
+
 
 class CountrySeedFile(BaseModel):
-    """Schema for a country category seed JSON file (e.g. data/seed/folklore/IN.json)."""
+    """Schema for a country category seed JSON file (Phase 1 compatibility)."""
 
+    schema_version: str = Field(default="2.0.0")
+    dataset_id: str = Field(default="")
     country_code: str
     category: CategoryEnum
     records: list[StoryRecord] = Field(default_factory=list)
