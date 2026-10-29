@@ -1,0 +1,2 @@
+# Keep data/raw directory in version control.
+# Raw restricted datasets (.csv, .json) are excluded from git.

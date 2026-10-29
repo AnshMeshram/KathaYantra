@@ -1,0 +1,75 @@
+{
+  "dataset_version": "0.1.0",
+  "country_list": [
+    "BR",
+    "CN",
+    "DE",
+    "EG",
+    "GB",
+    "GR",
+    "ID",
+    "IE",
+    "IN",
+    "JP",
+    "KR",
+    "MX",
+    "NG",
+    "PH",
+    "US"
+  ],
+  "required_record_count": 300,
+  "target_breakdown": {
+    "per_country_folklore": 10,
+    "per_country_urban_legends": 10,
+    "total_countries": 15
+  },
+  "current_actual_counts": {
+    "total_records": 0,
+    "folklore_records": 0,
+    "urban_legend_records": 0
+  },
+  "folklore_counts_by_country": {
+    "BR": 0,
+    "CN": 0,
+    "DE": 0,
+    "EG": 0,
+    "GB": 0,
+    "GR": 0,
+    "ID": 0,
+    "IE": 0,
+    "IN": 0,
+    "JP": 0,
+    "KR": 0,
+    "MX": 0,
+    "NG": 0,
+    "PH": 0,
+    "US": 0
+  },
+  "urban_legend_counts_by_country": {
+    "BR": 0,
+    "CN": 0,
+    "DE": 0,
+    "EG": 0,
+    "GB": 0,
+    "GR": 0,
+    "ID": 0,
+    "IE": 0,
+    "IN": 0,
+    "JP": 0,
+    "KR": 0,
+    "MX": 0,
+    "NG": 0,
+    "PH": 0,
+    "US": 0
+  },
+  "unverified_records": 0,
+  "rights_pending_records": 0,
+  "source_coverage": [],
+  "last_validation_timestamp": "2026-10-29T07:01:55.866693+00:00",
+  "dataset_limitations": [
+    "Phase 1 Foundation: Actual published record count is currently 0. The target is 300 records (15 countries * 20 records).",
+    "Raw CSV (folk_tales_deduplicated.csv) contains 2,938 records under review and is restricted to data/raw pending individual rights clearance.",
+    "External APIs (LOC, Wikimedia, Europeana, etc.) are registered in data/seed/source_registry.json for Phase 2 integration.",
+    "No synthetic AI stories are accepted into seed folklore files without explicit ai_generated_fiction classification."
+  ]
+}

@@ -1,0 +1,409 @@
+[
+  {
+    "original_nation": "",
+    "proposed_country_code": null,
+    "mapping_status": "unassigned_missing",
+    "reason": "Missing nation label in raw CSV (6 records). Requires manual archival inspection of title and text before any geographic association can be made.",
+    "human_review_required": true
+  },
+  {
+    "original_nation": "albanian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'albanian' is not part of the initial 15 target countries in KathaYantra Phase 1. Preserved in raw data for future expansion.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "arabic",
+    "proposed_country_code": null,
+    "mapping_status": "ambiguous_transnational",
+    "reason": "Arabic folklore spans North Africa and the Middle East, including Egypt (EG), Levant, and Arabian Peninsula. Needs individual story review to determine if origin is Egyptian.",
+    "human_review_required": true
+  },
+  {
+    "original_nation": "armenian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'armenian' is not part of the initial 15 target countries in KathaYantra Phase 1. Preserved in raw data for future expansion.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "australian_ethnic",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'australian_ethnic' represents Aboriginal Australian and colonial traditions outside the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "belgian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'belgian' is not part of the initial 15 target countries in KathaYantra Phase 1. Preserved in raw data for future expansion.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "brazilian",
+    "proposed_country_code": "BR",
+    "mapping_status": "proposed_direct",
+    "reason": "Direct correspondence with Brazilian folklore; records should be reviewed for Indigenous Tupi, Afro-Brazilian, or sertanejo regional origins.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "bukovinian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Historical regional folklore from Bukovina (Romania/Ukraine). Preserved in raw data.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "bulgarian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'bulgarian' is not part of the initial 15 target countries in KathaYantra Phase 1.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "canadian_native",
+    "proposed_country_code": null,
+    "mapping_status": "broad_indigenous_category",
+    "reason": "Spans First Nations, Inuit, and Métis traditions across Canada; not within the 15 target countries.",
+    "human_review_required": true
+  },
+  {
+    "original_nation": "cataloanian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Catalan regional folklore within Spain. Spain is outside the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "celtic",
+    "proposed_country_code": null,
+    "mapping_status": "ambiguous_transnational",
+    "reason": "Celtic is a broad linguistic/cultural family spanning Ireland (IE), Scotland/Wales/Cornwall (GB), Isle of Man, and Brittany (France). Cannot assign to a single country without tale-by-tale provenance.",
+    "human_review_required": true
+  },
+  {
+    "original_nation": "chinese",
+    "proposed_country_code": "CN",
+    "mapping_status": "proposed_direct",
+    "reason": "Direct correspondence with traditional Chinese folklore, classical zhiguai, and oral traditions.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "croatian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'croatian' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "czechoslovak",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Historical federation (Czechia / Slovakia); outside the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "danish",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'danish' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "dutch",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'dutch' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "english",
+    "proposed_country_code": "GB",
+    "mapping_status": "proposed_composite",
+    "reason": "English folklore maps to the United Kingdom (GB) jurisdiction, preserving English distinct regional heritage.",
+    "human_review_required": true
+  },
+  {
+    "original_nation": "estonian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'estonian' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "finnish",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'finnish' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "french",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'french' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "german",
+    "proposed_country_code": "DE",
+    "mapping_status": "proposed_direct",
+    "reason": "Direct correspondence with German folk traditions (Märchen, Sagen), predominantly Brothers Grimm retellings.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "greek",
+    "proposed_country_code": "GR",
+    "mapping_status": "proposed_direct",
+    "reason": "Direct correspondence with Greek folklore and mythic traditions. Distinguish ancient mythology retellings from modern demotic folklore.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "hawaiian",
+    "proposed_country_code": null,
+    "mapping_status": "indigenous_review_required",
+    "reason": "Kanaka Maoli (Native Hawaiian) oral traditions are culturally distinct; while currently a US state, tales should be attributed to Native Hawaiian cultural origin rather than generic US folklore.",
+    "human_review_required": true
+  },
+  {
+    "original_nation": "hungarian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'hungarian' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "icelandic",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'icelandic' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "indian",
+    "proposed_country_code": "IN",
+    "mapping_status": "proposed_direct",
+    "reason": "Direct geographic and cultural correspondence with India. Individual tales still require region/state attribution (e.g., Bengal, Punjab, Tamil Nadu).",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "irish",
+    "proposed_country_code": "IE",
+    "mapping_status": "proposed_direct",
+    "reason": "Direct correspondence with Irish folklore and oral tradition (Gaelic and Hiberno-English folklore).",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "italian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'italian' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "japanese",
+    "proposed_country_code": "JP",
+    "mapping_status": "proposed_direct",
+    "reason": "Direct cultural and linguistic correspondence with Japan (yōkai, otogizōshi, mukashibanashi).",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "jewish",
+    "proposed_country_code": null,
+    "mapping_status": "ambiguous_transnational",
+    "reason": "Transnational ethno-religious folklore spanning Ashkenazi, Sephardic, and Mizrahi traditions across Europe, the Middle East, and North Africa. Requires individual provenance.",
+    "human_review_required": true
+  },
+  {
+    "original_nation": "korean",
+    "proposed_country_code": "KR",
+    "mapping_status": "proposed_direct",
+    "reason": "Traditional Korean folklore predates the modern geopolitical division; mapped to South Korea (KR) as project target scope with cultural heritage note.",
+    "human_review_required": true
+  },
+  {
+    "original_nation": "lithuanian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'lithuanian' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "maori",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Māori oral traditions from Aotearoa New Zealand; outside the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "new_zealand_native",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Colonial / native designation for New Zealand folklore; outside target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "nigerian",
+    "proposed_country_code": "NG",
+    "mapping_status": "proposed_direct",
+    "reason": "Direct correspondence with Nigeria; records should distinguish Yoruba, Igbo, Hausa, and Edo oral traditions.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "nordic",
+    "proposed_country_code": null,
+    "mapping_status": "ambiguous_transnational",
+    "reason": "Regional designation spanning Scandinavia and Finland; outside target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "north_american_native",
+    "proposed_country_code": null,
+    "mapping_status": "broad_indigenous_category",
+    "reason": "Too broad to assign to modern United States (US). Spans hundreds of sovereign Indigenous Nations across US and Canada (e.g. Navajo, Cherokee, Ojibwe, Haida, Hopi). Must preserve specific tribal nation sovereignty and context.",
+    "human_review_required": true
+  },
+  {
+    "original_nation": "norwegian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'norwegian' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "pakistani",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'pakistani' is not part of the initial 15 target countries in Phase 1.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "philippine",
+    "proposed_country_code": "PH",
+    "mapping_status": "proposed_direct",
+    "reason": "Direct correspondence with Philippine folk narratives (Tagalog, Ilokano, Visayan traditions).",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "polish",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'polish' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "portuguese",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'portuguese' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "romanian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'romanian' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "russian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'russian' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "sami",
+    "proposed_country_code": null,
+    "mapping_status": "broad_indigenous_category",
+    "reason": "Indigenous Sámi traditions spanning northern Norway, Sweden, Finland, and Russia. Distinct cultural sovereignty.",
+    "human_review_required": true
+  },
+  {
+    "original_nation": "scandinavian",
+    "proposed_country_code": null,
+    "mapping_status": "ambiguous_transnational",
+    "reason": "Regional designation spanning Denmark, Norway, and Sweden; outside initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "scottish",
+    "proposed_country_code": "GB",
+    "mapping_status": "proposed_composite",
+    "reason": "Scottish folklore maps to United Kingdom (GB) jurisdiction; requires preservation of Scottish Gaelic / Lowland distinct cultural identity.",
+    "human_review_required": true
+  },
+  {
+    "original_nation": "serbian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'serbian' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "slavic",
+    "proposed_country_code": null,
+    "mapping_status": "ambiguous_transnational",
+    "reason": "Broad ethno-linguistic family across Eastern and Southern Europe; outside initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "south_african",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'south_african' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "spanish",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'spanish' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "swedish",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'swedish' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "tanzanian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'tanzanian' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "turkish",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'turkish' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "ukrainian",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'ukrainian' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  },
+  {
+    "original_nation": "welsh",
+    "proposed_country_code": "GB",
+    "mapping_status": "proposed_composite",
+    "reason": "Welsh (Cymru) folklore maps to United Kingdom (GB) jurisdiction; requires preservation of Celtic Brythonic language and cultural context.",
+    "human_review_required": true
+  },
+  {
+    "original_nation": "zimbabwe",
+    "proposed_country_code": null,
+    "mapping_status": "out_of_scope",
+    "reason": "Origin 'zimbabwe' is not part of the initial 15 target countries.",
+    "human_review_required": false
+  }
+]
+

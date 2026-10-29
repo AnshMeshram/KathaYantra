@@ -1,0 +1,153 @@
+[
+  {
+    "code": "IN",
+    "name": "India",
+    "region": "South Asia",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Rich oral tradition, regional diversity (Panchatantra, Jataka tales, Baital Pachisi, Yakshas, Daayans, modern haunted sites and paranormal rumours)."
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "region": "North America",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Colonial folklore, regional tall tales, distinct Indigenous oral traditions (handled with distinct tribal attribution), modern cryptids (Mothman, Jersey Devil), and classic urban legends."
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "region": "East Asia",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Extensive yōkai, yūrei, and kaidan traditions; modern school ghost stories (gakkō no kaidan), Kuchisake-onna, Teke Teke, and cursed media urban legends."
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "region": "Latin America",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Syncretic pre-Hispanic (Nahua, Maya) and colonial traditions, La Llorona, El Chupacabra, La Planchada, and contemporary urban legends."
+  },
+  {
+    "code": "IE",
+    "name": "Ireland",
+    "region": "Western Europe",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Gaelic mythology, Tuatha Dé Danann, Aos Sí (fairies), banshees, National Folklore Collection archives, and modern haunted roads and phantom hitchhikers."
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "region": "Western Europe",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "English, Scottish, and Welsh regional folklore, Arthurian legends, Black Shuck, phantom coaches, Spring-heeled Jack, and modern haunted tube stations."
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "region": "South America",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Indigenous Tupi-Guarani, African diaspora, and Portuguese folklore syncretism; Saci-Pererê, Curupira, Boto Cor-de-Rosa, Loira do Banheiro."
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "region": "Southern Europe",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Ancient mythic continuity, Kallikantzaroi (winter goblins), Vrykolakas (revenants), Nereids, and modern Athens metro and highway urban legends."
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "region": "East Asia",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Classical Zhiguai and Chuanqi tales (Pu Songling's Liaozhai), fox spirits (Huli Jing), hungry ghosts, and modern urban legends such as Beijing Bus 375."
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "region": "West Africa",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Yoruba, Igbo, Hausa, and Edo oral literature, trickster tales (Tortoise / Ijapa), Mami Wata, and contemporary urban legends (Madam Koi Koi, Bush Baby)."
+  },
+  {
+    "code": "KR",
+    "name": "South Korea",
+    "region": "East Asia",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Dangun mythology, Dokkaebi (goblins), Gumiho (nine-tailed fox), Cheonyeo Gwishin (virgin ghost), and modern urban legends (fan death, subway elevators, red paper blue paper)."
+  },
+  {
+    "code": "PH",
+    "name": "Philippines",
+    "region": "Southeast Asia",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Lower mythological creatures (Aswang, Manananggal, Kapre, Tikbalang), regional epics (Biag ni Lam-ang), and modern urban legends (White Lady of Balete Drive)."
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "region": "Southeast Asia",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Javanese, Sundanese, Balinese animist and maritime traditions; Kuntilanak, Pocong, Genderuwo, Nyi Roro Kidul, and modern haunted railway crossings."
+  },
+  {
+    "code": "EG",
+    "name": "Egypt",
+    "region": "North Africa",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Ancient mythological retellings, Coptic folklore, Islamic-era folklore (Afrit, Jinn, El Nedaha / Siren of the Nile), and modern Cairo Baron Palace urban legends."
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "region": "Central Europe",
+    "target_folklore_count": 10,
+    "target_urban_legends_count": 10,
+    "total_target": 20,
+    "status": "active_target",
+    "cultural_context_notes": "Grimm fairy tales, regional Sage legends (Pied Piper of Hamelin, Lorelei, Rübezahl, Wolpertinger), and modern German highway / suburban urban legends."
+  }
+]
+

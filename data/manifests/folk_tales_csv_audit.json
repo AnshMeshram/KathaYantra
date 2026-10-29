@@ -1,0 +1,652 @@
+{
+  "audit_version": "1.0.0",
+  "file_name": "folk_tales_deduplicated.csv",
+  "file_size_bytes": 27240952,
+  "total_rows": 2938,
+  "unique_source_urls": 2938,
+  "unique_titles": 2894,
+  "missing_values": {
+    "source_missing_count": 0,
+    "nation_missing_count": 6,
+    "title_missing_count": 0,
+    "text_missing_count": 0,
+    "missing_nation_records": [
+      {
+        "row_index": 1290,
+        "title": "The Seven Stages of Roostem",
+        "source": "https://fairytalez.com/seven-stages-roostem/",
+        "nation": ""
+      },
+      {
+        "row_index": 1326,
+        "title": "The Doomed Prince",
+        "source": "https://fairytalez.com/the-doomed-prince/",
+        "nation": ""
+      },
+      {
+        "row_index": 1687,
+        "title": "The Fairy in the Cuckoo Clock",
+        "source": "https://fairytalez.com/the-fairy-in-the-cuckoo-clock/",
+        "nation": ""
+      },
+      {
+        "row_index": 1773,
+        "title": "The Greedy Old Man",
+        "source": "https://fairytalez.com/the-greedy-old-man/",
+        "nation": ""
+      },
+      {
+        "row_index": 2046,
+        "title": "The Story Of The Sham Prince, Or The Ambitious Tailor",
+        "source": "https://fairytalez.com/story-sham-prince-ambitious-tailor/",
+        "nation": ""
+      },
+      {
+        "row_index": 2430,
+        "title": "The Prince and the Three Fates",
+        "source": "https://fairytalez.com/the-prince-and-the-three-fates/",
+        "nation": ""
+      }
+    ]
+  },
+  "nation_distribution": {
+    "north_american_native": 370,
+    "greek": 304,
+    "german": 277,
+    "french": 168,
+    "indian": 130,
+    "english": 120,
+    "italian": 105,
+    "chinese": 101,
+    "japanese": 88,
+    "nordic": 85,
+    "russian": 80,
+    "philippine": 73,
+    "scandinavian": 72,
+    "irish": 60,
+    "portuguese": 55,
+    "danish": 51,
+    "australian_ethnic": 49,
+    "czechoslovak": 46,
+    "slavic": 44,
+    "scottish": 43,
+    "arabic": 41,
+    "celtic": 40,
+    "nigerian": 39,
+    "armenian": 31,
+    "brazilian": 31,
+    "swedish": 31,
+    "ukrainian": 27,
+    "norwegian": 26,
+    "albanian": 25,
+    "polish": 24,
+    "south_african": 24,
+    "dutch": 22,
+    "romanian": 18,
+    "welsh": 18,
+    "hungarian": 17,
+    "serbian": 17,
+    "finnish": 16,
+    "turkish": 16,
+    "icelandic": 14,
+    "canadian_native": 13,
+    "spanish": 13,
+    "croatian": 11,
+    "korean": 11,
+    "belgian": 10,
+    "bulgarian": 10,
+    "maori": 10,
+    "tanzanian": 10,
+    "estonian": 9,
+    "new_zealand_native": 7,
+    "sami": 7,
+    "": 6,
+    "pakistani": 6,
+    "hawaiian": 5,
+    "jewish": 5,
+    "bukovinian": 3,
+    "zimbabwe": 2,
+    "cataloanian": 1,
+    "lithuanian": 1
+  },
+  "unique_nations_count": 58,
+  "domain_distribution": {
+    "fairytalez.com": 2903,
+    "www.albanianliterature.net": 25,
+    "www.worldoftales.com": 10
+  },
+  "malformed_urls_count": 0,
+  "malformed_urls": [],
+  "duplicate_titles_count": 42,
+  "duplicate_titles_sample": [
+    {
+      "title": "the widow's son",
+      "count": 2,
+      "nations": [
+        "norwegian",
+        "armenian"
+      ]
+    },
+    {
+      "title": "the tongue-cut sparrow",
+      "count": 2,
+      "nations": [
+        "japanese"
+      ]
+    },
+    {
+      "title": "the three dogs",
+      "count": 3,
+      "nations": [
+        "scandinavian",
+        "german",
+        "swedish"
+      ]
+    },
+    {
+      "title": "the boy and the filberts",
+      "count": 2,
+      "nations": [
+        "greek"
+      ]
+    },
+    {
+      "title": "the farmer and the money-lender",
+      "count": 2,
+      "nations": [
+        "indian"
+      ]
+    },
+    {
+      "title": "the hut in the forest",
+      "count": 2,
+      "nations": [
+        "german",
+        "russian"
+      ]
+    },
+    {
+      "title": "black bull of norroway",
+      "count": 2,
+      "nations": [
+        "scottish",
+        "english"
+      ]
+    },
+    {
+      "title": "the magic ring",
+      "count": 3,
+      "nations": [
+        "english",
+        "armenian"
+      ]
+    },
+    {
+      "title": "the tiger, the brahman and the jackal",
+      "count": 2,
+      "nations": [
+        "indian"
+      ]
+    },
+    {
+      "title": "the golden goose",
+      "count": 2,
+      "nations": [
+        "german"
+      ]
+    }
+  ],
+  "exact_duplicates_count": 3,
+  "exact_duplicates": [
+    {
+      "row_indices": [
+        421,
+        2797
+      ],
+      "titles": [
+        "The Weeoonibeens and the Piggiebillah",
+        "The Weeoonibeens and the Piggiebillah"
+      ],
+      "nations": [
+        "australian_ethnic",
+        "australian_ethnic"
+      ],
+      "sources": [
+        "https://fairytalez.com/weeoonibeens-piggiebillah/",
+        "https://fairytalez.com/the-weeoonibeens-and-the-piggiebillah/"
+      ],
+      "character_length": 6477
+    },
+    {
+      "row_indices": [
+        1455,
+        2317
+      ],
+      "titles": [
+        "The Passing of Loku",
+        "The Passing of Loku"
+      ],
+      "nations": [
+        "philippine",
+        "philippine"
+      ],
+      "sources": [
+        "https://fairytalez.com/the-passing-of-loku-2/",
+        "https://fairytalez.com/the-passing-of-loku/"
+      ],
+      "character_length": 2005
+    },
+    {
+      "row_indices": [
+        2544,
+        2816
+      ],
+      "titles": [
+        "The Three Sisters",
+        "The Three Sisters"
+      ],
+      "nations": [
+        "italian",
+        "italian"
+      ],
+      "sources": [
+        "https://fairytalez.com/the-three-sisters/",
+        "https://fairytalez.com/the-three-sisters-2/"
+      ],
+      "character_length": 10102
+    }
+  ],
+  "near_duplicates_count": 15,
+  "near_duplicates": [
+    {
+      "detection_method": "same_title_high_jaccard",
+      "row_indices": [
+        177,
+        1681
+      ],
+      "titles": [
+        "The Farmer and the Money-Lender",
+        "The Farmer and the Money-Lender"
+      ],
+      "nations": [
+        "indian",
+        "indian"
+      ],
+      "sources": [
+        "https://fairytalez.com/the-farmer-and-the-money-lender-2/",
+        "https://fairytalez.com/the-farmer-and-the-money-lender/"
+      ],
+      "jaccard_similarity": 0.9618,
+      "is_exact_match": false
+    },
+    {
+      "detection_method": "same_title_high_jaccard",
+      "row_indices": [
+        205,
+        916
+      ],
+      "titles": [
+        "Black Bull of Norroway",
+        "Black Bull of Norroway"
+      ],
+      "nations": [
+        "scottish",
+        "english"
+      ],
+      "sources": [
+        "https://fairytalez.com/black-bull-of-norroway-2/",
+        "https://fairytalez.com/black-bull-of-norroway/"
+      ],
+      "jaccard_similarity": 0.9659,
+      "is_exact_match": false
+    },
+    {
+      "detection_method": "normalized_prefix_suffix_signature",
+      "row_indices": [
+        300,
+        1182
+      ],
+      "titles": [
+        "The Magic Ring",
+        "The Magic Ring"
+      ],
+      "nations": [
+        "english",
+        "english"
+      ],
+      "sources": [
+        "https://fairytalez.com/the-magic-ring/",
+        "https://fairytalez.com/the-magic-ring-2/"
+      ],
+      "jaccard_similarity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "detection_method": "same_title_high_jaccard",
+      "row_indices": [
+        304,
+        1281
+      ],
+      "titles": [
+        "The Tiger, the Brahman and the Jackal",
+        "The Tiger, the Brahman and the Jackal"
+      ],
+      "nations": [
+        "indian",
+        "indian"
+      ],
+      "sources": [
+        "https://fairytalez.com/the-tiger-the-brahman-and-the-jackal/",
+        "https://fairytalez.com/the-tiger-the-brahman-and-the-jackal-2/"
+      ],
+      "jaccard_similarity": 0.9638,
+      "is_exact_match": false
+    },
+    {
+      "detection_method": "normalized_prefix_suffix_signature",
+      "row_indices": [
+        421,
+        2797
+      ],
+      "titles": [
+        "The Weeoonibeens and the Piggiebillah",
+        "The Weeoonibeens and the Piggiebillah"
+      ],
+      "nations": [
+        "australian_ethnic",
+        "australian_ethnic"
+      ],
+      "sources": [
+        "https://fairytalez.com/weeoonibeens-piggiebillah/",
+        "https://fairytalez.com/the-weeoonibeens-and-the-piggiebillah/"
+      ],
+      "jaccard_similarity": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "detection_method": "normalized_prefix_suffix_signature",
+      "row_indices": [
+        451,
+        1109
+      ],
+      "titles": [
+        "Wise Folks",
+        "Wise Folks"
+      ],
+      "nations": [
+        "german",
+        "german"
+      ],
+      "sources": [
+        "https://fairytalez.com/wise-folks/",
+        "https://fairytalez.com/wise-folks-2/"
+      ],
+      "jaccard_similarity": 0.9977,
+      "is_exact_match": false
+    },
+    {
+      "detection_method": "normalized_prefix_suffix_signature",
+      "row_indices": [
+        883,
+        2231
+      ],
+      "titles": [
+        "The Three Brothers",
+        "The Wonderful Bird"
+      ],
+      "nations": [
+        "serbian",
+        "serbian"
+      ],
+      "sources": [
+        "https://fairytalez.com/the-three-brothers-2/",
+        "https://fairytalez.com/the-wonderful-bird-2/"
+      ],
+      "jaccard_similarity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "detection_method": "same_title_high_jaccard",
+      "row_indices": [
+        1038,
+        1082
+      ],
+      "titles": [
+        "The Old Woman in the Wood",
+        "The Old Woman in the Wood"
+      ],
+      "nations": [
+        "german",
+        "german"
+      ],
+      "sources": [
+        "https://fairytalez.com/the-old-woman-in-the-wood-2/",
+        "https://fairytalez.com/the-old-woman-in-the-wood/"
+      ],
+      "jaccard_similarity": 0.9934,
+      "is_exact_match": false
+    },
+    {
+      "detection_method": "normalized_prefix_suffix_signature",
+      "row_indices": [
+        1173,
+        2507
+      ],
+      "titles": [
+        "The Priest's Supper",
+        "The Priest"
+      ],
+      "nations": [
+        "irish",
+        "irish"
+      ],
+      "sources": [
+        "https://fairytalez.com/the-priests-supper/",
+        "https://fairytalez.com/the-priest/"
+      ],
+      "jaccard_similarity": 0.9978,
+      "is_exact_match": false
+    },
+    {
+      "detection_method": "normalized_prefix_suffix_signature",
+      "row_indices": [
+        1384,
+        2785
+      ],
+      "titles": [
+        "The Lambikin",
+        "The Lambikin"
+      ],
+      "nations": [
+        "indian",
+        "indian"
+      ],
+      "sources": [
+        "https://fairytalez.com/the-lambikin-2/",
+        "https://fairytalez.com/the-lambikin/"
+      ],
+      "jaccard_similarity": 0.9369,
+      "is_exact_match": false
+    },
+    {
+      "detection_method": "normalized_prefix_suffix_signature",
+      "row_indices": [
+        1455,
+        2317
+      ],
+      "titles": [
+        "The Passing of Loku",
+        "The Passing of Loku"
+      ],
+      "nations": [
+        "philippine",
+        "philippine"
+      ],
+      "sources": [
+        "https://fairytalez.com/the-passing-of-loku-2/",
+        "https://fairytalez.com/the-passing-of-loku/"
+      ],
+      "jaccard_similarity": 1.0,
+      "is_exact_match": true
+    },
+    {
+      "detection_method": "same_title_high_jaccard",
+      "row_indices": [
+        1522,
+        2652
+      ],
+      "titles": [
+        "The Tobacco of Harisaboqued",
+        "The Tobacco of Harisaboqued"
+      ],
+      "nations": [
+        "philippine",
+        "philippine"
+      ],
+      "sources": [
+        "https://fairytalez.com/the-tobacco-of-harisaboqued/",
+        "https://fairytalez.com/the-tobacco-of-harisaboqued-2/"
+      ],
+      "jaccard_similarity": 0.9913,
+      "is_exact_match": false
+    },
+    {
+      "detection_method": "normalized_prefix_suffix_signature",
+      "row_indices": [
+        1598,
+        2253
+      ],
+      "titles": [
+        "The Dragon's Tail",
+        "The Dragon's Tail"
+      ],
+      "nations": [
+        "german",
+        "german"
+      ],
+      "sources": [
+        "https://fairytalez.com/the-dragons-tail/",
+        "https://fairytalez.com/the-dragons-tail-2/"
+      ],
+      "jaccard_similarity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "detection_method": "normalized_prefix_suffix_signature",
+      "row_indices": [
+        2212,
+        2457
+      ],
+      "titles": [
+        "Fitcher's Bird",
+        "Fitcher's Bird"
+      ],
+      "nations": [
+        "german",
+        "german"
+      ],
+      "sources": [
+        "https://fairytalez.com/fitchers-bird/",
+        "https://fairytalez.com/fitchers-bird-2/"
+      ],
+      "jaccard_similarity": 0.9636,
+      "is_exact_match": false
+    },
+    {
+      "detection_method": "normalized_prefix_suffix_signature",
+      "row_indices": [
+        2544,
+        2816
+      ],
+      "titles": [
+        "The Three Sisters",
+        "The Three Sisters"
+      ],
+      "nations": [
+        "italian",
+        "italian"
+      ],
+      "sources": [
+        "https://fairytalez.com/the-three-sisters/",
+        "https://fairytalez.com/the-three-sisters-2/"
+      ],
+      "jaccard_similarity": 1.0,
+      "is_exact_match": true
+    }
+  ],
+  "text_length_statistics": {
+    "min_char_length": 130,
+    "max_char_length": 106121,
+    "avg_char_length": 9030.47,
+    "min_word_count": 20,
+    "max_word_count": 19215,
+    "avg_word_count": 1690.1,
+    "empty_text_count": 0,
+    "short_text_count": 6,
+    "long_text_count": 1
+  },
+  "short_texts_sample": [
+    {
+      "row_index": 146,
+      "title": "The Shepherd",
+      "nation": "italian",
+      "word_count": 49,
+      "char_length": 232
+    },
+    {
+      "row_index": 425,
+      "title": "The Pomegranate, Apple-Tree, and Bramble",
+      "nation": "greek",
+      "word_count": 49,
+      "char_length": 282
+    },
+    {
+      "row_index": 1214,
+      "title": "The Dog and the Oyster",
+      "nation": "greek",
+      "word_count": 31,
+      "char_length": 162
+    },
+    {
+      "row_index": 1237,
+      "title": "The Dancing Water, the Singing Apple and the Speaking Bird",
+      "nation": "italian",
+      "word_count": 20,
+      "char_length": 130
+    },
+    {
+      "row_index": 1439,
+      "title": "The Moon and Her Mother",
+      "nation": "greek",
+      "word_count": 48,
+      "char_length": 227
+    },
+    {
+      "row_index": 1769,
+      "title": "The Dog and the Sow",
+      "nation": "greek",
+      "word_count": 46,
+      "char_length": 228
+    }
+  ],
+  "long_texts_sample": [
+    {
+      "row_index": 54,
+      "title": "The Ice Maiden",
+      "nation": "danish",
+      "word_count": 19215,
+      "char_length": 106121
+    }
+  ],
+  "rights_assessment": {
+    "status": "needs_rights_review",
+    "findings": [
+      "2,903 of 2,938 records (98.8%) originate from fairytalez.com, which retains copyright over its site presentation and editorial adaptations.",
+      "25 records originate from albanianliterature.net (Robert Elsie collection) with specific translation/editorial copyright.",
+      "10 records originate from worldoftales.com with site-specific compilation copyright.",
+      "Underlying folk tales are traditional cultural heritage, but specific English translations, editorial adaptations, and digital compilations cannot be presumed public domain without source anthology verification.",
+      "Public web accessibility does NOT grant license to redistribute full story bodies in KathaYantra's published dataset or public API.",
+      "Recommendation: Treat raw CSV as restricted research input. Ingest only bibliographic metadata and write original verified summaries for published archive entries."
+    ]
+  }
+}

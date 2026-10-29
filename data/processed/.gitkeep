@@ -1,0 +1,2 @@
+# Keep data/processed directory in version control.
+# Processed staging files are excluded from git.
