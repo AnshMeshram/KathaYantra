@@ -118,3 +118,4 @@ The retrieval architecture is engineered to accommodate local vector embeddings 
 1. **Non-Breaking Extension:** Lexical search remains the default and always functions even if no embedding model is installed.
 2. **Local Model Only:** Any future embedding runner must use locally hosted models via Ollama (e.g. `nomic-embed-text`), never third-party cloud vector services.
 3. **Hybrid RRF Ranking:** Lexical BM25 and vector cosine similarity are blended via Reciprocal Rank Fusion to ensure exact name matches never get buried.
+

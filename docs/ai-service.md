@@ -207,3 +207,4 @@ Prompt templates are version-controlled in [`app/prompts/`](file:///C:/Users/shr
 2. **Instruction Neutralization:** The archivist prompt explicitly commands the model to treat any directives inside retrieved records as historical story dialogue, never as system instructions.
 3. **Input Sanitization:** User questions are bounded to `AI_MAX_INPUT_CHARS` (1000 characters) and stripped of illegal control characters.
 4. **Citation Isolation:** Citations returned in the JSON payload are extracted strictly from trusted metadata by backend code, rendering model-hallucinated URLs completely inert.
+

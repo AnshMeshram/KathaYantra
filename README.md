@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Pydantic v2](https://img.shields.io/badge/Pydantic-v2.10-E92063?style=flat-square&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
-[![Pytest](https://img.shields.io/badge/Tests-142%20Passed%20(100%25)-success?style=flat-square&logo=pytest&logoColor=white)](tests/)
+[![Pytest](https://img.shields.io/badge/Tests-154%20Passed%20(100%25)-success?style=flat-square&logo=pytest&logoColor=white)](tests/)
 [![Local AI](https://img.shields.io/badge/Local%20AI-Ollama%20%2B%20Gemma%202%20(9.2B)-FF6F00?style=flat-square&logo=google&logoColor=white)](https://ollama.ai/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Target Scope](https://img.shields.io/badge/Scope-15%20Countries%20%7C%20300%20Verified%20Stories%20(100%25%20Met)-blueviolet?style=flat-square)](#-target-country-matrix)
@@ -40,6 +40,7 @@
 - [Verification & Test Results](#-verification--test-results)
 - [API Reference](#-api-reference)
 - [Local AI Integration Blueprint](#-local-ai-integration-blueprint)
+- [Documentation Directory](#-documentation-directory)
 - [Contributing & Community Guidelines](#-contributing--community-guidelines)
 - [License](#-license)
 
@@ -56,7 +57,7 @@ Unlike commercial scrapers or black-box generative bots, KathaYantra is engineer
 3. **Transparent Source Tracking:** Every narrative links back to an inspectable physical publication, national archive, or open academic database.
 4. **Local-First Open-Weight AI:** An integrated local archivist running locally via **Ollama + Gemma 2**, assisting users in discovering comparative themes across cultures without inventing sources, fabricating legends, or sending data to third-party cloud APIs.
 
-> **Phase 5 Milestone:** Introduces the **Local AI Archivist, SQLite FTS5 Lexical Retrieval Engine with BM25 Ranking, Evidence-Grounded Q&A, Multi-Story Comparative Analysis, and Isolated Creative Fiction Generation**. All factual inquiries are strictly grounded in the 300 verified stories, with citations attached from trusted metadata. Fiction generation is strictly segregated into `GeneratedFictionRecord` models and quarantined from authentic folklore datasets. Features real-time Ollama diagnostics (`GET /api/v1/health/ollama`) and full offline resilience. Validated with **142 passing tests** across 37 test suites and confirmed via live local Gemma 2 9.2B inference.
+> **Final Release (Phase 6 Complete):** Exposes the complete versioned REST API (`/api/v1`) for countries, folklore, urban legends, unified stories, sources, search, dataset governance, and local AI. Features high-performance in-memory repository caching, SQLite FTS5 search with BM25 ranking, defensive security headers, structured exception handling, and full offline resilience. Validated with **154 passing tests** across 38 test suites and confirmed via live local Gemma 2 9.2B inference. Ready for frontend consumption!
 
 ---
 
@@ -519,7 +520,7 @@ python scripts/audit_ai_source_readiness.py
 ```bash
 python -m pytest -v
 ```
-*All 142 unit and integration tests across 37 test modules run offline with a 100% pass rate.*
+*All 154 unit and integration tests across 38 test modules run offline with a 100% pass rate.*
 
 ### 10. Launch the Development Server
 ```bash
@@ -531,10 +532,11 @@ Server is live at: `http://127.0.0.1:8000`
 
 ## ✅ Verification & Test Results
 
-The KathaYantra test suite covers all Phase 1 foundations, Phase 2 data governance invariants, Phase 3 API connector integrations, Phase 4 curatorial dataset population, and Phase 5 Local AI Archivist capabilities (142 passing tests across 37 test suites):
+The KathaYantra test suite covers all Phase 1 foundations, Phase 2 data governance invariants, Phase 3 API connector integrations, Phase 4 curatorial dataset population, Phase 5 Local AI Archivist capabilities, and Phase 6 REST API endpoints (154 passing tests across 38 test suites):
 
 | Test Module | Scope / Target Tested | Test Count | Status |
 |---|---|:---:|:---:|
+| `test_api_v1_routes.py` | Complete REST API: countries, folklore, urban legends, stories, search, sources, dataset quality | 12 | **PASS** |
 | `test_ai_routes.py` | AI API endpoints (`/ai/ask`, `/ai/compare`, `/ai/generate-story`, `/ai/health`) | 5 | **PASS** |
 | `test_ai_security.py` | Prompt injection resilience, secret protection, offline fallback safety | 2 | **PASS** |
 | `test_app.py` | FastAPI application lifecycle, CORS middleware, and health route probe | 3 | **PASS** |
@@ -572,15 +574,58 @@ The KathaYantra test suite covers all Phase 1 foundations, Phase 2 data governan
 | `test_story_comparison.py` | Cross-cultural story comparison, motif analysis, transmission caution | 3 | **PASS** |
 | `test_story_schema_phase2.py` | StoryRecord v2.0.0: ID prefix matching, AI fiction rejection, length constraints | 5 | **PASS** |
 | `test_wikidata_integration.py` | Wikidata SPARQL endpoint, QID extraction, CC0 public domain metadata | 3 | **PASS** |
-| **Total** | **37 Test Suites Covering Phases 1, 2, 3, 4 & 5** | **142** | **ALL PASS** |
+| **Total** | **38 Test Suites Covering Phases 1 Through 6** | **154** | **ALL PASS** |
 
 ---
 
 ## ⚡ API Reference
 
-### Health & Readiness Probes
-- `GET /api/v1/health`: Returns overall system health, dataset counts, and AI availability.
-- `GET /api/v1/health/ollama`: Dedicated real-time diagnostic probe for Ollama daemon and model readiness.
+### Complete Endpoint Directory
+The complete API reference is documented in [`docs/api-reference.md`](docs/api-reference.md).
+
+#### 1. System & Health
+- `GET /`: Root application metadata and documentation links.
+- `GET /api/v1/health`: Overall system readiness and dataset metrics.
+- `GET /api/v1/health/ollama`: Dedicated real-time diagnostic probe for Ollama daemon.
+
+#### 2. Target Countries (`/api/v1/countries`)
+- `GET /api/v1/countries`: List all 15 supported target countries with pagination.
+- `GET /api/v1/countries/{country_code}`: Single country profile and cultural context.
+- `GET /api/v1/countries/{country_code}/stats`: Published counts, target quotas, and gap analysis.
+- `GET /api/v1/countries/{country_code}/stories`: Filter stories for a country (category, motif, language, pagination).
+
+#### 3. Folklore Archive (`/api/v1/folklore`)
+- `GET /api/v1/folklore`: List and filter verified traditional folklore narratives.
+- `GET /api/v1/folklore/{story_id}`: Detail view for an authentic folklore narrative.
+
+#### 4. Urban Legends Archive (`/api/v1/urban-legends`)
+- `GET /api/v1/urban-legends`: List and filter documented modern urban legends.
+- `GET /api/v1/urban-legends/{story_id}`: Detail view for a contemporary urban legend.
+
+#### 5. Unified Stories & Provenance (`/api/v1/stories`)
+- `GET /api/v1/stories/{story_id}`: Unified story resolver (folklore or urban legend).
+- `GET /api/v1/stories/{story_id}/sources`: Real bibliographic citations extracted from stored metadata.
+- `GET /api/v1/stories/{story_id}/related`: Curated and motif-based related story discovery.
+
+#### 6. Search & Autocomplete (`/api/v1/search`)
+- `GET /api/v1/search`: High-precision catalogue search over titles, alternate names, summaries, and motifs.
+- `GET /api/v1/search/suggest`: Bounded autocomplete suggestions for search query prefixes.
+
+#### 7. Source Registries (`/api/v1/sources`)
+- `GET /api/v1/sources`: Directory of 17 registered external repositories and open APIs.
+- `GET /api/v1/sources/{source_id}`: Detail view for a specific source registry entry.
+
+#### 8. Dataset Governance (`/api/v1/dataset`)
+- `GET /api/v1/dataset/manifest`: Real-time computed dataset manifest.
+- `GET /api/v1/dataset/coverage`: Country-by-country and category-by-category quota coverage report.
+- `GET /api/v1/dataset/quality`: Seed file integrity, candidate staging counts, and retrieval index metrics.
+- `GET /api/v1/dataset/quality/source-readiness`: Audit confirming 100% readiness for AI retrieval.
+
+#### 9. Local AI Archivist (`/api/v1/ai`)
+- `GET /api/v1/ai/health`: AI subsystem and FTS5 retrieval status.
+- `POST /api/v1/ai/ask`: Grounded question answering (RAG) using SQLite FTS5 and local Gemma 2.
+- `POST /api/v1/ai/compare`: Cross-cultural story comparison analyzing shared motifs.
+- `POST /api/v1/ai/generate-story`: Quarantined creative fiction generation with mandatory disclaimers.
 
 ```bash
 curl http://127.0.0.1:8000/api/v1/health/ollama
@@ -724,6 +769,29 @@ sequenceDiagram
 
 - **Environment Config:** Configurable via `OLLAMA_BASE_URL` (default: `http://127.0.0.1:11434`) and `OLLAMA_MODEL` (default: `gemma2`).
 - **Zero Hallucination Guarantee:** The LLM receives curated story records as grounded context. If a tradition is unverified or absent from the archive, the AI explicitly states that no documented record exists rather than inventing lore.
+
+---
+
+## 📚 Documentation Directory
+
+The `docs/` directory contains complete technical references, operational runbooks, and audit reports:
+
+| Document | Purpose / Target Audience |
+|---|---|
+| [`docs/api-reference.md`](docs/api-reference.md) | Exhaustive REST API contract reference for all 26 endpoints, models, parameters, and error codes |
+| [`docs/architecture.md`](docs/architecture.md) | Multi-tier system architecture diagrams, data pipelines, and offline resilience |
+| [`docs/security-review.md`](docs/security-review.md) | Security, privacy, resource bounding, CORS, and prompt injection audit |
+| [`docs/testing-guide.md`](docs/testing-guide.md) | Testing instructions, offline mocking strategy, and 38-suite test matrix |
+| [`docs/deployment-guide.md`](docs/deployment-guide.md) | Local and production deployment guide (systemd, reverse proxy, Ollama tuning) |
+| [`docs/dataset-quality.md`](docs/dataset-quality.md) | Quality assurance, 17-point checks, 10 publication gates, and quota coverage |
+| [`docs/data-schema.md`](docs/data-schema.md) | Pydantic v2 schemas and JSON Schema Draft 2020-12 specifications |
+| [`docs/licensing-policy.md`](docs/licensing-policy.md) | Copyright policy, rights assessment, provenance tracking, and AI disclaimer rules |
+| [`docs/ai-service.md`](docs/ai-service.md) | Local AI archivist architecture, RAG grounding, prompts, and failure handling |
+| [`docs/retrieval-architecture.md`](docs/retrieval-architecture.md) | SQLite FTS5 search engine, BM25 scoring, and index build mechanics |
+| [`docs/model-configuration.md`](docs/model-configuration.md) | Ollama daemon configuration, Gemma 2 9.2B hardware requirements, and timeouts |
+| [`docs/ai-source-readiness-report.md`](docs/ai-source-readiness-report.md) | Audit report confirming 100% readiness of the 300 stories for RAG retrieval |
+| [`docs/release-checklist.md`](docs/release-checklist.md) | Pre-release verification checklist and sign-off criteria |
+| [`docs/final-implementation-report.md`](docs/final-implementation-report.md) | Comprehensive implementation and audit report for final project sign-off |
 
 ---
 

@@ -1,6 +1,6 @@
 # KathaYantra — AI Source-Readiness and Provenance Audit Report
 
-**Audit Generated:** `2026-10-29T11:43:19.944404+00:00`  
+**Audit Generated:** `2026-10-29T12:06:01.565870+00:00`  
 **Total Records Audited:** 300  
 **Accepted for AI Retrieval:** 300 / 300 (100.0%)  
 **Flagged Records:** 0  

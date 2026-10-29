@@ -96,3 +96,4 @@ If Ollama is stopped or unavailable, KathaYantra continues to operate gracefully
 - **Dataset Browsing & Search:** SQLite FTS5 search continues working with 100% functionality.
 - **Archival Inquiries:** `POST /api/v1/ai/ask` returns `AIAnswerType.MODEL_UNAVAILABLE`, accompanied by the deterministic list of matching story records and authentic bibliographic citations.
 - **Backend Health:** `GET /api/v1/health` remains `status: ok` and honestly reports `ollama_available: false`.
+
