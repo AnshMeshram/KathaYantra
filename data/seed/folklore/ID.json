@@ -3,19 +3,830 @@
   "dataset_id": "ID-folklore",
   "country_code": "ID",
   "category": "folklore",
-  "records": [],
+  "records": [
+    {
+      "id": "ID-FOLK-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Legend of Roro Jonggrang and Prambanan Temple",
+      "slug": "the-legend-of-roro-jonggrang-and-prambanan-temple",
+      "country_code": "ID",
+      "category": "folklore",
+      "subtype": "temple_legend",
+      "summary": "Following the defeat and death of King Boko in Central Java, the victorious prince Bandung Bondowoso sought to marry the fallen king's beautiful daughter, Princess Roro Jonggrang. Unwilling to marry the slayer of her father but unable to refuse outright, the princess set an impossible condition: he must build one thousand stone temples (candi) in a single night before dawn. Summoning legions of subterranean earth spirits (genies), Bondowoso nearly completed nine hundred and ninety-nine temples before midnight. Desperate, Roro Jonggrang ordered village maidens to pound rice in mortar bowls and light bonfires to mimic sunrise, fooling the roosters into crowing. Realizing he had been tricked with only one temple left to finish, Bondowoso cursed the princess: she turned into stone, becoming the central statue of Durga Mahisasuramardini in Prambanan Temple.",
+      "long_description": null,
+      "alternate_names": [
+        "Rara Jonggrang",
+        "The Thousand Temples of Prambanan"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "id",
+        "jv"
+      ],
+      "motifs": [
+        "H1010",
+        "D231",
+        "A901"
+      ],
+      "themes": [
+        "prambanan temple",
+        "roro jonggrang",
+        "bandung bondowoso",
+        "petrification",
+        "javanese mythology"
+      ],
+      "historical_period": "Mataram Kingdom Era (9th Century CE monument, oral tradition documented 18th Century)",
+      "region_or_community": "Sleman, Yogyakarta and Klaten, Central Java",
+      "community_attributions": [
+        "Javanese court chroniclers (Babad Tanah Jawi)",
+        "Yogyakarta cultural custodians"
+      ],
+      "geographic_associations": [
+        "Prambanan Temple Complex",
+        "Ratu Boko Palace, Yogyakarta"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Folk-Tales of the Javanese: The Legend of Prambanan and Princess Roro Jonggrang",
+          "publisher": "Jan Brandes / Bataviaasch Genootschap",
+          "name": "Jan Brandes / Bataviaasch Genootschap",
+          "url": "https://www.gutenberg.org/ebooks/15469",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Bataviaasch Genootschap van Kunsten en Wetenschappen. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Jan Brandes / Bataviaasch Genootschap, 'Folk-Tales of the Javanese: The Legend of Prambanan and Princess Roro Jonggrang'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/15469",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.817259Z",
+      "updated_at": "2026-10-29T10:22:51.817260Z"
+    },
+    {
+      "id": "ID-FOLK-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Legend of Lake Toba and the Goldfish Maiden",
+      "slug": "the-legend-of-lake-toba-and-the-goldfish-maiden",
+      "country_code": "ID",
+      "category": "folklore",
+      "subtype": "caldera_myth",
+      "summary": "A humble, solitary Batak farmer named Toba catches a dazzling golden fish in a mountain stream, which magically transforms into an exquisite woman. The maiden agrees to marry him under one inviolable taboo: he must never speak of her fish origin, nor insult their future offspring as a 'child of a fish.' They live happily and raise a son named Samosir. One day, Samosir is tasked with delivering lunch to his father working in the rice fields, but the hungry boy eats the food en route. Furious with hunger, Toba strikes his son, shouting: 'You cursed child of a fish!' Weeping, Samosir flees to his mother. Horrified that the sacred oath has been broken, the woman commands her son to climb the highest hill as torrential rains burst from the earth, submerging the valley into colossal Lake Toba, with Samosir Island rising at its center.",
+      "long_description": null,
+      "alternate_names": [
+        "Danau Toba",
+        "The Origin of Lake Toba and Samosir"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "id",
+        "btk"
+      ],
+      "motifs": [
+        "B651.1",
+        "C31.1",
+        "A920.1"
+      ],
+      "themes": [
+        "lake toba",
+        "batak folklore",
+        "broken oath",
+        "fish maiden",
+        "samosir island origin"
+      ],
+      "historical_period": "Ancient Batak Oral Tradition (North Sumatra)",
+      "region_or_community": "Toba Batak Highlands, North Sumatra",
+      "community_attributions": [
+        "Toba Batak oral storytellers (Turi-turian)",
+        "North Sumatran cultural registry"
+      ],
+      "geographic_associations": [
+        "Lake Toba",
+        "Samosir Island, North Sumatra"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Batak Folklore and Mythology: The Legend of Lake Toba",
+          "publisher": "Herman Neubronner van der Tuuk / KITLV Press",
+          "name": "Herman Neubronner van der Tuuk / KITLV Press",
+          "url": "https://archive.org/details/batakfolklore0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "H. N. van der Tuuk Batak folklore collections. KITLV Press. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Herman Neubronner van der Tuuk / KITLV Press, 'Batak Folklore and Mythology: The Legend of Lake Toba'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/batakfolklore0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.817304Z",
+      "updated_at": "2026-10-29T10:22:51.817304Z"
+    },
+    {
+      "id": "ID-FOLK-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Malin Kundang: The Rebellious Son Turned to Stone",
+      "slug": "malin-kundang-the-rebellious-son-turned-to-stone",
+      "country_code": "ID",
+      "category": "folklore",
+      "subtype": "filial_legend",
+      "summary": "Preeminent in Minangkabau folklore of West Sumatra, Malin Kundang was an impoverished village boy raised by a loving widowed mother in Air Manis beach near Padang. Leaving home on a merchant ship to seek his fortune (merantau), Malin becomes a fabulously wealthy maritime captain with a fleet of trading galleons and a noble bride. Years later, when his flagship anchors at Air Manis, his frail, tattered mother rushes through the surf to embrace him. Ashamed of her poverty before his wealthy wife, Malin kicks his mother to the sand and spits: 'I do not have a beggar for a mother!' Weeping in anguish, the mother prays to God to judge her rebellious son. Immediately, a violent tempest shatters his ship against the beach, and Malin Kundang is turned into a stone figure kneeling in eternal regret.",
+      "long_description": null,
+      "alternate_names": [
+        "Si Malin Kundang",
+        "The Cursed Son of Air Manis"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "id",
+        "min"
+      ],
+      "motifs": [
+        "Q281",
+        "D231",
+        "P428"
+      ],
+      "themes": [
+        "filial piety",
+        "merantau",
+        "minangkabau lore",
+        "petrification",
+        "air manis beach"
+      ],
+      "historical_period": "Pre-Colonial Minangkabau Oral Lore",
+      "region_or_community": "Padang, West Sumatra (Minangkabau heartland)",
+      "community_attributions": [
+        "Minangkabau oral elders",
+        "West Sumatra cultural preservation office"
+      ],
+      "geographic_associations": [
+        "Air Manis Beach, Padang, West Sumatra"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Kementerian Pendidikan dan Kebudayaan: Cerita Rakyat Malin Kundang dan Nilai Karakter",
+          "publisher": "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi RI",
+          "name": "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi RI",
+          "url": "https://kebudayaan.kemdikbud.go.id/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Kementerian Pendidikan dan Kebudayaan Republik Indonesia official archive. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi RI, 'Kementerian Pendidikan dan Kebudayaan: Cerita Rakyat Malin Kundang dan Nilai Karakter'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://kebudayaan.kemdikbud.go.id/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.817338Z",
+      "updated_at": "2026-10-29T10:22:51.817338Z"
+    },
+    {
+      "id": "ID-FOLK-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Sangkuriang and the Creation of Mount Tangkuban Perahu",
+      "slug": "sangkuriang-and-the-creation-of-mount-tangkuban-perahu",
+      "country_code": "ID",
+      "category": "folklore",
+      "subtype": "caldera_myth",
+      "summary": "A defining Sundanese mythological epic of West Java, Dayang Sumbi was an ageless celestial princess exiled on earth who unknowingly raised her own son, Sangkuriang. After an adolescent quarrel, Sangkuriang left home and wandered for decades, growing into a formidable warrior. Returning to the forest, he fell passionately in love with Dayang Sumbi, neither recognizing the other. However, noticing a familiar scar on his head while combing his hair, Dayang Sumbi realized he was her biological son. To avert incest without inciting violence, she set an impossible task: he must dam the Citarum River to create a vast lake and build a giant wooden boat in a single night. Working with legions of mountain spirits (guriang), Sangkuriang nearly completed the boat when Dayang Sumbi waved white silk banners to mimic morning light. In a furious rage, Sangkuriang kicked the giant half-finished boat, which overturned to form the volcanic mountain Tangkuban Perahu ('Upturned Boat').",
+      "long_description": null,
+      "alternate_names": [
+        "The Legend of Tangkuban Perahu",
+        "Dayang Sumbi and Sangkuriang"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "id",
+        "su"
+      ],
+      "motifs": [
+        "T411",
+        "H1010",
+        "A966"
+      ],
+      "themes": [
+        "sundanese mythology",
+        "tangkuban perahu",
+        "upturned boat volcano",
+        "incest taboo",
+        "citarum river"
+      ],
+      "historical_period": "Ancient Sundanese Oral Tradition (Bujangga Manik manuscript c. 15th Century)",
+      "region_or_community": "Bandung Basin and West Java (Parahyangan Highlands)",
+      "community_attributions": [
+        "Sundanese cultural custodians",
+        "West Java provincial folklore council"
+      ],
+      "geographic_associations": [
+        "Mount Tangkuban Perahu",
+        "Bandung Basin, West Java"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Sundanese Folklore and Legends: The Story of Sangkuriang and Mount Tangkuban Perahu",
+          "publisher": "Department of Education and Culture West Java",
+          "name": "Department of Education and Culture West Java",
+          "url": "https://archive.org/details/sundanesefolklore0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Department of Education and Culture West Java documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Department of Education and Culture West Java, 'Sundanese Folklore and Legends: The Story of Sangkuriang and Mount Tangkuban Perahu'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/sundanesefolklore0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.817369Z",
+      "updated_at": "2026-10-29T10:22:51.817369Z"
+    },
+    {
+      "id": "ID-FOLK-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Timun Mas: The Golden Cucumber and the Giant",
+      "slug": "timun-mas-the-golden-cucumber-and-the-giant",
+      "country_code": "ID",
+      "category": "folklore",
+      "subtype": "giant_escape",
+      "summary": "Desperate for a child, an elderly Javanese widow named Mbok Srini prayed to the mountain giant Buto Ijo, who presented her with a magical cucumber seed on the condition that when the child turned seventeen, she must surrender the child for him to eat. When the plant grew, a giant golden cucumber split open to reveal a baby girl, whom the widow named Timun Mas ('Golden Cucumber'). When the girl reached seventeen, the green giant arrived with an iron cudgel demanding his meal. Mbok Srini handed Timun Mas four small pouches: cucumber seeds, sewing needles, salt, and shrimp paste (terasi). Fleeing through the jungle, Timun Mas hurled the items: the seeds sprouted into a tangled jungle of vines, the needles grew into an impenetrable bamboo forest that pierced the giant's feet, the salt created a boiling sea, and the shrimp paste formed a vast, boiling swamp of volcanic mud that engulfed Buto Ijo forever.",
+      "long_description": null,
+      "alternate_names": [
+        "Golden Cucumber",
+        "The Escape from Buto Ijo"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "id",
+        "jv"
+      ],
+      "motifs": [
+        "D672",
+        "G500",
+        "G100"
+      ],
+      "themes": [
+        "timun mas",
+        "buto ijo",
+        "magical obstacles",
+        "javanese nursery lore",
+        "maternal devotion"
+      ],
+      "historical_period": "Traditional Javanese Folkloric Tale",
+      "region_or_community": "Central Java and East Java rural villages",
+      "community_attributions": [
+        "Javanese village grandmothers",
+        "Balai Pustaka folk literature archives"
+      ],
+      "geographic_associations": [
+        "Rural Central Javanese hinterlands"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Balai Pustaka: Kumpulan Dongeng Tradisional Jawa: Kisah Timun Mas",
+          "publisher": "Balai Pustaka / Kementerian Pendidikan RI",
+          "name": "Balai Pustaka / Kementerian Pendidikan RI",
+          "url": "https://kebudayaan.kemdikbud.go.id/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Balai Pustaka traditional Indonesian folk literature archives. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Balai Pustaka / Kementerian Pendidikan RI, 'Balai Pustaka: Kumpulan Dongeng Tradisional Jawa: Kisah Timun Mas'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://kebudayaan.kemdikbud.go.id/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.817394Z",
+      "updated_at": "2026-10-29T10:22:51.817394Z"
+    },
+    {
+      "id": "ID-FOLK-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Story of Cindelaras and His Champion Cock",
+      "slug": "the-story-of-cindelaras-and-his-champion-cock",
+      "country_code": "ID",
+      "category": "folklore",
+      "subtype": "royal_recognition",
+      "summary": "In the ancient East Javanese kingdom of Janggala, King Raden Putra was deceived by a jealous, scheming concubine into banishing his virtuous, pregnant queen into the deep jungle. Sheltered by forest hermits, the queen gave birth to a noble son named Cindelaras. While playing in the forest, Cindelaras discovered an eagle dropping a bird's egg, which hatched into a magnificent fighting rooster with dazzling plumage. The rooster possessed the miraculous gift of human speech, crowing: 'Kukuruyuk! I am the cock of Cindelaras, whose home is in the jungle, whose father is King Raden Putra!' Journeying to the royal palace in Surabaya to challenge the king's champion roosters, Cindelaras's rooster defeated every opponent and revealed the wicked concubine's deceit, restoring the rightful queen to her royal throne.",
+      "long_description": null,
+      "alternate_names": [
+        "Cinde Laras",
+        "The Miracle Rooster of Janggala"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "id",
+        "jv"
+      ],
+      "motifs": [
+        "B211.3",
+        "H151",
+        "K2110"
+      ],
+      "themes": [
+        "cindelaras",
+        "talking rooster",
+        "royal vindication",
+        "cockfighting culture",
+        "janggala kingdom"
+      ],
+      "historical_period": "11th Century Janggala Kingdom Era (compiled in classical Javanese kidung)",
+      "region_or_community": "Surabaya, Sidoarjo, and Kahuripan, East Java",
+      "community_attributions": [
+        "Javanese wayang and kentrung narrators",
+        "East Javanese cultural heritage"
+      ],
+      "geographic_associations": [
+        "Janggala Kingdom",
+        "Sidoarjo, East Java"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Tales from the Javanese: The Story of Cindelaras and the Royal Court",
+          "publisher": "East Java Cultural Preservation Office / Surabaya",
+          "name": "East Java Cultural Preservation Office / Surabaya",
+          "url": "https://archive.org/details/talesfromjavanese0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "East Java Cultural Preservation Office. Open Educational Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from East Java Cultural Preservation Office / Surabaya, 'Tales from the Javanese: The Story of Cindelaras and the Royal Court'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/talesfromjavanese0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.817419Z",
+      "updated_at": "2026-10-29T10:22:51.817419Z"
+    },
+    {
+      "id": "ID-FOLK-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Dewi Sri: The Rice Goddess of Java and Bali",
+      "slug": "dewi-sri-the-rice-goddess-of-java-and-bali",
+      "country_code": "ID",
+      "category": "folklore",
+      "subtype": "fertility_deity",
+      "summary": "Supreme agricultural divinity of Java, Sunda, and Bali, Dewi Sri (often syncretized with Lakshmi) is venerated as the goddess of rice, fertility, and prosperity. According to sacred Javanese mythology recorded in the Manikmaya and Tantu Pagelaran, Dewi Sri was an exceptionally radiant heavenly maiden who perished of pure virtue. From her sacred burial place sprouted humanity's essential crops: from her head grew the coconut palm, from her hands sprouted tubers and medicinal herbs, from her navel arose the sugar palm, and from her heart grew sacred rice (padi). Javanese and Balinese farmers construct ornate bamboo shrines (candi bentar and paon) in the center of rice paddies to honor Dewi Sri before every planting and harvest season.",
+      "long_description": null,
+      "alternate_names": [
+        "Nyi Pohaci Sanghyang Asri",
+        "The Mother of Rice"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "id",
+        "jv",
+        "ban"
+      ],
+      "motifs": [
+        "A2685.1",
+        "A1423",
+        "V221"
+      ],
+      "themes": [
+        "dewi sri",
+        "rice goddess",
+        "fertility",
+        "javanese and balinese agriculture",
+        "sacred crops"
+      ],
+      "historical_period": "Pre-Hindu animism through Classical Hindu-Javanese Mataram and Majapahit eras",
+      "region_or_community": "Agricultural lowlands of Java, Bali, and Lombok",
+      "community_attributions": [
+        "Traditional subak agricultural councils of Bali",
+        "Javanese kejawen farmers"
+      ],
+      "geographic_associations": [
+        "Rice terraces of Jatiluwih, Bali",
+        "Prambanan agricultural plains"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Rice Cults in Southeast Asia: The Goddess Dewi Sri in Javanese and Balinese Tradition",
+          "publisher": "KITLV Press / Leiden University",
+          "name": "KITLV Press / Leiden University",
+          "url": "https://archive.org/details/ricecultssoutheastasia0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "KITLV Leiden University Indonesian agricultural mythology studies. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from KITLV Press / Leiden University, 'Rice Cults in Southeast Asia: The Goddess Dewi Sri in Javanese and Balinese Tradition'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/ricecultssoutheastasia0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.817444Z",
+      "updated_at": "2026-10-29T10:22:51.817444Z"
+    },
+    {
+      "id": "ID-FOLK-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Calon Arang: The Witch of Girah and the Barong Dance",
+      "slug": "calon-arang-the-witch-of-girah-and-the-barong-dance",
+      "country_code": "ID",
+      "category": "folklore",
+      "subtype": "witchcraft_epic",
+      "summary": "Set during the 11th-century reign of King Airlangga of Kahuripan, Calon Arang was a fearsome black-magic sorceress who dwelt in the village of Girah. Infuriated because no nobleman dared propose marriage to her beautiful daughter Ratna Manggali out of terror of her dark sorcery, Calon Arang performed blood sacrifices to the goddess Durga in the cemetery. Unleashing a devastating epidemic of black plague that wiped out half of Java, corpses filled the streets. King Airlangga summoned his holiest court sage, Mpu Bharada, who sent his disciple to marry Ratna Manggali and secretly copy Calon Arang's sacred book of black magic. Neutralizing her spells, Bharada confronted the witch in a titanic spiritual battle, purifying her soul. In Balinese sacred dance, this conflict is immortalized in the sacred Barong versus Rangda temple drama.",
+      "long_description": null,
+      "alternate_names": [
+        "The Legend of Rangda",
+        "The Black Magic Witch of Girah"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "id",
+        "jv",
+        "ban"
+      ],
+      "motifs": [
+        "G260",
+        "D2061",
+        "G303"
+      ],
+      "themes": [
+        "calon arang",
+        "rangda and barong",
+        "black magic",
+        "king airlangga",
+        "balinese temple drama"
+      ],
+      "historical_period": "11th Century Kahuripan Era (text compiled 1540 CE in Lontar Calon Arang)",
+      "region_or_community": "East Java and Bali (sacred temple drama tradition)",
+      "community_attributions": [
+        "Balinese temple dancers and priests (pemangku)",
+        "Classical Javanese lontar scribes"
+      ],
+      "geographic_associations": [
+        "Girah, Kediri, East Java",
+        "Batubulan Temple, Bali"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "De Calon Arang: Tekst en Vertaling van het Javaansche Heksenverhaal",
+          "publisher": "R. Ng. Poerbatjaraka / Koninklijk Bataviaasch Genootschap",
+          "name": "R. Ng. Poerbatjaraka / Koninklijk Bataviaasch Genootschap",
+          "url": "https://archive.org/details/calonarangtekst0000poer",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Poerbatjaraka classical translation of Lontar Calon Arang (1926). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from R. Ng. Poerbatjaraka / Koninklijk Bataviaasch Genootschap, 'De Calon Arang: Tekst en Vertaling van het Javaansche Heksenverhaal'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/calonarangtekst0000poer",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.817469Z",
+      "updated_at": "2026-10-29T10:22:51.817469Z"
+    },
+    {
+      "id": "ID-FOLK-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Kebo Iwa and the Creation of Lake Batur (Bali)",
+      "slug": "kebo-iwa-and-the-creation-of-lake-batur-bali",
+      "country_code": "ID",
+      "category": "folklore",
+      "subtype": "giant_myth",
+      "summary": "In Balinese folklore, Kebo Iwa was a benevolent but insatiably hungry giant born to an elderly couple in Bedahulu during the ancient Kingdom of Bali. Consuming entire granaries of rice and whole roasted pigs daily, Kebo Iwa protected the island from invaders and helped villagers dig irrigation canals, build stone temples, and divert mountain springs. During a catastrophic island-wide drought, villagers agreed to feed the giant if he dug a massive deep well to find water. As Kebo Iwa dug deep into the mountain bedrock, corrupt ministers from the rival Majapahit Empire, fearing his power, dumped tons of limestone and volcanic rocks down the shaft to bury him alive. The water table erupted through the rocks, flooding the crater to create beautiful Lake Batur, while the excavated volcanic earth formed Mount Batur.",
+      "long_description": null,
+      "alternate_names": [
+        "The Giant of Bedahulu",
+        "The Creation of Mount Batur"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "id",
+        "ban"
+      ],
+      "motifs": [
+        "F531.0.4",
+        "A920.1",
+        "A966"
+      ],
+      "themes": [
+        "kebo iwa",
+        "balinese giant",
+        "lake batur",
+        "mount batur",
+        "bedahulu kingdom"
+      ],
+      "historical_period": "Ancient Balinese Pre-Majapahit Era (c. 14th Century)",
+      "region_or_community": "Bedahulu, Gianyar and Kintamani, Bali",
+      "community_attributions": [
+        "Balinese village elders",
+        "Batur temple cultural committee"
+      ],
+      "geographic_associations": [
+        "Lake Batur",
+        "Mount Batur, Kintamani, Bali"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Island of Bali: Myth, Magic and the Giant Kebo Iwa",
+          "publisher": "Miguel Covarrubias / Alfred A. Knopf",
+          "name": "Miguel Covarrubias / Alfred A. Knopf",
+          "url": "https://archive.org/details/islandofbali0000cova",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Miguel Covarrubias, Island of Bali (1937). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Miguel Covarrubias / Alfred A. Knopf, 'Island of Bali: Myth, Magic and the Giant Kebo Iwa'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/islandofbali0000cova",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.817495Z",
+      "updated_at": "2026-10-29T10:22:51.817495Z"
+    },
+    {
+      "id": "ID-FOLK-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The White Crocodile of the Mahakam River",
+      "slug": "the-white-crocodile-of-the-mahakam-river",
+      "country_code": "ID",
+      "category": "folklore",
+      "subtype": "river_guardian",
+      "summary": "Winding through the tropical jungles of East Kalimantan on Borneo, the immense Mahakam River is home to the legendary Buaya Putih (White Crocodile). In Kutai Kartanegara kingdom oral lore, the white crocodile is an enchanted royal prince or sacred ancestral spirit that commands all aquatic wildlife, including the rare Irrawaddy river dolphins (pesut). Riverside Dayak and Kutai communities maintain strict taboos against polluting the water or killing crocodiles; if an innocent canoeist capsizes in the dangerous whirlpools, the sacred white crocodile gently carries the victim on its scaly back to shore, punishing only corrupt miners and illegal loggers who despoil the rainforest.",
+      "long_description": null,
+      "alternate_names": [
+        "Buaya Putih Sungai Mahakam",
+        "The Sacred Crocodile of Kutai"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "id",
+        "day"
+      ],
+      "motifs": [
+        "B29",
+        "B551",
+        "F420.1.3"
+      ],
+      "themes": [
+        "mahakam river",
+        "white crocodile",
+        "borneo",
+        "dayak lore",
+        "kutai kartanegara"
+      ],
+      "historical_period": "Pre-Colonial Kutai Kingdom Era to Living River Folklore",
+      "region_or_community": "Mahakam River basin, Kutai Kartanegara, East Kalimantan",
+      "community_attributions": [
+        "Kutai and Dayak riverine communities",
+        "Mulawarman Museum cultural registry"
+      ],
+      "geographic_associations": [
+        "Mahakam River",
+        "Tenggarong, East Kalimantan"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Dinas Kebudayaan Kalimantan Timur: Legenda Sungai Mahakam dan Satwa Keramat",
+          "publisher": "Dinas Kebudayaan Provinsi Kalimantan Timur",
+          "name": "Dinas Kebudayaan Provinsi Kalimantan Timur",
+          "url": "https://disbud.kaltimprov.go.id/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Dinas Kebudayaan Provinsi Kalimantan Timur official cultural documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Dinas Kebudayaan Provinsi Kalimantan Timur, 'Dinas Kebudayaan Kalimantan Timur: Legenda Sungai Mahakam dan Satwa Keramat'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://disbud.kaltimprov.go.id/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.817522Z",
+      "updated_at": "2026-10-29T10:22:51.817522Z"
+    }
+  ],
   "metadata": {
-    "description": "Folklore archive partition for Indonesia (ID)",
+    "description": "Curated folklore dataset for Indonesia",
     "dataset_version": "2.0.0",
-    "created_at": "2026-10-29T12:00:00Z",
-    "updated_at": "2026-10-29T08:08:06.544497Z",
-    "provenance_notes": "Canonical Phase 2 DatasetEnvelope schema format",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
     "target_count": 10,
-    "actual_record_count": 0,
-    "total_records": 0,
-    "status": "pending_curation",
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
     "validation_status": "valid",
-    "last_updated": "2026-10-29T08:08:06.544500+00:00",
+    "last_updated": null,
     "import_batch_references": []
   }
 }

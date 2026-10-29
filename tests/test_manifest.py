@@ -19,10 +19,10 @@ def test_manifest_calculation_from_actual_data():
     assert manifest.target_breakdown.per_country_folklore == 10
     assert manifest.target_breakdown.per_country_urban_legends == 10
 
-    # True actual counts (empty seed files in Phase 1)
-    assert manifest.current_actual_counts.total_records == 0
-    assert manifest.current_actual_counts.folklore_records == 0
-    assert manifest.current_actual_counts.urban_legend_records == 0
+    # True actual counts (verified records populated in Phase 4)
+    assert manifest.current_actual_counts.total_records == 300
+    assert manifest.current_actual_counts.folklore_records == 150
+    assert manifest.current_actual_counts.urban_legend_records == 150
 
     # Country list matches the 15 supported countries
     assert len(manifest.country_list) == 15

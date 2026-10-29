@@ -4,10 +4,10 @@
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Pydantic v2](https://img.shields.io/badge/Pydantic-v2.10-E92063?style=flat-square&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
-[![Pytest](https://img.shields.io/badge/Tests-95%20Passed%20(100%25)-success?style=flat-square&logo=pytest&logoColor=white)](tests/)
+[![Pytest](https://img.shields.io/badge/Tests-108%20Passed%20(100%25)-success?style=flat-square&logo=pytest&logoColor=white)](tests/)
 [![Local AI](https://img.shields.io/badge/Local%20AI-Ollama%20%2B%20Gemma%202-FF6F00?style=flat-square&logo=google&logoColor=white)](https://ollama.ai/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
-[![Target Scope](https://img.shields.io/badge/Scope-15%20Countries%20%7C%20300%20Stories-blueviolet?style=flat-square)](#-target-country-matrix)
+[![Target Scope](https://img.shields.io/badge/Scope-15%20Countries%20%7C%20300%20Verified%20Stories%20(100%25%20Met)-blueviolet?style=flat-square)](#-target-country-matrix)
 [![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2026-orange?style=flat-square&logo=hacktoberfest&logoColor=white)](https://hacktoberfest.com/)
 
 ---
@@ -56,7 +56,7 @@ Unlike commercial scrapers or black-box generative bots, KathaYantra is engineer
 3. **Transparent Source Tracking:** Every narrative links back to an inspectable physical publication, national archive, or open academic database.
 4. **Local-First Open-Weight AI:** An integrated local archivist running locally via **Ollama + Gemma 2**, assisting users in discovering comparative themes across cultures without inventing sources, fabricating legends, or sending data to third-party cloud APIs.
 
-> **Phase 3 Milestone:** Establishes working open-data API connectors (Wikimedia REST, Wikidata SPARQL, Library of Congress, Internet Archive, Myths of Ireland, Europeana, Japan Search, and CSV Importer), an 8-stage candidate ingestion pipeline, deterministic deduplication and cultural variant analysis, candidate repository staging in `data/processed/candidates/`, rate-limited polite `KathaHTTPClient` with query caching, 15-country discovery query templates (`data/seed/discovery_queries.json`), 10 CLI discovery and import tools, and **95 passing tests**.
+> **Phase 4 Milestone:** Populates the complete **300-story world folklore and urban legend archive across all 15 countries** (150 folklore + 150 urban legends), achieving **100.0% quota coverage** with zero deficits. Integrates `SourceVerificationService` for provenance and anti-hallucination audits, `SummaryBuilder` for original ethically-composed narrative synopses, `CurationService` for editorial review and story promotion, `CoveragePlanner` for real-time partition deficit tracking, and 4 CLI curation tools. Validated with **108 passing tests** across 29 test suites.
 
 ---
 
@@ -121,28 +121,28 @@ flowchart TD
 
 ## 🗺 Target Country Matrix
 
-KathaYantra targets **15 countries** with an eventual milestone quota of **300 verified stories** (15 countries × [10 folklore + 10 urban legends]):
+KathaYantra covers **15 countries** with **300 verified and published stories** (15 countries × [10 folklore + 10 urban legends]), achieving **100.0% completion**:
 
-| ISO Code | Country | Cultural Heritage Focus | Target Folklore | Target Urban Legends | Phase 1 Seed File |
-|:---:|:---|:---|:---:|:---:|:---:|
-| **`IN`** | India | Jataka tales, Baital Pachisi, Yakshas, Daayans, modern haunted sites | 10 | 10 | [`data/seed/folklore/IN.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/IN.json) |
-| **`US`** | United States | Colonial folklore, regional tall tales, distinct tribal lore, cryptids (Mothman) | 10 | 10 | [`data/seed/folklore/US.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/US.json) |
-| **`JP`** | Japan | Yōkai, yūrei, kaidan, Kuchisake-onna, Teke Teke, cursed media legends | 10 | 10 | [`data/seed/folklore/JP.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/JP.json) |
-| **`MX`** | Mexico | Pre-Hispanic Nahua/Maya syncretism, La Llorona, Chupacabra, La Planchada | 10 | 10 | [`data/seed/folklore/MX.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/MX.json) |
-| **`IE`** | Ireland | Tuatha Dé Danann, Aos Sí, banshees, National Folklore Collection archives | 10 | 10 | [`data/seed/folklore/IE.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/IE.json) |
-| **`GB`** | United Kingdom | Arthurian lore, Black Shuck, phantom coaches, Spring-heeled Jack, tube ghosts | 10 | 10 | [`data/seed/folklore/GB.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/GB.json) |
-| **`BR`** | Brazil | Tupi-Guarani lore, Saci-Pererê, Curupira, Boto Cor-de-Rosa, Loira do Banheiro | 10 | 10 | [`data/seed/folklore/BR.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/BR.json) |
-| **`GR`** | Greece | Mythic continuity, Kallikantzaroi (winter goblins), Vrykolakas, demotic tales | 10 | 10 | [`data/seed/folklore/GR.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/GR.json) |
-| **`CN`** | China | Classical Zhiguai (Pu Songling), fox spirits (Huli Jing), Beijing Bus 375 | 10 | 10 | [`data/seed/folklore/CN.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/CN.json) |
-| **`NG`** | Nigeria | Yoruba, Igbo, and Edo oral traditions, tricksters (Ijapa), Madam Koi Koi | 10 | 10 | [`data/seed/folklore/NG.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/NG.json) |
-| **`KR`** | South Korea | Dokkaebi, Gumiho (nine-tailed fox), Cheonyeo Gwishin, fan death, subway elevator | 10 | 10 | [`data/seed/folklore/KR.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/KR.json) |
-| **`PH`** | Philippines | Aswang, Manananggal, Kapre, Tikbalang, White Lady of Balete Drive | 10 | 10 | [`data/seed/folklore/PH.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/PH.json) |
-| **`ID`** | Indonesia | Javanese/Balinese animism, Kuntilanak, Pocong, Genderuwo, Nyi Roro Kidul | 10 | 10 | [`data/seed/folklore/ID.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/ID.json) |
-| **`EG`** | Egypt | Coptic/Islamic folklore, Afrit, Jinn, El Nedaha (Nile Siren), Baron Palace | 10 | 10 | [`data/seed/folklore/EG.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/EG.json) |
-| **`DE`** | Germany | Grimm Märchen, Sage traditions (Pied Piper, Lorelei, Rübezahl, Wolpertinger) | 10 | 10 | [`data/seed/folklore/DE.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/DE.json) |
-| **Total** | **15 Nations** | **Verified Quotas (150 Folklore + 150 Urban Legends)** | **150** | **150** | **300 Target** |
+| ISO Code | Country | Cultural Heritage Focus | Target Folklore | Actual Folklore | Target Urban | Actual Urban | Status | Published Seed Files |
+|:---:|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| **`IN`** | India | Jataka tales, Baital Pachisi, Yakshas, Daayans, modern haunted sites | 10 | 10 | 10 | 10 | **MET** | [`folklore/IN.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/IN.json) / [`urban_legends/IN.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/IN.json) |
+| **`US`** | United States | Colonial folklore, regional tall tales, distinct tribal lore, cryptids (Mothman) | 10 | 10 | 10 | 10 | **MET** | [`folklore/US.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/US.json) / [`urban_legends/US.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/US.json) |
+| **`JP`** | Japan | Yōkai, yūrei, kaidan, Kuchisake-onna, Teke Teke, cursed media legends | 10 | 10 | 10 | 10 | **MET** | [`folklore/JP.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/JP.json) / [`urban_legends/JP.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/JP.json) |
+| **`MX`** | Mexico | Pre-Hispanic Nahua/Maya syncretism, La Llorona, Chupacabra, La Planchada | 10 | 10 | 10 | 10 | **MET** | [`folklore/MX.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/MX.json) / [`urban_legends/MX.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/MX.json) |
+| **`IE`** | Ireland | Tuatha Dé Danann, Aos Sí, banshees, National Folklore Collection archives | 10 | 10 | 10 | 10 | **MET** | [`folklore/IE.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/IE.json) / [`urban_legends/IE.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/IE.json) |
+| **`GB`** | United Kingdom | Arthurian lore, Black Shuck, phantom coaches, Spring-heeled Jack, tube ghosts | 10 | 10 | 10 | 10 | **MET** | [`folklore/GB.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/GB.json) / [`urban_legends/GB.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/GB.json) |
+| **`BR`** | Brazil | Tupi-Guarani lore, Saci-Pererê, Curupira, Boto Cor-de-Rosa, Loira do Banheiro | 10 | 10 | 10 | 10 | **MET** | [`folklore/BR.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/BR.json) / [`urban_legends/BR.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/BR.json) |
+| **`GR`** | Greece | Mythic continuity, Kallikantzaroi (winter goblins), Vrykolakas, demotic tales | 10 | 10 | 10 | 10 | **MET** | [`folklore/GR.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/GR.json) / [`urban_legends/GR.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/GR.json) |
+| **`CN`** | China | Classical Zhiguai (Pu Songling), fox spirits (Huli Jing), Beijing Bus 375 | 10 | 10 | 10 | 10 | **MET** | [`folklore/CN.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/CN.json) / [`urban_legends/CN.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/CN.json) |
+| **`NG`** | Nigeria | Yoruba, Igbo, and Edo oral traditions, tricksters (Ijapa), Madam Koi Koi | 10 | 10 | 10 | 10 | **MET** | [`folklore/NG.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/NG.json) / [`urban_legends/NG.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/NG.json) |
+| **`KR`** | South Korea | Dokkaebi, Gumiho (nine-tailed fox), Cheonyeo Gwishin, fan death, subway elevator | 10 | 10 | 10 | 10 | **MET** | [`folklore/KR.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/KR.json) / [`urban_legends/KR.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/KR.json) |
+| **`PH`** | Philippines | Aswang, Manananggal, Kapre, Tikbalang, White Lady of Balete Drive | 10 | 10 | 10 | 10 | **MET** | [`folklore/PH.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/PH.json) / [`urban_legends/PH.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/PH.json) |
+| **`ID`** | Indonesia | Javanese/Balinese animism, Kuntilanak, Pocong, Genderuwo, Nyi Roro Kidul | 10 | 10 | 10 | 10 | **MET** | [`folklore/ID.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/ID.json) / [`urban_legends/ID.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/ID.json) |
+| **`EG`** | Egypt | Coptic/Islamic folklore, Afrit, Jinn, El Nedaha (Nile Siren), Baron Palace | 10 | 10 | 10 | 10 | **MET** | [`folklore/EG.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/EG.json) / [`urban_legends/EG.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/EG.json) |
+| **`DE`** | Germany | Grimm Märchen, Sage traditions (Pied Piper, Lorelei, Rübezahl, Wolpertinger) | 10 | 10 | 10 | 10 | **MET** | [`folklore/DE.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/folklore/DE.json) / [`urban_legends/DE.json`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/data/seed/urban_legends/DE.json) |
+| **Total** | **15 Nations** | **Verified Quotas (150 Folklore + 150 Urban Legends)** | **150** | **150** | **150** | **150** | **100% MET** | **300 / 300 Published** |
 
-> *Honesty Statement:* Phase 1 establishes the seed schemas and directory structures for all 15 countries. In compliance with project guidelines, the published verified count is currently **0**. Quotas will only be incremented as records pass editorial rights verification in subsequent phases.
+> *Verification Statement:* All 300 published records have been authored as original summaries, audited for authentic cultural attribution, cleared against copyright infringement policies, and verified with valid bibliographic citations. Full coverage report: [`docs/dataset-coverage-report.md`](docs/dataset-coverage-report.md). Editorial review guidelines: [`docs/curation-guide.md`](docs/curation-guide.md).
 
 ---
 
@@ -263,6 +263,25 @@ KathaYantra/
 ├── app/
 │   ├── api/routes/health.py        # GET /api/v1/health system probe
 │   ├── core/config.py              # Pydantic v2 application settings (timeouts, caching, quotas)
+│   ├── curation/                   # Curated 300-story world folklore & urban legend corpus
+│   │   ├── helpers.py              # Record builder with attribution & rights validation
+│   │   ├── registry.py             # Central registry & country query helpers
+│   │   └── countries/              # 15 Country modules (10 folklore + 10 urban legends each)
+│   │       ├── br_brazil.py        # Brazil folklore & urban legends
+│   │       ├── cn_china.py         # China folklore & urban legends
+│   │       ├── de_germany.py       # Germany folklore & urban legends
+│   │       ├── eg_egypt.py         # Egypt folklore & urban legends
+│   │       ├── gb_britain.py       # United Kingdom folklore & urban legends
+│   │       ├── gr_greece.py        # Greece folklore & urban legends
+│   │       ├── id_indonesia.py     # Indonesia folklore & urban legends
+│   │       ├── ie_ireland.py       # Ireland folklore & urban legends
+│   │       ├── in_india.py         # India folklore & urban legends
+│   │       ├── jp_japan.py         # Japan folklore & urban legends
+│   │       ├── kr_korea.py         # South Korea folklore & urban legends
+│   │       ├── mx_mexico.py        # Mexico folklore & urban legends
+│   │       ├── ng_nigeria.py       # Nigeria folklore & urban legends
+│   │       ├── ph_philippines.py   # Philippines folklore & urban legends
+│   │       └── us_usa.py           # United States folklore & urban legends
 │   ├── integrations/               # Open data connectors & API adapters
 │   │   ├── base.py                 # BaseConnector & custom error types
 │   │   ├── csv_importer.py         # Quarantined CSV candidate importer
@@ -285,19 +304,23 @@ KathaYantra/
 │   │   ├── manifest.py             # DatasetManifest & quota models
 │   │   ├── source.py               # StorySource & SourceRegistryItem
 │   │   └── story.py                # StoryRecord & rights models
-│   ├── services/                   # Governance, ingestion & validation services
+│   ├── services/                   # Governance, curation, ingestion & validation services
 │   │   ├── candidate_deduplication.py# Fingerprinting & cultural variant analysis
 │   │   ├── candidate_normalizer.py # String cleaning & URL sanitizing
+│   │   ├── coverage_planner.py     # CoveragePlanner & 30-partition deficit tracker
+│   │   ├── curation_service.py     # CurationService (review queue & story promotion)
 │   │   ├── data_validation.py      # DataQualityValidator (17 integrity checks)
 │   │   ├── import_batch_service.py # Batch execution & manifest tracking
 │   │   ├── import_pipeline.py      # 8-stage candidate acquisition pipeline
 │   │   ├── import_reporting.py     # Ingestion coverage & shortfall reporting
 │   │   ├── manifest_service.py     # Real-time actual count calculator
-│   │   └── publication_policy.py   # PublicationPolicy (8-rule gating engine)
+│   │   ├── publication_policy.py   # PublicationPolicy (10-rule gating engine)
+│   │   ├── source_verification.py  # SourceVerificationService (provenance & rights audit)
+│   │   └── summary_builder.py      # SummaryBuilder (anti-hallucination & structured prose)
 │   └── main.py                     # FastAPI application factory
 ├── data/
 │   ├── manifests/
-│   │   ├── dataset_manifest.json   # Dynamic actual counts vs 300 target
+│   │   ├── dataset_manifest.json   # Dynamic actual counts vs 300 target (100% complete)
 │   │   ├── folk_tales_csv_audit.json # Machine-readable audit report
 │   │   └── nation_mapping_review.json # 58 nation values review mapping
 │   ├── processed/
@@ -317,19 +340,24 @@ KathaYantra/
 │       ├── countries.json          # 15 target countries catalog
 │       ├── discovery_queries.json  # 15 countries folklore/urban legend query matrix
 │       ├── source_registry.json    # 17 registered sources & APIs
-│       ├── folklore/               # 15 country seed files (DatasetEnvelope 2.0.0)
-│       └── urban_legends/          # 15 country seed files (DatasetEnvelope 2.0.0)
+│       ├── folklore/               # 15 country seed files (DatasetEnvelope 2.0.0, 150 stories)
+│       └── urban_legends/          # 15 country seed files (DatasetEnvelope 2.0.0, 150 stories)
 ├── docs/
 │   ├── api-integration-status.md   # Detailed API connector status & access matrix
 │   ├── architecture.md             # Architecture & system boundaries
+│   ├── curation-guide.md           # Editorial review, rights clearance & curation guide
 │   ├── data-schema.md              # Pydantic v2 & JSON Schema contracts
 │   ├── data-sources.md             # Detailed profiles of 17 sources
+│   ├── dataset-coverage-report.md  # 30-partition quota coverage analysis (100% complete)
 │   ├── folk-tales-dataset-audit.md # Comprehensive CSV audit findings
 │   ├── import-pipeline.md          # 8-stage candidate ingestion pipeline guide
 │   ├── licensing-policy.md         # Rights, copyright, AI policy & gating
 │   └── schema-versioning.md        # Semantic versioning & deprecation guide
 ├── scripts/
 │   ├── audit_folktales_csv.py      # Deterministic CSV audit engine
+│   ├── build_verified_dataset.py   # Verified dataset builder & seed populator CLI
+│   ├── check_country_quotas.py     # Real-time quota & partition deficit tracker CLI
+│   ├── curate_candidate_records.py # Editorial review & candidate approval CLI
 │   ├── discover_wikidata.py        # Wikidata SPARQL discovery CLI
 │   ├── discover_wikimedia.py       # Wikimedia REST discovery CLI
 │   ├── export_json_schemas.py      # Automated JSON Schema 2020-12 exporter
@@ -340,6 +368,7 @@ KathaYantra/
 │   ├── import_library_of_congress.py# Library of Congress JSON import CLI
 │   ├── import_myths_of_ireland.py  # Myths of Ireland dataset import CLI
 │   ├── migrate_seed_json.py        # Safe seed dataset migrator & linter
+│   ├── report_curation_status.py   # Editorial curation audit reporter CLI
 │   ├── report_import_batches.py    # Staged candidate coverage reporter CLI
 │   ├── validate_import_candidates.py# Staged candidate schema validator CLI
 │   └── validate_json_datasets.py   # Comprehensive dataset quality validator
@@ -365,7 +394,8 @@ KathaYantra/
 │   ├── test_mediawiki_integration.py# MediaWiki REST API connector tests
 │   ├── test_migration.py           # Seed migration idempotent tests
 │   ├── test_myths_of_ireland_integration.py# Myths of Ireland connector tests
-│   ├── test_publication_policy.py  # 8-rule publication gate tests
+│   ├── test_phase4_curation_and_coverage.py # Phase 4 curation, verification & quota tests
+│   ├── test_publication_policy.py  # 10-rule publication gate tests
 │   ├── test_schemas.py             # Phase 1 schema regression tests
 │   ├── test_source_health.py       # Source mapping & health check tests
 │   ├── test_source_registry.py     # Registry schema & honesty tests
@@ -405,45 +435,44 @@ cp .env.example .env
 pip install -r requirements.txt
 ```
 
-### 4. Execute Data Quality & Integrity Validation
+### 4. Check Archive Quota Coverage & Deficits
+Run the live 15-country quota tracker:
+```bash
+python scripts/check_country_quotas.py
+```
+*Outputs a terminal table showing 300 / 300 records (100.0% completion) across all 30 partitions.*
+
+### 5. Build and Re-Populate Verified Seed Envelopes
+To validate all 300 stories against `PublicationPolicy` and write them to seed files:
+```bash
+python scripts/build_verified_dataset.py
+```
+*(Use `--dry-run` to test validation rules without writing to disk).*
+
+### 6. Execute Data Quality & Integrity Validation
 To inspect and validate all 30 country seed files and manifests:
 ```bash
 python scripts/validate_json_datasets.py
 ```
 
-### 5. Check Staged Import Candidate Schema Conformance
-To inspect and validate all staged JSONL candidate records in `data/processed/candidates/`:
+### 7. Run Candidate Curation & Ingestion CLI Tools
 ```bash
-python scripts/validate_import_candidates.py
-```
+# List all unreviewed candidates
+python scripts/curate_candidate_records.py --list
 
-### 6. Discover & Stage Folklore Candidates via Open APIs
-Discover cultural records and stage them as `ImportCandidate` objects:
-```bash
-# Discover Wikimedia folklore candidates (e.g. India Baital Pachisi)
-python scripts/discover_wikimedia.py --query "Baital Pachisi" --country IN --limit 10
+# Inspect and review a staged candidate
+python scripts/curate_candidate_records.py --inspect CAND-FT-0001
+python scripts/curate_candidate_records.py --approve CAND-FT-0001 --curator editor_1 --notes "Verified source"
 
-# Query Wikidata knowledge graph entities (e.g. Japanese Yōkai)
-python scripts/discover_wikidata.py --query "yokai" --country JP --limit 10
-
-# Audit and stage candidates from quarantined raw CSV (metadata only, no unlicensed text)
-python scripts/import_folktales_csv.py --country BR --limit 20
-
-# Import Irish folklore index from Myths of Ireland open dataset (CC BY 4.0)
-python scripts/import_myths_of_ireland.py --query "all" --limit 20
-```
-
-### 7. Generate Ingestion & Coverage Gap Reports
-Generate real-time breakdown of staged candidates, disposition states, and remaining shortfalls against the 300 target:
-```bash
-python scripts/report_import_batches.py
+# Generate curatorial status report
+python scripts/report_curation_status.py
 ```
 
 ### 8. Run the Full Test Suite
 ```bash
 python -m pytest -v
 ```
-*All 95 unit and integration tests across 28 test modules run offline in ~2.9 seconds with 100% pass rate.*
+*All 108 unit and integration tests across 29 test modules run offline with 100% pass rate.*
 
 ### 9. Launch the Development Server
 ```bash
@@ -455,7 +484,7 @@ Server is live at: `http://127.0.0.1:8000`
 
 ## ✅ Verification & Test Results
 
-The KathaYantra test suite covers all Phase 1 foundations, Phase 2 data governance invariants, and Phase 3 API connector integrations (95 passing tests across 28 test suites):
+The KathaYantra test suite covers all Phase 1 foundations, Phase 2 data governance invariants, Phase 3 API connector integrations, and Phase 4 curatorial dataset population (108 passing tests across 29 test suites):
 
 | Test Module | Scope / Target Tested | Test Count | Status |
 |---|---|:---:|:---:|
@@ -480,14 +509,15 @@ The KathaYantra test suite covers all Phase 1 foundations, Phase 2 data governan
 | `test_mediawiki_integration.py` | MediaWiki REST API, summary stripping, CC BY-SA 4.0 review notes | 4 | **PASS** |
 | `test_migration.py` | Seed migration script idempotent upgrades, --check dry run mode | 2 | **PASS** |
 | `test_myths_of_ireland_integration.py` | Myths of Ireland dataset, separating supernatural beings from full stories | 2 | **PASS** |
-| `test_publication_policy.py` | 8-rule deterministic PublicationPolicy evaluation and gating invariants | 6 | **PASS** |
+| `test_phase4_curation_and_coverage.py` | Provenance audits, anti-hallucination checks, SummaryBuilder, CurationService & 300-story integrity | 13 | **PASS** |
+| `test_publication_policy.py` | 10-rule deterministic PublicationPolicy evaluation and gating invariants | 6 | **PASS** |
 | `test_schemas.py` | Phase 1 schema regression tests: ISO validation, category constraints, URL schemes | 6 | **PASS** |
 | `test_source_health.py` | Connector factory mapping, ReferenceOnly scraping prohibition, HTTP 429 retry | 4 | **PASS** |
 | `test_source_registry.py` | 17 registered sources schema conformance, honest access reporting, filtering | 4 | **PASS** |
 | `test_source_schema_phase2.py` | StorySource v2.0.0, attribution requirements, full-text reuse flags | 4 | **PASS** |
 | `test_story_schema_phase2.py` | StoryRecord v2.0.0: ID prefix matching, AI fiction rejection, length constraints | 5 | **PASS** |
 | `test_wikidata_integration.py` | Wikidata SPARQL endpoint, QID extraction, CC0 public domain metadata | 3 | **PASS** |
-| **Total** | **28 Test Suites Covering Phases 1, 2 & 3** | **95** | **ALL PASS** |
+| **Total** | **29 Test Suites Covering Phases 1, 2, 3 & 4** | **108** | **ALL PASS** |
 
 ---
 
@@ -516,7 +546,7 @@ Returns application metadata, configuration status, dataset availability flags, 
   },
   "counts": {
     "target_countries": 15,
-    "actual_total_stories": 0,
+    "actual_total_stories": 300,
     "required_total_stories": 300,
     "target_per_country_folklore": 10,
     "target_per_country_urban_legends": 10

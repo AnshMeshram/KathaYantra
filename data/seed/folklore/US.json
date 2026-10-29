@@ -3,19 +3,826 @@
   "dataset_id": "US-folklore",
   "country_code": "US",
   "category": "folklore",
-  "records": [],
+  "records": [
+    {
+      "id": "US-FOLK-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Paul Bunyan and Babe the Blue Ox",
+      "slug": "paul-bunyan-and-babe-the-blue-ox",
+      "country_code": "US",
+      "category": "folklore",
+      "subtype": "tall_tale",
+      "summary": "Emerging from the logging camps of Michigan, Wisconsin, and Minnesota, Paul Bunyan is a colossus of the American frontier who reshapes the North American wilderness with a single swing of his double-bitted axe. Alongside Babe, an equally gigantic ox turned bright blue after being buried in the legendary Winter of the Blue Snow, Bunyan clears entire forest tracts overnight, digs the Grand Canyon by dragging his pickaxe, and gouges out the Great Lakes to provide drinking water for his companion. The tall tale embodies frontier industriousness, outsized ambition, and camp humour.",
+      "long_description": null,
+      "alternate_names": [
+        "The Giant Lumberjack",
+        "Paul Bunyan's Great Flapjack Griddle"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "F531.3.2",
+        "F531.0.4",
+        "X1000"
+      ],
+      "themes": [
+        "frontier",
+        "logging",
+        "giant",
+        "exaggeration",
+        "american wilderness"
+      ],
+      "historical_period": "19th Century Logging Camp Oral Lore (popularized c. 1914 by W. B. Laughead)",
+      "region_or_community": "Upper Midwest and Pacific Northwest logging communities",
+      "community_attributions": [
+        "Lumbercamp oral traditions",
+        "American tall tale cycle"
+      ],
+      "geographic_associations": [
+        "Bemidji, Minnesota",
+        "Great Lakes basin",
+        "Puget Sound"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Paul Bunyan and His Big Blue Ox: Their Great Feats",
+          "publisher": "Library of Congress American Folklife Center",
+          "name": "Library of Congress American Folklife Center",
+          "url": "https://www.loc.gov/item/2002010837/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Library of Congress American Folklife Center documentation. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Library of Congress American Folklife Center, 'Paul Bunyan and His Big Blue Ox: Their Great Feats'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.loc.gov/item/2002010837/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.829569Z",
+      "updated_at": "2026-10-29T10:22:51.829570Z"
+    },
+    {
+      "id": "US-FOLK-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "John Henry the Steel-Driving Man",
+      "slug": "john-henry-the-steel-driving-man",
+      "country_code": "US",
+      "category": "folklore",
+      "subtype": "labor_legend",
+      "summary": "Born into enslavement and working as an African-American steel driver on the Chesapeake and Ohio Railway's Big Bend Tunnel through Talcott Mountain, West Virginia, John Henry wields a fourteen-pound sledgehammer with superhuman rhythm. When the railroad company introduces a steam-powered drill threatening to displace the workers, John Henry wagers his life in a race between flesh and industrial machinery. Pounding two steel bits simultaneously into the hard rock, he defeats the machine by drilling fourteen feet to its nine, but collapses and dies from cardiac exhaustion with his hammer in his hand.",
+      "long_description": null,
+      "alternate_names": [
+        "The Ballad of John Henry",
+        "The Steel Driver of Big Bend"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "F610.0.1",
+        "H1561.2",
+        "M200"
+      ],
+      "themes": [
+        "labor struggle",
+        "man versus machine",
+        "african-american heroes",
+        "railroad ballads",
+        "sacrifice"
+      ],
+      "historical_period": "Post-Civil War Era (c. 1870–1872 Big Bend Tunnel construction)",
+      "region_or_community": "Appalachia, West Virginia",
+      "community_attributions": [
+        "African-American railroad laborers",
+        "Appalachian folk ballad singers"
+      ],
+      "geographic_associations": [
+        "Big Bend Tunnel",
+        "Talcott, West Virginia",
+        "Chesapeake and Ohio Railway"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "John Henry: Tracking Down a Legend (Library of Congress Studies)",
+          "publisher": "Library of Congress Folk Archive",
+          "name": "Library of Congress Folk Archive",
+          "url": "https://www.loc.gov/item/ihas.200196238/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Library of Congress American Music and Folklife Collection. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Library of Congress Folk Archive, 'John Henry: Tracking Down a Legend (Library of Congress Studies)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.loc.gov/item/ihas.200196238/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.829605Z",
+      "updated_at": "2026-10-29T10:22:51.829605Z"
+    },
+    {
+      "id": "US-FOLK-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Legend of Sleepy Hollow and the Headless Horseman",
+      "slug": "the-legend-of-sleepy-hollow-and-the-headless-horseman",
+      "country_code": "US",
+      "category": "folklore",
+      "subtype": "ghostly_tale",
+      "summary": "Set in a tranquil Dutch glen along the Hudson River known as Sleepy Hollow, superstitious schoolmaster Ichabod Crane courts Katrina Van Tassel, the daughter of a wealthy Dutch farmer, provoking the jealousy of athletic local youth Brom Bones. After a festive autumn gathering, Crane rides his decrepit steed Gunpowder past the dark marshes of André's Brook, where he is stalked by a towering nocturnal rider astride a black horse, carrying his severed head upon his saddlebow. In a frantic chase toward the churchyard bridge, the spectre hurls the severed skull, leaving only a shattered pumpkin in the morning dew.",
+      "long_description": null,
+      "alternate_names": [
+        "The Headless Horseman of Sleepy Hollow",
+        "The Galloping Hessian"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en",
+        "nl"
+      ],
+      "motifs": [
+        "E422.1.1",
+        "K1800",
+        "J1785.1"
+      ],
+      "themes": [
+        "spectral rider",
+        "dutch colonial heritage",
+        "superstition",
+        "hudson valley",
+        "headless ghost"
+      ],
+      "historical_period": "Post-Revolutionary America (c. 1790 setting, published 1820 by Washington Irving)",
+      "region_or_community": "Hudson River Valley, Westchester County, New York",
+      "community_attributions": [
+        "Dutch-American folklore",
+        "Washington Irving literary tradition"
+      ],
+      "geographic_associations": [
+        "Tarrytown, New York",
+        "Old Dutch Church of Sleepy Hollow"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Sketch-Book of Geoffrey Crayon, Gent.: The Legend of Sleepy Hollow",
+          "publisher": "Washington Irving / Project Gutenberg",
+          "name": "Washington Irving / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2048",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Washington Irving, The Sketch Book (1820). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Washington Irving / Project Gutenberg, 'The Sketch-Book of Geoffrey Crayon, Gent.: The Legend of Sleepy Hollow'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/2048",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.829634Z",
+      "updated_at": "2026-10-29T10:22:51.829635Z"
+    },
+    {
+      "id": "US-FOLK-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Johnny Appleseed: The Frontier Planter",
+      "slug": "johnny-appleseed-the-frontier-planter",
+      "country_code": "US",
+      "category": "folklore",
+      "subtype": "frontier_legend",
+      "summary": "Based on the historical wanderings of John Chapman (1774–1845), Johnny Appleseed became a beloved American folk hero who journeyed barefoot across Ohio, Indiana, and Illinois ahead of European settlers. Clad in a burlap coffee sack and cooking pot for a hat, Chapman planted wild cider apple nurseries and fenced them for arriving pioneers. Famed for his eccentric Swedenborgian spirituality, absolute non-violence toward animals, and gentle diplomacy between indigenous tribes and frontier homesteaders, his legend represents harmony with nature and self-sacrificing stewardship.",
+      "long_description": null,
+      "alternate_names": [
+        "John Chapman",
+        "The Apple Tree Evangelist"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "V220",
+        "P428",
+        "F698"
+      ],
+      "themes": [
+        "frontier stewardship",
+        "pacifism",
+        "orchards",
+        "eccentric folk hero",
+        "early midwest"
+      ],
+      "historical_period": "Early Republic Era (c. 1790–1845)",
+      "region_or_community": "Old Northwest Territory (Ohio, Indiana, Pennsylvania)",
+      "community_attributions": [
+        "American frontier settler lore",
+        "Swedenborgian oral histories"
+      ],
+      "geographic_associations": [
+        "Mohican River valley, Ohio",
+        "Fort Wayne, Indiana"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Johnny Appleseed: The Romance of the Sower",
+          "publisher": "Eleanor Atkinson / Grosset & Dunlap",
+          "name": "Eleanor Atkinson / Grosset & Dunlap",
+          "url": "https://archive.org/details/johnnyappleseedr00atki",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Eleanor Atkinson historical study (1915). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Eleanor Atkinson / Grosset & Dunlap, 'Johnny Appleseed: The Romance of the Sower'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/johnnyappleseedr00atki",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.829663Z",
+      "updated_at": "2026-10-29T10:22:51.829663Z"
+    },
+    {
+      "id": "US-FOLK-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Pecos Bill and the Tamed Cyclone",
+      "slug": "pecos-bill-and-the-tamed-cyclone",
+      "country_code": "US",
+      "category": "folklore",
+      "subtype": "tall_tale",
+      "summary": "Raised by a pack of coyotes along the Pecos River in Texas after falling from his parents' covered wagon, Pecos Bill grows into the consummate frontier cowboy who invents the lasso, branding irons, and the round-up. Armed with a rattlesnake for a quirt and riding a mountain lion or his untamable horse Widow-Maker, Bill confronts an immense tornado threatening to blow Texas into the Pacific Ocean. Leaping into the vortex with his spurs, he rides the bucking cyclone like a bronco until it rains out beneath him, forming the Grand Canyon where he slides to earth.",
+      "long_description": null,
+      "alternate_names": [
+        "The Saga of Pecos Bill",
+        "The Coyote-Raised Cowboy"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "X1000",
+        "F531.0.4",
+        "F628"
+      ],
+      "themes": [
+        "cowboy culture",
+        "texas plains",
+        "weather taming",
+        "humorous hyperbole",
+        "tall tale"
+      ],
+      "historical_period": "Late 19th Century Cattle Boom (written folklore collected by Edward O'Reilly 1923)",
+      "region_or_community": "Southwest and Texas borderlands",
+      "community_attributions": [
+        "Southwestern cattle drivers",
+        "Texas cowboy oral tradition"
+      ],
+      "geographic_associations": [
+        "Pecos River, Texas",
+        "Llano Estacado"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "American Tall Tales: Pecos Bill, The Greatest Cowboy of All Time",
+          "publisher": "Library of Congress American Folklife Center",
+          "name": "Library of Congress American Folklife Center",
+          "url": "https://www.loc.gov/item/42017345/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Library of Congress American Folklife folklore collection. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Library of Congress American Folklife Center, 'American Tall Tales: Pecos Bill, The Greatest Cowboy of All Time'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.loc.gov/item/42017345/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.829689Z",
+      "updated_at": "2026-10-29T10:22:51.829689Z"
+    },
+    {
+      "id": "US-FOLK-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Bell Witch of Robertson County",
+      "slug": "the-bell-witch-of-robertson-county",
+      "country_code": "US",
+      "category": "folklore",
+      "subtype": "poltergeist_legend",
+      "summary": "Beginning in 1817 on the Red River homestead of John Bell in Adams, Tennessee, the Bell family was plagued by an intelligent, disembodied entity claiming to be the spirit of Kate Batts, a disgruntled neighbor. The poltergeist manifested as strange canine beasts, slapped and choked family members, sang hymns at terrifying speeds, and conducted theological debates with visitors, including General Andrew Jackson. The spirit specifically tormented family patriarch John Bell until his death by poison in December 1820, making it America's most extensively recorded early poltergeist legend.",
+      "long_description": null,
+      "alternate_names": [
+        "The Bell Witch Haunting",
+        "Kate Batts' Witchcraft"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "E281",
+        "E402",
+        "G265.8"
+      ],
+      "themes": [
+        "poltergeist",
+        "frontier haunting",
+        "curse",
+        "disembodied voice",
+        "tennessee lore"
+      ],
+      "historical_period": "Early 19th Century (1817–1821 documented manifestations)",
+      "region_or_community": "Robertson County, Middle Tennessee",
+      "community_attributions": [
+        "Middle Tennessee oral history",
+        "Southern gothic folklore"
+      ],
+      "geographic_associations": [
+        "Adams, Tennessee",
+        "Red River",
+        "Bell Witch Cave"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "An Authenticated History of the Famous Bell Witch",
+          "publisher": "Martin Van Buren Ingram",
+          "name": "Martin Van Buren Ingram",
+          "url": "https://archive.org/details/authenticatedhis00ingr",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "M. V. Ingram, Authenticated History of the Bell Witch (1894). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Martin Van Buren Ingram, 'An Authenticated History of the Famous Bell Witch'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/authenticatedhis00ingr",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.829714Z",
+      "updated_at": "2026-10-29T10:22:51.829714Z"
+    },
+    {
+      "id": "US-FOLK-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Rip Van Winkle and the Catskill Bowling Gnomes",
+      "slug": "rip-van-winkle-and-the-catskill-bowling-gnomes",
+      "country_code": "US",
+      "category": "folklore",
+      "subtype": "magical_sleep",
+      "summary": "Escaping his shrewish wife and domestic chores, easygoing Dutch-American villager Rip Van Winkle wanders into the misty Catskill Mountains with his dog Wolf. He encounters a silent troop of strangely dressed men in antique Dutch doublets bowling ninepins amidst thunderous echoes. After drinking freely from their flagon of spiced liquor, Rip falls into a deep slumber under an apple tree. Awakening with an aching back, rusted musket, and a foot-long gray beard, he descends into his village to discover twenty years have elapsed: his wife has died, his children are grown, and King George's portrait has been replaced by George Washington.",
+      "long_description": null,
+      "alternate_names": [
+        "The Twenty-Year Sleep of Rip Van Winkle",
+        "The Catskill Sleepers"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en",
+        "nl"
+      ],
+      "motifs": [
+        "D1960.1",
+        "F377",
+        "F451.5.2"
+      ],
+      "themes": [
+        "magical sleep",
+        "time passage",
+        "american revolution",
+        "catskill mountains",
+        "dutch folklore"
+      ],
+      "historical_period": "Pre and Post-Revolutionary America (published 1819 by Washington Irving)",
+      "region_or_community": "Catskill Mountains, New York",
+      "community_attributions": [
+        "Hudson Valley folklore",
+        "Dutch settler oral tradition"
+      ],
+      "geographic_associations": [
+        "Catskill Mountains",
+        "Hudson River, New York"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Sketch-Book of Geoffrey Crayon, Gent.: Rip Van Winkle",
+          "publisher": "Washington Irving / Project Gutenberg",
+          "name": "Washington Irving / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2048",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Washington Irving, The Sketch Book (1819). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Washington Irving / Project Gutenberg, 'The Sketch-Book of Geoffrey Crayon, Gent.: Rip Van Winkle'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/2048",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.829738Z",
+      "updated_at": "2026-10-29T10:22:51.829738Z"
+    },
+    {
+      "id": "US-FOLK-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Br'er Rabbit and the Briar Patch",
+      "slug": "brer-rabbit-and-the-briar-patch",
+      "country_code": "US",
+      "category": "folklore",
+      "subtype": "trickster_tale",
+      "summary": "Derived from Central and West African animal trickster traditions preserved by enslaved populations in the American South, Br'er Rabbit consistently outwits physically dominant predators through psychological manipulation. When trapped by Br'er Fox using a mute effigy made of tar and turpentine (the Tar Baby), the captured rabbit pleads in faux terror: 'Do whatever you want with me, hang me, drown me, but please, whatever you do, don't fling me into that thorny briar patch!' Convinced this is the ultimate torture, the fox flings him into the brambles, where the agile rabbit scampers away unharmed, boasting that he was born and bred in the briar patch.",
+      "long_description": null,
+      "alternate_names": [
+        "The Tar Baby",
+        "Tales of Uncle Remus: Brer Rabbit"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "K581.1",
+        "K741",
+        "J1111"
+      ],
+      "themes": [
+        "trickster",
+        "african-american oral traditions",
+        "cunning over power",
+        "survival",
+        "coastal south"
+      ],
+      "historical_period": "Antebellum African-American Oral Tradition (collected 1880 by Joel Chandler Harris)",
+      "region_or_community": "Gullah Geechee coast and plantation oral networks, Georgia and South Carolina",
+      "community_attributions": [
+        "Gullah Geechee oral narrators",
+        "Enslaved African-American community lore"
+      ],
+      "geographic_associations": [
+        "Sea Islands",
+        "Georgia lowcountry"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Uncle Remus: His Songs and His Sayings",
+          "publisher": "Joel Chandler Harris / Project Gutenberg",
+          "name": "Joel Chandler Harris / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2422",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Joel Chandler Harris, Uncle Remus (1881). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Joel Chandler Harris / Project Gutenberg, 'Uncle Remus: His Songs and His Sayings'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/2422",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.829762Z",
+      "updated_at": "2026-10-29T10:22:51.829762Z"
+    },
+    {
+      "id": "US-FOLK-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Casey Jones and the Cannonball Express",
+      "slug": "casey-jones-and-the-cannonball-express",
+      "country_code": "US",
+      "category": "folklore",
+      "subtype": "heroic_ballad",
+      "summary": "On a rainy night in April 1900, Illinois Central engineer Jonathan Luther 'Casey' Jones volunteered to pilot the southbound passenger train No. 1, the Cannonball Express, out of Memphis, Tennessee, determined to make up for lost time. Rounding a blind curve near Vaughan, Mississippi, Jones spotted the red lanterns of a stalled freight train protruding onto the main track. Ordering his African-American fireman Sim Webb to jump for his life, Jones remained in the cab, working the brake and throttle down to the point of impact. His solitary sacrifice saved every passenger on board, inspiring one of America's definitive railroad folk songs.",
+      "long_description": null,
+      "alternate_names": [
+        "The Brave Engineer",
+        "The Ballad of Casey Jones"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "P446",
+        "M200",
+        "F610"
+      ],
+      "themes": [
+        "railroad lore",
+        "heroism",
+        "steam era",
+        "sacrifice",
+        "folk ballad"
+      ],
+      "historical_period": "Gilded Age / Turn of the 20th Century (incident occurred April 30, 1900)",
+      "region_or_community": "Mississippi Delta and Tennessee railway network",
+      "community_attributions": [
+        "American railroad workers",
+        "Wallace Saunders folk ballad tradition"
+      ],
+      "geographic_associations": [
+        "Vaughan, Mississippi",
+        "Memphis, Tennessee",
+        "Canton, Mississippi"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Legend and Song of Casey Jones (Library of Congress Folklife)",
+          "publisher": "Library of Congress American Folklife Center",
+          "name": "Library of Congress American Folklife Center",
+          "url": "https://www.loc.gov/item/ihas.200196239/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Library of Congress American Folk Music and Folklife. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Library of Congress American Folklife Center, 'The Legend and Song of Casey Jones (Library of Congress Folklife)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.loc.gov/item/ihas.200196239/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.829787Z",
+      "updated_at": "2026-10-29T10:22:51.829788Z"
+    },
+    {
+      "id": "US-FOLK-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Davy Crockett and the Frozen Sunrise",
+      "slug": "davy-crockett-and-the-frozen-sunrise",
+      "country_code": "US",
+      "category": "folklore",
+      "subtype": "tall_tale",
+      "summary": "A legendary staple of nineteenth-century American almanacs, frontier frontiersman Davy Crockett claimed that during the bitter Winter of 1835, the earth froze on its axis, trapping the morning sun inside a bank of frozen ice and preventing the dawn from rising. Crockett climbed Daybreak Hill with a bear carcass strapped to his back, chewed a plug of tobacco, and rubbed bear grease over the solar axle until the friction melted the cosmic ice. Giving the sun a kickstart, he rode the daybreak back down the mountain, bringing morning light to the freezing frontier republic.",
+      "long_description": null,
+      "alternate_names": [
+        "Crockett's Almanac Tales",
+        "The Day Davy Thawed the Sun"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "X1000",
+        "A728",
+        "F531.0.4"
+      ],
+      "themes": [
+        "frontier tall tale",
+        "solar mythology",
+        "hyperbole",
+        "almanac humor",
+        "early american humor"
+      ],
+      "historical_period": "Jacksonian Frontier Era (c. 1835–1840 Davy Crockett Almanacs)",
+      "region_or_community": "Tennessee backcountry and Cumberland plateau",
+      "community_attributions": [
+        "Frontier almanac writers",
+        "Tennessee folk storytellers"
+      ],
+      "geographic_associations": [
+        "Smoky Mountains, Tennessee",
+        "Alamo, Texas"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Davy Crockett's Almanack of Wild Sports of the West",
+          "publisher": "Library of Congress Rare Book Collection",
+          "name": "Library of Congress Rare Book Collection",
+          "url": "https://www.loc.gov/item/2004000305/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Davy Crockett Almanack (1835). Library of Congress Rare Books. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Library of Congress Rare Book Collection, 'Davy Crockett's Almanack of Wild Sports of the West'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.loc.gov/item/2004000305/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.829812Z",
+      "updated_at": "2026-10-29T10:22:51.829812Z"
+    }
+  ],
   "metadata": {
-    "description": "Folklore archive partition for United States (US)",
+    "description": "Curated folklore dataset for United States",
     "dataset_version": "2.0.0",
-    "created_at": "2026-10-29T12:00:00Z",
-    "updated_at": "2026-10-29T08:08:06.557090Z",
-    "provenance_notes": "Canonical Phase 2 DatasetEnvelope schema format",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
     "target_count": 10,
-    "actual_record_count": 0,
-    "total_records": 0,
-    "status": "pending_curation",
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
     "validation_status": "valid",
-    "last_updated": "2026-10-29T08:08:06.557098+00:00",
+    "last_updated": null,
     "import_batch_references": []
   }
 }

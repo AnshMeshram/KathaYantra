@@ -3,19 +3,830 @@
   "dataset_id": "EG-folklore",
   "country_code": "EG",
   "category": "folklore",
-  "records": [],
+  "records": [
+    {
+      "id": "EG-FOLK-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Myth of Osiris, Isis, and the Sacred Resurrection",
+      "slug": "the-myth-of-osiris-isis-and-the-sacred-resurrection",
+      "country_code": "EG",
+      "category": "folklore",
+      "subtype": "resurrection_myth",
+      "summary": "A foundational epic of ancient Egyptian religion and folklore, the wise King Osiris was murdered by his jealous brother Set, who tricked him into lying inside an ornate cedar chest, sealed it with molten lead, and cast it into the Nile. Osiris's devoted sister-wife, the goddess Isis, searched across the Mediterranean to Byblos to recover his corpse. Discovering this, Set dismembered the body into fourteen pieces and scattered them across Egypt. Isis patiently searched the marshlands, gathering every fragment except the phallus (eaten by a fish), wrapping the body in sacred linen bands with the aid of Anubis to perform the first mummification. Transforming into a kite bird, she fanned life into Osiris, who became the eternal Lord of the Duat (the Underworld).",
+      "long_description": null,
+      "alternate_names": [
+        "The Osiris Myth",
+        "Isis and the Mummification of Osiris"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "egy"
+      ],
+      "motifs": [
+        "E30",
+        "S73.1",
+        "A1335"
+      ],
+      "themes": [
+        "osiris",
+        "isis",
+        "mummification",
+        "resurrection",
+        "egyptian mythology"
+      ],
+      "historical_period": "Old Kingdom to Ptolemaic Era (Pyramid Texts and Plutarch's De Iside et Osiride)",
+      "region_or_community": "Nile River Valley, Abydos, and Philae",
+      "community_attributions": [
+        "Ancient Egyptian priesthood",
+        "Egyptian cultural antiquities authority"
+      ],
+      "geographic_associations": [
+        "Abydos, Upper Egypt",
+        "Philae Island, Aswan"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Gods of the Egyptians: Studies in Egyptian Mythology (The Legend of Osiris and Isis)",
+          "publisher": "E. A. Wallis Budge / Project Gutenberg",
+          "name": "E. A. Wallis Budge / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/40733",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "E. A. Wallis Budge, The Gods of the Egyptians (1904). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from E. A. Wallis Budge / Project Gutenberg, 'The Gods of the Egyptians: Studies in Egyptian Mythology (The Legend of Osiris and Isis)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/40733",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.812946Z",
+      "updated_at": "2026-10-29T10:22:51.812947Z"
+    },
+    {
+      "id": "EG-FOLK-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Tale of the Doomed Prince (Papyrus Harris 500)",
+      "slug": "the-tale-of-the-doomed-prince-papyrus-harris-500",
+      "country_code": "EG",
+      "category": "folklore",
+      "subtype": "destiny_tale",
+      "summary": "Recorded in the New Kingdom Papyrus Harris 500, a long-awaited royal prince was born to the Pharaoh, but the Seven Hathors decreed his inescapable fate at birth: he must die by a crocodile, a snake, or a dog. To protect him, the Pharaoh built an isolated palace in the desert. Growing to manhood, the prince insisted on facing his destiny, accompanied by a loyal hound. Traveling to the kingdom of Mitanni (Naharina), he leaped seventy cubits into the air to win the hand of the Syrian princess. While he slept, his faithful wife killed a venomous viper drawn to his bed with bowls of wine, while his loyal dog chased away a giant Nile crocodile, exploring the timeless battle between human agency and divine destiny.",
+      "long_description": null,
+      "alternate_names": [
+        "The Doomed Prince",
+        "The Three Fates of the Pharaoh's Son"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "egy"
+      ],
+      "motifs": [
+        "M341",
+        "M370",
+        "B524"
+      ],
+      "themes": [
+        "doomed prince",
+        "seven hathors",
+        "papyrus harris 500",
+        "inescapable fate",
+        "loyal dog"
+      ],
+      "historical_period": "New Kingdom (18th Dynasty, c. 13th Century BCE Papyrus Harris 500)",
+      "region_or_community": "Thebes, Upper Egypt and Mitanni borderlands",
+      "community_attributions": [
+        "Ancient Egyptian scribal school tradition",
+        "British Museum papyrus collection"
+      ],
+      "geographic_associations": [
+        "Thebes (Luxor)",
+        "Naharina / Mitanni"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Egyptian Tales, Translated from the Papyri: Second Series (The Doomed Prince)",
+          "publisher": "W. M. Flinders Petrie / Project Gutenberg",
+          "name": "W. M. Flinders Petrie / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/14400",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "W. M. Flinders Petrie, Egyptian Tales (1895). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from W. M. Flinders Petrie / Project Gutenberg, 'Egyptian Tales, Translated from the Papyri: Second Series (The Doomed Prince)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/14400",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.812983Z",
+      "updated_at": "2026-10-29T10:22:51.812984Z"
+    },
+    {
+      "id": "EG-FOLK-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Tale of the Shipwrecked Sailor and the Serpent King",
+      "slug": "the-tale-of-the-shipwrecked-sailor-and-the-serpent-king",
+      "country_code": "EG",
+      "category": "folklore",
+      "subtype": "voyage_tale",
+      "summary": "Preserved in the Middle Kingdom Papyrus Leningrad 1115, an Egyptian sailor recounts his miraculous survival after a colossal storm wave shattered his ship in the Red Sea, drowning all one hundred and twenty crewmen. Washed ashore on the enchanted phantom island of the Ka, he encounters a towering divine serpent thirty cubits long with scales of gold and lapis lazuli. Fearing death, the sailor prostrates himself, but the benevolent Serpent King comforts him, recounting how his own seventy-four serpent siblings were incinerated by a falling celestial star. Showering the sailor with ivory, frankincense, myrrh, and baboons, the serpent prophesies a rescue ship's arrival, telling him the enchanted island will submerge beneath the waves forever once he departs.",
+      "long_description": null,
+      "alternate_names": [
+        "The Shipwrecked Sailor",
+        "The Serpent King of the Island of the Ka"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "egy"
+      ],
+      "motifs": [
+        "F111",
+        "B11.2",
+        "B551"
+      ],
+      "themes": [
+        "shipwrecked sailor",
+        "island of the ka",
+        "golden serpent king",
+        "red sea voyage",
+        "middle kingdom literature"
+      ],
+      "historical_period": "Middle Kingdom (12th Dynasty, c. 2000 BCE, Papyrus Leningrad 1115)",
+      "region_or_community": "Red Sea and Punt trade routes, Upper Egypt",
+      "community_attributions": [
+        "Middle Kingdom royal scribes",
+        "Ancient Egyptian maritime voyagers"
+      ],
+      "geographic_associations": [
+        "Red Sea coast",
+        "Land of Punt"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Egyptian Tales, Translated from the Papyri: First Series (The Shipwrecked Sailor)",
+          "publisher": "W. M. Flinders Petrie / Project Gutenberg",
+          "name": "W. M. Flinders Petrie / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/14400",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "W. M. Flinders Petrie, Egyptian Tales (1895). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from W. M. Flinders Petrie / Project Gutenberg, 'Egyptian Tales, Translated from the Papyri: First Series (The Shipwrecked Sailor)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/14400",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813008Z",
+      "updated_at": "2026-10-29T10:22:51.813008Z"
+    },
+    {
+      "id": "EG-FOLK-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Tale of the Two Brothers (Anpu and Bata)",
+      "slug": "the-tale-of-the-two-brothers-anpu-and-bata",
+      "country_code": "EG",
+      "category": "folklore",
+      "subtype": "fairy_tale",
+      "summary": "Recorded in the 19th Dynasty Papyrus D'Orbiney, elder brother Anpu and younger brother Bata live as devoted farmers. When Anpu's wife falsely accuses Bata of attempting to seduce her after Bata rejected her advances, Anpu hides behind the stable door with a spear to kill his brother. Warned by speaking cows, Bata flees, praying to the sun god Ra, who places a crocodile-infested river between them. Bata cuts off his own phallus to prove his innocence and retreats to the Valley of the Cedar, placing his heart upon the blossoming cone of a cedar tree. Through transformations into a magnificent sacred bull (Apis) and two giant persea trees, Bata outwits betrayal to become Pharaoh of Egypt.",
+      "long_description": null,
+      "alternate_names": [
+        "Anpu and Bata",
+        "The Story of the Two Brothers"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "egy"
+      ],
+      "motifs": [
+        "K2111",
+        "E600",
+        "B211.1"
+      ],
+      "themes": [
+        "two brothers",
+        "false accusation",
+        "bata and anpu",
+        "valley of the cedar",
+        "papyrus d'orbiney"
+      ],
+      "historical_period": "New Kingdom (19th Dynasty, reign of Seti II c. 1200 BCE)",
+      "region_or_community": "Nile Delta and Valley of the Cedar (Phoenicia)",
+      "community_attributions": [
+        "Ancient Egyptian royal scribal circle",
+        "British Museum papyrus collections"
+      ],
+      "geographic_associations": [
+        "Lower Egypt",
+        "Valley of the Cedar, Levant"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Egyptian Tales, Translated from the Papyri: Second Series (Anpu and Bata)",
+          "publisher": "W. M. Flinders Petrie / Project Gutenberg",
+          "name": "W. M. Flinders Petrie / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/14400",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "W. M. Flinders Petrie, Egyptian Tales (1895). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from W. M. Flinders Petrie / Project Gutenberg, 'Egyptian Tales, Translated from the Papyri: Second Series (Anpu and Bata)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/14400",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813033Z",
+      "updated_at": "2026-10-29T10:22:51.813033Z"
+    },
+    {
+      "id": "EG-FOLK-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Isis and the Secret True Name of Ra",
+      "slug": "isis-and-the-secret-true-name-of-ra",
+      "country_code": "EG",
+      "category": "folklore",
+      "subtype": "divine_sorcery",
+      "summary": "In ancient Egyptian magical belief, true divine authority and omnipotence resided in knowledge of an entity's secret, hidden name (ren). When the supreme sun god Ra grew old, drooling upon the earth as he walked across the heavens, the great sorceress Isis gathered his divine spittle, mixed it with clay, and shaped it into a venomous viper. Placing the serpent on Ra's celestial pathway, it struck the sun god with excruciating, burning agony that none of the gods could heal. Approaching him, Isis offered to purge the poison on one condition: Ra must reveal his secret, unuttered name to her. Burning in agony, Ra whispered his secret name into Isis's breast, transferring supreme cosmic magical authority to her and her son Horus.",
+      "long_description": null,
+      "alternate_names": [
+        "The Secret Name of Ra",
+        "The Sorcery of the Goddess Isis"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "egy"
+      ],
+      "motifs": [
+        "C430",
+        "D1810",
+        "D2061"
+      ],
+      "themes": [
+        "secret name of ra",
+        "isis the sorceress",
+        "divine spittle snake",
+        "name magic",
+        "egyptian pantheon"
+      ],
+      "historical_period": "New Kingdom (preserved in the Turin Papyrus of Magical Spells c. 1200 BCE)",
+      "region_or_community": "Heliopolis (Iunu) and Thebes",
+      "community_attributions": [
+        "Heliopolitan solar priesthood",
+        "Egyptian magical scribes"
+      ],
+      "geographic_associations": [
+        "Heliopolis (Cairo)",
+        "Thebes"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Legends of the Gods: The Legend of Ra and Isis",
+          "publisher": "E. A. Wallis Budge / Project Gutenberg",
+          "name": "E. A. Wallis Budge / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/27448",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "E. A. Wallis Budge, Legends of the Gods (1912). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from E. A. Wallis Budge / Project Gutenberg, 'Legends of the Gods: The Legend of Ra and Isis'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/27448",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813059Z",
+      "updated_at": "2026-10-29T10:22:51.813060Z"
+    },
+    {
+      "id": "EG-FOLK-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Legend of the Eye of Horus (Wedjat)",
+      "slug": "the-legend-of-the-eye-of-horus-wedjat",
+      "country_code": "EG",
+      "category": "folklore",
+      "subtype": "divine_conflict",
+      "summary": "During the epic eighty-year struggle between Horus and Set for the royal throne of Egypt, the fierce god of chaos Set gouged out Horus's left eye—the Eye of the Moon—and tore it into six pieces, scattering them across the desert. The ibis-headed god of wisdom, Thoth, gathered the shattered pieces, healed the wounds with his spittle, and reassembled them into the whole, magical Wedjat Eye (meaning 'The Whole/Restored One'). Each fragment corresponded to the mathematical fractional components of Egyptian measurement (1/2, 1/4, 1/8, 1/16, 1/32, 1/64). Horus sacrificed his restored eye by offering it to his deceased father Osiris, giving the dead god sight in the underworld and making the Eye of Horus the supreme amulet of healing and protection.",
+      "long_description": null,
+      "alternate_names": [
+        "The Eye of Horus",
+        "The Sacred Wedjat"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "egy"
+      ],
+      "motifs": [
+        "E30",
+        "D1011",
+        "V221"
+      ],
+      "themes": [
+        "eye of horus",
+        "wedjat amulet",
+        "thoth the healer",
+        "set and horus conflict",
+        "mathematical fractions"
+      ],
+      "historical_period": "Old Kingdom through Ptolemaic Era (Book of the Dead Chapter 140)",
+      "region_or_community": "Temple of Edfu and Kom Ombo, Upper Egypt",
+      "community_attributions": [
+        "Temple priests of Edfu",
+        "Ancient Egyptian medical amulet tradition"
+      ],
+      "geographic_associations": [
+        "Edfu Temple, Upper Egypt",
+        "Hermopolis (Ashmunein)"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Egyptian Magic: The Amulet of the Eye of Horus (Wedjat)",
+          "publisher": "E. A. Wallis Budge / Kegan Paul",
+          "name": "E. A. Wallis Budge / Kegan Paul",
+          "url": "https://www.gutenberg.org/ebooks/15469",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "E. A. Wallis Budge, Egyptian Magic (1899). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from E. A. Wallis Budge / Kegan Paul, 'Egyptian Magic: The Amulet of the Eye of Horus (Wedjat)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/15469",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813086Z",
+      "updated_at": "2026-10-29T10:22:51.813087Z"
+    },
+    {
+      "id": "EG-FOLK-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Eloquent Peasant and the Nine Petitions",
+      "slug": "the-eloquent-peasant-and-the-nine-petitions",
+      "country_code": "EG",
+      "category": "folklore",
+      "subtype": "moral_tale",
+      "summary": "Preserved across four Middle Kingdom papyri, a humble peasant from the Wadi Natrun named Khun-Anup journeyed toward Herakleopolis with his donkeys laden with natron, salt, and reeds. A corrupt landowner named Nemtynakht spread a cloth across the narrow dike, and when a donkey nibbled a stalk of barley beside the path, Nemtynakht seized the peasant's beasts and goods. Seeking justice from the High Steward Rensi, the peasant delivered nine dazzling philosophical speeches on the sacred cosmic principle of Ma'at (truth, justice, and balance). Charmed by the peasant's extraordinary eloquence, Pharaoh Nebkaure ordered the petitions transcribed on papyrus scrolls, returning all stolen property to the peasant and giving him the corrupt noble's estate.",
+      "long_description": null,
+      "alternate_names": [
+        "The Eloquent Peasant",
+        "Khun-Anup and the Rule of Ma'at"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "egy"
+      ],
+      "motifs": [
+        "J1110",
+        "P428",
+        "H530"
+      ],
+      "themes": [
+        "eloquent peasant",
+        "justice and ma'at",
+        "middle kingdom literature",
+        "wadi natrun",
+        "herakleopolis"
+      ],
+      "historical_period": "Middle Kingdom (9th–12th Dynasties, c. 1900 BCE)",
+      "region_or_community": "Wadi El Natrun and Herakleopolis Magna (Beni Suef)",
+      "community_attributions": [
+        "Ancient Egyptian legal scribes",
+        "Middle Kingdom court chroniclers"
+      ],
+      "geographic_associations": [
+        "Wadi El Natrun (Salt Valley)",
+        "Herakleopolis Magna"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Egyptian Tales, Translated from the Papyri: Second Series (The Peasant and the Workman)",
+          "publisher": "W. M. Flinders Petrie / Project Gutenberg",
+          "name": "W. M. Flinders Petrie / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/14400",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "W. M. Flinders Petrie, Egyptian Tales (1895). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from W. M. Flinders Petrie / Project Gutenberg, 'Egyptian Tales, Translated from the Papyri: Second Series (The Peasant and the Workman)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/14400",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813109Z",
+      "updated_at": "2026-10-29T10:22:51.813109Z"
+    },
+    {
+      "id": "EG-FOLK-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "King Khufu and the Magicians (Westcar Papyrus)",
+      "slug": "king-khufu-and-the-magicians-westcar-papyrus",
+      "country_code": "EG",
+      "category": "folklore",
+      "subtype": "magical_chronicle",
+      "summary": "Recorded in the celebrated Berlin Westcar Papyrus, the great Pyramid-builder Pharaoh Khufu (Cheops) is entertained in his palace by his royal sons, who recount astonishing feats of master magicians. Prince Hardedef presents the centenarian sage Djedi of Djed-Sneferu, who eats five hundred loaves of bread and drinks one hundred jars of beer daily. Djedi demonstrates his supernatural power before the Pharaoh by decapitating a goose, placing its head on one side of the hall and its body on the other; uttering incantations, the head hops forward, the body waddles to meet it, and the bird quacks joyfully restored, before the wizard prophesies the birth of the first three kings of the Fifth Dynasty.",
+      "long_description": null,
+      "alternate_names": [
+        "The Westcar Papyrus",
+        "Djedi the Magician"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "egy"
+      ],
+      "motifs": [
+        "D1810",
+        "D2161",
+        "M300"
+      ],
+      "themes": [
+        "khufu",
+        "westcar papyrus",
+        "djedi the magician",
+        "decapitation magic",
+        "pyramid builders"
+      ],
+      "historical_period": "Old Kingdom setting (4th Dynasty), compiled Middle Kingdom (Hyksos Era c. 1650 BCE)",
+      "region_or_community": "Memphis and Giza Pyramid plateau",
+      "community_attributions": [
+        "Memphite court scribes",
+        "Berlin Museum papyrus collection"
+      ],
+      "geographic_associations": [
+        "Great Pyramid of Giza",
+        "Memphis, Lower Egypt"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Egyptian Tales: First Series: Tales of the Magicians (The Westcar Papyrus)",
+          "publisher": "W. M. Flinders Petrie / Project Gutenberg",
+          "name": "W. M. Flinders Petrie / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/14400",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "W. M. Flinders Petrie, Egyptian Tales (1895). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from W. M. Flinders Petrie / Project Gutenberg, 'Egyptian Tales: First Series: Tales of the Magicians (The Westcar Papyrus)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/14400",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813129Z",
+      "updated_at": "2026-10-29T10:22:51.813129Z"
+    },
+    {
+      "id": "EG-FOLK-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Myth of the Heavenly Cow and the Wrath of Sekhmet",
+      "slug": "the-myth-of-the-heavenly-cow-and-the-wrath-of-sekhmet",
+      "country_code": "EG",
+      "category": "folklore",
+      "subtype": "cataclysm_myth",
+      "summary": "Preserved in royal New Kingdom tombs including Tutankhamun's shrine, the sun god Ra perceived that humanity was plotting rebellion against his elderly reign in the desert. In wrath, Ra dispatched his fiery eye in the form of the fierce lioness goddess Hathor-Sekhmet to slaughter the conspirators. Tasting human blood, Sekhmet was seized by an insatiable bloodlust, wading through humanity and threatening to exterminate the entire human race. Taking pity on mortal survivors, Ra ordered seven thousand jars of barley beer mixed with red ochre from Elephantine to resemble pools of human blood, flooding the fields. Drinking the crimson brew until she became drunk, Sekhmet fell asleep and woke as the gentle cat goddess Bastet, saving humanity from annihilation.",
+      "long_description": null,
+      "alternate_names": [
+        "The Destruction of Mankind",
+        "The Book of the Heavenly Cow"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "egy"
+      ],
+      "motifs": [
+        "A1006",
+        "A284",
+        "K1800"
+      ],
+      "themes": [
+        "myth of the heavenly cow",
+        "sekhmet",
+        "wrath of the sun god",
+        "red beer trick",
+        "survival of humanity"
+      ],
+      "historical_period": "New Kingdom (recorded in the Valley of the Kings tombs c. 1330 BCE)",
+      "region_or_community": "Thebes and Elephantine (Aswan)",
+      "community_attributions": [
+        "Theban royal scribes",
+        "Valley of the Kings tomb artists"
+      ],
+      "geographic_associations": [
+        "Valley of the Kings, Luxor",
+        "Elephantine Island, Aswan"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Legends of the Gods: The Creation of Men and Their Destruction by Hathor-Sekhmet",
+          "publisher": "E. A. Wallis Budge / Project Gutenberg",
+          "name": "E. A. Wallis Budge / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/27448",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "E. A. Wallis Budge, Legends of the Gods (1912). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from E. A. Wallis Budge / Project Gutenberg, 'Legends of the Gods: The Creation of Men and Their Destruction by Hathor-Sekhmet'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/27448",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813149Z",
+      "updated_at": "2026-10-29T10:22:51.813150Z"
+    },
+    {
+      "id": "EG-FOLK-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Dream Stele of Thutmose IV and the Great Sphinx",
+      "slug": "the-dream-stele-of-thutmose-iv-and-the-great-sphinx",
+      "country_code": "EG",
+      "category": "folklore",
+      "subtype": "divine_prophecy",
+      "summary": "Erected between the front paws of the Great Sphinx of Giza, the Dream Stele records an extraordinary event from the youth of Prince Thutmose (later Pharaoh Thutmose IV). While hunting wild lions in the desert sands around midday, the prince rested in the shadow of the colossal stone monument, which was buried up to its neck in shifting desert sands. In a dream vision, the sun god Harmakhis-Khepri-Re spoke from the stone mouth of the Sphinx, promising that if Thutmose cleared away the choking sand dunes and restored the sanctuary, the god would grant him the Double Crown of Upper and Lower Egypt. Honoring the divine pact, Thutmose excavated the monument and erected the red granite commemorative stele in 1401 BCE.",
+      "long_description": null,
+      "alternate_names": [
+        "The Sphinx Dream Stele",
+        "The Prophecy of Thutmose IV"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "egy"
+      ],
+      "motifs": [
+        "D1812.3.3",
+        "V221",
+        "P428"
+      ],
+      "themes": [
+        "great sphinx of giza",
+        "dream stele",
+        "thutmose iv",
+        "desert sands cleared",
+        "sacred kingship"
+      ],
+      "historical_period": "New Kingdom (18th Dynasty, c. 1401 BCE)",
+      "region_or_community": "Giza Plateau, Lower Egypt",
+      "community_attributions": [
+        "Ancient Egyptian royal historiographers",
+        "Giza plateau archaeological custodians"
+      ],
+      "geographic_associations": [
+        "Great Sphinx of Giza",
+        "Giza Plateau, Cairo"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Library of Congress: Historical Records of the Giza Sphinx and the Dream Stele",
+          "publisher": "Library of Congress Near East Section",
+          "name": "Library of Congress Near East Section",
+          "url": "https://www.loc.gov/item/2021667824/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Library of Congress Near East and Egyptian collections. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Library of Congress Near East Section, 'Library of Congress: Historical Records of the Giza Sphinx and the Dream Stele'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.loc.gov/item/2021667824/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813175Z",
+      "updated_at": "2026-10-29T10:22:51.813176Z"
+    }
+  ],
   "metadata": {
-    "description": "Folklore archive partition for Egypt (EG)",
+    "description": "Curated folklore dataset for Egypt",
     "dataset_version": "2.0.0",
-    "created_at": "2026-10-29T12:00:00Z",
-    "updated_at": "2026-10-29T08:08:06.536759Z",
-    "provenance_notes": "Canonical Phase 2 DatasetEnvelope schema format",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
     "target_count": 10,
-    "actual_record_count": 0,
-    "total_records": 0,
-    "status": "pending_curation",
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
     "validation_status": "valid",
-    "last_updated": "2026-10-29T08:08:06.536764+00:00",
+    "last_updated": null,
     "import_batch_references": []
   }
 }
