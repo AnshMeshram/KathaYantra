@@ -67,3 +67,4 @@ def test_story_source_optional_license_url():
         license_url=None,  # No license URL
     )
     assert src.license_url is None
+

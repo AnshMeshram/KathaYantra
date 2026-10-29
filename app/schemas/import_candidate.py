@@ -69,3 +69,4 @@ class ImportCandidate(BaseModel):
         if v:
             return validate_web_url(v)
         return v
+

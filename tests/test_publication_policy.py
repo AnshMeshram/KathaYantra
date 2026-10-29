@@ -120,3 +120,4 @@ def test_missing_mandatory_attribution_is_blocked():
     res = publication_policy.evaluate_eligibility(rec)
     assert res.is_eligible is False
     assert any("requires explicit attribution" in v for v in res.violations)
+

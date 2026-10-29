@@ -125,3 +125,4 @@ def test_actual_record_count_dynamically_calculated():
 
     assert envelope.metadata.actual_record_count == 2
     assert envelope.metadata.total_records == 2
+

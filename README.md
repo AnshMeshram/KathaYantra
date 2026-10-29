@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Pydantic v2](https://img.shields.io/badge/Pydantic-v2.10-E92063?style=flat-square&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
-[![Pytest](https://img.shields.io/badge/Tests-60%20Passed%20(100%25)-success?style=flat-square&logo=pytest&logoColor=white)](tests/)
+[![Pytest](https://img.shields.io/badge/Tests-95%20Passed%20(100%25)-success?style=flat-square&logo=pytest&logoColor=white)](tests/)
 [![Local AI](https://img.shields.io/badge/Local%20AI-Ollama%20%2B%20Gemma%202-FF6F00?style=flat-square&logo=google&logoColor=white)](https://ollama.ai/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Target Scope](https://img.shields.io/badge/Scope-15%20Countries%20%7C%20300%20Stories-blueviolet?style=flat-square)](#-target-country-matrix)
@@ -56,7 +56,7 @@ Unlike commercial scrapers or black-box generative bots, KathaYantra is engineer
 3. **Transparent Source Tracking:** Every narrative links back to an inspectable physical publication, national archive, or open academic database.
 4. **Local-First Open-Weight AI:** An integrated local archivist running locally via **Ollama + Gemma 2**, assisting users in discovering comparative themes across cultures without inventing sources, fabricating legends, or sending data to third-party cloud APIs.
 
-> **Phase 2 Milestone:** Establishes strict versioned data schemas (`2.0.0`), Draft 2020-12 JSON Schema contracts, deterministic 8-rule publication governance (`PublicationPolicy`), separate models for AI fiction (`GeneratedFictionRecord`) and candidate staging (`ImportCandidate`), full migration of all 30 country seed files to `DatasetEnvelope 2.0.0`, and **60 passing unit tests**.
+> **Phase 3 Milestone:** Establishes working open-data API connectors (Wikimedia REST, Wikidata SPARQL, Library of Congress, Internet Archive, Myths of Ireland, Europeana, Japan Search, and CSV Importer), an 8-stage candidate ingestion pipeline, deterministic deduplication and cultural variant analysis, candidate repository staging in `data/processed/candidates/`, rate-limited polite `KathaHTTPClient` with query caching, 15-country discovery query templates (`data/seed/discovery_queries.json`), 10 CLI discovery and import tools, and **95 passing tests**.
 
 ---
 
@@ -262,8 +262,21 @@ Full source profiles: [`docs/data-sources.md`](file:///C:/Users/shrin/Desktop/Ha
 KathaYantra/
 ├── app/
 │   ├── api/routes/health.py        # GET /api/v1/health system probe
-│   ├── core/config.py              # Pydantic v2 application settings
-│   ├── integrations/registry.py    # Source registry query manager
+│   ├── core/config.py              # Pydantic v2 application settings (timeouts, caching, quotas)
+│   ├── integrations/               # Open data connectors & API adapters
+│   │   ├── base.py                 # BaseConnector & custom error types
+│   │   ├── csv_importer.py         # Quarantined CSV candidate importer
+│   │   ├── europeana.py            # Europeana REST API connector (key-aware)
+│   │   ├── http_client.py          # KathaHTTPClient (rate-limited, cached, polite UA)
+│   │   ├── internet_archive.py     # Internet Archive Advanced Search connector
+│   │   ├── japan_search.py         # Japan Search cultural platform connector
+│   │   ├── library_of_congress.py  # Library of Congress JSON API connector
+│   │   ├── mediawiki.py            # Wikimedia / Wikipedia REST API connector
+│   │   ├── myths_of_ireland.py     # Myths of Ireland CC BY 4.0 dataset connector
+│   │   ├── reference_only.py       # Safe adapter prohibiting bulk scraping
+│   │   └── registry.py             # SourceRegistryManager & connector factory
+│   ├── repositories/               # Staged candidate persistence
+│   │   └── candidate_repository.py # Atomic JSONL candidate storage
 │   ├── schemas/                    # Pydantic v2 data models (Schema v2.0.0)
 │   │   ├── country.py              # CountryRecord & ISO code constraints
 │   │   ├── dataset.py              # DatasetEnvelope 2.0.0 & dataset envelope
@@ -272,8 +285,13 @@ KathaYantra/
 │   │   ├── manifest.py             # DatasetManifest & quota models
 │   │   ├── source.py               # StorySource & SourceRegistryItem
 │   │   └── story.py                # StoryRecord & rights models
-│   ├── services/                   # Governance & validation services
+│   ├── services/                   # Governance, ingestion & validation services
+│   │   ├── candidate_deduplication.py# Fingerprinting & cultural variant analysis
+│   │   ├── candidate_normalizer.py # String cleaning & URL sanitizing
 │   │   ├── data_validation.py      # DataQualityValidator (17 integrity checks)
+│   │   ├── import_batch_service.py # Batch execution & manifest tracking
+│   │   ├── import_pipeline.py      # 8-stage candidate acquisition pipeline
+│   │   ├── import_reporting.py     # Ingestion coverage & shortfall reporting
 │   │   ├── manifest_service.py     # Real-time actual count calculator
 │   │   └── publication_policy.py   # PublicationPolicy (8-rule gating engine)
 │   └── main.py                     # FastAPI application factory
@@ -282,9 +300,10 @@ KathaYantra/
 │   │   ├── dataset_manifest.json   # Dynamic actual counts vs 300 target
 │   │   ├── folk_tales_csv_audit.json # Machine-readable audit report
 │   │   └── nation_mapping_review.json # 58 nation values review mapping
+│   ├── processed/
+│   │   └── candidates/             # Staged ImportCandidate JSONL batch files
 │   ├── raw/
 │   │   └── .gitkeep                # Raw CSV folder (CSVs gitignored)
-│   ├── processed/.gitkeep          # Staged reviewed pipeline folder
 │   ├── schemas/                    # Draft 2020-12 JSON Schema exports
 │   │   ├── country.schema.json
 │   │   ├── dataset_envelope.schema.json
@@ -296,38 +315,63 @@ KathaYantra/
 │   │   └── story_source.schema.json
 │   └── seed/
 │       ├── countries.json          # 15 target countries catalog
+│       ├── discovery_queries.json  # 15 countries folklore/urban legend query matrix
 │       ├── source_registry.json    # 17 registered sources & APIs
 │       ├── folklore/               # 15 country seed files (DatasetEnvelope 2.0.0)
 │       └── urban_legends/          # 15 country seed files (DatasetEnvelope 2.0.0)
 ├── docs/
+│   ├── api-integration-status.md   # Detailed API connector status & access matrix
 │   ├── architecture.md             # Architecture & system boundaries
 │   ├── data-schema.md              # Pydantic v2 & JSON Schema contracts
 │   ├── data-sources.md             # Detailed profiles of 17 sources
 │   ├── folk-tales-dataset-audit.md # Comprehensive CSV audit findings
+│   ├── import-pipeline.md          # 8-stage candidate ingestion pipeline guide
 │   ├── licensing-policy.md         # Rights, copyright, AI policy & gating
 │   └── schema-versioning.md        # Semantic versioning & deprecation guide
 ├── scripts/
 │   ├── audit_folktales_csv.py      # Deterministic CSV audit engine
+│   ├── discover_wikidata.py        # Wikidata SPARQL discovery CLI
+│   ├── discover_wikimedia.py       # Wikimedia REST discovery CLI
 │   ├── export_json_schemas.py      # Automated JSON Schema 2020-12 exporter
+│   ├── import_europeana.py         # Europeana cultural API import CLI
+│   ├── import_folktales_csv.py     # Quarantined CSV candidate import CLI
+│   ├── import_internet_archive.py  # Internet Archive metadata import CLI
+│   ├── import_japan_search.py      # Japan Search platform import CLI
+│   ├── import_library_of_congress.py# Library of Congress JSON import CLI
+│   ├── import_myths_of_ireland.py  # Myths of Ireland dataset import CLI
 │   ├── migrate_seed_json.py        # Safe seed dataset migrator & linter
+│   ├── report_import_batches.py    # Staged candidate coverage reporter CLI
+│   ├── validate_import_candidates.py# Staged candidate schema validator CLI
 │   └── validate_json_datasets.py   # Comprehensive dataset quality validator
 ├── tests/
 │   ├── test_app.py                 # Startup, CORS, and health route tests
 │   ├── test_audit.py               # CSV parsing & duplicate audit tests
+│   ├── test_candidate_deduplication.py# Fingerprinting & variant analysis tests
 │   ├── test_config.py              # Configuration validation tests
 │   ├── test_country_schema.py      # Country schema Phase 2 tests
+│   ├── test_csv_importer.py        # Raw CSV candidate staging tests
 │   ├── test_data_validation.py     # 17-point DataQualityValidator tests
 │   ├── test_dataset_envelope.py    # Envelope structure & validation tests
+│   ├── test_europeana_integration.py# Europeana API & credential tests
 │   ├── test_generated_fiction.py   # AI fiction segregation & disclaimer tests
+│   ├── test_import_batches.py      # Batch tracking & reporting tests
 │   ├── test_import_candidate.py    # ImportCandidate & disposition tests
+│   ├── test_import_pipeline.py     # 8-stage pipeline orchestration tests
+│   ├── test_internet_archive_integration.py# Internet Archive connector tests
+│   ├── test_japan_search_integration.py# Japan Search connector tests
 │   ├── test_json_schema_export.py  # JSON Schema generation & sync tests
+│   ├── test_library_of_congress_integration.py# LOC API connector tests
 │   ├── test_manifest.py            # Manifest calculation tests
+│   ├── test_mediawiki_integration.py# MediaWiki REST API connector tests
 │   ├── test_migration.py           # Seed migration idempotent tests
+│   ├── test_myths_of_ireland_integration.py# Myths of Ireland connector tests
 │   ├── test_publication_policy.py  # 8-rule publication gate tests
 │   ├── test_schemas.py             # Phase 1 schema regression tests
+│   ├── test_source_health.py       # Source mapping & health check tests
 │   ├── test_source_registry.py     # Registry schema & honesty tests
 │   ├── test_source_schema_phase2.py# StorySource Phase 2 tests
-│   └── test_story_schema_phase2.py # StoryRecord Phase 2 constraint tests
+│   ├── test_story_schema_phase2.py # StoryRecord Phase 2 constraint tests
+│   └── test_wikidata_integration.py# Wikidata SPARQL connector tests
 ├── .env.example                    # Environment template
 ├── .gitignore                      # Git rules (raw data & secrets protected)
 ├── LICENSE                         # MIT License
@@ -367,25 +411,41 @@ To inspect and validate all 30 country seed files and manifests:
 python scripts/validate_json_datasets.py
 ```
 
-### 5. Check Seed File Schema Migration Status
-To verify that all seed files comply with schema v2.0.0 without mutating files:
+### 5. Check Staged Import Candidate Schema Conformance
+To inspect and validate all staged JSONL candidate records in `data/processed/candidates/`:
 ```bash
-python scripts/migrate_seed_json.py --check
+python scripts/validate_import_candidates.py
 ```
 
-### 6. Export Draft 2020-12 JSON Schema Contracts
-To regenerate or inspect canonical JSON Schemas in `data/schemas/`:
+### 6. Discover & Stage Folklore Candidates via Open APIs
+Discover cultural records and stage them as `ImportCandidate` objects:
 ```bash
-python scripts/export_json_schemas.py
+# Discover Wikimedia folklore candidates (e.g. India Baital Pachisi)
+python scripts/discover_wikimedia.py --query "Baital Pachisi" --country IN --limit 10
+
+# Query Wikidata knowledge graph entities (e.g. Japanese Yōkai)
+python scripts/discover_wikidata.py --query "yokai" --country JP --limit 10
+
+# Audit and stage candidates from quarantined raw CSV (metadata only, no unlicensed text)
+python scripts/import_folktales_csv.py --country BR --limit 20
+
+# Import Irish folklore index from Myths of Ireland open dataset (CC BY 4.0)
+python scripts/import_myths_of_ireland.py --query "all" --limit 20
 ```
 
-### 7. Run the Full Test Suite
+### 7. Generate Ingestion & Coverage Gap Reports
+Generate real-time breakdown of staged candidates, disposition states, and remaining shortfalls against the 300 target:
+```bash
+python scripts/report_import_batches.py
+```
+
+### 8. Run the Full Test Suite
 ```bash
 python -m pytest -v
 ```
-*All 60 unit tests across 16 test modules run offline in ~2.6 seconds with 100% pass rate.*
+*All 95 unit and integration tests across 28 test modules run offline in ~2.9 seconds with 100% pass rate.*
 
-### 8. Launch the Development Server
+### 9. Launch the Development Server
 ```bash
 python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
 ```
@@ -395,27 +455,39 @@ Server is live at: `http://127.0.0.1:8000`
 
 ## ✅ Verification & Test Results
 
-The KathaYantra test suite covers all Phase 1 foundations and Phase 2 data governance invariants (60 passing tests across 16 suites):
+The KathaYantra test suite covers all Phase 1 foundations, Phase 2 data governance invariants, and Phase 3 API connector integrations (95 passing tests across 28 test suites):
 
 | Test Module | Scope / Target Tested | Test Count | Status |
 |---|---|:---:|:---:|
 | `test_app.py` | FastAPI application lifecycle, CORS middleware, and health route probe | 3 | **PASS** |
-| `test_audit.py` | CSV parsing, error handling, missing field detection, and duplicate auditing | 3 | **PASS** |
-| `test_config.py` | Pydantic BaseSettings loading, comma-delimited CORS parsing, directory resilience | 3 | **PASS** |
-| `test_country_schema.py` | Canonical CountryRecord v2.0.0, ISO alpha-2 constraints, record targets | 4 | **PASS** |
-| `test_data_validation.py` | 17-point DataQualityValidator suite: duplicate IDs, missing files, manifest reconciliation | 4 | **PASS** |
-| `test_dataset_envelope.py` | DatasetEnvelope v2.0.0, dataset_id convention, backward-compatible aliases | 3 | **PASS** |
+| `test_audit.py` | CSV parsing, error handling, missing field detection, duplicate auditing | 3 | **PASS** |
+| `test_candidate_deduplication.py` | Fingerprinting, exact duplicate suppression, cultural variant preservation | 2 | **PASS** |
+| `test_config.py` | Pydantic BaseSettings, comma-delimited CORS parsing, directory resilience | 3 | **PASS** |
+| `test_country_schema.py` | Canonical CountryRecord v2.0.0, ISO alpha-2 constraints, record targets | 5 | **PASS** |
+| `test_csv_importer.py` | Quarantined CSV candidate extraction, nation review mapping, duplicate detection | 3 | **PASS** |
+| `test_data_validation.py` | 17-point DataQualityValidator suite: duplicate IDs, missing files, manifest reconciliation | 3 | **PASS** |
+| `test_dataset_envelope.py` | DatasetEnvelope v2.0.0, dataset_id convention, backward-compatible aliases | 5 | **PASS** |
+| `test_europeana_integration.py` | Europeana REST API, key handling, dormant fallback, rights mapping | 4 | **PASS** |
 | `test_generated_fiction.py` | GeneratedFictionRecord AI segregation, fiction disclaimer, AI-FIC ID pattern | 4 | **PASS** |
+| `test_import_batches.py` | Candidate repository atomic JSONL storage, manifest compilation, reporting | 2 | **PASS** |
 | `test_import_candidate.py` | ImportCandidate staging model, disposition state machine, quarantine logic | 3 | **PASS** |
+| `test_import_pipeline.py` | 8-stage pipeline orchestration: acquire, normalize, validate, dedup, persist | 2 | **PASS** |
+| `test_internet_archive_integration.py` | Internet Archive Advanced Search, item metadata, public domain dates | 3 | **PASS** |
+| `test_japan_search_integration.py` | Japan Search REST API, Japanese kanji query parsing, metadata-only flags | 3 | **PASS** |
 | `test_json_schema_export.py` | Draft 2020-12 JSON Schema generation, $defs handling, contract synchronization | 2 | **PASS** |
+| `test_library_of_congress_integration.py` | LOC JSON API, WAF challenge resilience, pre-1929 rights heuristics | 3 | **PASS** |
 | `test_manifest.py` | DatasetManifest dynamic calculation, target quotas vs actual published counts | 2 | **PASS** |
+| `test_mediawiki_integration.py` | MediaWiki REST API, summary stripping, CC BY-SA 4.0 review notes | 4 | **PASS** |
 | `test_migration.py` | Seed migration script idempotent upgrades, --check dry run mode | 2 | **PASS** |
-| `test_publication_policy.py` | 8-rule deterministic PublicationPolicy evaluation and gating invariants | 7 | **PASS** |
+| `test_myths_of_ireland_integration.py` | Myths of Ireland dataset, separating supernatural beings from full stories | 2 | **PASS** |
+| `test_publication_policy.py` | 8-rule deterministic PublicationPolicy evaluation and gating invariants | 6 | **PASS** |
 | `test_schemas.py` | Phase 1 schema regression tests: ISO validation, category constraints, URL schemes | 6 | **PASS** |
+| `test_source_health.py` | Connector factory mapping, ReferenceOnly scraping prohibition, HTTP 429 retry | 4 | **PASS** |
 | `test_source_registry.py` | 17 registered sources schema conformance, honest access reporting, filtering | 4 | **PASS** |
 | `test_source_schema_phase2.py` | StorySource v2.0.0, attribution requirements, full-text reuse flags | 4 | **PASS** |
-| `test_story_schema_phase2.py` | StoryRecord v2.0.0: ID prefix matching, AI fiction rejection, length constraints | 6 | **PASS** |
-| **Total** | **16 Test Suites Covering Phases 1 & 2** | **60** | **ALL PASS** |
+| `test_story_schema_phase2.py` | StoryRecord v2.0.0: ID prefix matching, AI fiction rejection, length constraints | 5 | **PASS** |
+| `test_wikidata_integration.py` | Wikidata SPARQL endpoint, QID extraction, CC0 public domain metadata | 3 | **PASS** |
+| **Total** | **28 Test Suites Covering Phases 1, 2 & 3** | **95** | **ALL PASS** |
 
 ---
 

@@ -89,3 +89,4 @@ def test_validator_detects_duplicate_id_across_different_files(tmp_path: Path):
 
     assert report.is_valid is False
     assert any(i.error_code == "DUPLICATE_RECORD_ID" for i in report.issues)
+

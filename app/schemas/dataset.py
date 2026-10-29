@@ -87,3 +87,4 @@ class CountrySeedFile(DatasetEnvelope):
     """Backward-compatible seed file model for Phase 1 consumers."""
 
     pass
+

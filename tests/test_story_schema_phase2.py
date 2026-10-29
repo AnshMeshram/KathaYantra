@@ -135,3 +135,4 @@ def test_duplicate_source_urls_in_citations_rejected():
             ],
         )
     assert "contains duplicate source URLs" in str(exc.value)
+

@@ -25,7 +25,7 @@ class Settings(BaseSettings):
 
     # Core Application Settings
     PROJECT_NAME: str = Field(default="KathaYantra", description="Application name")
-    PROJECT_VERSION: str = Field(default="0.1.0", description="Application version")
+    PROJECT_VERSION: str = Field(default="0.3.0", description="Application version")
     API_V1_PREFIX: str = Field(default="/api/v1", description="API route prefix")
     HOST: str = Field(default="127.0.0.1", description="Server host")
     PORT: int = Field(default=8000, description="Server port")
@@ -57,18 +57,38 @@ class Settings(BaseSettings):
         description="Timeout for local AI generation requests",
     )
 
-    # Optional External API Keys (stored in environment, never committed)
+    # External API Keys (stored in environment, never committed)
     EUROPEANA_API_KEY: str = Field(default="", description="Optional Europeana API key")
     JAPAN_SEARCH_API_KEY: str = Field(default="", description="Optional Japan Search key")
 
-    # HTTP Client Configuration
-    HTTP_TIMEOUT_SECONDS: float = Field(default=30.0, description="HTTP client timeout")
-    HTTP_MAX_RETRIES: int = Field(default=3, description="HTTP retry limit")
+    # HTTP Client Configuration & Safe Scraping Controls
+    KATHAYANTRA_USER_AGENT: str = Field(
+        default="KathaYantra/0.3.0 (https://github.com/AnshMeshram/KathaYantra; mailto:dev@rmsc.org)",
+        description="User-Agent header sent to upstream open-data APIs",
+    )
+    HTTP_TIMEOUT_SECONDS: float = Field(default=30.0, description="HTTP client overall timeout")
+    HTTP_CONNECT_TIMEOUT: float = Field(default=10.0, description="HTTP connect timeout in seconds")
+    HTTP_READ_TIMEOUT: float = Field(default=30.0, description="HTTP read timeout in seconds")
+    HTTP_MAX_RETRIES: int = Field(default=3, description="HTTP retry limit for transient errors")
+    HTTP_MAX_CONCURRENCY: int = Field(default=5, description="Max concurrent outgoing requests")
+    HTTP_CACHE_TTL_SECONDS: int = Field(default=86400, description="HTTP response cache TTL in seconds")
+    MAX_RESPONSE_SIZE_BYTES: int = Field(default=50 * 1024 * 1024, description="Max upstream response size (50MB)")
+
+    # Data Ingestion and Candidate Pipeline
+    IMPORT_MAX_RESULTS: int = Field(default=50, description="Default max results per import query")
+    IMPORT_OUTPUT_DIR: Path = Field(
+        default=BASE_DIR / "data" / "processed" / "candidates",
+        description="Staged import candidate storage path",
+    )
 
     # Data Directories
     DATA_DIR: Path = Field(default=BASE_DIR / "data", description="Data directory path")
     SEED_DIR: Path = Field(default=BASE_DIR / "data" / "seed", description="Seed directory")
     RAW_DIR: Path = Field(default=BASE_DIR / "data" / "raw", description="Raw data directory")
+    PROCESSED_DIR: Path = Field(
+        default=BASE_DIR / "data" / "processed",
+        description="Processed staging directory",
+    )
     MANIFESTS_DIR: Path = Field(
         default=BASE_DIR / "data" / "manifests",
         description="Manifests directory",
@@ -104,6 +124,10 @@ class Settings(BaseSettings):
     @property
     def urban_legends_seed_dir(self) -> Path:
         return self.SEED_DIR / "urban_legends"
+
+    @property
+    def candidates_dir(self) -> Path:
+        return self.IMPORT_OUTPUT_DIR
 
 
 # Central settings instance

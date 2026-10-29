@@ -83,3 +83,4 @@ def test_seed_countries_json_validity():
         assert len(record.regions_or_communities) > 0
 
     assert codes_seen == set(SUPPORTED_COUNTRY_CODES.keys())
+

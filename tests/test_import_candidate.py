@@ -73,3 +73,4 @@ def test_candidate_disposition_transitions():
     # Transition to rejected
     candidate.disposition = CandidateDispositionEnum.REJECTED
     assert candidate.disposition == CandidateDispositionEnum.REJECTED
+

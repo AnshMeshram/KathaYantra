@@ -54,3 +54,4 @@ def test_migration_upgrades_legacy_fixture_without_losing_records(tmp_path: Path
 
     # Running check again shows it is up to date
     assert inspect_file_needs_migration(legacy_file, "IN", CategoryEnum.FOLKLORE) is False
+

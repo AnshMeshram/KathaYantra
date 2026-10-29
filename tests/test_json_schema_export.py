@@ -48,3 +48,4 @@ def test_schema_export_reproducibility(tmp_path: Path):
         expected_content = (schemas_dir / filename).read_text(encoding="utf-8")
         actual_content = (tmp_path / filename).read_text(encoding="utf-8")
         assert actual_content == expected_content, f"Schema {filename} differs from exported output"
+

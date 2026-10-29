@@ -1,4 +1,4 @@
-# KathaYantra Backend Architecture (Phase 2)
+# KathaYantra Backend Architecture (Phase 3)
 
 > **Central Principle:**  
 > _Preserve the story. Trace the source. Respect the culture. Keep the AI honest._
@@ -9,37 +9,46 @@
 
 KathaYantra is designed as a **local-first, rights-aware digital archive and exploration engine** for world folklore and urban legends across 15 target countries.
 
-In Phase 2, the architecture introduces **formal schema contracts, an import candidate staging pipeline, a deterministic publication policy engine, Draft 2020-12 JSON Schema exports, and automated data quality validation**.
+In Phase 3, the architecture introduces **real open-data API connectors, an asynchronous polite HTTP client with rate-limiting and caching, an 8-stage candidate ingestion pipeline, deterministic deduplication and cultural variant analysis, and candidate batch storage in `data/processed/candidates/`**.
 
 ```mermaid
 flowchart TD
-    subgraph Tier 1: Ingestion & Staging
-        RAW["data/raw/<br>Restricted Raw Datasets<br>(folk_tales_deduplicated.csv)"]
-        CANDIDATES["app/schemas/import_candidate.py<br>ImportCandidate Staging Model"]
-        RAW --> CANDIDATES
+    subgraph Tier 1: Open Data Connectors & Ingestion
+        HTTP["app/integrations/http_client.py<br>KathaHTTPClient (Rate-Limited, Cached, Polite UA)"]
+        CONNECTORS["app/integrations/<br>Wikimedia, Wikidata, LOC, IA, Myths of Ireland, Europeana, Japan Search, CSV"]
+        HTTP --> CONNECTORS
     end
 
-    subgraph Tier 2: Governance & Publication Policy
-        POLICY["app/services/publication_policy.py<br>Deterministic Publication Policy Engine"]
+    subgraph Tier 2: Staging Pipeline & Repository
+        PIPELINE["app/services/import_pipeline.py<br>8-Stage Candidate Ingestion Pipeline"]
+        DEDUP["app/services/candidate_deduplication.py<br>Fingerprinting & Variant Analysis"]
+        REPO["app/repositories/candidate_repository.py<br>Staged Candidates (data/processed/candidates/)"]
+        CONNECTORS --> PIPELINE
+        PIPELINE --> DEDUP
+        DEDUP --> REPO
+    end
+
+    subgraph Tier 3: Governance & Publication Gate
+        POLICY["app/services/publication_policy.py<br>Deterministic Publication Policy Engine (8 Rules)"]
         VALIDATOR["app/services/data_validation.py<br>DataQualityValidator (17 Checks)"]
-        CANDIDATES --> POLICY
+        REPO -.-> POLICY
         POLICY --> VALIDATOR
     end
 
-    subgraph Tier 3: Curated Seed Repositories
+    subgraph Tier 4: Curated Seed Repositories
         SEED["data/seed/folklore/ & urban_legends/<br>30 Canonical DatasetEnvelopes (2.0.0)"]
         REGISTRY["data/seed/source_registry.json<br>17 External Repositories & APIs"]
         COUNTRIES["data/seed/countries.json<br>15 Country Canonical Records"]
         VALIDATOR --> SEED
     end
 
-    subgraph Tier 4: Schemas & Contracts
+    subgraph Tier 5: Schemas & Contracts
         PYDANTIC["app/schemas/<br>Pydantic v2 Canonical Models"]
         EXPORTS["data/schemas/<br>8 JSON Schema Draft 2020-12 Documents"]
         PYDANTIC --> EXPORTS
     end
 
-    subgraph Tier 5: Local AI & Exploration
+    subgraph Tier 6: Local AI & Exploration
         OLLAMA["Local Ollama Daemon<br>(http://127.0.0.1:11434)"]
         GEMMA["Gemma 2 Open-Weight LLM"]
         FICTION["app/schemas/generated_fiction.py<br>GeneratedFictionRecord (Segregated)"]

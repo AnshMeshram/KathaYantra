@@ -72,3 +72,4 @@ class GeneratedFictionRecord(BaseModel):
         if not v or len(v.strip()) < 20:
             raise ValueError("A clear, non-empty fiction_disclaimer of at least 20 characters is mandatory.")
         return v.strip()
+

@@ -218,5 +218,15 @@ class ManifestService:
             f.write(manifest.model_dump_json(indent=2))
         return self.manifest_file
 
+    def load_manifest(self) -> DatasetManifest:
+        """Load manifest from disk if exists, otherwise compute dynamically."""
+        if self.manifest_file.exists():
+            try:
+                with open(self.manifest_file, "r", encoding="utf-8") as f:
+                    return DatasetManifest.model_validate_json(f.read())
+            except Exception:
+                pass
+        return self.compute_manifest()
+
 
 manifest_service = ManifestService()

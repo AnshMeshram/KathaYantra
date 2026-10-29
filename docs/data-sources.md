@@ -185,3 +185,22 @@ Sources are categorized using standard status codes:
 - **Role in KathaYantra:** Programmatic category traversal for discovering documented urban legends across the 15 target nations.
 - **Licensing:** CC BY-SA 4.0.
 
+---
+
+## 4. Phase 3 Implemented Connectors & CLI Reference
+
+In Phase 3, working Python connectors are implemented in [`app/integrations/`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/app/integrations/) backed by `KathaHTTPClient` (polite User-Agent, bounded concurrency, rate-limit retries, and in-memory caching):
+
+- **Wikimedia / Wikipedia REST API:** `app/integrations/mediawiki.py` (`scripts/discover_wikimedia.py`)
+- **Wikidata SPARQL Endpoint:** `app/integrations/wikidata.py` (`scripts/discover_wikidata.py`)
+- **Library of Congress JSON API:** `app/integrations/library_of_congress.py` (`scripts/import_library_of_congress.py`)
+- **Internet Archive Search & Metadata:** `app/integrations/internet_archive.py` (`scripts/import_internet_archive.py`)
+- **Myths of Ireland Open Dataset:** `app/integrations/myths_of_ireland.py` (`scripts/import_myths_of_ireland.py`)
+- **Europeana REST API:** `app/integrations/europeana.py` (`scripts/import_europeana.py`, requires `EUROPEANA_API_KEY`)
+- **Japan Search Platform:** `app/integrations/japan_search.py` (`scripts/import_japan_search.py`)
+- **Quarantined Folk Tales CSV:** `app/integrations/csv_importer.py` (`scripts/import_folktales_csv.py`)
+- **Reference-Only Discovery Archives:** `app/integrations/reference_only.py` (Prohibits bulk scraping)
+
+For full implementation details, rate limits, and authentication statuses, see [`docs/api-integration-status.md`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/docs/api-integration-status.md) and [`docs/import-pipeline.md`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/docs/import-pipeline.md).
+
+
