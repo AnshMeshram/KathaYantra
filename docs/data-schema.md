@@ -171,7 +171,7 @@ Defined in [`app/schemas/dataset.py`](file:///C:/Users/shrin\Desktop\Hactoberfes
 
 Implemented in [`app/services/publication_policy.py`](file:///C:/Users/shrin\Desktop\Hactoberfest2026\KathaYantra\app\services\publication_policy.py).
 
-A record is publishable **only** when all 8 criteria pass:
+A record is publishable **only** when all 10 criteria pass:
 
 1. **Schema Integrity:** Valid `StoryRecord` adhering to ID regex and prefix constraints.
 2. **Country Code:** Must be one of the 15 supported countries.
@@ -184,3 +184,60 @@ A record is publishable **only** when all 8 criteria pass:
    - `metadata_only`: Cleared for metadata only (strictly prohibits full-text payload).
    - `needs_rights_review`, `permission_required`, `restricted`, `unknown`: **BLOCKED**.
 8. **Attribution:** If source specifies `attribution_required: true`, attribution text must be present.
+9. **Title & Summary Uniqueness:** Must not collide with unverified or duplicate records.
+10. **Cultural Attribution:** Appropriate cultural/regional attribution present.
+
+---
+
+## 8. Local AI & Archivist Schemas
+
+Defined in [`app/schemas/ai.py`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/app/schemas/ai.py). Governs all interaction contracts for retrieval-augmented generation (RAG), evidence citations, comparative analysis, and isolated fiction generation.
+
+### 8.1 Source Citation Contract (`AISourceCitation`)
+Represents an authentic bibliographic citation extracted directly from verified catalog metadata:
+```python
+class AISourceCitation(BaseModel):
+    story_id: str               # e.g. "BR-FOLK-001"
+    story_title: str            # e.g. "Saci-Pererê"
+    source_title: str           # Source work or archive title
+    source_url: str             # Authenticated HTTP/HTTPS URL
+    publisher: str              # Holding institution or publisher
+    rights_status: str          # Cleared rights classification
+    attribution_text: str? = None
+```
+
+### 8.2 Grounded Question Answering Contracts
+- **`AIQuestionRequest`**: Input payload with `query` (min 3, max 1000 chars), optional `country_code`, `category`, `max_context_records` (1–10), and `min_retrieval_score` (0.0–1.0).
+- **`AIQuestionResponse`**: Output payload containing:
+  - `query`: Original query string.
+  - `answer`: Grounded response text synthesized by Gemma 2 or fallback message.
+  - `answer_type`: `grounded_answer`, `insufficient_evidence`, `offline_fallback`, or `error`.
+  - `citations`: List of `AISourceCitation` models extracted from retrieved evidence.
+  - `grounded_record_ids`: List of authentic `StoryRecord` IDs used in synthesis.
+  - `model_used`: e.g. `"gemma2:latest"` or `"offline_fallback"`.
+  - `confidence_score`: Normalized confidence rating (0.0–1.0).
+  - `evidence_count`: Number of verified records supplied to model context.
+  - `disclaimer`: Prominent archival disclaimer regarding source grounding.
+
+### 8.3 Story Comparative Analysis Contracts
+- **`AIComparisonRequest`**: Input payload with `story_ids` (2 to 5 specific record IDs) or `query` for topic-based multi-story comparison, with optional `country_codes` filter.
+- **`AIComparisonResponse`**: Output payload containing:
+  - `compared_story_ids`: List of verified record IDs compared.
+  - `similarities`: List of identified shared motifs, archetypes, and supernatural traits.
+  - `differences`: List of distinct cultural divergencies and functional differences.
+  - `cultural_context`: Regional background and cultural functions.
+  - `uncertain_details`: Unverified elements, contested origins, or transmission gaps.
+  - `citations`: Verifiable metadata citations for all compared stories.
+  - `narrative_synthesis`: Comprehensive comparative essay synthesized by local AI.
+  - `model_used` and `disclaimer`.
+
+### 8.4 Creative Fiction Generation Contracts
+- **`AIFictionRequest`**: Input payload with `inspiration_story_ids` (1 to 5 authentic record IDs), optional `prompt_instructions` (max 500 chars), `creativity_temperature` (0.1–1.0), and `save_record` flag.
+- **`AIFictionResponse`**: Output payload containing:
+  - `fiction_record_id`: Generated ID matching `^AI-FIC-[0-9]{3,}$`.
+  - `title`: Creative title.
+  - `story_text`: Complete generated narrative prose.
+  - `inspiration_story_ids`: Authentic KathaYantra records that inspired the fiction.
+  - `fiction_disclaimer`: Mandatory disclaimer stating story is synthetic and not historical folklore.
+  - `model_used`: e.g. `"gemma2:latest"`.
+  - `saved_path`: Path in `data/processed/generated_fiction/` if saved.

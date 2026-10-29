@@ -190,3 +190,4 @@ class CurationService:
 
 
 curation_service = CurationService()
+

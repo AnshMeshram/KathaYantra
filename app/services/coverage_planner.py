@@ -235,3 +235,4 @@ class CoveragePlanner:
 
 
 coverage_planner = CoveragePlanner()
+

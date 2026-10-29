@@ -60,8 +60,10 @@ data/raw/*.csv
 data/raw/*.json
 data/processed/*.jsonl
 data/processed/temp/
+data/processed/generated_fiction/*.json
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+!data/processed/*/.gitkeep
 
 # Temporary scratch and logs
 *.log

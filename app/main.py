@@ -5,6 +5,7 @@ import logging
 from fastapi import FastAPI, Request, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+from app.api.routes.ai import router as ai_router
 from app.api.routes.health import router as health_router
 from app.core.config import settings
 
@@ -73,6 +74,7 @@ def create_app() -> FastAPI:
 
     # Register Routers
     app.include_router(health_router, prefix=settings.API_V1_PREFIX)
+    app.include_router(ai_router, prefix=settings.API_V1_PREFIX)
 
     return app
 

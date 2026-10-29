@@ -1,5 +1,9 @@
 """KathaYantra Core Services Package."""
 
+from app.services.archivist_service import (
+    ArchivistService,
+    archivist_service,
+)
 from app.services.candidate_deduplication import CandidateDeduplicator
 from app.services.candidate_normalizer import CandidateNormalizer
 from app.services.coverage_planner import (
@@ -16,6 +20,10 @@ from app.services.data_validation import (
     ValidationIssue,
     data_quality_validator,
 )
+from app.services.fiction_service import (
+    FictionGenerationService,
+    fiction_service,
+)
 from app.services.import_batch_service import (
     BatchManifest,
     ImportBatchService,
@@ -27,16 +35,43 @@ from app.services.import_reporting import (
     import_reporting_service,
 )
 from app.services.manifest_service import ManifestService, manifest_service
+from app.services.ollama_client import (
+    OllamaClient,
+    OllamaConnectionError,
+    OllamaError,
+    OllamaModelNotFoundError,
+    OllamaResponseError,
+    OllamaTimeoutError,
+    ollama_client,
+)
 from app.services.publication_policy import (
     PublicationEligibilityResult,
     PublicationPolicy,
     publication_policy,
+)
+from app.services.question_answering import (
+    QuestionAnsweringService,
+    question_answering_service,
+)
+from app.services.retrieval import (
+    RetrievalResultItem,
+    RetrievalService,
+    retrieval_service,
+)
+from app.services.retrieval_index import (
+    IndexBuildStats,
+    RetrievalIndexService,
+    retrieval_index_service,
 )
 from app.services.source_verification import (
     SourceInspectionItem,
     SourceVerificationResult,
     SourceVerificationService,
     source_verification_service,
+)
+from app.services.story_comparison import (
+    StoryComparisonService,
+    story_comparison_service,
 )
 from app.services.summary_builder import (
     StructuredSummary,
@@ -51,9 +86,9 @@ __all__ = [
     "PublicationEligibilityResult",
     "publication_policy",
     "DataQualityValidator",
-    "DataValidationReport",
-    "ValidationIssue",
     "data_quality_validator",
+    "ValidationIssue",
+    "DataValidationReport",
     "CandidateNormalizer",
     "CandidateDeduplicator",
     "BatchManifest",
@@ -77,4 +112,25 @@ __all__ = [
     "ArchiveCoverageReport",
     "CoveragePlanner",
     "coverage_planner",
+    "OllamaClient",
+    "ollama_client",
+    "OllamaError",
+    "OllamaConnectionError",
+    "OllamaTimeoutError",
+    "OllamaModelNotFoundError",
+    "OllamaResponseError",
+    "RetrievalIndexService",
+    "retrieval_index_service",
+    "IndexBuildStats",
+    "RetrievalService",
+    "retrieval_service",
+    "RetrievalResultItem",
+    "QuestionAnsweringService",
+    "question_answering_service",
+    "ArchivistService",
+    "archivist_service",
+    "StoryComparisonService",
+    "story_comparison_service",
+    "FictionGenerationService",
+    "fiction_service",
 ]

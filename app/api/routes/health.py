@@ -89,3 +89,13 @@ async def get_health_status() -> dict:
         "local_ai": ollama_details,
     }
 
+
+@router.get("/health/ollama", status_code=status.HTTP_200_OK, summary="Inspect Ollama AI Model Readiness")
+async def get_ollama_status() -> dict:
+    """Return local Ollama health and configured model availability without failing whole backend."""
+    from app.services.ollama_client import ollama_client
+
+    health = await ollama_client.check_health()
+    return health.model_dump(mode="json")
+
+

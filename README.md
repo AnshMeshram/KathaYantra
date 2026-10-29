@@ -4,8 +4,8 @@
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Pydantic v2](https://img.shields.io/badge/Pydantic-v2.10-E92063?style=flat-square&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
-[![Pytest](https://img.shields.io/badge/Tests-108%20Passed%20(100%25)-success?style=flat-square&logo=pytest&logoColor=white)](tests/)
-[![Local AI](https://img.shields.io/badge/Local%20AI-Ollama%20%2B%20Gemma%202-FF6F00?style=flat-square&logo=google&logoColor=white)](https://ollama.ai/)
+[![Pytest](https://img.shields.io/badge/Tests-142%20Passed%20(100%25)-success?style=flat-square&logo=pytest&logoColor=white)](tests/)
+[![Local AI](https://img.shields.io/badge/Local%20AI-Ollama%20%2B%20Gemma%202%20(9.2B)-FF6F00?style=flat-square&logo=google&logoColor=white)](https://ollama.ai/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Target Scope](https://img.shields.io/badge/Scope-15%20Countries%20%7C%20300%20Verified%20Stories%20(100%25%20Met)-blueviolet?style=flat-square)](#-target-country-matrix)
 [![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2026-orange?style=flat-square&logo=hacktoberfest&logoColor=white)](https://hacktoberfest.com/)
@@ -56,7 +56,7 @@ Unlike commercial scrapers or black-box generative bots, KathaYantra is engineer
 3. **Transparent Source Tracking:** Every narrative links back to an inspectable physical publication, national archive, or open academic database.
 4. **Local-First Open-Weight AI:** An integrated local archivist running locally via **Ollama + Gemma 2**, assisting users in discovering comparative themes across cultures without inventing sources, fabricating legends, or sending data to third-party cloud APIs.
 
-> **Phase 4 Milestone:** Populates the complete **300-story world folklore and urban legend archive across all 15 countries** (150 folklore + 150 urban legends), achieving **100.0% quota coverage** with zero deficits. Integrates `SourceVerificationService` for provenance and anti-hallucination audits, `SummaryBuilder` for original ethically-composed narrative synopses, `CurationService` for editorial review and story promotion, `CoveragePlanner` for real-time partition deficit tracking, and 4 CLI curation tools. Validated with **108 passing tests** across 29 test suites.
+> **Phase 5 Milestone:** Introduces the **Local AI Archivist, SQLite FTS5 Lexical Retrieval Engine with BM25 Ranking, Evidence-Grounded Q&A, Multi-Story Comparative Analysis, and Isolated Creative Fiction Generation**. All factual inquiries are strictly grounded in the 300 verified stories, with citations attached from trusted metadata. Fiction generation is strictly segregated into `GeneratedFictionRecord` models and quarantined from authentic folklore datasets. Features real-time Ollama diagnostics (`GET /api/v1/health/ollama`) and full offline resilience. Validated with **142 passing tests** across 37 test suites and confirmed via live local Gemma 2 9.2B inference.
 
 ---
 
@@ -261,8 +261,10 @@ Full source profiles: [`docs/data-sources.md`](file:///C:/Users/shrin/Desktop/Ha
 ```
 KathaYantra/
 ├── app/
-│   ├── api/routes/health.py        # GET /api/v1/health system probe
-│   ├── core/config.py              # Pydantic v2 application settings (timeouts, caching, quotas)
+│   ├── api/routes/
+│   │   ├── ai.py                   # Local AI Archivist endpoints (ask, compare, generate-story, health)
+│   │   └── health.py               # GET /api/v1/health system probe & Ollama diagnostics
+│   ├── core/config.py              # Pydantic v2 application settings (Ollama timeouts, limits, caching)
 │   ├── curation/                   # Curated 300-story world folklore & urban legend corpus
 │   │   ├── helpers.py              # Record builder with attribution & rights validation
 │   │   ├── registry.py             # Central registry & country query helpers
@@ -294,9 +296,14 @@ KathaYantra/
 │   │   ├── myths_of_ireland.py     # Myths of Ireland CC BY 4.0 dataset connector
 │   │   ├── reference_only.py       # Safe adapter prohibiting bulk scraping
 │   │   └── registry.py             # SourceRegistryManager & connector factory
+│   ├── prompts/                    # Versioned system prompt templates
+│   │   ├── archivist_system_v1.txt # Grounded factual inquiry prompt
+│   │   ├── story_comparison_system_v1.txt # Multi-story comparative analysis prompt
+│   │   └── story_generation_system_v1.txt # Creative fiction generation prompt
 │   ├── repositories/               # Staged candidate persistence
 │   │   └── candidate_repository.py # Atomic JSONL candidate storage
 │   ├── schemas/                    # Pydantic v2 data models (Schema v2.0.0)
+│   │   ├── ai.py                   # AI requests, responses, citations & Ollama health
 │   │   ├── country.py              # CountryRecord & ISO code constraints
 │   │   ├── dataset.py              # DatasetEnvelope 2.0.0 & dataset envelope
 │   │   ├── generated_fiction.py    # GeneratedFictionRecord (isolated AI fiction)
@@ -304,18 +311,25 @@ KathaYantra/
 │   │   ├── manifest.py             # DatasetManifest & quota models
 │   │   ├── source.py               # StorySource & SourceRegistryItem
 │   │   └── story.py                # StoryRecord & rights models
-│   ├── services/                   # Governance, curation, ingestion & validation services
+│   ├── services/                   # Governance, AI, curation, ingestion & validation services
+│   │   ├── archivist_service.py    # AI Archivist facade and grounding manager
 │   │   ├── candidate_deduplication.py# Fingerprinting & cultural variant analysis
 │   │   ├── candidate_normalizer.py # String cleaning & URL sanitizing
 │   │   ├── coverage_planner.py     # CoveragePlanner & 30-partition deficit tracker
 │   │   ├── curation_service.py     # CurationService (review queue & story promotion)
 │   │   ├── data_validation.py      # DataQualityValidator (17 integrity checks)
+│   │   ├── fiction_service.py      # FictionGenerationService (isolated creative generation)
 │   │   ├── import_batch_service.py # Batch execution & manifest tracking
 │   │   ├── import_pipeline.py      # 8-stage candidate acquisition pipeline
 │   │   ├── import_reporting.py     # Ingestion coverage & shortfall reporting
 │   │   ├── manifest_service.py     # Real-time actual count calculator
+│   │   ├── ollama_client.py        # OllamaClient (async, retries, health, chat)
 │   │   ├── publication_policy.py   # PublicationPolicy (10-rule gating engine)
+│   │   ├── question_answering.py   # QuestionAnsweringService (retrieval + prompt + citations)
+│   │   ├── retrieval.py            # RetrievalService (deterministic SQLite FTS5 search)
+│   │   ├── retrieval_index.py      # RetrievalIndexService (FTS5 compilation & atomic rebuild)
 │   │   ├── source_verification.py  # SourceVerificationService (provenance & rights audit)
+│   │   ├── story_comparison.py     # StoryComparisonService (multi-story comparative analysis)
 │   │   └── summary_builder.py      # SummaryBuilder (anti-hallucination & structured prose)
 │   └── main.py                     # FastAPI application factory
 ├── data/
@@ -324,7 +338,9 @@ KathaYantra/
 │   │   ├── folk_tales_csv_audit.json # Machine-readable audit report
 │   │   └── nation_mapping_review.json # 58 nation values review mapping
 │   ├── processed/
-│   │   └── candidates/             # Staged ImportCandidate JSONL batch files
+│   │   ├── candidates/             # Staged ImportCandidate JSONL batch files
+│   │   ├── generated_fiction/      # Strictly segregated AI fictional records (AI-FIC-*.json)
+│   │   └── retrieval/              # SQLite FTS5 lexical search index (retrieval_index.db)
 │   ├── raw/
 │   │   └── .gitkeep                # Raw CSV folder (CSVs gitignored)
 │   ├── schemas/                    # Draft 2020-12 JSON Schema exports
@@ -343,6 +359,8 @@ KathaYantra/
 │       ├── folklore/               # 15 country seed files (DatasetEnvelope 2.0.0, 150 stories)
 │       └── urban_legends/          # 15 country seed files (DatasetEnvelope 2.0.0, 150 stories)
 ├── docs/
+│   ├── ai-service.md               # Local AI Archivist, RAG, comparison & fiction specification
+│   ├── ai-source-readiness-report.md # 300-story AI retrieval readiness audit (100% pass)
 │   ├── api-integration-status.md   # Detailed API connector status & access matrix
 │   ├── architecture.md             # Architecture & system boundaries
 │   ├── curation-guide.md           # Editorial review, rights clearance & curation guide
@@ -352,11 +370,17 @@ KathaYantra/
 │   ├── folk-tales-dataset-audit.md # Comprehensive CSV audit findings
 │   ├── import-pipeline.md          # 8-stage candidate ingestion pipeline guide
 │   ├── licensing-policy.md         # Rights, copyright, AI policy & gating
+│   ├── model-configuration.md      # Ollama, Gemma 2, and local hardware configuration
+│   ├── retrieval-architecture.md   # SQLite FTS5, BM25 weighting, and query sanitization
 │   └── schema-versioning.md        # Semantic versioning & deprecation guide
 ├── scripts/
+│   ├── audit_ai_source_readiness.py# AI retrieval source-readiness auditor CLI
 │   ├── audit_folktales_csv.py      # Deterministic CSV audit engine
+│   ├── audit_retrieval_index.py    # SQLite FTS5 index integrity & breakdown auditor
+│   ├── build_retrieval_index.py    # FTS5 search index builder CLI (supports --dry-run)
 │   ├── build_verified_dataset.py   # Verified dataset builder & seed populator CLI
 │   ├── check_country_quotas.py     # Real-time quota & partition deficit tracker CLI
+│   ├── check_ollama.py             # Local Ollama service & model readiness diagnostic CLI
 │   ├── curate_candidate_records.py # Editorial review & candidate approval CLI
 │   ├── discover_wikidata.py        # Wikidata SPARQL discovery CLI
 │   ├── discover_wikimedia.py       # Wikimedia REST discovery CLI
@@ -373,6 +397,8 @@ KathaYantra/
 │   ├── validate_import_candidates.py# Staged candidate schema validator CLI
 │   └── validate_json_datasets.py   # Comprehensive dataset quality validator
 ├── tests/
+│   ├── test_ai_routes.py           # AI API routes (/ai/ask, /ai/compare, /ai/generate-story)
+│   ├── test_ai_security.py         # Prompt injection resilience & secret protection
 │   ├── test_app.py                 # Startup, CORS, and health route tests
 │   ├── test_audit.py               # CSV parsing & duplicate audit tests
 │   ├── test_candidate_deduplication.py# Fingerprinting & variant analysis tests
@@ -382,6 +408,7 @@ KathaYantra/
 │   ├── test_data_validation.py     # 17-point DataQualityValidator tests
 │   ├── test_dataset_envelope.py    # Envelope structure & validation tests
 │   ├── test_europeana_integration.py# Europeana API & credential tests
+│   ├── test_fiction_service.py     # FictionGenerationService & segregation tests
 │   ├── test_generated_fiction.py   # AI fiction segregation & disclaimer tests
 │   ├── test_import_batches.py      # Batch tracking & reporting tests
 │   ├── test_import_candidate.py    # ImportCandidate & disposition tests
@@ -394,12 +421,17 @@ KathaYantra/
 │   ├── test_mediawiki_integration.py# MediaWiki REST API connector tests
 │   ├── test_migration.py           # Seed migration idempotent tests
 │   ├── test_myths_of_ireland_integration.py# Myths of Ireland connector tests
+│   ├── test_ollama_client.py       # OllamaClient HTTP & model diagnostic tests
 │   ├── test_phase4_curation_and_coverage.py # Phase 4 curation, verification & quota tests
 │   ├── test_publication_policy.py  # 10-rule publication gate tests
+│   ├── test_question_answering.py  # Grounded Q&A, evidence context & citation tests
+│   ├── test_retrieval.py           # Lexical BM25 search & filter tests
+│   ├── test_retrieval_index.py     # FTS5 index compilation & exclusion tests
 │   ├── test_schemas.py             # Phase 1 schema regression tests
 │   ├── test_source_health.py       # Source mapping & health check tests
 │   ├── test_source_registry.py     # Registry schema & honesty tests
 │   ├── test_source_schema_phase2.py# StorySource Phase 2 tests
+│   ├── test_story_comparison.py    # Evidence-grounded story comparison tests
 │   ├── test_story_schema_phase2.py # StoryRecord Phase 2 constraint tests
 │   └── test_wikidata_integration.py# Wikidata SPARQL connector tests
 ├── .env.example                    # Environment template
@@ -468,13 +500,28 @@ python scripts/curate_candidate_records.py --approve CAND-FT-0001 --curator edit
 python scripts/report_curation_status.py
 ```
 
-### 8. Run the Full Test Suite
+### 8. Run Phase 5 Local AI & Retrieval Tools
+```bash
+# Diagnostic probe for local Ollama and Gemma 2 model
+python scripts/check_ollama.py
+
+# Build SQLite FTS5 search index (compiles 300 stories with BM25)
+python scripts/build_retrieval_index.py
+
+# Audit SQLite FTS5 retrieval index integrity
+python scripts/audit_retrieval_index.py
+
+# Audit all 300 records for AI retrieval readiness
+python scripts/audit_ai_source_readiness.py
+```
+
+### 9. Run the Full Test Suite
 ```bash
 python -m pytest -v
 ```
-*All 108 unit and integration tests across 29 test modules run offline with 100% pass rate.*
+*All 142 unit and integration tests across 37 test modules run offline with a 100% pass rate.*
 
-### 9. Launch the Development Server
+### 10. Launch the Development Server
 ```bash
 python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
 ```
@@ -484,10 +531,12 @@ Server is live at: `http://127.0.0.1:8000`
 
 ## ✅ Verification & Test Results
 
-The KathaYantra test suite covers all Phase 1 foundations, Phase 2 data governance invariants, Phase 3 API connector integrations, and Phase 4 curatorial dataset population (108 passing tests across 29 test suites):
+The KathaYantra test suite covers all Phase 1 foundations, Phase 2 data governance invariants, Phase 3 API connector integrations, Phase 4 curatorial dataset population, and Phase 5 Local AI Archivist capabilities (142 passing tests across 37 test suites):
 
 | Test Module | Scope / Target Tested | Test Count | Status |
 |---|---|:---:|:---:|
+| `test_ai_routes.py` | AI API endpoints (`/ai/ask`, `/ai/compare`, `/ai/generate-story`, `/ai/health`) | 5 | **PASS** |
+| `test_ai_security.py` | Prompt injection resilience, secret protection, offline fallback safety | 2 | **PASS** |
 | `test_app.py` | FastAPI application lifecycle, CORS middleware, and health route probe | 3 | **PASS** |
 | `test_audit.py` | CSV parsing, error handling, missing field detection, duplicate auditing | 3 | **PASS** |
 | `test_candidate_deduplication.py` | Fingerprinting, exact duplicate suppression, cultural variant preservation | 2 | **PASS** |
@@ -497,6 +546,7 @@ The KathaYantra test suite covers all Phase 1 foundations, Phase 2 data governan
 | `test_data_validation.py` | 17-point DataQualityValidator suite: duplicate IDs, missing files, manifest reconciliation | 3 | **PASS** |
 | `test_dataset_envelope.py` | DatasetEnvelope v2.0.0, dataset_id convention, backward-compatible aliases | 5 | **PASS** |
 | `test_europeana_integration.py` | Europeana REST API, key handling, dormant fallback, rights mapping | 4 | **PASS** |
+| `test_fiction_service.py` | Isolated creative fiction generation, physical segregation, disclaimer enforcement | 3 | **PASS** |
 | `test_generated_fiction.py` | GeneratedFictionRecord AI segregation, fiction disclaimer, AI-FIC ID pattern | 4 | **PASS** |
 | `test_import_batches.py` | Candidate repository atomic JSONL storage, manifest compilation, reporting | 2 | **PASS** |
 | `test_import_candidate.py` | ImportCandidate staging model, disposition state machine, quarantine logic | 3 | **PASS** |
@@ -509,24 +559,106 @@ The KathaYantra test suite covers all Phase 1 foundations, Phase 2 data governan
 | `test_mediawiki_integration.py` | MediaWiki REST API, summary stripping, CC BY-SA 4.0 review notes | 4 | **PASS** |
 | `test_migration.py` | Seed migration script idempotent upgrades, --check dry run mode | 2 | **PASS** |
 | `test_myths_of_ireland_integration.py` | Myths of Ireland dataset, separating supernatural beings from full stories | 2 | **PASS** |
+| `test_ollama_client.py` | OllamaClient HTTP connectivity, model discovery, retries, and timeout diagnostics | 7 | **PASS** |
 | `test_phase4_curation_and_coverage.py` | Provenance audits, anti-hallucination checks, SummaryBuilder, CurationService & 300-story integrity | 13 | **PASS** |
 | `test_publication_policy.py` | 10-rule deterministic PublicationPolicy evaluation and gating invariants | 6 | **PASS** |
+| `test_question_answering.py` | Grounded Q&A, evidence context formatting, metadata citation extraction, offline fallback | 4 | **PASS** |
+| `test_retrieval.py` | SQLite FTS5 search, BM25 scoring, stopword removal, country/category filters | 7 | **PASS** |
+| `test_retrieval_index.py` | FTS5 index compilation, atomic transactional swap, unverified/fiction exclusion | 3 | **PASS** |
 | `test_schemas.py` | Phase 1 schema regression tests: ISO validation, category constraints, URL schemes | 6 | **PASS** |
 | `test_source_health.py` | Connector factory mapping, ReferenceOnly scraping prohibition, HTTP 429 retry | 4 | **PASS** |
 | `test_source_registry.py` | 17 registered sources schema conformance, honest access reporting, filtering | 4 | **PASS** |
 | `test_source_schema_phase2.py` | StorySource v2.0.0, attribution requirements, full-text reuse flags | 4 | **PASS** |
+| `test_story_comparison.py` | Cross-cultural story comparison, motif analysis, transmission caution | 3 | **PASS** |
 | `test_story_schema_phase2.py` | StoryRecord v2.0.0: ID prefix matching, AI fiction rejection, length constraints | 5 | **PASS** |
 | `test_wikidata_integration.py` | Wikidata SPARQL endpoint, QID extraction, CC0 public domain metadata | 3 | **PASS** |
-| **Total** | **29 Test Suites Covering Phases 1, 2, 3 & 4** | **108** | **ALL PASS** |
+| **Total** | **37 Test Suites Covering Phases 1, 2, 3, 4 & 5** | **142** | **ALL PASS** |
 
 ---
 
 ## ⚡ API Reference
 
-### Health & Readiness Probe
-`GET /api/v1/health`
+### Health & Readiness Probes
+- `GET /api/v1/health`: Returns overall system health, dataset counts, and AI availability.
+- `GET /api/v1/health/ollama`: Dedicated real-time diagnostic probe for Ollama daemon and model readiness.
 
-Returns application metadata, configuration status, dataset availability flags, true story counts, and local AI state without blocking:
+```bash
+curl http://127.0.0.1:8000/api/v1/health/ollama
+```
+```json
+{
+  "ollama_available": true,
+  "base_url": "http://127.0.0.1:11434",
+  "model_configured": "gemma2",
+  "model_available": true,
+  "available_models": ["gemma2:latest"],
+  "response_time_ms": 12.4,
+  "error_message": null
+}
+```
+
+### Local AI Archivist Endpoints
+
+#### 1. Ask the Archivist (Grounded Q&A)
+`POST /api/v1/ai/ask`
+
+Retrieves verified stories from SQLite FTS5 and prompts Gemma 2 to synthesize a grounded response. Citations are derived 100% from catalog metadata.
+
+```bash
+curl -X POST http://127.0.0.1:8000/api/v1/ai/ask \
+  -H "Content-Type: application/json" \
+  -d '{"query": "Who is Saci-Perere in Brazilian folklore?", "country_code": "BR"}'
+```
+```json
+{
+  "query": "Who is Saci-Perere in Brazilian folklore?",
+  "answer": "In Brazilian folklore, Saci-Pererê is a one-legged trickster spirit who wears a magic red cap granting him teleportation and invisibility...",
+  "answer_type": "grounded_answer",
+  "citations": [
+    {
+      "story_id": "BR-FOLK-001",
+      "story_title": "Saci-Pererê",
+      "source_title": "Centro Nacional de Folclore e Cultura Popular (CNFCP / IPHAN)",
+      "source_url": "http://www.cnfcp.gov.br/",
+      "publisher": "Instituto do Patrimônio Histórico e Artístico Nacional",
+      "rights_status": "approved",
+      "attribution_text": "CNFCP/IPHAN National Folklore Archive"
+    }
+  ],
+  "grounded_record_ids": ["BR-FOLK-001"],
+  "model_used": "gemma2:latest",
+  "confidence_score": 0.88,
+  "evidence_count": 1,
+  "disclaimer": "Answers are synthesized by a local open-weight AI (Gemma 2) grounded exclusively in KathaYantra's verified folklore archive. Citations are extracted directly from trusted source metadata."
+}
+```
+
+#### 2. Cross-Cultural Story Comparison
+`POST /api/v1/ai/compare`
+
+Compares folklore narratives across cultures, highlighting shared motifs, functional differences, and cultural contexts.
+
+```bash
+curl -X POST http://127.0.0.1:8000/api/v1/ai/compare \
+  -H "Content-Type: application/json" \
+  -d '{"story_ids": ["JP-FOLK-001", "KR-FOLK-001"]}'
+```
+
+#### 3. Isolated Creative Fiction Generation
+`POST /api/v1/ai/generate-story`
+
+Generates synthetic creative stories inspired by authentic motifs. All outputs instantiate `GeneratedFictionRecord`, contain mandatory disclaimers, and are strictly quarantined in `data/processed/generated_fiction/`.
+
+```bash
+curl -X POST http://127.0.0.1:8000/api/v1/ai/generate-story \
+  -H "Content-Type: application/json" \
+  -d '{"inspiration_story_ids": ["BR-FOLK-001"], "prompt_instructions": "Focus on the forest wind and the red cap", "save_record": true}'
+```
+
+#### 4. AI Service Status
+`GET /api/v1/ai/health`
+
+Returns operational status of the AI subsystem, retrieval index stats, and Ollama connection status.
 
 ```json
 {
