@@ -7,6 +7,7 @@ import { api } from "@/lib/api/client";
 import { CountryRecord, CountryStatsResponse } from "@/types/country";
 import { StoryRecord } from "@/types/story";
 import { SUPPORTED_COUNTRIES } from "@/constants/countries";
+import { getCountryRoute } from "@/lib/routes";
 
 interface CountryInformationDrawerProps {
   countryCode: string | null;
@@ -232,7 +233,7 @@ export function CountryInformationDrawer({
       {/* Drawer Action Footer */}
       <div className="p-4 border-t border-parchment-border bg-parchment flex items-center justify-between gap-3">
         <Link
-          href={`/#folklore-collection`}
+          href={getCountryRoute(countryCode)}
           className="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 rounded-sm bg-chinese-red hover:bg-chinese-red-dark text-parchment-light font-display text-sm font-bold tracking-wider transition-colors shadow-seal uppercase"
         >
           <span>Explore {displayName} Archive</span>

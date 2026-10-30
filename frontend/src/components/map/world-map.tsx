@@ -5,7 +5,9 @@ import L from "leaflet";
 import { SUPPORTED_COUNTRIES, isCountrySupported, UNSUPPORTED_COUNTRY_NOTICE } from "@/constants/countries";
 import { MapLegend } from "@/components/map/map-legend";
 import { CountryInformationDrawer } from "@/components/map/country-information-drawer";
-import { RotateCcw, ZoomIn, ZoomOut } from "lucide-react";
+import { RotateCcw, ZoomIn, ZoomOut, ArrowRight } from "lucide-react";
+import Link from "next/link";
+import { getCountryRoute } from "@/lib/routes";
 
 interface WorldMapProps {
   onSelectCountry?: (code: string) => void;
@@ -314,24 +316,59 @@ export default function WorldMap({ onSelectCountry, selectedCountry }: WorldMapP
         </button>
       </div>
 
-      {/* Dynamic Hover Status Pill (Top Right) */}
+      {/* Dynamic Hover Status Dropdown (Top Right) */}
       {hoveredCountryInfo && (
-        <div className="absolute top-4 right-4 z-[400] hidden sm:flex items-center gap-2.5 px-3 py-1.5 rounded-sm bg-parchment-light/95 backdrop-blur-md border border-parchment-border shadow-editorial font-serif text-xs animate-fadeIn">
-          <span
-            className={`w-2 h-2 rounded-full ${
-              hoveredCountryInfo.isSupported
-                ? "bg-chinese-red"
-                : "bg-ink-faint"
-            }`}
-          />
-          <span className="font-display font-bold text-burgundy">
-            {hoveredCountryInfo.name} ({hoveredCountryInfo.code})
-          </span>
-          <span className="text-ink-muted font-mono text-[10px]">
-            {hoveredCountryInfo.isSupported
-              ? "20 Verified Records"
-              : "Stories coming soon"}
-          </span>
+        <div
+          onMouseEnter={() => {}}
+          onMouseLeave={() => setHoveredCountryInfo(null)}
+          className="absolute top-4 right-4 z-[400] bg-parchment-light/95 backdrop-blur-md border border-parchment-border shadow-panel p-3.5 rounded-sm w-64 animate-fadeIn text-left"
+        >
+          <div className="flex items-center justify-between gap-2 border-b border-parchment-border/70 pb-2 mb-2">
+            <div className="flex items-center gap-2">
+              <span
+                className={`w-2 h-2 rounded-full ${
+                  hoveredCountryInfo.isSupported ? "bg-chinese-red" : "bg-ink-faint"
+                }`}
+              />
+              <h4 className="font-display font-bold text-base text-burgundy uppercase tracking-wide truncate">
+                {hoveredCountryInfo.name}
+              </h4>
+            </div>
+            <span className="font-mono text-xs px-1.5 py-0.5 rounded-sm bg-parchment-deep border border-parchment-border text-burgundy font-bold shrink-0">
+              {hoveredCountryInfo.code}
+            </span>
+          </div>
+
+          {hoveredCountryInfo.isSupported ? (
+            <div className="space-y-2 text-xs font-serif">
+              <div className="flex justify-between items-center text-ink-muted">
+                <span>Folklore Tales:</span>
+                <strong className="text-burgundy font-mono">10</strong>
+              </div>
+              <div className="flex justify-between items-center text-ink-muted">
+                <span>Urban Legends:</span>
+                <strong className="text-cobalt font-mono">10</strong>
+              </div>
+              <div className="pt-2 border-t border-parchment-border/70">
+                <Link
+                  href={getCountryRoute(hoveredCountryInfo.code)}
+                  className="w-full inline-flex items-center justify-center gap-1.5 py-1.5 px-3 rounded-sm bg-chinese-red hover:bg-chinese-red-dark text-parchment-light font-display text-xs font-bold uppercase tracking-wider transition-colors shadow-seal"
+                >
+                  <span>Explore {hoveredCountryInfo.name}</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
+              </div>
+            </div>
+          ) : (
+            <div className="space-y-1.5 text-xs font-serif">
+              <span className="font-mono text-[9px] px-1.5 py-0.5 rounded-sm bg-satsuma text-parchment-light uppercase tracking-wider font-semibold">
+                Stories Coming Soon
+              </span>
+              <p className="text-ink-muted text-[11px] leading-relaxed pt-1">
+                Our archive is still growing. Folklore and urban legends from this country will be available soon.
+              </p>
+            </div>
+          )}
         </div>
       )}
 
