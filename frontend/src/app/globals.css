@@ -1,3 +1,5 @@
+@import "leaflet/dist/leaflet.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -46,6 +48,46 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #C78B42;
+}
+
+/* Leaflet Custom Gothic Map Canvas */
+.leaflet-container {
+  background-color: #101016 !important;
+  font-family: var(--font-lora), serif !important;
+  outline: none;
+}
+
+.leaflet-control-zoom {
+  border: 1px solid rgba(199, 139, 66, 0.3) !important;
+  border-radius: 4px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6) !important;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  background-color: #191119 !important;
+  color: #E9DCC5 !important;
+  border-bottom: 1px solid #251820 !important;
+  transition: all 0.2s ease;
+}
+
+.leaflet-control-zoom-in:hover,
+.leaflet-control-zoom-out:hover {
+  background-color: #251820 !important;
+  color: #C78B42 !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #191119 !important;
+  color: #E9DCC5 !important;
+  border: 1px solid rgba(199, 139, 66, 0.4) !important;
+  border-radius: 6px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8) !important;
+}
+
+.leaflet-popup-tip {
+  background-color: #191119 !important;
 }
 
 /* Atmospheric filigree and text effects */
