@@ -11,6 +11,6 @@ export function getStoryRoute(storyId: string): string {
   return `/stories/${storyId.toUpperCase()}`;
 }
 
-export function getCategoryRoute(category: "folklore" | "urban_legend"): string {
-  return `/#${category === "folklore" ? "folklore-collection" : "urban-legends-collection"}`;
+export function getCategoryRoute(categorySlug: string): string {
+  return `/categories/${categorySlug.toLowerCase()}`;
 }
