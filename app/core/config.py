@@ -167,6 +167,21 @@ class Settings(BaseSettings):
                 return [origin.strip() for origin in v.split(",") if origin.strip()]
         return v
 
+    @field_validator(
+        "DATA_DIR",
+        "SEED_DIR",
+        "RAW_DIR",
+        "PROCESSED_DIR",
+        "MANIFESTS_DIR",
+        "IMPORT_OUTPUT_DIR",
+        mode="after",
+    )
+    @classmethod
+    def resolve_paths(cls, v: Path) -> Path:
+        if not v.is_absolute():
+            return BASE_DIR / v
+        return v
+
     @property
     def folklore_seed_dir(self) -> Path:
         return self.SEED_DIR / "folklore"
