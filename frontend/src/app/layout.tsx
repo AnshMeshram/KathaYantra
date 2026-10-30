@@ -6,16 +6,16 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 
 export const metadata: Metadata = {
-  title: "KathaYantra — A Haunted Atlas of World Folklore & Urban Legends",
+  title: "KathaYantra — An Atlas of World Folklore & Urban Legends",
   description:
-    "An interactive supernatural folklore archive and digital museum exploring 300 documented legends, spectral myths, and oral narratives across 15 nations.",
+    "An interactive cultural archive and digital museum exploring 300 documented legends, mythical traditions, and oral narratives across 15 nations.",
   keywords: [
-    "folklore",
+    "folklore archive",
+    "world mythology",
     "urban legends",
-    "mythology",
-    "ghost stories",
-    "supernatural atlas",
-    "cultural heritage",
+    "historical atlas",
+    "cultural stories",
+    "cartography",
   ],
 };
 
@@ -25,8 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className="antialiased bg-obsidian text-ivory selection:bg-gold/30 selection:text-ivory min-h-screen flex flex-col font-serif">
+    <html lang="en" className="dark scroll-smooth">
+      <body className="antialiased bg-ink text-linen selection:bg-brass/25 selection:text-linen min-h-screen flex flex-col font-serif">
         <QueryProvider>
           <Header />
           <main className="flex-1 relative z-10">{children}</main>

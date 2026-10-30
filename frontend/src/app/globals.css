@@ -1,118 +1,103 @@
+@import "../styles/design-tokens.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #09090D;
-  --foreground: #E9DCC5;
-  --plum: #191119;
-  --charcoal-wine: #251820;
-  --antique-gold: #C78B42;
-  --blood-red: #E52D35;
-  --ember-orange: #FF713B;
-  --ash-grey: #A59AA0;
-
-  --font-cormorant: 'Cormorant Garamond', 'Cinzel', Georgia, serif;
-  --font-lora: 'Lora', 'Libre Baskerville', Georgia, serif;
-  --font-ibm-plex-mono: 'IBM Plex Mono', 'Courier Prime', Courier, monospace;
-}
-
 body {
-  color: var(--foreground);
-  background-color: var(--background);
-  font-family: var(--font-lora);
+  color: var(--color-text-primary);
+  background-color: var(--color-ink);
+  font-family: var(--font-body);
   background-image: 
-    radial-gradient(circle at 50% 0%, rgba(37, 24, 32, 0.4) 0%, transparent 60%),
-    radial-gradient(circle at 10% 90%, rgba(25, 17, 25, 0.5) 0%, transparent 50%);
+    radial-gradient(circle at 50% 0%, rgba(33, 36, 49, 0.45) 0%, transparent 65%),
+    radial-gradient(circle at 15% 85%, rgba(20, 22, 31, 0.6) 0%, transparent 55%);
   min-height: 100vh;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Custom Gothic Scrollbar */
+/* Custom Editorial Scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #09090D;
+  background: #07080B;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #251820;
-  border-radius: 4px;
-  border: 1px solid rgba(199, 139, 66, 0.2);
+  background: #262937;
+  border-radius: 2px;
+  border: 1px solid rgba(237, 229, 216, 0.08);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #C78B42;
+  background: #D1A75C;
 }
 
-/* Leaflet Custom Gothic Map Canvas */
+/* Leaflet Cartographic Map Customization */
 .leaflet-container {
-  background-color: #101016 !important;
-  font-family: var(--font-lora), serif !important;
+  background-color: #0E1016 !important;
+  font-family: var(--font-body), Georgia, serif !important;
   outline: none;
 }
 
 .leaflet-control-zoom {
-  border: 1px solid rgba(199, 139, 66, 0.3) !important;
-  border-radius: 4px !important;
+  border: 1px solid rgba(237, 229, 216, 0.15) !important;
+  border-radius: 2px !important;
   overflow: hidden;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.7) !important;
 }
 
 .leaflet-control-zoom-in,
 .leaflet-control-zoom-out {
-  background-color: #191119 !important;
-  color: #E9DCC5 !important;
-  border-bottom: 1px solid #251820 !important;
+  background-color: #13141B !important;
+  color: #EDE5D8 !important;
+  border-bottom: 1px solid #262937 !important;
   transition: all 0.2s ease;
 }
 
 .leaflet-control-zoom-in:hover,
 .leaflet-control-zoom-out:hover {
-  background-color: #251820 !important;
-  color: #C78B42 !important;
+  background-color: #1B1D27 !important;
+  color: #D1A75C !important;
 }
 
 .leaflet-popup-content-wrapper {
-  background-color: #191119 !important;
-  color: #E9DCC5 !important;
-  border: 1px solid rgba(199, 139, 66, 0.4) !important;
-  border-radius: 6px !important;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8) !important;
+  background-color: #13141B !important;
+  color: #EDE5D8 !important;
+  border: 1px solid rgba(209, 167, 92, 0.35) !important;
+  border-radius: 4px !important;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.85) !important;
 }
 
 .leaflet-popup-tip {
-  background-color: #191119 !important;
+  background-color: #13141B !important;
 }
 
-/* Atmospheric filigree and text effects */
-.text-gold-gradient {
-  background: linear-gradient(135deg, #E9DCC5 0%, #C78B42 50%, #996A32 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+/* Editorial Dividers and Typography Accents */
+.brass-foil {
+  color: #D1A75C;
+  text-shadow: 0 0 12px rgba(209, 167, 92, 0.2);
 }
 
-.text-blood-gradient {
-  background: linear-gradient(135deg, #FF713B 0%, #E52D35 60%, #8A151B 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.cinnabar-seal {
+  color: #BA382E;
+  border-color: rgba(186, 56, 46, 0.35);
 }
 
-.gothic-border {
-  border: 1px solid rgba(199, 139, 66, 0.25);
-  box-shadow: inset 0 0 12px rgba(199, 139, 66, 0.05);
+.hairline-border {
+  border-color: rgba(237, 229, 216, 0.09);
 }
 
-.gothic-border-blood {
-  border: 1px solid rgba(229, 45, 53, 0.3);
-  box-shadow: inset 0 0 12px rgba(229, 45, 53, 0.05);
+.editorial-card {
+  background: #13141B;
+  border: 1px solid #262937;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.65);
 }
 
-.parchment-panel {
-  background: #191119;
-  border: 1px solid #251820;
-  box-shadow: 0 12px 36px -4px rgba(0, 0, 0, 0.8);
+.editorial-card:hover {
+  border-color: rgba(209, 167, 92, 0.4);
 }
