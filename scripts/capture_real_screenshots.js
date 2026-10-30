@@ -4,9 +4,12 @@
  */
 
 const path = require("path");
-const puppeteer = require(path.join(__dirname, "../frontend/node_modules/puppeteer-core"));
+const puppeteer = require(
+  path.join(__dirname, "../frontend/node_modules/puppeteer-core"),
+);
 
-const CHROME_PATH = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
+const CHROME_PATH =
+  "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 const TARGET_DIR = path.join(__dirname, "../docs/frontend/screenshots");
 const BASE_URL = "http://localhost:3000";
 
@@ -34,7 +37,9 @@ async function run() {
 
     // 2. Country Hover State (Hover over a supported country button or polygon)
     console.log("Capturing 2. Country Hover...");
-    const jpButton = await page.$('button[aria-label="Select Japan folklore archive"]');
+    const jpButton = await page.$(
+      'button[aria-label="Select Japan folklore archive"]',
+    );
     if (jpButton) {
       await jpButton.hover();
       await new Promise((r) => setTimeout(r, 600));
@@ -63,7 +68,8 @@ async function run() {
     await page.evaluate(() => {
       // Find leaflet map instance or trigger unsupported tooltip
       const unsupportedPill = document.createElement("div");
-      unsupportedPill.className = "fixed bottom-16 right-8 z-[600] bg-plum/95 backdrop-blur-md border border-charcoal-wine p-4 rounded-md shadow-gothic-card max-w-xs text-left animate-fadeIn";
+      unsupportedPill.className =
+        "fixed bottom-16 right-8 z-[600] bg-plum/95 backdrop-blur-md border border-charcoal-wine p-4 rounded-md shadow-gothic-card max-w-xs text-left animate-fadeIn";
       unsupportedPill.innerHTML = `
         <div style="color: #E9DCC5; font-size: 14px; font-weight: bold; margin-bottom: 2px;">Canada (CA)</div>
         <div style="display: inline-block; font-family: monospace; font-size: 10px; background: #251820; color: #C78B42; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; margin-bottom: 6px;">
@@ -95,7 +101,9 @@ async function run() {
 
     // 6. Mobile Country Panel (390 x 844 with selection)
     console.log("Capturing 6. Mobile Country Panel...");
-    const mobileInButton = await page.$('button[aria-label="Select India folklore archive"]');
+    const mobileInButton = await page.$(
+      'button[aria-label="Select India folklore archive"]',
+    );
     if (mobileInButton) {
       await mobileInButton.click();
       await new Promise((r) => setTimeout(r, 1200));

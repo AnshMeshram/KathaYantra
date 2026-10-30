@@ -112,3 +112,4 @@ def fetch_and_normalize():
 
 if __name__ == "__main__":
     fetch_and_normalize()
+

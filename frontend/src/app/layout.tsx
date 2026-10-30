@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "leaflet/dist/leaflet.css";
 import "./globals.css";
 import { QueryProvider } from "@/lib/queries/providers";
 import { Header } from "@/components/layout/header";

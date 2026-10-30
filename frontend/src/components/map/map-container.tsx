@@ -24,3 +24,4 @@ const DynamicWorldMap = dynamic(() => import("@/components/map/world-map"), {
 export function MapContainer(props: MapContainerProps) {
   return <DynamicWorldMap {...props} />;
 }
+

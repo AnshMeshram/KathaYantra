@@ -65,3 +65,4 @@ export function MapLegend() {
     </div>
   );
 }
+

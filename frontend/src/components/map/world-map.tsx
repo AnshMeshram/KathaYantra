@@ -344,3 +344,4 @@ export default function WorldMap({ onSelectCountry, selectedCountry }: WorldMapP
     </div>
   );
 }
+

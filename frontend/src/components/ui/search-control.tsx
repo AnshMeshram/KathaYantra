@@ -12,7 +12,10 @@ interface SearchControlProps {
   onSelectCountry?: (countryCode: string) => void;
 }
 
-export function SearchControl({ onSelectStory, onSelectCountry }: SearchControlProps) {
+export function SearchControl({
+  onSelectStory,
+  onSelectCountry,
+}: SearchControlProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [suggestions, setSuggestions] = useState<SearchSuggestion[]>([]);
@@ -109,7 +112,9 @@ export function SearchControl({ onSelectStory, onSelectCountry }: SearchControlP
                 placeholder="Search 300 folklore tales, urban legends, motifs, creatures..."
                 className="w-full bg-transparent text-ivory placeholder:text-ash/60 text-sm font-serif focus:outline-none"
               />
-              {isLoading && <Loader2 className="w-4 h-4 text-gold animate-spin" />}
+              {isLoading && (
+                <Loader2 className="w-4 h-4 text-gold animate-spin" />
+              )}
               <button
                 type="button"
                 onClick={() => setIsOpen(false)}
@@ -124,7 +129,8 @@ export function SearchControl({ onSelectStory, onSelectCountry }: SearchControlP
             <div className="max-h-96 overflow-y-auto p-4 space-y-4">
               {query.length < 2 && (
                 <div className="text-center py-6 text-ash/60 text-xs font-serif">
-                  Type at least 2 characters to search by title, creature, motif (e.g. Betal, Kappa, La Llorona, Mothman), or region.
+                  Type at least 2 characters to search by title, creature, motif
+                  (e.g. Betal, Kappa, La Llorona, Mothman), or region.
                 </div>
               )}
 
@@ -148,11 +154,19 @@ export function SearchControl({ onSelectStory, onSelectCountry }: SearchControlP
                         }}
                         className="px-2.5 py-1 rounded bg-obsidian border border-charcoal-wine hover:border-gold/50 text-xs font-serif text-ivory/90 hover:text-gold flex items-center gap-1.5 transition-colors"
                       >
-                        {s.suggestion_type === "region" && <MapPin className="w-3 h-3 text-gold/70" />}
-                        {s.suggestion_type === "motif" && <span className="font-mono text-gold text-[10px]">#</span>}
+                        {s.suggestion_type === "region" && (
+                          <MapPin className="w-3 h-3 text-gold/70" />
+                        )}
+                        {s.suggestion_type === "motif" && (
+                          <span className="font-mono text-gold text-[10px]">
+                            #
+                          </span>
+                        )}
                         <span>{s.text}</span>
                         {s.country_code && (
-                          <span className="font-mono text-[9px] text-ash/60">({s.country_code})</span>
+                          <span className="font-mono text-[9px] text-ash/60">
+                            ({s.country_code})
+                          </span>
                         )}
                       </button>
                     ))}
@@ -171,7 +185,8 @@ export function SearchControl({ onSelectStory, onSelectCountry }: SearchControlP
                       key={story.id}
                       onClick={() => {
                         if (onSelectStory) onSelectStory(story.id);
-                        if (onSelectCountry) onSelectCountry(story.country_code);
+                        if (onSelectCountry)
+                          onSelectCountry(story.country_code);
                         setIsOpen(false);
                       }}
                       className="p-3 rounded bg-obsidian/70 hover:bg-obsidian border border-charcoal-wine hover:border-gold/50 cursor-pointer transition-all flex items-start justify-between gap-3"
@@ -204,11 +219,14 @@ export function SearchControl({ onSelectStory, onSelectCountry }: SearchControlP
                 </div>
               )}
 
-              {query.length >= 2 && !isLoading && searchResults.length === 0 && suggestions.length === 0 && (
-                <div className="text-center py-6 text-ash text-xs font-serif italic">
-                  No documented folklore records matching &quot;{query}&quot;.
-                </div>
-              )}
+              {query.length >= 2 &&
+                !isLoading &&
+                searchResults.length === 0 &&
+                suggestions.length === 0 && (
+                  <div className="text-center py-6 text-ash text-xs font-serif italic">
+                    No documented folklore records matching &quot;{query}&quot;.
+                  </div>
+                )}
             </div>
 
             {/* Footer helper */}
