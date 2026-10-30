@@ -1,5 +1,6 @@
 # KathaYantra Final Implementation Report (Phase 6 / Final Release)
-### *A Haunted Atlas of World Folklore — Backend Completion & Audit*
+
+### _A Haunted Atlas of World Folklore — Backend Completion & Audit_
 
 **Date:** October 29, 2026  
 **Project:** KathaYantra  
@@ -11,6 +12,7 @@
 ## A. Implementation
 
 ### 1. API Endpoints Implemented & Registered
+
 All public REST API endpoints are mounted under the versioned prefix `/api/v1`:
 
 - **System & Readiness:**
@@ -50,6 +52,7 @@ All public REST API endpoints are mounted under the versioned prefix `/api/v1`:
   - `POST /api/v1/ai/generate-story`: Quarantined creative fiction generation with mandatory disclaimers.
 
 ### 2. Services and Models Reused
+
 - **`StoryRepository` (`app/repositories/story_repository.py`):** High-performance in-memory repository pre-caching all 300 stories across 15 countries and 17 registered sources on startup.
 - **`PublicationPolicy` (`app/services/publication_policy.py`):** Deterministic 10-rule evaluation engine guarding seed files and search against unverified or synthetic content.
 - **`OllamaClient` (`app/services/ollama_client.py`):** Asynchronous HTTP client communicating with local Ollama (`http://127.0.0.1:11434`).
@@ -59,6 +62,7 @@ All public REST API endpoints are mounted under the versioned prefix `/api/v1`:
 - **`FictionGenerationService` (`app/services/fiction_service.py`):** Creative synthesis engine saving quarantined `GeneratedFictionRecord` models.
 
 ### 3. New Validation and Security Controls
+
 - **Security Headers Middleware:** Injects `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`, `X-XSS-Protection: 1; mode=block`, and `Referrer-Policy: strict-origin-when-cross-origin`.
 - **Custom Exception Handlers:** Standardized JSON error envelopes for `RequestValidationError` (HTTP 422), `HTTPException` (HTTP 404), and `Exception` (HTTP 500, with raw stack trace suppression).
 - **Credential Stripping:** `GET /api/v1/sources` dynamically strips any dictionary keys ending in `"key"` or `"secret"`.
@@ -66,6 +70,7 @@ All public REST API endpoints are mounted under the versioned prefix `/api/v1`:
 - **Bound Parameter Constraints:** Bounded input length constraints on all search queries (1–200 chars), AI queries (3–1,000 chars), page sizes (1–100 items), and sort fields.
 
 ### 4. Documentation Created or Updated
+
 - `docs/api-reference.md`: Comprehensive API reference covering all 26 routes, parameters, and models.
 - `docs/security-review.md`: Complete security and privacy audit.
 - `docs/testing-guide.md`: Detailed test running instructions and test matrix.
@@ -80,6 +85,7 @@ All public REST API endpoints are mounted under the versioned prefix `/api/v1`:
 ## B. Testing
 
 ### 1. Test Suite Metrics
+
 - **Baseline Test Count (Phase 5):** 142 tests
 - **Final Test Count (Phase 6):** **154 tests** across **38 test modules**
 - **Passed Tests:** 154 (100.0%)
@@ -88,6 +94,7 @@ All public REST API endpoints are mounted under the versioned prefix `/api/v1`:
 - **Total Test Execution Time:** ~5.5 seconds
 
 ### 2. Standalone Verification Tools Results
+
 - `validate_json_datasets.py`: 30/30 seed files inspected, 300/300 records verified, 0 errors, 0 warnings.
 - `migrate_seed_json.py --check`: All 30 seed files up to date with Schema 2.0.0.
 - `export_json_schemas.py`: All 8 Draft 2020-12 JSON Schema specifications generated and in sync.
@@ -96,6 +103,7 @@ All public REST API endpoints are mounted under the versioned prefix `/api/v1`:
 - `audit_ai_source_readiness.py`: 300 / 300 records audited and accepted for AI retrieval (100.0% acceptance rate).
 
 ### 3. Live Model Verification
+
 - Verified against live local Ollama daemon hosting `gemma2:latest` (9.2B parameter model) on consumer hardware.
 - Live grounded Q&A test succeeded on Brazilian folklore (`BR-FOLK-001`, Saci-Pererê), delivering factual narrative prose and metadata-derived citations.
 - Offline mode verified: when Ollama is offline, all non-AI browsing and search endpoints function identically with 100% uptime.
@@ -118,22 +126,28 @@ All public REST API endpoints are mounted under the versioned prefix `/api/v1`:
 ## D. Operations
 
 ### 1. Development Server Launch
+
 ```powershell
 python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
 ```
+
 - **Local API Base:** `http://127.0.0.1:8000`
 - **Swagger UI Documentation:** `http://127.0.0.1:8000/docs`
 - **ReDoc Documentation:** `http://127.0.0.1:8000/redoc`
 
 ### 2. Local Ollama Service Probe
+
 ```powershell
 python scripts/check_ollama.py
 ```
+
 - **Ollama Endpoint:** `http://127.0.0.1:11434`
 - **Configured Model:** `gemma2` (or `gemma2:latest`)
 
 ### 3. Required Environment Variables
+
 Standard defaults work out-of-the-box in `.env`:
+
 - `HOST="127.0.0.1"`
 - `PORT=8000`
 - `OLLAMA_BASE_URL="http://127.0.0.1:11434"`

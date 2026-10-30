@@ -10,30 +10,31 @@ This document provides the canonical quality and governance specification for th
 ## 1. Archive Scope & Coverage Targets
 
 KathaYantra archives folklore narratives and modern urban legends across **15 target countries**, with a quota target of:
+
 - **10 folklore records** per country
 - **10 urban-legend records** per country
 - **300 total verified records** across 30 partitions
 
 ### Current Target vs. Actual Quota Matrix
 
-| ISO Code | Country | Target Folklore | Actual Folklore | Target Urban | Actual Urban | Total Target | Total Actual | Status |
-|:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| `IN` | India | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `US` | United States | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `JP` | Japan | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `MX` | Mexico | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `IE` | Ireland | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `GB` | United Kingdom | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `BR` | Brazil | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `GR` | Greece | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `CN` | China | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `NG` | Nigeria | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `KR` | South Korea | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `PH` | Philippines | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `ID` | Indonesia | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `EG` | Egypt | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| `DE` | Germany | 10 | 10 | 10 | 10 | 20 | 20 | **100% MET** |
-| **Total** | **15 Countries** | **150** | **150** | **150** | **150** | **300** | **300** | **100.0% MET** |
+| ISO Code  | Country          | Target Folklore | Actual Folklore | Target Urban | Actual Urban | Total Target | Total Actual |     Status     |
+| :-------: | :--------------- | :-------------: | :-------------: | :----------: | :----------: | :----------: | :----------: | :------------: |
+|   `IN`    | India            |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `US`    | United States    |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `JP`    | Japan            |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `MX`    | Mexico           |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `IE`    | Ireland          |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `GB`    | United Kingdom   |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `BR`    | Brazil           |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `GR`    | Greece           |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `CN`    | China            |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `NG`    | Nigeria          |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `KR`    | South Korea      |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `PH`    | Philippines      |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `ID`    | Indonesia        |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `EG`    | Egypt            |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+|   `DE`    | Germany          |       10        |       10        |      10      |      10      |      20      |      20      |  **100% MET**  |
+| **Total** | **15 Countries** |     **150**     |     **150**     |   **150**    |   **150**    |   **300**    |   **300**    | **100.0% MET** |
 
 ---
 
@@ -81,6 +82,7 @@ Evaluated across all 30 seed files by [`app/services/data_validation.py`](file:/
 ## 4. SQLite FTS5 Retrieval Index Compilation Integrity
 
 Compiled by [`app/services/retrieval_index.py`](file:///C:/Users/shrin/Desktop/Hactoberfest2026/KathaYantra/app/services/retrieval_index.py):
+
 - **Index File:** `data/processed/retrieval/retrieval_index.db`
 - **Indexed Story Records:** Exactly 300 records (150 folklore, 150 urban legends, 20 per country across 15 countries).
 - **Exclusion Filters:**
@@ -99,4 +101,5 @@ python scripts/check_country_quotas.py
 python scripts/audit_retrieval_index.py
 python scripts/audit_ai_source_readiness.py
 ```
-*Current result: 300 / 300 records verified, 0 errors, 0 warnings, 100% acceptance.*
+
+_Current result: 300 / 300 records verified, 0 errors, 0 warnings, 100% acceptance._

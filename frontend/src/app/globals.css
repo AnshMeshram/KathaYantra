@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #09090D;
+  --foreground: #E9DCC5;
+  --plum: #191119;
+  --charcoal-wine: #251820;
+  --antique-gold: #C78B42;
+  --blood-red: #E52D35;
+  --ember-orange: #FF713B;
+  --ash-grey: #A59AA0;
+
+  --font-cormorant: 'Cormorant Garamond', 'Cinzel', Georgia, serif;
+  --font-lora: 'Lora', 'Libre Baskerville', Georgia, serif;
+  --font-ibm-plex-mono: 'IBM Plex Mono', 'Courier Prime', Courier, monospace;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: var(--font-lora);
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(37, 24, 32, 0.4) 0%, transparent 60%),
+    radial-gradient(circle at 10% 90%, rgba(25, 17, 25, 0.5) 0%, transparent 50%);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom Gothic Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #251820;
+  border-radius: 4px;
+  border: 1px solid rgba(199, 139, 66, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C78B42;
+}
+
+/* Atmospheric filigree and text effects */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #E9DCC5 0%, #C78B42 50%, #996A32 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-blood-gradient {
+  background: linear-gradient(135deg, #FF713B 0%, #E52D35 60%, #8A151B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gothic-border {
+  border: 1px solid rgba(199, 139, 66, 0.25);
+  box-shadow: inset 0 0 12px rgba(199, 139, 66, 0.05);
+}
+
+.gothic-border-blood {
+  border: 1px solid rgba(229, 45, 53, 0.3);
+  box-shadow: inset 0 0 12px rgba(229, 45, 53, 0.05);
+}
+
+.parchment-panel {
+  background: #191119;
+  border: 1px solid #251820;
+  box-shadow: 0 12px 36px -4px rgba(0, 0, 0, 0.8);
+}
