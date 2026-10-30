@@ -93,3 +93,4 @@ The newly created backend export endpoint (`GET /api/v1/export/pack`) strictly e
 - The `images/image-attribution.json` log explicitly flags each image with `redistribution_eligible: true/false`.
 - Only images documented under **Public Domain** or **CC0** are eligible for binary inclusion.
 - Private API secrets, environment variables, and draft unverified stories are strictly excluded from the export archive.
+

@@ -78,7 +78,9 @@ export function StoryPagination({
 
       {endPage < totalPages && (
         <>
-          {endPage < totalPages - 1 && <span className="px-1 text-ink-muted">...</span>}
+          {endPage < totalPages - 1 && (
+            <span className="px-1 text-ink-muted">...</span>
+          )}
           <button
             onClick={() => onPageChange(totalPages)}
             className="w-9 h-9 border border-parchment-border bg-parchment-light rounded-xs hover:border-chinese-red transition-colors"

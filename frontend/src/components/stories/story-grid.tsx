@@ -44,7 +44,8 @@ export function StoryGrid({
           No Stories Found
         </h3>
         <p className="font-serif text-sm text-ink-muted leading-relaxed mb-6">
-          No folklore or urban legend narratives match your current query or filter criteria in the verified archive.
+          No folklore or urban legend narratives match your current query or
+          filter criteria in the verified archive.
         </p>
         {onResetFilters && (
           <button

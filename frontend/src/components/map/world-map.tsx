@@ -78,22 +78,39 @@ export default function WorldMap({ onSelectCountry, selectedCountry }: WorldMapP
       maxBoundsViscosity: 0.85,
     });
 
+    // Guard against mid-event or unmount teardown where _mapPane is accessed
+    const origGetMapPanePos = (map as any)._getMapPanePos;
+    (map as any)._getMapPanePos = function () {
+      if (!this._mapPane) return new L.Point(0, 0);
+      return origGetMapPanePos ? origGetMapPanePos.call(this) : new L.Point(0, 0);
+    };
+
     markersLayerRef.current = L.layerGroup().addTo(map);
     mapInstanceRef.current = map;
 
     // Handle container resize cleanly
     const handleResize = () => {
-      map.invalidateSize();
+      if (mapInstanceRef.current && (mapInstanceRef.current as any)._mapPane) {
+        mapInstanceRef.current.invalidateSize();
+      }
     };
     window.addEventListener("resize", handleResize);
 
-    setTimeout(() => {
-      map.invalidateSize();
+    const timer = setTimeout(() => {
+      if (mapInstanceRef.current && (mapInstanceRef.current as any)._mapPane) {
+        mapInstanceRef.current.invalidateSize();
+      }
     }, 200);
 
     return () => {
+      clearTimeout(timer);
       window.removeEventListener("resize", handleResize);
-      map.remove();
+      try {
+        map.stop();
+        map.remove();
+      } catch {
+        // ignore
+      }
       mapInstanceRef.current = null;
     };
   }, []);
@@ -265,7 +282,7 @@ export default function WorldMap({ onSelectCountry, selectedCountry }: WorldMapP
   // Reset World Map View
   const handleResetView = () => {
     setActiveCountry(null);
-    if (mapInstanceRef.current) {
+    if (mapInstanceRef.current && (mapInstanceRef.current as any)._mapPane) {
       mapInstanceRef.current.flyTo([24.0, 15.0], 2.1, { duration: 1.0 });
     }
   };
@@ -289,7 +306,11 @@ export default function WorldMap({ onSelectCountry, selectedCountry }: WorldMapP
       <div className="absolute top-4 left-4 z-[400] flex flex-col gap-1.5">
         <button
           type="button"
-          onClick={() => mapInstanceRef.current?.zoomIn()}
+          onClick={() => {
+            if (mapInstanceRef.current && (mapInstanceRef.current as any)._mapPane) {
+              mapInstanceRef.current.zoomIn();
+            }
+          }}
           className="w-8 h-8 rounded-sm bg-parchment-light/95 hover:bg-parchment-deep border border-parchment-border hover:border-burgundy text-ink flex items-center justify-center transition-colors shadow-sm"
           aria-label="Zoom in"
         >
@@ -298,7 +319,11 @@ export default function WorldMap({ onSelectCountry, selectedCountry }: WorldMapP
 
         <button
           type="button"
-          onClick={() => mapInstanceRef.current?.zoomOut()}
+          onClick={() => {
+            if (mapInstanceRef.current && (mapInstanceRef.current as any)._mapPane) {
+              mapInstanceRef.current.zoomOut();
+            }
+          }}
           className="w-8 h-8 rounded-sm bg-parchment-light/95 hover:bg-parchment-deep border border-parchment-border hover:border-burgundy text-ink flex items-center justify-center transition-colors shadow-sm"
           aria-label="Zoom out"
         >

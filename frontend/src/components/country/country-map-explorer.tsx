@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState, useCallback, useMemo } from "react";
 import L from "leaflet";
 import Link from "next/link";
 import {
@@ -60,6 +60,8 @@ export default function CountryMapExplorer({
   const containerRef = useRef<HTMLDivElement>(null);
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<L.Map | null>(null);
+  const markersLayerRef = useRef<L.LayerGroup | null>(null);
+  const updateConnectorsRef = useRef<() => void>(() => {});
   const cardRefs = useRef<Map<string, HTMLDivElement>>(new Map());
 
   const [activeStoryId, setActiveStoryId] = useState<string | null>(null);
@@ -68,73 +70,113 @@ export default function CountryMapExplorer({
   const [filterCategory, setFilterCategory] = useState<"all" | "folklore" | "urban_legend">("all");
 
   const meta = SUPPORTED_COUNTRIES[countryCode.toUpperCase()];
-  const mappedLocations = locations.filter(
-    (l) => l.has_coordinates && l.latitude !== null && l.longitude !== null
+
+  const mappedLocations = useMemo(
+    () => locations.filter((l) => l.has_coordinates && l.latitude !== null && l.longitude !== null),
+    [locations]
   );
 
-  const displayedLocations = mappedLocations.filter((l) => {
-    if (filterCategory === "all") return true;
-    return l.category === filterCategory;
-  });
+  const displayedLocations = useMemo(
+    () => mappedLocations.filter((l) => filterCategory === "all" || l.category === filterCategory),
+    [mappedLocations, filterCategory]
+  );
 
   // Top 3 primary cards to display alongside the map on desktop
-  const activeCards = (
-    activeStoryId
-      ? [
-          ...displayedLocations.filter((l) => l.story_id === activeStoryId),
-          ...displayedLocations.filter((l) => l.story_id !== activeStoryId),
-        ]
-      : displayedLocations
-  ).slice(0, 3);
+  const activeCards = useMemo(
+    () =>
+      (activeStoryId
+        ? [
+            ...displayedLocations.filter((l) => l.story_id === activeStoryId),
+            ...displayedLocations.filter((l) => l.story_id !== activeStoryId),
+          ]
+        : displayedLocations
+      ).slice(0, 3),
+    [activeStoryId, displayedLocations]
+  );
 
-  // Function to re-calculate SVG spider-silk connectors
+  const activeCardsRef = useRef(activeCards);
+  activeCardsRef.current = activeCards;
+
+  // Function to re-calculate SVG spider-silk connectors safely
+  // Uses activeCardsRef and stable reference with zero dependencies
   const updateConnectors = useCallback(() => {
     const map = mapInstanceRef.current;
     const container = containerRef.current;
-    if (!map || !container) return;
+    if (!map || !container || !(map as any)._mapPane) return;
 
-    const containerRect = container.getBoundingClientRect();
-    const newConnectors: ConnectorPoint[] = [];
-
-    activeCards.forEach((loc) => {
-      if (loc.latitude === null || loc.longitude === null) return;
-
-      // 1. Convert marker LatLng to pixel coordinate relative to map container
-      const markerPoint = map.latLngToContainerPoint([loc.latitude, loc.longitude]);
-
-      // 2. Get card DOM anchor element position
-      const cardEl = cardRefs.current.get(loc.story_id);
-      if (!cardEl) return;
-
-      const cardRect = cardEl.getBoundingClientRect();
-
-      // Start: Marker position relative to outer explorer container
+    try {
+      const containerRect = container.getBoundingClientRect();
       const mapRect = mapContainerRef.current?.getBoundingClientRect();
       if (!mapRect) return;
 
-      const startX = mapRect.left - containerRect.left + markerPoint.x;
-      const startY = mapRect.top - containerRect.top + markerPoint.y;
+      const newConnectors: ConnectorPoint[] = [];
 
-      // End: Left-center anchor of the card
-      const endX = cardRect.left - containerRect.left;
-      const endY = cardRect.top - containerRect.top + cardRect.height / 2;
+      activeCardsRef.current.forEach((loc) => {
+        if (loc.latitude === null || loc.longitude === null) return;
 
-      newConnectors.push({
-        id: loc.story_id,
-        startX,
-        startY,
-        endX,
-        endY,
-        category: loc.category,
+        // 1. Convert marker LatLng to pixel coordinate relative to map container
+        const markerPoint = map.latLngToContainerPoint([loc.latitude, loc.longitude]);
+
+        // 2. Get card DOM anchor element position
+        const cardEl = cardRefs.current.get(loc.story_id);
+        if (!cardEl) return;
+
+        const cardRect = cardEl.getBoundingClientRect();
+
+        // Start: Marker position relative to outer explorer container
+        const startX = mapRect.left - containerRect.left + markerPoint.x;
+        const startY = mapRect.top - containerRect.top + markerPoint.y;
+
+        // End: Left-center anchor of the card
+        const endX = cardRect.left - containerRect.left;
+        const endY = cardRect.top - containerRect.top + cardRect.height / 2;
+
+        newConnectors.push({
+          id: loc.story_id,
+          startX,
+          startY,
+          endX,
+          endY,
+          category: loc.category,
+        });
       });
-    });
 
-    setConnectors(newConnectors);
-  }, [activeCards]);
+      // Avoid triggering re-render if connectors didn't change
+      setConnectors((prev) => {
+        if (prev.length !== newConnectors.length) return newConnectors;
+        const isSame = prev.every((p, idx) => {
+          const n = newConnectors[idx];
+          return (
+            p.id === n.id &&
+            Math.abs(p.startX - n.startX) < 0.5 &&
+            Math.abs(p.startY - n.startY) < 0.5 &&
+            Math.abs(p.endX - n.endX) < 0.5 &&
+            Math.abs(p.endY - n.endY) < 0.5
+          );
+        });
+        return isSame ? prev : newConnectors;
+      });
+    } catch {
+      // Safe no-op on transient DOM recalculations during transitions
+    }
+  }, []);
 
-  // Initialize Country Map
+  // Keep ref up to date
   useEffect(() => {
-    if (!mapContainerRef.current || mapInstanceRef.current) return;
+    updateConnectorsRef.current = updateConnectors;
+  }, [updateConnectors]);
+
+  // Initialize Country Map (runs ONLY when countryCode changes)
+  useEffect(() => {
+    if (!mapContainerRef.current) return;
+    if (mapInstanceRef.current) {
+      try {
+        mapInstanceRef.current.remove();
+      } catch {
+        // ignore
+      }
+      mapInstanceRef.current = null;
+    }
 
     const defaultCenter: [number, number] = meta
       ? [meta.lat, meta.lng]
@@ -150,20 +192,27 @@ export default function CountryMapExplorer({
       attributionControl: true,
     });
 
+    // Guard against mid-event or unmount teardown where _mapPane is accessed
+    const origGetMapPanePos = (map as any)._getMapPanePos;
+    (map as any)._getMapPanePos = function () {
+      if (!this._mapPane) return new L.Point(0, 0);
+      return origGetMapPanePos ? origGetMapPanePos.call(this) : new L.Point(0, 0);
+    };
+
     mapInstanceRef.current = map;
 
     // Load GeoJSON for Country Boundary & Fit Bounds
     fetch("/data/geo/countries.geojson")
       .then((res) => (res.ok ? res.json() : null))
       .then((geoData) => {
-        if (!geoData) return;
+        if (!geoData || !mapInstanceRef.current || !(mapInstanceRef.current as any)._mapPane) return;
         const countryFeature = geoData.features?.find((f: any) => {
           const props = f.properties || {};
           const code = (props.iso_a2 || props.ISO_A2 || "").toUpperCase();
           return code === countryCode.toUpperCase();
         });
 
-        if (countryFeature) {
+        if (countryFeature && mapInstanceRef.current) {
           const layer = L.geoJSON(countryFeature, {
             style: {
               fillColor: "#FAF4EC",
@@ -172,10 +221,10 @@ export default function CountryMapExplorer({
               weight: 2,
               dashArray: "",
             },
-          }).addTo(map);
+          }).addTo(mapInstanceRef.current);
 
           try {
-            map.fitBounds(layer.getBounds(), { padding: [40, 40], maxZoom: 6.5 });
+            mapInstanceRef.current.fitBounds(layer.getBounds(), { padding: [40, 40], maxZoom: 6.5 });
           } catch {
             // fallback to default center
           }
@@ -183,31 +232,50 @@ export default function CountryMapExplorer({
       })
       .catch((err) => console.error("Error loading country boundary:", err));
 
-    // Map Event Listeners for smooth connector line tracking
-    map.on("move", updateConnectors);
-    map.on("zoom", updateConnectors);
-    map.on("resize", updateConnectors);
+    const handleMapTransform = () => {
+      updateConnectorsRef.current?.();
+    };
 
-    setTimeout(() => {
-      map.invalidateSize();
-      updateConnectors();
+    // Map Event Listeners for smooth connector line tracking
+    map.on("move", handleMapTransform);
+    map.on("zoom", handleMapTransform);
+    map.on("resize", handleMapTransform);
+
+    const timer = setTimeout(() => {
+      if (mapInstanceRef.current && (mapInstanceRef.current as any)._mapPane) {
+        mapInstanceRef.current.invalidateSize();
+        updateConnectorsRef.current?.();
+      }
     }, 300);
 
     return () => {
-      map.off("move", updateConnectors);
-      map.off("zoom", updateConnectors);
-      map.off("resize", updateConnectors);
-      map.remove();
+      clearTimeout(timer);
+      map.off("move", handleMapTransform);
+      map.off("zoom", handleMapTransform);
+      map.off("resize", handleMapTransform);
+      try {
+        map.stop();
+        map.remove();
+      } catch {
+        // ignore
+      }
       mapInstanceRef.current = null;
+      markersLayerRef.current = null;
     };
-  }, [countryCode, meta, updateConnectors]);
+  }, [countryCode, meta]);
 
   // Render Markers on Map
   useEffect(() => {
     const map = mapInstanceRef.current;
-    if (!map) return;
+    if (!map || !(map as any)._mapPane) return;
 
-    const markersGroup = L.layerGroup().addTo(map);
+    if (!markersLayerRef.current) {
+      markersLayerRef.current = L.layerGroup().addTo(map);
+    } else {
+      markersLayerRef.current.clearLayers();
+    }
+
+    const markersGroup = markersLayerRef.current;
 
     displayedLocations.forEach((loc) => {
       if (loc.latitude === null || loc.longitude === null) return;
@@ -243,10 +311,6 @@ export default function CountryMapExplorer({
     });
 
     updateConnectors();
-
-    return () => {
-      map.removeLayer(markersGroup);
-    };
   }, [displayedLocations, activeStoryId, hoveredStoryId, updateConnectors]);
 
   // Window resize handler
@@ -256,7 +320,7 @@ export default function CountryMapExplorer({
   }, [updateConnectors]);
 
   const handleResetMap = () => {
-    if (mapInstanceRef.current && meta) {
+    if (mapInstanceRef.current && (mapInstanceRef.current as any)._mapPane && meta) {
       mapInstanceRef.current.flyTo([meta.lat, meta.lng], meta.zoom, { duration: 0.8 });
     }
   };
@@ -309,7 +373,11 @@ export default function CountryMapExplorer({
           <div className="absolute top-4 left-4 z-[400] flex flex-col gap-1.5">
             <button
               type="button"
-              onClick={() => mapInstanceRef.current?.zoomIn()}
+              onClick={() => {
+                if (mapInstanceRef.current && (mapInstanceRef.current as any)._mapPane) {
+                  mapInstanceRef.current.zoomIn();
+                }
+              }}
               className="w-8 h-8 rounded-sm bg-parchment-light/95 hover:bg-parchment-deep border border-parchment-border hover:border-burgundy text-ink flex items-center justify-center transition-colors shadow-sm"
               aria-label="Zoom in"
             >
@@ -317,7 +385,11 @@ export default function CountryMapExplorer({
             </button>
             <button
               type="button"
-              onClick={() => mapInstanceRef.current?.zoomOut()}
+              onClick={() => {
+                if (mapInstanceRef.current && (mapInstanceRef.current as any)._mapPane) {
+                  mapInstanceRef.current.zoomOut();
+                }
+              }}
               className="w-8 h-8 rounded-sm bg-parchment-light/95 hover:bg-parchment-deep border border-parchment-border hover:border-burgundy text-ink flex items-center justify-center transition-colors shadow-sm"
               aria-label="Zoom out"
             >
