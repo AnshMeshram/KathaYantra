@@ -1,54 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=UnifrakturCook:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=UnifrakturCook:wght@700&display=swap");
 
 /**
  * KathaYantra — Design Tokens
- * Visual Identity: The Haunted Atlas & Illustrated Folklore Archive
- * Style: Dark Editorial, Historical Cartography, Antique Manuscript
+ * Visual Identity: Japanese Folklore Editorial Palette
+ * Exact User Reference:
+ *   Burgundy:     #70191D
+ *   Chinese Red:  #970A12
+ *   Satsuma:      #D1601F
+ *   Lunar Yellow: #FECD6D
+ *   Cobalt:       #5686BB
+ * Supporting Neutrals:
+ *   Warm Parchment: #F4EBDD
+ *   Warm Dark Ink:  #251D1B
+ *   Muted Text:     #766B62
  */
 
 :root {
-  /* Carbon Archival Grounds & Inks */
-  --color-ink: #0C0D12;
-  --color-ink-deep: #07080B;
-  --color-surface-parchment: #13141B;
-  --color-surface-elevated: #1B1D27;
-  --color-surface-overlay: #212431;
+  /* Exact Five User-Specified Reference Colors */
+  --color-burgundy: #70191D;
+  --color-chinese-red: #970A12;
+  --color-satsuma: #D1601F;
+  --color-lunar-yellow: #FECD6D;
+  --color-cobalt: #5686BB;
 
-  /* Editorial Borders & Hairlines */
-  --color-border-subtle: rgba(237, 229, 216, 0.09);
-  --color-border-stone: #262937;
-  --color-border-active: #D1A75C;
+  /* Supporting Editorial Neutrals (Parchment & Warm Ink) */
+  --color-parchment: #F4EBDD;
+  --color-parchment-light: #FAF4EC;
+  --color-parchment-deep: #EDE2D0;
+  --color-parchment-border: #D8C7B0;
+  --color-parchment-hairline: rgba(112, 25, 29, 0.12);
 
-  /* Antique Brass & Illuminated Gold */
-  --color-brass-primary: #D1A75C;
-  --color-brass-light: #E8C88B;
-  --color-brass-dark: #997538;
-  --color-brass-dim: rgba(209, 167, 92, 0.15);
-
-  /* Cinnabar Lacquer & Wax Seal Red */
-  --color-cinnabar-primary: #BA382E;
-  --color-cinnabar-dark: #7C211A;
-  --color-cinnabar-seal: #D44439;
-  --color-cinnabar-dim: rgba(186, 56, 46, 0.16);
-
-  /* Unbleached Linen & Parchment Typography */
-  --color-text-primary: #EDE5D8;
-  --color-text-secondary: #A39C90;
-  --color-text-muted: #6E685E;
-  --color-text-faint: #48433C;
-
-  /* Cultural Verdigris & Scholarly Citation */
-  --color-verdigris: #3E7259;
-  --color-verdigris-dim: rgba(62, 114, 89, 0.2);
+  --color-ink: #251D1B;
+  --color-ink-deep: #161110;
+  --color-ink-muted: #766B62;
+  --color-ink-faint: #A59B91;
 
   /* Typography Stacks */
-  --font-display: 'Cormorant Garamond', 'Cinzel', 'Playfair Display', Georgia, serif;
-  --font-gothic: 'UnifrakturCook', 'Grenze Gotisch', 'IM Fell English', serif;
+  --font-display: 'Cormorant Garamond', 'Cinzel', Georgia, serif;
+  --font-gothic: 'UnifrakturCook', 'Grenze Gotisch', serif;
   --font-body: 'Lora', 'Libre Baskerville', Georgia, serif;
   --font-mono: 'IBM Plex Mono', 'JetBrains Mono', monospace;
 
-  /* Hairline and Framing Shadows */
-  --shadow-editorial: 0 4px 20px rgba(0, 0, 0, 0.65);
-  --shadow-overlay: 0 16px 48px -8px rgba(0, 0, 0, 0.85);
-  --shadow-seal: 0 2px 10px rgba(186, 56, 46, 0.35);
+  /* Shadows & Accents */
+  --shadow-editorial: 0 4px 18px rgba(37, 29, 27, 0.08);
+  --shadow-panel: 0 12px 36px -6px rgba(37, 29, 27, 0.14);
+  --shadow-seal: 0 2px 10px rgba(151, 10, 18, 0.25);
 }

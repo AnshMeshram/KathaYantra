@@ -10,99 +10,50 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        /* Carbon Archival Inks */
-        ink: {
-          DEFAULT: "#0C0D12",
-          deep: "#07080B",
-          50: "#1E202B",
-          100: "#161720",
-          200: "#101117",
-          300: "#0C0D12",
-          400: "#07080B",
+        /* Exact Five User-Specified Reference Colors */
+        burgundy: {
+          DEFAULT: "#70191D",
+          dark: "#541215",
+          light: "#8C2227",
         },
-        /* Matte Archival Surfaces */
-        parchment: {
-          DEFAULT: "#13141B",
-          surface: "#13141B",
-          elevated: "#1B1D27",
-          overlay: "#212431",
+        "chinese-red": {
+          DEFAULT: "#970A12",
+          dark: "#78060D",
+          light: "#B8141E",
         },
-        /* Weathered Architectural Borders */
-        stone: {
-          DEFAULT: "#262937",
-          border: "#262937",
-          subtle: "rgba(237, 229, 216, 0.09)",
-          active: "#D1A75C",
+        satsuma: {
+          DEFAULT: "#D1601F",
+          dark: "#AB4C14",
+          light: "#E47738",
         },
-        /* Antique Illuminated Brass */
-        brass: {
-          DEFAULT: "#D1A75C",
-          light: "#E8C88B",
-          dark: "#997538",
-          dim: "rgba(209, 167, 92, 0.15)",
+        "lunar-yellow": {
+          DEFAULT: "#FECD6D",
+          dark: "#E8B248",
+          light: "#FFE09B",
         },
-        /* Cinnabar Lacquer & Wax Seals */
-        cinnabar: {
-          DEFAULT: "#BA382E",
-          dark: "#7C211A",
-          seal: "#D44439",
-          dim: "rgba(186, 56, 46, 0.16)",
-        },
-        /* Unbleached Linen Typography */
-        linen: {
-          DEFAULT: "#EDE5D8",
-          muted: "#A39C90",
-          faint: "#6E685E",
-          dim: "#48433C",
-        },
-        /* Scholarly Verdigris */
-        verdigris: {
-          DEFAULT: "#3E7259",
-          dim: "rgba(62, 114, 89, 0.2)",
+        cobalt: {
+          DEFAULT: "#5686BB",
+          dark: "#3F6B9D",
+          light: "#729ECF",
         },
 
-        /* Backward-compatible aliases for Phase 1 transitions */
-        obsidian: {
-          DEFAULT: "#0C0D12",
-          900: "#07080B",
+        /* Supporting Editorial Neutrals */
+        parchment: {
+          DEFAULT: "#F4EBDD",
+          light: "#FAF4EC",
+          deep: "#EDE2D0",
+          border: "#D8C7B0",
         },
-        plum: {
-          DEFAULT: "#13141B",
-          hover: "#1B1D27",
-          card: "#13141B",
+        ink: {
+          DEFAULT: "#251D1B",
+          deep: "#161110",
+          muted: "#766B62",
+          faint: "#A59B91",
         },
-        charcoal: {
-          wine: "#262937",
-          border: "#262937",
-        },
-        gold: {
-          DEFAULT: "#D1A75C",
-          hover: "#E8C88B",
-          muted: "#997538",
-          glow: "rgba(209, 167, 92, 0.2)",
-        },
-        blood: {
-          DEFAULT: "#BA382E",
-          dark: "#7C211A",
-          glow: "rgba(186, 56, 46, 0.25)",
-        },
-        ember: {
-          DEFAULT: "#C45B38",
-          glow: "rgba(196, 91, 56, 0.2)",
-        },
-        ivory: {
-          DEFAULT: "#EDE5D8",
-          muted: "#A39C90",
-          dark: "#6E685E",
-        },
-        ash: {
-          DEFAULT: "#A39C90",
-          dark: "#6E685E",
-        },
-        spectral: {
-          DEFAULT: "#3E7259",
-          glow: "rgba(62, 114, 89, 0.25)",
-        },
+
+        /* Semantic Aliases */
+        primary: "#70191D",
+        accent: "#970A12",
       },
       fontFamily: {
         display: ["var(--font-display)", "Cormorant Garamond", "Cinzel", "Georgia", "serif"],
@@ -111,10 +62,9 @@ const config: Config = {
         mono: ["var(--font-mono)", "IBM Plex Mono", "JetBrains Mono", "monospace"],
       },
       boxShadow: {
-        editorial: "0 4px 24px rgba(0, 0, 0, 0.65)",
-        overlay: "0 16px 48px -8px rgba(0, 0, 0, 0.85)",
-        seal: "0 2px 12px rgba(186, 56, 46, 0.35)",
-        brass: "0 0 16px rgba(209, 167, 92, 0.18)",
+        editorial: "0 4px 18px rgba(37, 29, 27, 0.08)",
+        panel: "0 12px 36px -6px rgba(37, 29, 27, 0.14)",
+        seal: "0 2px 10px rgba(151, 10, 18, 0.25)",
       },
     },
   },

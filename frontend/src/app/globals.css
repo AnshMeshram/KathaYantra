@@ -4,13 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  color: var(--color-text-primary);
-  background-color: var(--color-ink);
+  color: var(--color-ink);
+  background-color: var(--color-parchment);
   font-family: var(--font-body);
   background-image: 
-    radial-gradient(circle at 50% 0%, rgba(33, 36, 49, 0.45) 0%, transparent 65%),
-    radial-gradient(circle at 15% 85%, rgba(20, 22, 31, 0.6) 0%, transparent 55%);
+    radial-gradient(circle at 10% 20%, rgba(250, 244, 236, 0.8) 0%, transparent 50%),
+    radial-gradient(circle at 90% 80%, rgba(237, 226, 208, 0.6) 0%, transparent 60%);
   min-height: 100vh;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
@@ -24,80 +28,84 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #07080B;
+  background: #EDE2D0;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #262937;
+  background: #C8B69F;
   border-radius: 2px;
-  border: 1px solid rgba(237, 229, 216, 0.08);
+  border: 1px solid #D8C7B0;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #D1A75C;
+  background: #70191D;
 }
 
-/* Leaflet Cartographic Map Customization */
+/* Leaflet Cartographic Map Customization — Antique Washi & Woodblock Palette */
 .leaflet-container {
-  background-color: #0E1016 !important;
+  background-color: #E8DDCB !important;
   font-family: var(--font-body), Georgia, serif !important;
   outline: none;
 }
 
 .leaflet-control-zoom {
-  border: 1px solid rgba(237, 229, 216, 0.15) !important;
+  border: 1px solid #D8C7B0 !important;
   border-radius: 2px !important;
   overflow: hidden;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.7) !important;
+  box-shadow: 0 4px 14px rgba(37, 29, 27, 0.12) !important;
 }
 
 .leaflet-control-zoom-in,
 .leaflet-control-zoom-out {
-  background-color: #13141B !important;
-  color: #EDE5D8 !important;
-  border-bottom: 1px solid #262937 !important;
+  background-color: #FAF4EC !important;
+  color: #251D1B !important;
+  border-bottom: 1px solid #D8C7B0 !important;
   transition: all 0.2s ease;
 }
 
 .leaflet-control-zoom-in:hover,
 .leaflet-control-zoom-out:hover {
-  background-color: #1B1D27 !important;
-  color: #D1A75C !important;
+  background-color: #EDE2D0 !important;
+  color: #970A12 !important;
 }
 
 .leaflet-popup-content-wrapper {
-  background-color: #13141B !important;
-  color: #EDE5D8 !important;
-  border: 1px solid rgba(209, 167, 92, 0.35) !important;
-  border-radius: 4px !important;
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.85) !important;
+  background-color: #FAF4EC !important;
+  color: #251D1B !important;
+  border: 1px solid #970A12 !important;
+  border-radius: 2px !important;
+  box-shadow: 0 8px 24px rgba(37, 29, 27, 0.18) !important;
 }
 
 .leaflet-popup-tip {
-  background-color: #13141B !important;
+  background-color: #FAF4EC !important;
 }
 
-/* Editorial Dividers and Typography Accents */
-.brass-foil {
-  color: #D1A75C;
-  text-shadow: 0 0 12px rgba(209, 167, 92, 0.2);
+/* Editorial Utilities */
+.hanko-seal {
+  background-color: #970A12;
+  color: #FAF4EC;
+  font-family: var(--font-mono);
+  letter-spacing: 0.15em;
+  padding: 2px 6px;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 
-.cinnabar-seal {
-  color: #BA382E;
-  border-color: rgba(186, 56, 46, 0.35);
-}
-
-.hairline-border {
-  border-color: rgba(237, 229, 216, 0.09);
+.editorial-divider {
+  border-top: 1px solid #D8C7B0;
 }
 
 .editorial-card {
-  background: #13141B;
-  border: 1px solid #262937;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.65);
+  background: #FAF4EC;
+  border: 1px solid #D8C7B0;
+  box-shadow: 0 4px 18px rgba(37, 29, 27, 0.06);
+  transition: all 0.25s ease;
 }
 
 .editorial-card:hover {
-  border-color: rgba(209, 167, 92, 0.4);
+  border-color: #970A12;
+  box-shadow: 0 8px 28px rgba(37, 29, 27, 0.12);
 }
