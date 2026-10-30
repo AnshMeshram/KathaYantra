@@ -9,11 +9,13 @@ from app.api.routes.search import router as search_router
 from app.api.routes.sources import router as sources_router
 from app.api.routes.stories import router as stories_router
 from app.api.routes.urban_legends import router as urban_legends_router
+from app.api.routes.export import router as export_router
 
 __all__ = [
     "ai_router",
     "countries_router",
     "dataset_router",
+    "export_router",
     "folklore_router",
     "health_router",
     "search_router",

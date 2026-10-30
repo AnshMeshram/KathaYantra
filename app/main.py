@@ -13,6 +13,7 @@ from app.api.routes import (
     ai_router,
     countries_router,
     dataset_router,
+    export_router,
     folklore_router,
     health_router,
     search_router,
@@ -133,6 +134,7 @@ def create_app() -> FastAPI:
     app.include_router(search_router, prefix=settings.API_V1_PREFIX)
     app.include_router(sources_router, prefix=settings.API_V1_PREFIX)
     app.include_router(dataset_router, prefix=settings.API_V1_PREFIX)
+    app.include_router(export_router, prefix=settings.API_V1_PREFIX)
     app.include_router(ai_router, prefix=settings.API_V1_PREFIX)
 
     return app

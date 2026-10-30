@@ -156,6 +156,17 @@ export function Header() {
                   Cartographic Navigation
                 </div>
                 <Link
+                  href="/explore"
+                  onClick={() => setExploreOpen(false)}
+                  className="flex items-center gap-3 px-3 py-2 text-xs font-serif text-ink hover:text-chinese-red hover:bg-parchment transition-colors"
+                >
+                  <MapPin className="w-4 h-4 text-burgundy shrink-0" />
+                  <div>
+                    <div className="font-display font-semibold text-sm">Country Directory</div>
+                    <div className="text-[10px] text-ink-muted">15 sovereign archives</div>
+                  </div>
+                </Link>
+                <Link
                   href="/#atlas"
                   onClick={() => setExploreOpen(false)}
                   className="flex items-center gap-3 px-3 py-2 text-xs font-serif text-ink hover:text-chinese-red hover:bg-parchment transition-colors"
@@ -164,17 +175,6 @@ export function Header() {
                   <div>
                     <div className="font-display font-semibold text-sm">World Atlas</div>
                     <div className="text-[10px] text-ink-muted">Interactive global map</div>
-                  </div>
-                </Link>
-                <Link
-                  href="/#countries-index"
-                  onClick={() => setExploreOpen(false)}
-                  className="flex items-center gap-3 px-3 py-2 text-xs font-serif text-ink hover:text-chinese-red hover:bg-parchment transition-colors"
-                >
-                  <MapPin className="w-4 h-4 text-burgundy shrink-0" />
-                  <div>
-                    <div className="font-display font-semibold text-sm">All Countries</div>
-                    <div className="text-[10px] text-ink-muted">15 sovereign archives</div>
                   </div>
                 </Link>
                 <Link
@@ -223,7 +223,7 @@ export function Header() {
                   Archival Records
                 </div>
                 <Link
-                  href="/#folklore-collection"
+                  href="/folklore"
                   onClick={() => setStoriesOpen(false)}
                   className="flex items-center gap-3 px-3 py-2 text-xs font-serif text-ink hover:text-chinese-red hover:bg-parchment transition-colors"
                 >
@@ -234,7 +234,7 @@ export function Header() {
                   </div>
                 </Link>
                 <Link
-                  href="/#urban-legends-collection"
+                  href="/urban-legends"
                   onClick={() => setStoriesOpen(false)}
                   className="flex items-center gap-3 px-3 py-2 text-xs font-serif text-ink hover:text-cobalt hover:bg-parchment transition-colors"
                 >
@@ -377,18 +377,18 @@ export function Header() {
                   World Atlas (Interactive Map)
                 </Link>
                 <Link
-                  href="/#countries-index"
+                  href="/explore"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block text-ink-muted hover:text-chinese-red py-1"
                 >
-                  All 15 Countries
+                  Country Directory (15 Sovereign Archives)
                 </Link>
                 <Link
-                  href="/#archive-collections"
+                  href="/#atlas"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block text-ink-muted hover:text-chinese-red py-1"
                 >
-                  Regional Archive Distribution
+                  World Atlas (Interactive Map)
                 </Link>
               </div>
             )}
@@ -409,14 +409,14 @@ export function Header() {
             {storiesOpen && (
               <div className="pl-4 space-y-2 py-2 text-sm font-serif">
                 <Link
-                  href="/#folklore-collection"
+                  href="/folklore"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block text-ink-muted hover:text-chinese-red py-1"
                 >
                   Folklore (150 Records)
                 </Link>
                 <Link
-                  href="/#urban-legends-collection"
+                  href="/urban-legends"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block text-ink-muted hover:text-cobalt py-1"
                 >

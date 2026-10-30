@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "BR-FOLK-001",
+    "cat": "folklore",
+    "country": "BR",
+    "title": "Saci-Perer\u00ea the One-Legged Trickster",
+    "region": "Southeast and Central-West Brazil, rural fazenda communities"
+  },
+  {
+    "id": "BR-FOLK-002",
+    "cat": "folklore",
+    "country": "BR",
+    "title": "Curupira the Backward-Footed Forest Guardian",
+    "region": "Amazon Basin and Atlantic Rainforest (Mata Atl\u00e2ntica)"
+  },
+  {
+    "id": "BR-FOLK-003",
+    "cat": "folklore",
+    "country": "BR",
+    "title": "Iara: The River Mermaid of the Amazon",
+    "region": "Amazon River basin, Par\u00e1 and Amazonas states"
+  },
+  {
+    "id": "BR-FOLK-004",
+    "cat": "folklore",
+    "country": "BR",
+    "title": "Boitat\u00e1: The Fiery Serpent of the Wetlands",
+    "region": "Pantanal wetlands, Mato Grosso and Amazon floodplains"
+  },
+  {
+    "id": "BR-FOLK-005",
+    "cat": "folklore",
+    "country": "BR",
+    "title": "The Pink River Dolphin (Boto Cor-de-Rosa)",
+    "region": "Amazonas, Par\u00e1, and riverside river settlements"
+  },
+  {
+    "id": "BR-FOLK-006",
+    "cat": "folklore",
+    "country": "BR",
+    "title": "Mula Sem Cabe\u00e7a: The Headless Mule",
+    "region": "Interior of S\u00e3o Paulo, Minas Gerais, and Goi\u00e1s"
+  },
+  {
+    "id": "BR-FOLK-007",
+    "cat": "folklore",
+    "country": "BR",
+    "title": "Caipora: The Guardian of Forest Game",
+    "region": "Northeastern and Southeastern woodlands, Brazil"
+  },
+  {
+    "id": "BR-FOLK-008",
+    "cat": "folklore",
+    "country": "BR",
+    "title": "The Mapinguari: Giant Amazonian Beast",
+    "region": "Acre, Rond\u00f4nia, and Amazonas borderlands"
+  },
+  {
+    "id": "BR-FOLK-009",
+    "cat": "folklore",
+    "country": "BR",
+    "title": "Negrinho do Pastoreio: The Little Black Shepherd",
+    "region": "Rio Grande do Sul, Southern Pampas"
+  },
+  {
+    "id": "BR-FOLK-010",
+    "cat": "folklore",
+    "country": "BR",
+    "title": "Cobra Grande: The Giant River Serpent of Par\u00e1",
+    "region": "Bel\u00e9m, Par\u00e1 and the Lower Amazon River"
+  },
+  {
+    "id": "CN-FOLK-001",
+    "cat": "folklore",
+    "country": "CN",
+    "title": "The Butterfly Lovers (Liang Shanbo and Zhu Yingtai)",
+    "region": "Zhejiang Province (Hangzhou, Shaoxing, and Ningbo)"
+  },
+  {
+    "id": "CN-FOLK-002",
+    "cat": "folklore",
+    "country": "CN",
+    "title": "Chang'e Flies to the Moon (Mid-Autumn Festival)",
+    "region": "Central Plains of China, nationwide Chinese cultural festival"
+  },
+  {
+    "id": "CN-FOLK-003",
+    "cat": "folklore",
+    "country": "CN",
+    "title": "The Legend of the White Snake (Madam White Snake)",
+    "region": "Hangzhou and Zhenjiang, Zhejiang and Jiangsu Provinces"
+  },
+  {
+    "id": "CN-FOLK-004",
+    "cat": "folklore",
+    "country": "CN",
+    "title": "The Cowherd and the Weaver Girl (Niulang and Zhin\u00fc)",
+    "region": "Shandong, Henan, and Yellow River heartland"
+  },
+  {
+    "id": "CN-FOLK-005",
+    "cat": "folklore",
+    "country": "CN",
+    "title": "Hou Yi Shoots the Nine Suns",
+    "region": "Ancient Central Plains and Mount Kunlun mythological region"
+  },
+  {
+    "id": "CN-FOLK-006",
+    "cat": "folklore",
+    "country": "CN",
+    "title": "Nezha Conquers the Dragon King of the Eastern Sea",
+    "region": "Chentang Pass, Tianjin and Eastern Bohai Coast"
+  },
+  {
+    "id": "CN-FOLK-007",
+    "cat": "folklore",
+    "country": "CN",
+    "title": "Sun Wukong and the Peaches of Immortality",
+    "region": "Huaguo Mountain, Lianyungang, Jiangsu Province"
+  },
+  {
+    "id": "CN-FOLK-008",
+    "cat": "folklore",
+    "country": "CN",
+    "title": "Meng Jiang N\u00fc Weeps at the Great Wall",
+    "region": "Shanhaiguan Pass, Qinhuangdao, Hebei Province"
+  },
+  {
+    "id": "CN-FOLK-009",
+    "cat": "folklore",
+    "country": "CN",
+    "title": "The Nian Monster and the Spring Festival",
+    "region": "Coastal and rural villages nationwide across China"
+  },
+  {
+    "id": "CN-FOLK-010",
+    "cat": "folklore",
+    "country": "CN",
+    "title": "Pan Gu Separates Heaven and Earth",
+    "region": "Southern China and Central Plains, nationwide Chinese cosmology"
+  },
+  {
+    "id": "DE-FOLK-001",
+    "cat": "folklore",
+    "country": "DE",
+    "title": "The Pied Piper of Hamelin (Der Rattenf\u00e4nger von Hameln)",
+    "region": "Hamelin, Lower Saxony, Weser River Valley"
+  },
+  {
+    "id": "DE-FOLK-002",
+    "cat": "folklore",
+    "country": "DE",
+    "title": "The Lorelei of the Rhine Rock",
+    "region": "Upper Middle Rhine Valley, Rhineland-Palatinate"
+  },
+  {
+    "id": "DE-FOLK-003",
+    "cat": "folklore",
+    "country": "DE",
+    "title": "Snow White and the Seven Dwarfs (Schneewittchen)",
+    "region": "Hesse and Spessart forest regions, Central Germany"
+  },
+  {
+    "id": "DE-FOLK-004",
+    "cat": "folklore",
+    "country": "DE",
+    "title": "Hansel and Gretel and the Gingerbread Witch",
+    "region": "Thuringian and Hessian deep forests"
+  },
+  {
+    "id": "DE-FOLK-005",
+    "cat": "folklore",
+    "country": "DE",
+    "title": "Rumpelstiltskin (Rumpelstilzchen)",
+    "region": "Hesse and Westphalia, Central Germany"
+  },
+  {
+    "id": "DE-FOLK-006",
+    "cat": "folklore",
+    "country": "DE",
+    "title": "The Town Musicians of Bremen (Die Bremer Stadtmusikanten)",
+    "region": "Free Hanseatic City of Bremen and Lower Saxony"
+  },
+  {
+    "id": "DE-FOLK-007",
+    "cat": "folklore",
+    "country": "DE",
+    "title": "The Wild Hunt of Wotan (Die Wilde Jagd)",
+    "region": "Black Forest, Harz Mountains, and Bavarian Alps"
+  },
+  {
+    "id": "DE-FOLK-008",
+    "cat": "folklore",
+    "country": "DE",
+    "title": "The Legend of Doctor Faustus and Mephistopheles",
+    "region": "Wittenberg, Saxony-Anhalt and Staufen im Breisgau, Baden-W\u00fcrttemberg"
+  },
+  {
+    "id": "DE-FOLK-009",
+    "cat": "folklore",
+    "country": "DE",
+    "title": "The Water Nixie of the Black Forest (Nix und Nixe)",
+    "region": "Schwarzwald (Black Forest) and Upper Rhine, Baden-W\u00fcrttemberg"
+  },
+  {
+    "id": "DE-FOLK-010",
+    "cat": "folklore",
+    "country": "DE",
+    "title": "The Kobold of the Harz Mountains (H\u00fcttengeist)",
+    "region": "Harz Mountain mining district, Lower Saxony and Saxony-Anhalt"
+  },
+  {
+    "id": "EG-FOLK-001",
+    "cat": "folklore",
+    "country": "EG",
+    "title": "The Myth of Osiris, Isis, and the Sacred Resurrection",
+    "region": "Nile River Valley, Abydos, and Philae"
+  },
+  {
+    "id": "EG-FOLK-002",
+    "cat": "folklore",
+    "country": "EG",
+    "title": "The Tale of the Doomed Prince (Papyrus Harris 500)",
+    "region": "Thebes, Upper Egypt and Mitanni borderlands"
+  },
+  {
+    "id": "EG-FOLK-003",
+    "cat": "folklore",
+    "country": "EG",
+    "title": "The Tale of the Shipwrecked Sailor and the Serpent King",
+    "region": "Red Sea and Punt trade routes, Upper Egypt"
+  },
+  {
+    "id": "EG-FOLK-004",
+    "cat": "folklore",
+    "country": "EG",
+    "title": "The Tale of the Two Brothers (Anpu and Bata)",
+    "region": "Nile Delta and Valley of the Cedar (Phoenicia)"
+  },
+  {
+    "id": "EG-FOLK-005",
+    "cat": "folklore",
+    "country": "EG",
+    "title": "Isis and the Secret True Name of Ra",
+    "region": "Heliopolis (Iunu) and Thebes"
+  },
+  {
+    "id": "EG-FOLK-006",
+    "cat": "folklore",
+    "country": "EG",
+    "title": "The Legend of the Eye of Horus (Wedjat)",
+    "region": "Temple of Edfu and Kom Ombo, Upper Egypt"
+  },
+  {
+    "id": "EG-FOLK-007",
+    "cat": "folklore",
+    "country": "EG",
+    "title": "The Eloquent Peasant and the Nine Petitions",
+    "region": "Wadi El Natrun and Herakleopolis Magna (Beni Suef)"
+  },
+  {
+    "id": "EG-FOLK-008",
+    "cat": "folklore",
+    "country": "EG",
+    "title": "King Khufu and the Magicians (Westcar Papyrus)",
+    "region": "Memphis and Giza Pyramid plateau"
+  },
+  {
+    "id": "EG-FOLK-009",
+    "cat": "folklore",
+    "country": "EG",
+    "title": "The Myth of the Heavenly Cow and the Wrath of Sekhmet",
+    "region": "Thebes and Elephantine (Aswan)"
+  },
+  {
+    "id": "EG-FOLK-010",
+    "cat": "folklore",
+    "country": "EG",
+    "title": "The Dream Stele of Thutmose IV and the Great Sphinx",
+    "region": "Giza Plateau, Lower Egypt"
+  },
+  {
+    "id": "GB-FOLK-001",
+    "cat": "folklore",
+    "country": "GB",
+    "title": "King Arthur and the Lady of the Lake",
+    "region": "Cornwall, Somerset, and Welsh border marches"
+  },
+  {
+    "id": "GB-FOLK-002",
+    "cat": "folklore",
+    "country": "GB",
+    "title": "Robin Hood and the Sheriff of Nottingham",
+    "region": "Nottinghamshire and South Yorkshire"
+  },
+  {
+    "id": "GB-FOLK-003",
+    "cat": "folklore",
+    "country": "GB",
+    "title": "Jack and the Beanstalk",
+    "region": "Cornwall and English rural shires"
+  },
+  {
+    "id": "GB-FOLK-004",
+    "cat": "folklore",
+    "country": "GB",
+    "title": "Lady Godiva of Coventry",
+    "region": "Coventry, Warwickshire, West Midlands"
+  },
+  {
+    "id": "GB-FOLK-005",
+    "cat": "folklore",
+    "country": "GB",
+    "title": "The Green Children of Woolpit",
+    "region": "Woolpit, Bury St Edmunds, Suffolk, East Anglia"
+  },
+  {
+    "id": "GB-FOLK-006",
+    "cat": "folklore",
+    "country": "GB",
+    "title": "Herne the Hunter of Windsor Great Park",
+    "region": "Windsor Great Park and Berkshire countryside"
+  },
+  {
+    "id": "GB-FOLK-007",
+    "cat": "folklore",
+    "country": "GB",
+    "title": "The Lambton Worm of County Durham",
+    "region": "County Durham and Wearside, North East England"
+  },
+  {
+    "id": "GB-FOLK-008",
+    "cat": "folklore",
+    "country": "GB",
+    "title": "Black Shuck: The Ghost Dog of East Anglia",
+    "region": "Norfolk and Suffolk coastal fens and marshes, East Anglia"
+  },
+  {
+    "id": "GB-FOLK-009",
+    "cat": "folklore",
+    "country": "GB",
+    "title": "Dick Whittington and His Cat",
+    "region": "City of London and Highgate"
+  },
+  {
+    "id": "GB-FOLK-010",
+    "cat": "folklore",
+    "country": "GB",
+    "title": "The Loch Ness Monster: Nessie and Saint Columba",
+    "region": "Scottish Highlands, Inverness-shire, Scotland"
+  },
+  {
+    "id": "GR-FOLK-001",
+    "cat": "folklore",
+    "country": "GR",
+    "title": "Theseus and the Minotaur of the Cretan Labyrinth",
+    "region": "Crete and Attica"
+  },
+  {
+    "id": "GR-FOLK-002",
+    "cat": "folklore",
+    "country": "GR",
+    "title": "Daedalus and the Tragic Flight of Icarus",
+    "region": "Crete and the Icarian Sea, Aegean Islands"
+  },
+  {
+    "id": "GR-FOLK-003",
+    "cat": "folklore",
+    "country": "GR",
+    "title": "Perseus and the Severed Head of Medusa",
+    "region": "Seriphos, Argos, and the Peloponnese"
+  },
+  {
+    "id": "GR-FOLK-004",
+    "cat": "folklore",
+    "country": "GR",
+    "title": "Orpheus and Eurydice: The Backward Glance into Hades",
+    "region": "Thrace and the Underworld portals of Cape Matapan"
+  },
+  {
+    "id": "GR-FOLK-005",
+    "cat": "folklore",
+    "country": "GR",
+    "title": "Prometheus and the Sacred Gift of Fire",
+    "region": "Caucasus and Mount Olympus traditions"
+  },
+  {
+    "id": "GR-FOLK-006",
+    "cat": "folklore",
+    "country": "GR",
+    "title": "Jason and the Golden Fleece of Colchis",
+    "region": "Thessaly and the Black Sea (Pontus Euxinus)"
+  },
+  {
+    "id": "GR-FOLK-007",
+    "cat": "folklore",
+    "country": "GR",
+    "title": "The Labours of Heracles: The Nemean Lion and the Lernean Hydra",
+    "region": "Argolis and Corinthia, Peloponnese"
+  },
+  {
+    "id": "GR-FOLK-008",
+    "cat": "folklore",
+    "country": "GR",
+    "title": "The Gorgon Sister of Alexander the Great",
+    "region": "Aegean Sea, Cyclades, and Dodecanese Islands"
+  },
+  {
+    "id": "GR-FOLK-009",
+    "cat": "folklore",
+    "country": "GR",
+    "title": "The Nereids of the Mountain Springs (Neraides)",
+    "region": "Arcadia, Mount Parnassus, and the Peloponnese highlands"
+  },
+  {
+    "id": "GR-FOLK-010",
+    "cat": "folklore",
+    "country": "GR",
+    "title": "The Vrykolakas of Santorini: The Undead of the Cyclades",
+    "region": "Santorini and Mykonos, Cyclades Islands"
+  },
+  {
+    "id": "ID-FOLK-001",
+    "cat": "folklore",
+    "country": "ID",
+    "title": "The Legend of Roro Jonggrang and Prambanan Temple",
+    "region": "Sleman, Yogyakarta and Klaten, Central Java"
+  },
+  {
+    "id": "ID-FOLK-002",
+    "cat": "folklore",
+    "country": "ID",
+    "title": "The Legend of Lake Toba and the Goldfish Maiden",
+    "region": "Toba Batak Highlands, North Sumatra"
+  },
+  {
+    "id": "ID-FOLK-003",
+    "cat": "folklore",
+    "country": "ID",
+    "title": "Malin Kundang: The Rebellious Son Turned to Stone",
+    "region": "Padang, West Sumatra (Minangkabau heartland)"
+  },
+  {
+    "id": "ID-FOLK-004",
+    "cat": "folklore",
+    "country": "ID",
+    "title": "Sangkuriang and the Creation of Mount Tangkuban Perahu",
+    "region": "Bandung Basin and West Java (Parahyangan Highlands)"
+  },
+  {
+    "id": "ID-FOLK-005",
+    "cat": "folklore",
+    "country": "ID",
+    "title": "Timun Mas: The Golden Cucumber and the Giant",
+    "region": "Central Java and East Java rural villages"
+  },
+  {
+    "id": "ID-FOLK-006",
+    "cat": "folklore",
+    "country": "ID",
+    "title": "The Story of Cindelaras and His Champion Cock",
+    "region": "Surabaya, Sidoarjo, and Kahuripan, East Java"
+  },
+  {
+    "id": "ID-FOLK-007",
+    "cat": "folklore",
+    "country": "ID",
+    "title": "Dewi Sri: The Rice Goddess of Java and Bali",
+    "region": "Agricultural lowlands of Java, Bali, and Lombok"
+  },
+  {
+    "id": "ID-FOLK-008",
+    "cat": "folklore",
+    "country": "ID",
+    "title": "Calon Arang: The Witch of Girah and the Barong Dance",
+    "region": "East Java and Bali (sacred temple drama tradition)"
+  },
+  {
+    "id": "ID-FOLK-009",
+    "cat": "folklore",
+    "country": "ID",
+    "title": "Kebo Iwa and the Creation of Lake Batur (Bali)",
+    "region": "Bedahulu, Gianyar and Kintamani, Bali"
+  },
+  {
+    "id": "ID-FOLK-010",
+    "cat": "folklore",
+    "country": "ID",
+    "title": "The White Crocodile of the Mahakam River",
+    "region": "Mahakam River basin, Kutai Kartanegara, East Kalimantan"
+  },
+  {
+    "id": "IE-FOLK-001",
+    "cat": "folklore",
+    "country": "IE",
+    "title": "The Children of Lir (Oidheadh Chloinne Lir)",
+    "region": "County Westmeath and Antrim Coast"
+  },
+  {
+    "id": "IE-FOLK-002",
+    "cat": "folklore",
+    "country": "IE",
+    "title": "The Salmon of Knowledge (Brad\u00e1n Feasa)",
+    "region": "River Boyne Valley, County Meath"
+  },
+  {
+    "id": "IE-FOLK-003",
+    "cat": "folklore",
+    "country": "IE",
+    "title": "Oisin in the Land of Youth (T\u00edr na n\u00d3g)",
+    "region": "County Kerry and Western Atlantic Seaboard"
+  },
+  {
+    "id": "IE-FOLK-004",
+    "cat": "folklore",
+    "country": "IE",
+    "title": "Cu Chulainn and the Hound of Culann",
+    "region": "Cooley Peninsula, County Louth and Armagh"
+  },
+  {
+    "id": "IE-FOLK-005",
+    "cat": "folklore",
+    "country": "IE",
+    "title": "Finn MacCool and the Giant's Causeway",
+    "region": "North Antrim Coast, Northern Ireland"
+  },
+  {
+    "id": "IE-FOLK-006",
+    "cat": "folklore",
+    "country": "IE",
+    "title": "The Keen of the Banshee (Bean S\u00eddhe)",
+    "region": "Munster, Connacht, and Leinster Gaelic lineages"
+  },
+  {
+    "id": "IE-FOLK-007",
+    "cat": "folklore",
+    "country": "IE",
+    "title": "The Leprechaun of Carlingford and the Pot of Gold",
+    "region": "Carlingford and Cooley Peninsula, County Louth"
+  },
+  {
+    "id": "IE-FOLK-008",
+    "cat": "folklore",
+    "country": "IE",
+    "title": "The Selkie Bride of Galway Bay",
+    "region": "Connemara and Aran Islands, County Galway"
+  },
+  {
+    "id": "IE-FOLK-009",
+    "cat": "folklore",
+    "country": "IE",
+    "title": "The Fairy Forts and Fairy Raths of Munster",
+    "region": "Munster and Connacht rural farming communities"
+  },
+  {
+    "id": "IE-FOLK-010",
+    "cat": "folklore",
+    "country": "IE",
+    "title": "The Voyage of Saint Brendan the Navigator",
+    "region": "Dingle Peninsula, County Kerry"
+  },
+  {
+    "id": "IN-FOLK-001",
+    "cat": "folklore",
+    "country": "IN",
+    "title": "Vikram and the Corpse-Demon Betal",
+    "region": "Ujjain, Malwa Region, Central India"
+  },
+  {
+    "id": "IN-FOLK-002",
+    "cat": "folklore",
+    "country": "IN",
+    "title": "The Brahmin and the Loyal Mongoose",
+    "region": "North India Vedic tradition"
+  },
+  {
+    "id": "IN-FOLK-003",
+    "cat": "folklore",
+    "country": "IN",
+    "title": "The Monkey and the Crocodile",
+    "region": "Varanasi and Ganges river basin"
+  },
+  {
+    "id": "IN-FOLK-004",
+    "cat": "folklore",
+    "country": "IN",
+    "title": "The Devotion of Savitri and Satyavan",
+    "region": "Salwa and Madra Kingdoms, Northern India"
+  },
+  {
+    "id": "IN-FOLK-005",
+    "cat": "folklore",
+    "country": "IN",
+    "title": "Tenali Rama and the Well-Water Thieves",
+    "region": "Hampi, Karnataka and Andhra border region"
+  },
+  {
+    "id": "IN-FOLK-006",
+    "cat": "folklore",
+    "country": "IN",
+    "title": "The Clever Hare and the Tyrant Lion",
+    "region": "North-Central Indian forest lore"
+  },
+  {
+    "id": "IN-FOLK-007",
+    "cat": "folklore",
+    "country": "IN",
+    "title": "The Demon and the Boastful Potter",
+    "region": "Awadh and Bhojpuri folk territory, Uttar Pradesh"
+  },
+  {
+    "id": "IN-FOLK-008",
+    "cat": "folklore",
+    "country": "IN",
+    "title": "The Trials of King Harishchandra",
+    "region": "Kashi (Varanasi), Uttar Pradesh"
+  },
+  {
+    "id": "IN-FOLK-009",
+    "cat": "folklore",
+    "country": "IN",
+    "title": "The Legend of Shakuntala and the Lost Signet Ring",
+    "region": "Himalayan foothills and Hastinapura"
+  },
+  {
+    "id": "IN-FOLK-010",
+    "cat": "folklore",
+    "country": "IN",
+    "title": "The Golden Deer of Panchavati",
+    "region": "Dandakaranya / Godavari River region"
+  },
+  {
+    "id": "JP-FOLK-001",
+    "cat": "folklore",
+    "country": "JP",
+    "title": "Urashima Taro and the Dragon Palace",
+    "region": "Tango Province, Kyoto Prefecture coastal region"
+  },
+  {
+    "id": "JP-FOLK-002",
+    "cat": "folklore",
+    "country": "JP",
+    "title": "Momotaro the Peach Boy",
+    "region": "Okayama Prefecture (formerly Bizen Province)"
+  },
+  {
+    "id": "JP-FOLK-003",
+    "cat": "folklore",
+    "country": "JP",
+    "title": "The Tale of the Bamboo Cutter and Princess Kaguya",
+    "region": "Yamato Province, Kansai Region"
+  },
+  {
+    "id": "JP-FOLK-004",
+    "cat": "folklore",
+    "country": "JP",
+    "title": "Yuki-onna the Snow Maiden",
+    "region": "Musashi and Tohoku mountainous snow country"
+  },
+  {
+    "id": "JP-FOLK-005",
+    "cat": "folklore",
+    "country": "JP",
+    "title": "Tamamo-no-Mae and the Killing Stone",
+    "region": "Nasu, Shimotsuke Province (Tochigi Prefecture)"
+  },
+  {
+    "id": "JP-FOLK-006",
+    "cat": "folklore",
+    "country": "JP",
+    "title": "The Crane Wife: Tsuru no Ongaeshi",
+    "region": "Tohoku and Niigata snow countryside"
+  },
+  {
+    "id": "JP-FOLK-007",
+    "cat": "folklore",
+    "country": "JP",
+    "title": "Kintaro the Golden Boy of Mount Ashigara",
+    "region": "Kanagawa / Shizuoka mountain border (Ashigara Pass)"
+  },
+  {
+    "id": "JP-FOLK-008",
+    "cat": "folklore",
+    "country": "JP",
+    "title": "The Teakettle of Good Fortune (Bunbuku Chagama)",
+    "region": "Tatebayashi, Kozuke Province (Gunma Prefecture)"
+  },
+  {
+    "id": "JP-FOLK-009",
+    "cat": "folklore",
+    "country": "JP",
+    "title": "Issun-boshi the One-Inch Boy",
+    "region": "Kyoto and Naniwa (Osaka) water transit routes"
+  },
+  {
+    "id": "JP-FOLK-010",
+    "cat": "folklore",
+    "country": "JP",
+    "title": "The Tongue-Cut Sparrow: Shita-kiri Suzume",
+    "region": "Kanto and Kansai rural villages"
+  },
+  {
+    "id": "KR-FOLK-001",
+    "cat": "folklore",
+    "country": "KR",
+    "title": "Dangun and the Founding of Gojoseon",
+    "region": "Mount Taebaek and Pyongyang, Korean Peninsula"
+  },
+  {
+    "id": "KR-FOLK-002",
+    "cat": "folklore",
+    "country": "KR",
+    "title": "The Tale of Chunhyang (Chunhyangjeon)",
+    "region": "Namwon, Jeolla Province, Southwestern Korea"
+  },
+  {
+    "id": "KR-FOLK-003",
+    "cat": "folklore",
+    "country": "KR",
+    "title": "The Sun and the Moon: Brother and Sister and the Tiger",
+    "region": "Rural mountain villages throughout the Korean Peninsula"
+  },
+  {
+    "id": "KR-FOLK-004",
+    "cat": "folklore",
+    "country": "KR",
+    "title": "The Gumiho of Mount Jiri (Nine-Tailed Fox)",
+    "region": "Jirisan Mountain National Park, South Gyeongsang and Jeolla"
+  },
+  {
+    "id": "KR-FOLK-005",
+    "cat": "folklore",
+    "country": "KR",
+    "title": "The Filial Daughter Shim Cheong",
+    "region": "Indangsu sea crossing near Baengnyeong Island and Hwanghae"
+  },
+  {
+    "id": "KR-FOLK-006",
+    "cat": "folklore",
+    "country": "KR",
+    "title": "Heungbu and Nolbu: The Swallow's Magic Gourd",
+    "region": "Jeolla and Chungcheong rural agricultural heartland"
+  },
+  {
+    "id": "KR-FOLK-007",
+    "cat": "folklore",
+    "country": "KR",
+    "title": "The Woodcutter and the Heavenly Maiden",
+    "region": "Geumgangsan (Diamond Mountains), Gangwon Province"
+  },
+  {
+    "id": "KR-FOLK-008",
+    "cat": "folklore",
+    "country": "KR",
+    "title": "Hong Gildong: The Righteous Outlaw",
+    "region": "Hanyang (Seoul) and Gangwon / Jeolla mountain hideouts"
+  },
+  {
+    "id": "KR-FOLK-009",
+    "cat": "folklore",
+    "country": "KR",
+    "title": "The Magic Mirror and the Dragon of the East Sea",
+    "region": "Sokcho and Gangneung coastal fishing ports, Gangwon Province"
+  },
+  {
+    "id": "KR-FOLK-010",
+    "cat": "folklore",
+    "country": "KR",
+    "title": "The Toad Bridegroom and the Golden Water",
+    "region": "Gyeongsang and Chungcheong rural valleys"
+  },
+  {
+    "id": "MX-FOLK-001",
+    "cat": "folklore",
+    "country": "MX",
+    "title": "Popocatepetl and Iztaccihuatl: The Volcano Lovers",
+    "region": "Valley of Mexico and Puebla, Central Highlands"
+  },
+  {
+    "id": "MX-FOLK-002",
+    "cat": "folklore",
+    "country": "MX",
+    "title": "Quetzalcoatl and the Bones of Mankind",
+    "region": "Central Mexico, Nahua cultural sphere"
+  },
+  {
+    "id": "MX-FOLK-003",
+    "cat": "folklore",
+    "country": "MX",
+    "title": "The Discovery of Maize (Centli)",
+    "region": "Milpa Alta and Central Valley of Mexico"
+  },
+  {
+    "id": "MX-FOLK-004",
+    "cat": "folklore",
+    "country": "MX",
+    "title": "The Rabbit in the Moon (El Conejo en la Luna)",
+    "region": "Central Highlands of Mexico, Nahua oral traditions"
+  },
+  {
+    "id": "MX-FOLK-005",
+    "cat": "folklore",
+    "country": "MX",
+    "title": "The Legend of the Cempasuchil Flower",
+    "region": "Puebla, Tlaxcala, and Valley of Mexico"
+  },
+  {
+    "id": "MX-FOLK-006",
+    "cat": "folklore",
+    "country": "MX",
+    "title": "The Eagle on the Nopal: Foundation of Tenochtitlan",
+    "region": "Lake Texcoco basin, Valley of Mexico"
+  },
+  {
+    "id": "MX-FOLK-007",
+    "cat": "folklore",
+    "country": "MX",
+    "title": "The Nagual Shapeshifter of Oaxaca",
+    "region": "Central Valleys and Sierra Ju\u00e1rez, Oaxaca"
+  },
+  {
+    "id": "MX-FOLK-008",
+    "cat": "folklore",
+    "country": "MX",
+    "title": "The Creation of the Fifth Sun at Teotihuacan",
+    "region": "Teotihuacan Valley, State of Mexico"
+  },
+  {
+    "id": "MX-FOLK-009",
+    "cat": "folklore",
+    "country": "MX",
+    "title": "The Singing Maiden of Lake Chapala",
+    "region": "Lake Chapala basin, Jalisco and Michoac\u00e1n"
+  },
+  {
+    "id": "MX-FOLK-010",
+    "cat": "folklore",
+    "country": "MX",
+    "title": "The Crying Tree of the Sad Night (Noche Triste)",
+    "region": "Popotla, Mexico City (now Miguel Hidalgo borough)"
+  },
+  {
+    "id": "NG-FOLK-001",
+    "cat": "folklore",
+    "country": "NG",
+    "title": "Ijapa the Tortoise and the Gourd of Wisdom",
+    "region": "Southwestern Nigeria, Yoruba cultural domain"
+  },
+  {
+    "id": "NG-FOLK-002",
+    "cat": "folklore",
+    "country": "NG",
+    "title": "The Heroism of Queen Moremi Ajasoro",
+    "region": "Ile-Ife, Osun State, Southwestern Nigeria"
+  },
+  {
+    "id": "NG-FOLK-003",
+    "cat": "folklore",
+    "country": "NG",
+    "title": "Sango the Thunder King of the Oyo Empire",
+    "region": "Oyo Empire and Yorubaland"
+  },
+  {
+    "id": "NG-FOLK-004",
+    "cat": "folklore",
+    "country": "NG",
+    "title": "Oya the Fierce Goddess of the River Niger",
+    "region": "Niger River basin, Kwara and Oyo States"
+  },
+  {
+    "id": "NG-FOLK-005",
+    "cat": "folklore",
+    "country": "NG",
+    "title": "Queen Amina of Zazzau: The Warrior Queen",
+    "region": "Zazzau (Zaria), Kaduna and Kano States, Northern Nigeria"
+  },
+  {
+    "id": "NG-FOLK-006",
+    "cat": "folklore",
+    "country": "NG",
+    "title": "The Sacred Waters of Osun-Osogbo",
+    "region": "Osogbo, Osun State, Southwestern Nigeria"
+  },
+  {
+    "id": "NG-FOLK-007",
+    "cat": "folklore",
+    "country": "NG",
+    "title": "The Hunter and the Forest Spirits of Igbale",
+    "region": "Ekiti, Ondo, and Osun forested hinterlands"
+  },
+  {
+    "id": "NG-FOLK-008",
+    "cat": "folklore",
+    "country": "NG",
+    "title": "The Origin of Death and the Slow Chameleon",
+    "region": "Pan-Nigerian indigenous folklore (Yoruba, Igbo, and Edo traditions)"
+  },
+  {
+    "id": "NG-FOLK-009",
+    "cat": "folklore",
+    "country": "NG",
+    "title": "The Palm-Wine Drinkard and the Town of the Deads",
+    "region": "Abeokuta, Ogun State and Yoruba hinterlands"
+  },
+  {
+    "id": "NG-FOLK-010",
+    "cat": "folklore",
+    "country": "NG",
+    "title": "The Clever Goat and the Greedy Leopard",
+    "region": "Benin City and Edo State"
+  },
+  {
+    "id": "PH-FOLK-001",
+    "cat": "folklore",
+    "country": "PH",
+    "title": "The Legend of Maria Makiling: The Mountain Diwata",
+    "region": "Mount Makiling, Laguna and Batangas, Southern Luzon"
+  },
+  {
+    "id": "PH-FOLK-002",
+    "cat": "folklore",
+    "country": "PH",
+    "title": "The Legend of Mayon Volcano (Daragang Magayon)",
+    "region": "Albay Province, Bicol Region"
+  },
+  {
+    "id": "PH-FOLK-003",
+    "cat": "folklore",
+    "country": "PH",
+    "title": "Bakunawa and the Seven Moons",
+    "region": "Visayas and Bicol coastal regions"
+  },
+  {
+    "id": "PH-FOLK-004",
+    "cat": "folklore",
+    "country": "PH",
+    "title": "Malakas and Maganda: Origin of Humanity from Bamboo",
+    "region": "Nationwide indigenous Philippine creation lore"
+  },
+  {
+    "id": "PH-FOLK-005",
+    "cat": "folklore",
+    "country": "PH",
+    "title": "Bernardo Carpio: The Trapped Giant of Montalban",
+    "region": "Rodriguez (Montalban), Rizal Province, Calabarzon"
+  },
+  {
+    "id": "PH-FOLK-006",
+    "cat": "folklore",
+    "country": "PH",
+    "title": "The Aswang and the Visayan Manananggal",
+    "region": "Capiz, Iloilo, and Panay Island, Western Visayas"
+  },
+  {
+    "id": "PH-FOLK-007",
+    "cat": "folklore",
+    "country": "PH",
+    "title": "The Tikbalang: Half-Horse Trickster of the Woods",
+    "region": "Sierra Madre Mountains, Rizal, and Central Luzon"
+  },
+  {
+    "id": "PH-FOLK-008",
+    "cat": "folklore",
+    "country": "PH",
+    "title": "The Kapre: Giant Smoker of the Balete Tree",
+    "region": "Rural provinces nationwide throughout the Philippines"
+  },
+  {
+    "id": "PH-FOLK-009",
+    "cat": "folklore",
+    "country": "PH",
+    "title": "The Tiyanak: Demon Infant of the Jungle",
+    "region": "Luzon and Visayan rural woodland areas"
+  },
+  {
+    "id": "PH-FOLK-010",
+    "cat": "folklore",
+    "country": "PH",
+    "title": "The Sirena and the Fishermen of Cebu (Magindara)",
+    "region": "Cebu, Bohol, and the Visayan maritime straits"
+  },
+  {
+    "id": "US-FOLK-001",
+    "cat": "folklore",
+    "country": "US",
+    "title": "Paul Bunyan and Babe the Blue Ox",
+    "region": "Upper Midwest and Pacific Northwest logging communities"
+  },
+  {
+    "id": "US-FOLK-002",
+    "cat": "folklore",
+    "country": "US",
+    "title": "John Henry the Steel-Driving Man",
+    "region": "Appalachia, West Virginia"
+  },
+  {
+    "id": "US-FOLK-003",
+    "cat": "folklore",
+    "country": "US",
+    "title": "The Legend of Sleepy Hollow and the Headless Horseman",
+    "region": "Hudson River Valley, Westchester County, New York"
+  },
+  {
+    "id": "US-FOLK-004",
+    "cat": "folklore",
+    "country": "US",
+    "title": "Johnny Appleseed: The Frontier Planter",
+    "region": "Old Northwest Territory (Ohio, Indiana, Pennsylvania)"
+  },
+  {
+    "id": "US-FOLK-005",
+    "cat": "folklore",
+    "country": "US",
+    "title": "Pecos Bill and the Tamed Cyclone",
+    "region": "Southwest and Texas borderlands"
+  },
+  {
+    "id": "US-FOLK-006",
+    "cat": "folklore",
+    "country": "US",
+    "title": "The Bell Witch of Robertson County",
+    "region": "Robertson County, Middle Tennessee"
+  },
+  {
+    "id": "US-FOLK-007",
+    "cat": "folklore",
+    "country": "US",
+    "title": "Rip Van Winkle and the Catskill Bowling Gnomes",
+    "region": "Catskill Mountains, New York"
+  },
+  {
+    "id": "US-FOLK-008",
+    "cat": "folklore",
+    "country": "US",
+    "title": "Br'er Rabbit and the Briar Patch",
+    "region": "Gullah Geechee coast and plantation oral networks, Georgia and South Carolina"
+  },
+  {
+    "id": "US-FOLK-009",
+    "cat": "folklore",
+    "country": "US",
+    "title": "Casey Jones and the Cannonball Express",
+    "region": "Mississippi Delta and Tennessee railway network"
+  },
+  {
+    "id": "US-FOLK-010",
+    "cat": "folklore",
+    "country": "US",
+    "title": "Davy Crockett and the Frozen Sunrise",
+    "region": "Tennessee backcountry and Cumberland plateau"
+  },
+  {
+    "id": "BR-URBAN-001",
+    "cat": "urban_legend",
+    "country": "BR",
+    "title": "A Loira do Banheiro: The Blonde in the School Restroom",
+    "region": "Schools nationwide, originating in Vale do Para\u00edba, S\u00e3o Paulo"
+  },
+  {
+    "id": "BR-URBAN-002",
+    "cat": "urban_legend",
+    "country": "BR",
+    "title": "The Chupa-Chupa Lights of Colares Island (Opera\u00e7\u00e3o Prato)",
+    "region": "Colares Island and Mosqueiro, Par\u00e1"
+  },
+  {
+    "id": "BR-URBAN-003",
+    "cat": "urban_legend",
+    "country": "BR",
+    "title": "The Thirteen Souls of the Joelma Building Fire",
+    "region": "Downtown S\u00e3o Paulo, SP"
+  },
+  {
+    "id": "BR-URBAN-004",
+    "cat": "urban_legend",
+    "country": "BR",
+    "title": "The Werewolf of Joan\u00f3polis",
+    "region": "Joan\u00f3polis, Serra da Mantiqueira, S\u00e3o Paulo"
+  },
+  {
+    "id": "BR-URBAN-005",
+    "cat": "urban_legend",
+    "country": "BR",
+    "title": "The Phantom Hitchhiker of the Anchieta Highway",
+    "region": "Serra do Mar mountain pass between S\u00e3o Paulo and Santos"
+  },
+  {
+    "id": "BR-URBAN-006",
+    "cat": "urban_legend",
+    "country": "BR",
+    "title": "The Black Dog of Paranapiacaba Fog",
+    "region": "Paranapiacaba, Santo Andr\u00e9, S\u00e3o Paulo"
+  },
+  {
+    "id": "BR-URBAN-007",
+    "cat": "urban_legend",
+    "country": "BR",
+    "title": "The Ghost Bride of the \u00d3pera de Arame",
+    "region": "Curitiba, Paran\u00e1"
+  },
+  {
+    "id": "BR-URBAN-008",
+    "cat": "urban_legend",
+    "country": "BR",
+    "title": "The Spectral Tenor of Theatro Municipal do Rio de Janeiro",
+    "region": "Cinel\u00e2ndia, Historic Center, Rio de Janeiro"
+  },
+  {
+    "id": "BR-URBAN-009",
+    "cat": "urban_legend",
+    "country": "BR",
+    "title": "The Cursed Fof\u00e3o Doll Mystery",
+    "region": "Urban centers nationwide across Brazil"
+  },
+  {
+    "id": "BR-URBAN-010",
+    "cat": "urban_legend",
+    "country": "BR",
+    "title": "The Ghost Miners of Ouro Preto",
+    "region": "Ouro Preto and Mariana, Minas Gerais"
+  },
+  {
+    "id": "CN-URBAN-001",
+    "cat": "urban_legend",
+    "country": "CN",
+    "title": "The Midnight Ghost Bus Route 375 of Beijing",
+    "region": "Haidian District and Fragrant Hills, Beijing"
+  },
+  {
+    "id": "CN-URBAN-002",
+    "cat": "urban_legend",
+    "country": "CN",
+    "title": "The Spectral Concubines of the Forbidden City",
+    "region": "Dongcheng District, Central Beijing"
+  },
+  {
+    "id": "CN-URBAN-003",
+    "cat": "urban_legend",
+    "country": "CN",
+    "title": "The Braemar Hill Ghost Girl of Hong Kong",
+    "region": "Braemar Hill and North Point, Hong Kong Island"
+  },
+  {
+    "id": "CN-URBAN-004",
+    "cat": "urban_legend",
+    "country": "CN",
+    "title": "The Lotus Pond Drowned Maiden",
+    "region": "Collegiate campuses across Beijing, Shanghai, and Taipei"
+  },
+  {
+    "id": "CN-URBAN-005",
+    "cat": "urban_legend",
+    "country": "CN",
+    "title": "The Haunted Caoxi Road Metro Station in Shanghai",
+    "region": "Xuhui District, Shanghai"
+  },
+  {
+    "id": "CN-URBAN-006",
+    "cat": "urban_legend",
+    "country": "CN",
+    "title": "The Xiangxi Corpse-Walking Sorcerers (Xiangxi Gan Shi)",
+    "region": "Xiangxi Tujia and Miao Autonomous Prefecture, Western Hunan"
+  },
+  {
+    "id": "CN-URBAN-007",
+    "cat": "urban_legend",
+    "country": "CN",
+    "title": "The Cursed Chaonei No. 81 Mansion in Beijing",
+    "region": "Dongcheng District, Beijing"
+  },
+  {
+    "id": "CN-URBAN-008",
+    "cat": "urban_legend",
+    "country": "CN",
+    "title": "The Ghost Bride Market of Fengjie (Minghun)",
+    "region": "Shanxi, Shaanxi, and Henan rural districts"
+  },
+  {
+    "id": "CN-URBAN-009",
+    "cat": "urban_legend",
+    "country": "CN",
+    "title": "The Whispering Pagoda of Hangzhou West Lake (Leifeng)",
+    "region": "Hangzhou, Zhejiang Province"
+  },
+  {
+    "id": "CN-URBAN-010",
+    "cat": "urban_legend",
+    "country": "CN",
+    "title": "The Dragon King Mountain Ghost Cavern of Zhejiang",
+    "region": "Anji County, Huzhou, Zhejiang Province"
+  },
+  {
+    "id": "DE-URBAN-001",
+    "cat": "urban_legend",
+    "country": "DE",
+    "title": "The White Lady of the Hohenzollern Dynasty",
+    "region": "Berlin and Kulmbach, Franconia, Bavaria"
+  },
+  {
+    "id": "DE-URBAN-002",
+    "cat": "urban_legend",
+    "country": "DE",
+    "title": "The Haunted Waldniel Hostert Asylum",
+    "region": "Schwalmtal, North Rhine-Westphalia"
+  },
+  {
+    "id": "DE-URBAN-003",
+    "cat": "urban_legend",
+    "country": "DE",
+    "title": "The Ghost Stations of the Berlin U-Bahn (Geisterbahnh\u00f6fe)",
+    "region": "Underground Berlin transit network, Berlin"
+  },
+  {
+    "id": "DE-URBAN-004",
+    "cat": "urban_legend",
+    "country": "DE",
+    "title": "The Werewolf of Bedburg (Peter Stumpp Historical Legend)",
+    "region": "Bedburg, Rhein-Erft-Kreis, North Rhine-Westphalia"
+  },
+  {
+    "id": "DE-URBAN-005",
+    "cat": "urban_legend",
+    "country": "DE",
+    "title": "The Devil's Footstep in Munich Frauenkirche (Der Teufelstritt)",
+    "region": "Munich Old Town (Altstadt), Bavaria"
+  },
+  {
+    "id": "DE-URBAN-006",
+    "cat": "urban_legend",
+    "country": "DE",
+    "title": "The Ghost Monk of Neuschwanstein Castle",
+    "region": "Schwangau, Allg\u00e4u, Bavarian Alps"
+  },
+  {
+    "id": "DE-URBAN-007",
+    "cat": "urban_legend",
+    "country": "DE",
+    "title": "The Black Dog of the Odenwald Forest (Der Schwarze Hund)",
+    "region": "Odenwald mountain range, Hesse and Baden-W\u00fcrttemberg"
+  },
+  {
+    "id": "DE-URBAN-008",
+    "cat": "urban_legend",
+    "country": "DE",
+    "title": "The Haunting of Babenhausen Kaserne Ghosts",
+    "region": "Babenhausen, Darmstadt-Dieburg, Hesse"
+  },
+  {
+    "id": "DE-URBAN-009",
+    "cat": "urban_legend",
+    "country": "DE",
+    "title": "The Witch of Brocken Peak: Walpurgisnacht Mystery",
+    "region": "Harz National Park, Saxony-Anhalt and Lower Saxony"
+  },
+  {
+    "id": "DE-URBAN-010",
+    "cat": "urban_legend",
+    "country": "DE",
+    "title": "The Haunted Lake Mummelsee King of the Black Forest",
+    "region": "Seebach, Ortenaukreis, Black Forest, Baden-W\u00fcrttemberg"
+  },
+  {
+    "id": "EG-URBAN-001",
+    "cat": "urban_legend",
+    "country": "EG",
+    "title": "The Curse of the Pharaohs: Tutankhamun's Tomb",
+    "region": "Valley of the Kings, Luxor and Continental Hotel, Cairo"
+  },
+  {
+    "id": "EG-URBAN-002",
+    "cat": "urban_legend",
+    "country": "EG",
+    "title": "The Haunted Baron Empain Palace in Heliopolis",
+    "region": "Heliopolis, Cairo Governorate"
+  },
+  {
+    "id": "EG-URBAN-003",
+    "cat": "urban_legend",
+    "country": "EG",
+    "title": "The Spectral Black Taxi of Qasr El Nil Bridge",
+    "region": "Qasr El Nil and Downtown Cairo, Nile waterfront"
+  },
+  {
+    "id": "EG-URBAN-004",
+    "cat": "urban_legend",
+    "country": "EG",
+    "title": "The Ghost of the Manyal Palace Gardens",
+    "region": "Roda Island, Manyal, Cairo"
+  },
+  {
+    "id": "EG-URBAN-005",
+    "cat": "urban_legend",
+    "country": "EG",
+    "title": "The Djinn of the Siwa Oasis Salt Lakes",
+    "region": "Siwa Oasis, Western Desert, Matrouh Governorate"
+  },
+  {
+    "id": "EG-URBAN-006",
+    "cat": "urban_legend",
+    "country": "EG",
+    "title": "The Phantom Camel Caravan of the Great Sand Sea",
+    "region": "Great Sand Sea, New Valley and Matrouh Governorates"
+  },
+  {
+    "id": "EG-URBAN-007",
+    "cat": "urban_legend",
+    "country": "EG",
+    "title": "The Blue Lady of Alexandria's Cecil Hotel",
+    "region": "Saad Zaghloul Square, Alexandria"
+  },
+  {
+    "id": "EG-URBAN-008",
+    "cat": "urban_legend",
+    "country": "EG",
+    "title": "The Massacre Spirits of the Cairo Citadel (Bab El-Azab)",
+    "region": "Cairo Citadel (Saladin Citadel), Mokattam, Cairo"
+  },
+  {
+    "id": "EG-URBAN-009",
+    "cat": "urban_legend",
+    "country": "EG",
+    "title": "The Unlucky Mummy of the British Museum (Priestess of Amun)",
+    "region": "Thebes, Upper Egypt and London Museum circles"
+  },
+  {
+    "id": "EG-URBAN-010",
+    "cat": "urban_legend",
+    "country": "EG",
+    "title": "The Black Mist of Wadi El Natrun Coptic Monasteries",
+    "region": "Wadi El Natrun, Beheira Governorate"
+  },
+  {
+    "id": "GB-URBAN-001",
+    "cat": "urban_legend",
+    "country": "GB",
+    "title": "The Highgate Vampire of London Cemetery",
+    "region": "Highgate, North London"
+  },
+  {
+    "id": "GB-URBAN-002",
+    "cat": "urban_legend",
+    "country": "GB",
+    "title": "Spring-heeled Jack of Victorian London",
+    "region": "London suburbs, Blackheath, and Liverpool"
+  },
+  {
+    "id": "GB-URBAN-003",
+    "cat": "urban_legend",
+    "country": "GB",
+    "title": "The Phantom Bus of Ladbroke Grove",
+    "region": "North Kensington and Ladbroke Grove, London"
+  },
+  {
+    "id": "GB-URBAN-004",
+    "cat": "urban_legend",
+    "country": "GB",
+    "title": "The Screaming Skull of Bettiscombe Manor",
+    "region": "Bettiscombe, Marshwood Vale, West Dorset"
+  },
+  {
+    "id": "GB-URBAN-005",
+    "cat": "urban_legend",
+    "country": "GB",
+    "title": "The Grey Lady of Glamis Castle",
+    "region": "Glamis, Angus, East Central Scotland"
+  },
+  {
+    "id": "GB-URBAN-006",
+    "cat": "urban_legend",
+    "country": "GB",
+    "title": "The Princes in the Tower of London",
+    "region": "Tower of London, City of London"
+  },
+  {
+    "id": "GB-URBAN-007",
+    "cat": "urban_legend",
+    "country": "GB",
+    "title": "The Haunted Red Lion Pub of Avebury Stone Circle",
+    "region": "Avebury, Wiltshire"
+  },
+  {
+    "id": "GB-URBAN-008",
+    "cat": "urban_legend",
+    "country": "GB",
+    "title": "The Beast of Bodmin Moor",
+    "region": "Bodmin Moor and North Cornwall"
+  },
+  {
+    "id": "GB-URBAN-009",
+    "cat": "urban_legend",
+    "country": "GB",
+    "title": "The Phantom Hitchhiker of Hangman's Hill in Epping Forest",
+    "region": "Epping Forest, Essex and East London border"
+  },
+  {
+    "id": "GB-URBAN-010",
+    "cat": "urban_legend",
+    "country": "GB",
+    "title": "The British Museum Tube Ghost Station",
+    "region": "Holborn and Bloomsbury, Central London"
+  },
+  {
+    "id": "GR-URBAN-001",
+    "cat": "urban_legend",
+    "country": "GR",
+    "title": "Davelis Cave Paranormal Mysteries of Mount Penteli",
+    "region": "Mount Penteli, Attica (Athens Metropolitan area)"
+  },
+  {
+    "id": "GR-URBAN-002",
+    "cat": "urban_legend",
+    "country": "GR",
+    "title": "The Haunted Mansion of Vasilissis Olgas in Thessaloniki",
+    "region": "Thessaloniki, Central Macedonia"
+  },
+  {
+    "id": "GR-URBAN-003",
+    "cat": "urban_legend",
+    "country": "GR",
+    "title": "The Phantom Soldiers of the Metaxas Line Forts",
+    "region": "Serres and Drama mountain border, Central Macedonia"
+  },
+  {
+    "id": "GR-URBAN-004",
+    "cat": "urban_legend",
+    "country": "GR",
+    "title": "The Cursed Sanatorium of Mount Parnitha",
+    "region": "Mount Parnitha National Park, Attica"
+  },
+  {
+    "id": "GR-URBAN-005",
+    "cat": "urban_legend",
+    "country": "GR",
+    "title": "The White Lady of the Lefkada Lighthouse (Cape Doukato)",
+    "region": "Cape Doukato, Lefkada Island, Ionian Islands"
+  },
+  {
+    "id": "GR-URBAN-006",
+    "cat": "urban_legend",
+    "country": "GR",
+    "title": "The Ghost Sailors of the Cape Matapan Triangle",
+    "region": "Mani Peninsula, Laconia, Southern Peloponnese"
+  },
+  {
+    "id": "GR-URBAN-007",
+    "cat": "urban_legend",
+    "country": "GR",
+    "title": "The Haunted House of Amaliada",
+    "region": "Amaliada, Ilia Prefecture, Western Peloponnese"
+  },
+  {
+    "id": "GR-URBAN-008",
+    "cat": "urban_legend",
+    "country": "GR",
+    "title": "The Poltergeist of Exarcheia Square in Athens",
+    "region": "Exarcheia, Central Athens"
+  },
+  {
+    "id": "GR-URBAN-009",
+    "cat": "urban_legend",
+    "country": "GR",
+    "title": "The Spectral Monks of the Meteora Ravine",
+    "region": "Meteora, Kalabaka, Thessaly"
+  },
+  {
+    "id": "GR-URBAN-010",
+    "cat": "urban_legend",
+    "country": "GR",
+    "title": "The Subterranean Tunnels of the Syntagma Metro",
+    "region": "Syntagma Square and Plaka, Central Athens"
+  },
+  {
+    "id": "ID-URBAN-001",
+    "cat": "urban_legend",
+    "country": "ID",
+    "title": "Pocong: The Shrouded Shuffling Ghost of Cemeteries",
+    "region": "Cemeteries and rural villages nationwide across Indonesia"
+  },
+  {
+    "id": "ID-URBAN-002",
+    "cat": "urban_legend",
+    "country": "ID",
+    "title": "Kuntilanak: The Red-Eyed Maiden in the Banana Grove",
+    "region": "Nationwide across Java, Sumatra, and Pontianak (West Kalimantan)"
+  },
+  {
+    "id": "ID-URBAN-003",
+    "cat": "urban_legend",
+    "country": "ID",
+    "title": "The Headless Pastor of Jeruk Purut Cemetery",
+    "region": "Cilandak, South Jakarta, DKI Jakarta"
+  },
+  {
+    "id": "ID-URBAN-004",
+    "cat": "urban_legend",
+    "country": "ID",
+    "title": "Tuyul: The Child Demon Coin-Stealer",
+    "region": "Urban and rural markets across Java and Sumatra"
+  },
+  {
+    "id": "ID-URBAN-005",
+    "cat": "urban_legend",
+    "country": "ID",
+    "title": "Wewe Gombel: The Child-Kidnapping Spirit of Semarang",
+    "region": "Bukit Gombel, Semarang, Central Java"
+  },
+  {
+    "id": "ID-URBAN-006",
+    "cat": "urban_legend",
+    "country": "ID",
+    "title": "The Tragic Track 13 of the Bintaro Train Collision",
+    "region": "Bintaro, South Jakarta and Manggarai, Jakarta"
+  },
+  {
+    "id": "ID-URBAN-007",
+    "cat": "urban_legend",
+    "country": "ID",
+    "title": "Lawang Sewu: The Thousand Doors of Semarang",
+    "region": "Semarang, Central Java"
+  },
+  {
+    "id": "ID-URBAN-008",
+    "cat": "urban_legend",
+    "country": "ID",
+    "title": "Si Manis Jembatan Ancol: Sweet Maiden of Ancol Bridge",
+    "region": "Ancol, Pademangan, North Jakarta"
+  },
+  {
+    "id": "ID-URBAN-009",
+    "cat": "urban_legend",
+    "country": "ID",
+    "title": "Kolor Ijo: The Green Underwear Spectral Robber",
+    "region": "Greater Jakarta (Jabodetabek) and Banten Province"
+  },
+  {
+    "id": "ID-URBAN-010",
+    "cat": "urban_legend",
+    "country": "ID",
+    "title": "The Ghost Ambulance of Bahureksa Street in Bandung",
+    "region": "Jalan Bahureksa, Citarum, Bandung, West Java"
+  },
+  {
+    "id": "IE-URBAN-001",
+    "cat": "urban_legend",
+    "country": "IE",
+    "title": "The Hellfire Club and the Black Cat of Montpelier Hill",
+    "region": "Montpelier Hill, Dublin Mountains, County Dublin"
+  },
+  {
+    "id": "IE-URBAN-002",
+    "cat": "urban_legend",
+    "country": "IE",
+    "title": "The Elemental of Leap Castle",
+    "region": "Coolderry, County Offaly"
+  },
+  {
+    "id": "IE-URBAN-003",
+    "cat": "urban_legend",
+    "country": "IE",
+    "title": "The Phantom Coach of County Kerry (C\u00f3iste Bodhar)",
+    "region": "County Kerry and Munster rural parishes"
+  },
+  {
+    "id": "IE-URBAN-004",
+    "cat": "urban_legend",
+    "country": "IE",
+    "title": "The White Lady of Malahide Castle",
+    "region": "Malahide, Fingal, North County Dublin"
+  },
+  {
+    "id": "IE-URBAN-005",
+    "cat": "urban_legend",
+    "country": "IE",
+    "title": "The Cliff Phantom of D\u00fan D\u00fachathair",
+    "region": "Inis M\u00f3r, Aran Islands, County Galway"
+  },
+  {
+    "id": "IE-URBAN-006",
+    "cat": "urban_legend",
+    "country": "IE",
+    "title": "The Ghost Nun of Galway Mercy Convent",
+    "region": "Galway City, County Galway"
+  },
+  {
+    "id": "IE-URBAN-007",
+    "cat": "urban_legend",
+    "country": "IE",
+    "title": "The Haunting of Duckett's Grove",
+    "region": "Rainstown, County Carlow"
+  },
+  {
+    "id": "IE-URBAN-008",
+    "cat": "urban_legend",
+    "country": "IE",
+    "title": "The Dark Watcher and White Lady of Charles Fort",
+    "region": "Summercove, Kinsale, County Cork"
+  },
+  {
+    "id": "IE-URBAN-009",
+    "cat": "urban_legend",
+    "country": "IE",
+    "title": "The Devil's Footprints on the Rock of Cashel",
+    "region": "Cashel, County Tipperary"
+  },
+  {
+    "id": "IE-URBAN-010",
+    "cat": "urban_legend",
+    "country": "IE",
+    "title": "The Screaming Banshee of Dublin's Grand Canal",
+    "region": "Portobello and Ranelagh, South Dublin City"
+  },
+  {
+    "id": "IN-URBAN-001",
+    "cat": "urban_legend",
+    "country": "IN",
+    "title": "The Cursed Ruins of Bhangarh Fort",
+    "region": "Alwar District, Rajasthan"
+  },
+  {
+    "id": "IN-URBAN-002",
+    "cat": "urban_legend",
+    "country": "IN",
+    "title": "The Whispering Banyan of Sanjay Van",
+    "region": "Mehrauli and Vasant Kunj, New Delhi"
+  },
+  {
+    "id": "IN-URBAN-003",
+    "cat": "urban_legend",
+    "country": "IN",
+    "title": "The Black Sand Whispers of Dumas Beach",
+    "region": "Surat, Coastal Gujarat"
+  },
+  {
+    "id": "IN-URBAN-004",
+    "cat": "urban_legend",
+    "country": "IN",
+    "title": "The White Lady of the Delhi Ridge",
+    "region": "Northern Ridge and Delhi Cantonment"
+  },
+  {
+    "id": "IN-URBAN-005",
+    "cat": "urban_legend",
+    "country": "IN",
+    "title": "The Phantom Officers of GP Block Meerut",
+    "region": "Meerut Cantonment, Western Uttar Pradesh"
+  },
+  {
+    "id": "IN-URBAN-006",
+    "cat": "urban_legend",
+    "country": "IN",
+    "title": "Kuldhara: The Deserted Cursed Village",
+    "region": "Thar Desert, Jaisalmer District, Rajasthan"
+  },
+  {
+    "id": "IN-URBAN-007",
+    "cat": "urban_legend",
+    "country": "IN",
+    "title": "The Malabar Hill Phantom",
+    "region": "South Mumbai, Maharashtra"
+  },
+  {
+    "id": "IN-URBAN-008",
+    "cat": "urban_legend",
+    "country": "IN",
+    "title": "The Headless Boy of Kurseong Dow Hill",
+    "region": "Kurseong, Darjeeling District, West Bengal"
+  },
+  {
+    "id": "IN-URBAN-009",
+    "cat": "urban_legend",
+    "country": "IN",
+    "title": "The Reincarnation Case of Shanti Devi",
+    "region": "Old Delhi and Mathura, Uttar Pradesh"
+  },
+  {
+    "id": "IN-URBAN-010",
+    "cat": "urban_legend",
+    "country": "IN",
+    "title": "The Calling Waters of Agrasen ki Baoli",
+    "region": "Connaught Place, New Delhi"
+  },
+  {
+    "id": "JP-URBAN-001",
+    "cat": "urban_legend",
+    "country": "JP",
+    "title": "Kuchisake-onna: The Slit-Mouthed Woman",
+    "region": "Gifu Prefecture origin, spreading nationwide across Japanese urban centers"
+  },
+  {
+    "id": "JP-URBAN-002",
+    "cat": "urban_legend",
+    "country": "JP",
+    "title": "Hanako-san of the School Restroom",
+    "region": "Japanese public elementary schools nationwide"
+  },
+  {
+    "id": "JP-URBAN-003",
+    "cat": "urban_legend",
+    "country": "JP",
+    "title": "Teke Teke: The Scythe Ghost of the Railroad",
+    "region": "Hokkaido and urban railway corridors in Tokyo and Nagoya"
+  },
+  {
+    "id": "JP-URBAN-004",
+    "cat": "urban_legend",
+    "country": "JP",
+    "title": "The Cursed Poem of Tomino's Hell",
+    "region": "Japanese internet forums (2channel) and literary circles"
+  },
+  {
+    "id": "JP-URBAN-005",
+    "cat": "urban_legend",
+    "country": "JP",
+    "title": "The Red Room Curse Pop-Up",
+    "region": "Japanese netizen community and early web culture"
+  },
+  {
+    "id": "JP-URBAN-006",
+    "cat": "urban_legend",
+    "country": "JP",
+    "title": "Inunaki Village: The Village Beyond the Tunnel",
+    "region": "Miyawaka, Fukuoka Prefecture, Kyushu"
+  },
+  {
+    "id": "JP-URBAN-007",
+    "cat": "urban_legend",
+    "country": "JP",
+    "title": "The Ghost Passengers of Ishinomaki Tsunami Cabs",
+    "region": "Ishinomaki and Sendai coastal plains, Miyagi Prefecture"
+  },
+  {
+    "id": "JP-URBAN-008",
+    "cat": "urban_legend",
+    "country": "JP",
+    "title": "Kashima Reiko: The Legless Platform Spectre",
+    "region": "Hyogo and Kansai railway networks"
+  },
+  {
+    "id": "JP-URBAN-009",
+    "cat": "urban_legend",
+    "country": "JP",
+    "title": "The Kokkuri-san Spirit Board Panic",
+    "region": "Japanese schools nationwide"
+  },
+  {
+    "id": "JP-URBAN-010",
+    "cat": "urban_legend",
+    "country": "JP",
+    "title": "Aka Manto: The Red Cloak of the Third Stall",
+    "region": "Tokyo public schools and metropolitan parks"
+  },
+  {
+    "id": "KR-URBAN-001",
+    "cat": "urban_legend",
+    "country": "KR",
+    "title": "The Jayuro Ghost with Hollow Sunglasses Eyes",
+    "region": "Jayuro Highway corridor, Goyang and Paju, Gyeonggi Province"
+  },
+  {
+    "id": "KR-URBAN-002",
+    "cat": "urban_legend",
+    "country": "KR",
+    "title": "The Haunted Gonjiam Psychiatric Hospital",
+    "region": "Gonjiam-eup, Gwangju, Gyeonggi Province"
+  },
+  {
+    "id": "KR-URBAN-003",
+    "cat": "urban_legend",
+    "country": "KR",
+    "title": "Red Paper or Blue Paper Bathroom Spirit (Ppalgan Hyuji Paran Hyuji)",
+    "region": "Elementary and middle schools nationwide across South Korea"
+  },
+  {
+    "id": "KR-URBAN-004",
+    "cat": "urban_legend",
+    "country": "KR",
+    "title": "The Fan Death Phenomenon (Seonpunggi Samang)",
+    "region": "Nationwide South Korean society and medical folklore"
+  },
+  {
+    "id": "KR-URBAN-005",
+    "cat": "urban_legend",
+    "country": "KR",
+    "title": "The Bongcheon-dong Ghost Webcomic Spectre",
+    "region": "Bongcheon-dong, Gwanak-gu, Seoul"
+  },
+  {
+    "id": "KR-URBAN-006",
+    "cat": "urban_legend",
+    "country": "KR",
+    "title": "The Ghost Station of Sinseol-dong Underground",
+    "region": "Dongdaemun-gu, Seoul"
+  },
+  {
+    "id": "KR-URBAN-007",
+    "cat": "urban_legend",
+    "country": "KR",
+    "title": "The Bleeding Tears of King Sejong's Statue",
+    "region": "Gwanghwamun Plaza, Jongno-gu, Central Seoul"
+  },
+  {
+    "id": "KR-URBAN-008",
+    "cat": "urban_legend",
+    "country": "KR",
+    "title": "The Elevator Game to Another Dimension",
+    "region": "High-rise apartment buildings nationwide across South Korea"
+  },
+  {
+    "id": "KR-URBAN-009",
+    "cat": "urban_legend",
+    "country": "KR",
+    "title": "The Drowned Maiden of Cheonggyecheon Stream",
+    "region": "Jongno and Jung Districts, Central Seoul"
+  },
+  {
+    "id": "KR-URBAN-010",
+    "cat": "urban_legend",
+    "country": "KR",
+    "title": "The Cursed Mirror of Yeongdeungpo Market",
+    "region": "Yeongdeungpo-gu, Seoul"
+  },
+  {
+    "id": "MX-URBAN-001",
+    "cat": "urban_legend",
+    "country": "MX",
+    "title": "La Llorona: The Weeping Woman of Xochimilco",
+    "region": "Xochimilco and Historic Center, Mexico City"
+  },
+  {
+    "id": "MX-URBAN-002",
+    "cat": "urban_legend",
+    "country": "MX",
+    "title": "El Charro Negro: The Phantom Rider of the Crossroads",
+    "region": "Central Mexico, Jalisco, Puebla, and Hidalgo"
+  },
+  {
+    "id": "MX-URBAN-003",
+    "cat": "urban_legend",
+    "country": "MX",
+    "title": "La Planchada: The Spectral Nurse of Hospital Juarez",
+    "region": "Historic Center and Hospital Corridors, Mexico City"
+  },
+  {
+    "id": "MX-URBAN-004",
+    "cat": "urban_legend",
+    "country": "MX",
+    "title": "El Chupacabra in Northern Mexico",
+    "region": "Northern Border States (Nuevo Le\u00f3n, Coahuila, Chihuahua, Sonora)"
+  },
+  {
+    "id": "MX-URBAN-005",
+    "cat": "urban_legend",
+    "country": "MX",
+    "title": "The Aluxes of the Maya Train Route",
+    "region": "Yucatan Peninsula, Quintana Roo, and Campeche"
+  },
+  {
+    "id": "MX-URBAN-006",
+    "cat": "urban_legend",
+    "country": "MX",
+    "title": "The Whispering Mummies of Guanajuato",
+    "region": "Guanajuato City, State of Guanajuato"
+  },
+  {
+    "id": "MX-URBAN-007",
+    "cat": "urban_legend",
+    "country": "MX",
+    "title": "The Haunted House of Aramberri in Monterrey",
+    "region": "Downtown Monterrey, Nuevo Le\u00f3n"
+  },
+  {
+    "id": "MX-URBAN-008",
+    "cat": "urban_legend",
+    "country": "MX",
+    "title": "The Devil at the Taurus Disco in Guadalajara",
+    "region": "Guadalajara, Jalisco"
+  },
+  {
+    "id": "MX-URBAN-009",
+    "cat": "urban_legend",
+    "country": "MX",
+    "title": "The Phantom Bride of Tlalpan",
+    "region": "Tlalpan and Southern Mexico City"
+  },
+  {
+    "id": "MX-URBAN-010",
+    "cat": "urban_legend",
+    "country": "MX",
+    "title": "The Phantom Bus of the Toluca Highway",
+    "region": "State of Mexico and Mexico City mountain corridor"
+  },
+  {
+    "id": "NG-URBAN-001",
+    "cat": "urban_legend",
+    "country": "NG",
+    "title": "Madam Koi Koi: The High-Heeled Ghost of Boarding Schools",
+    "region": "Secondary boarding schools nationwide across Nigeria"
+  },
+  {
+    "id": "NG-URBAN-002",
+    "cat": "urban_legend",
+    "country": "NG",
+    "title": "Bush Baby: The Crying Infant Demon with the Golden Mat",
+    "region": "Boarding school bush peripheries throughout Nigeria"
+  },
+  {
+    "id": "NG-URBAN-003",
+    "cat": "urban_legend",
+    "country": "NG",
+    "title": "Lady of the Long Legs: The Highway Phantom of Lagos",
+    "region": "Lagos State and Ogun State highway corridors"
+  },
+  {
+    "id": "NG-URBAN-004",
+    "cat": "urban_legend",
+    "country": "NG",
+    "title": "The Phantom Okada Rider of Third Mainland Bridge",
+    "region": "Lagos Island and Mainland connection, Lagos State"
+  },
+  {
+    "id": "NG-URBAN-005",
+    "cat": "urban_legend",
+    "country": "NG",
+    "title": "The Ghost Train of the Jebba River Bridge",
+    "region": "Jebba, Kwara and Niger State border"
+  },
+  {
+    "id": "NG-URBAN-006",
+    "cat": "urban_legend",
+    "country": "NG",
+    "title": "The Cursed Currency of the Okija Shrine",
+    "region": "Okija, Ihiala Local Government, Anambra State"
+  },
+  {
+    "id": "NG-URBAN-007",
+    "cat": "urban_legend",
+    "country": "NG",
+    "title": "Mami Wata Sighting at Bar Beach Lagos",
+    "region": "Victoria Island and coastal Lagos"
+  },
+  {
+    "id": "NG-URBAN-008",
+    "cat": "urban_legend",
+    "country": "NG",
+    "title": "The Midnight Knock of the Evil Spirit in Enugu",
+    "region": "Enugu metropolis, Enugu State, Southeastern Nigeria"
+  },
+  {
+    "id": "NG-URBAN-009",
+    "cat": "urban_legend",
+    "country": "NG",
+    "title": "The Vanishing Cloth Merchant of Onitsha Main Market",
+    "region": "Onitsha, Anambra State, River Niger bank"
+  },
+  {
+    "id": "NG-URBAN-010",
+    "cat": "urban_legend",
+    "country": "NG",
+    "title": "The Whispering Baobab of Ancient Kano City Walls",
+    "region": "Ancient City of Kano, Kano State, Northern Nigeria"
+  },
+  {
+    "id": "PH-URBAN-001",
+    "cat": "urban_legend",
+    "country": "PH",
+    "title": "The White Lady of Balete Drive",
+    "region": "New Manila, Quezon City, Metro Manila"
+  },
+  {
+    "id": "PH-URBAN-002",
+    "cat": "urban_legend",
+    "country": "PH",
+    "title": "The Headless Priest of the University of Santo Tomas (UST)",
+    "region": "Sampaloc, Manila, Metro Manila"
+  },
+  {
+    "id": "PH-URBAN-003",
+    "cat": "urban_legend",
+    "country": "PH",
+    "title": "The Buried Workers of the Manila Film Center",
+    "region": "Cultural Center of the Philippines Complex, Pasay City, Metro Manila"
+  },
+  {
+    "id": "PH-URBAN-004",
+    "cat": "urban_legend",
+    "country": "PH",
+    "title": "The Snake Man of Robinson's Galleria Dressing Rooms",
+    "region": "Ortigas Center, Quezon City and Pasig border"
+  },
+  {
+    "id": "PH-URBAN-005",
+    "cat": "urban_legend",
+    "country": "PH",
+    "title": "The Phantom Passenger of Kennon Road Zigzag",
+    "region": "Kennon Road corridor, Benguet Province"
+  },
+  {
+    "id": "PH-URBAN-006",
+    "cat": "urban_legend",
+    "country": "PH",
+    "title": "The Haunted Diplomat Hotel of Dominican Hill",
+    "region": "Dominican Hill, Baguio City, Benguet Province"
+  },
+  {
+    "id": "PH-URBAN-007",
+    "cat": "urban_legend",
+    "country": "PH",
+    "title": "The Ghost Child of the Paoay Church Bell Tower",
+    "region": "Paoay, Ilocos Norte, Northern Luzon"
+  },
+  {
+    "id": "PH-URBAN-008",
+    "cat": "urban_legend",
+    "country": "PH",
+    "title": "Clark Air Base Hospital Paranormal Hauntings",
+    "region": "Clark Freeport Zone, Angeles City, Pampanga"
+  },
+  {
+    "id": "PH-URBAN-009",
+    "cat": "urban_legend",
+    "country": "PH",
+    "title": "The Phantom Kalesa of Vigan Heritage Street",
+    "region": "Vigan City, Ilocos Sur"
+  },
+  {
+    "id": "PH-URBAN-010",
+    "cat": "urban_legend",
+    "country": "PH",
+    "title": "The Tenement Ghost of Taguig Housing Complex",
+    "region": "Western Bicutan, Taguig City, Metro Manila"
+  },
+  {
+    "id": "US-URBAN-001",
+    "cat": "urban_legend",
+    "country": "US",
+    "title": "The Mothman of Point Pleasant",
+    "region": "Mason County, West Virginia and Ohio River Valley"
+  },
+  {
+    "id": "US-URBAN-002",
+    "cat": "urban_legend",
+    "country": "US",
+    "title": "The Jersey Devil of the Pine Barrens",
+    "region": "Pine Barrens, Southern New Jersey"
+  },
+  {
+    "id": "US-URBAN-003",
+    "cat": "urban_legend",
+    "country": "US",
+    "title": "Resurrection Mary of Archer Avenue",
+    "region": "Southwest Chicago suburbs and Cook County, Illinois"
+  },
+  {
+    "id": "US-URBAN-004",
+    "cat": "urban_legend",
+    "country": "US",
+    "title": "The Vanishing Hitchhiker of Route 66",
+    "region": "American Southwest and Midwest highway corridors"
+  },
+  {
+    "id": "US-URBAN-005",
+    "cat": "urban_legend",
+    "country": "US",
+    "title": "The Hookman of Lover's Lane",
+    "region": "Suburban United States nationwide"
+  },
+  {
+    "id": "US-URBAN-006",
+    "cat": "urban_legend",
+    "country": "US",
+    "title": "Alligators in the New York City Sewers",
+    "region": "New York City metropolitan area"
+  },
+  {
+    "id": "US-URBAN-007",
+    "cat": "urban_legend",
+    "country": "US",
+    "title": "The Bunny Man Bridge of Clifton, Virginia",
+    "region": "Clifton, Fairfax County, Northern Virginia"
+  },
+  {
+    "id": "US-URBAN-008",
+    "cat": "urban_legend",
+    "country": "US",
+    "title": "Area 51 and the Black Mailbox",
+    "region": "Lincoln County and Nye County, Nevada"
+  },
+  {
+    "id": "US-URBAN-009",
+    "cat": "urban_legend",
+    "country": "US",
+    "title": "The Black-Eyed Children of Abilene",
+    "region": "Abilene, Taylor County, Texas"
+  },
+  {
+    "id": "US-URBAN-010",
+    "cat": "urban_legend",
+    "country": "US",
+    "title": "La Llorona of the Rio Grande Southwest",
+    "region": "Southwestern US Borderlands (New Mexico, Texas, Arizona)"
+  }
+]

@@ -347,4 +347,28 @@ export const api = {
       body: JSON.stringify(req),
     });
   },
+
+  // --- Archival Pack Exports ---
+  getArchivePackDownloadUrl(params: {
+    category?: string;
+    country_code?: string;
+  } = {}): string {
+    const q = new URLSearchParams();
+    if (params.category) q.set("category", params.category);
+    if (params.country_code) q.set("country_code", params.country_code);
+    return `${BASE_URL}${API_PREFIX}/export/pack?${q.toString()}`;
+  },
+
+  async downloadArchivePack(params: {
+    category?: string;
+    country_code?: string;
+  } = {}): Promise<void> {
+    const url = this.getArchivePackDownloadUrl(params);
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  },
 };

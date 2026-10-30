@@ -13,6 +13,7 @@ import {
   Globe,
   Loader2,
   ExternalLink,
+  Download,
 } from "lucide-react";
 import { api } from "@/lib/api/client";
 import { SUPPORTED_COUNTRIES, UNSUPPORTED_COUNTRY_NOTICE } from "@/constants/countries";
@@ -21,6 +22,7 @@ import { StoryRecord } from "@/types/story";
 import { CountryMapContainer } from "@/components/country/country-map-container";
 import { StoryLocationRecord } from "@/components/country/country-map-explorer";
 import { AtmosphericBackground } from "@/components/effects/atmospheric-background";
+import { ArchivePackModal } from "@/components/archive/archive-pack-modal";
 
 export default function CountryPage() {
   const params = useParams();
@@ -33,6 +35,7 @@ export default function CountryPage() {
   const [locations, setLocations] = useState<StoryLocationRecord[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<"all" | "folklore" | "urban_legend">("all");
+  const [isPackModalOpen, setIsPackModalOpen] = useState(false);
 
   const meta = SUPPORTED_COUNTRIES[code];
   const isSupported = Boolean(meta);
@@ -129,8 +132,17 @@ export default function CountryPage() {
             <ArrowLeft className="w-3.5 h-3.5 text-burgundy" />
             <span>Return to World Atlas</span>
           </Link>
-          <div className="font-mono text-xs text-ink-faint">
-            Atlas / Sovereign Archives / {code}
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => setIsPackModalOpen(true)}
+              className="inline-flex items-center gap-1.5 px-3 py-1 bg-parchment-light border border-parchment-border hover:border-chinese-red text-ink hover:text-chinese-red text-xs font-mono font-semibold rounded-xs transition-colors shadow-2xs"
+            >
+              <Download className="w-3.5 h-3.5 text-chinese-red" />
+              <span>Download {code} Archive</span>
+            </button>
+            <div className="hidden sm:block font-mono text-xs text-ink-faint">
+              Atlas / Sovereign Archives / {code}
+            </div>
           </div>
         </div>
 
@@ -262,6 +274,15 @@ export default function CountryPage() {
           </div>
         </section>
       </div>
+
+      <ArchivePackModal
+        isOpen={isPackModalOpen}
+        onClose={() => setIsPackModalOpen(false)}
+        title={`${displayName} Archival Pack`}
+        countryCode={code}
+        recordCount={stories.length || 20}
+      />
     </div>
   );
 }
+
