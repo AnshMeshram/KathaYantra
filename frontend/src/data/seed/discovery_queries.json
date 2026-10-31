@@ -1,0 +1,484 @@
+[
+  {
+    "country_code": "IN",
+    "country_name": "India",
+    "category": "folklore",
+    "primary_language": "hi",
+    "search_queries": [
+      "Indian folklore legends",
+      "Panchatantra Baital Pachisi tales",
+      "Jataka supernatural tales India",
+      "Yakshas and Daayan folklore India",
+      "भारतीय लोककथाएँ"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "ncaa_india"],
+    "result_limit": 20,
+    "review_notes": "Preserve Sanskrit/Hindi narrative titles, regional linguistic distinctions (Tamil, Bengali, Marathi), and caste/tribal distinctions (e.g. Santhal, Gond)."
+  },
+  {
+    "country_code": "IN",
+    "country_name": "India",
+    "category": "urban_legend",
+    "primary_language": "en",
+    "search_queries": [
+      "Indian urban legends ghost stories",
+      "Bhangarh Fort ghost legend",
+      "Nale Ba witch legend Bangalore",
+      "Delhi Monkey-man urban legend",
+      "Mukesh Mills haunted Mumbai legend"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "business_insider_urban_legends"],
+    "result_limit": 20,
+    "review_notes": "Ground modern ghost legends in verified journalistic or folkloric publications. Distinguish real historical sites from modern rumors."
+  },
+  {
+    "country_code": "US",
+    "country_name": "United States",
+    "category": "folklore",
+    "primary_language": "en",
+    "search_queries": [
+      "American traditional folklore tall tales",
+      "Paul Bunyan and Pecos Bill tales",
+      "Appalachian ghost folklore oral history",
+      "Native American folk stories tribal narratives",
+      "Sleepy Hollow legend colonial folklore"
+    ],
+    "preferred_sources": ["library_of_congress_api", "internet_archive", "wikimedia_wikipedia_api"],
+    "result_limit": 20,
+    "review_notes": "Indigenous tribal narratives must specify the sovereign tribal nation (e.g. Navajo, Cherokee, Lakota) rather than generic US folklore."
+  },
+  {
+    "country_code": "US",
+    "country_name": "United States",
+    "category": "urban_legend",
+    "primary_language": "en",
+    "search_queries": [
+      "American urban legends contemporary folklore",
+      "Mothman Point Pleasant West Virginia legend",
+      "Jersey Devil Pine Barrens folklore",
+      "Vanishing Hitchhiker urban legend American",
+      "Slender Man folklore modern myth"
+    ],
+    "preferred_sources": ["library_of_congress_api", "wikimedia_wikipedia_api", "urban_legends_online"],
+    "result_limit": 20,
+    "review_notes": "Cite folklorist Jan Harold Brunvand's scholarship where applicable; verify publication history and motif indexing."
+  },
+  {
+    "country_code": "JP",
+    "country_name": "Japan",
+    "category": "folklore",
+    "primary_language": "ja",
+    "search_queries": [
+      "Japanese yokai folklore traditions",
+      "Kaidan ghost stories Japan classical",
+      "Tengu and Kitsune folklore Japan",
+      "Urashima Taro Momotaro folk tale",
+      "日本の妖怪 民話 昔話"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "nichibunken_yokai_db", "japan_search"],
+    "result_limit": 20,
+    "review_notes": "Preserve kanji, hiragana, and Hepburn romanization. Distinguish historical Shinto/Buddhist animism from pop-culture adaptations."
+  },
+  {
+    "country_code": "JP",
+    "country_name": "Japan",
+    "category": "urban_legend",
+    "primary_language": "ja",
+    "search_queries": [
+      "Japanese urban legends ghost stories",
+      "Kuchisake-onna slit mouthed woman legend",
+      "Teke Teke Japanese urban legend",
+      "Hanako-san of the toilet legend",
+      "日本の都市伝説"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "japan_search"],
+    "result_limit": 20,
+    "review_notes": "Contemporary Japanese urban legends (toshi densetsu) originating in the Showa and Heisei eras; track documented media appearances."
+  },
+  {
+    "country_code": "MX",
+    "country_name": "Mexico",
+    "category": "folklore",
+    "primary_language": "es",
+    "search_queries": [
+      "Mexican folklore traditional legends",
+      "Nahua and Maya traditional myths",
+      "Nahual shapeshifting folklore Mexico",
+      "Leyendas mexicanas tradicionales",
+      "Leyendas coloniales de México"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "internet_archive"],
+    "result_limit": 20,
+    "review_notes": "Preserve indigenous language roots (Nahuatl, Maya) and Spanish colonial syncretism."
+  },
+  {
+    "country_code": "MX",
+    "country_name": "Mexico",
+    "category": "urban_legend",
+    "primary_language": "es",
+    "search_queries": [
+      "Mexican urban legends modern myths",
+      "La Llorona weeping woman legend Mexico",
+      "El Chupacabra legend Mexico",
+      "La Planchada nurse hospital legend Mexico",
+      "Mitos y leyendas urbanas de Mexico"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "internet_archive"],
+    "result_limit": 20,
+    "review_notes": "La Llorona has both 16th-century colonial roots and modern urban variations; cross-index both aspects."
+  },
+  {
+    "country_code": "IE",
+    "country_name": "Ireland",
+    "category": "folklore",
+    "primary_language": "ga",
+    "search_queries": [
+      "Irish folklore Tuatha De Danann",
+      "Aos Si Irish fairy folklore",
+      "Banshee bean sidhe Gaelic oral tradition",
+      "Fionn mac Cumhaill Fenian cycle tales",
+      "Béaloideas na hÉireann"
+    ],
+    "preferred_sources": ["myths_of_ireland", "wikimedia_wikipedia_api", "wikidata_sparql", "duchas_ireland"],
+    "result_limit": 20,
+    "review_notes": "Reference National Folklore Collection (Dúchas) archives and Myths of Ireland CC BY 4.0 structured index."
+  },
+  {
+    "country_code": "IE",
+    "country_name": "Ireland",
+    "category": "urban_legend",
+    "primary_language": "en",
+    "search_queries": [
+      "Irish urban legends ghost stories",
+      "Hellfire Club Dublin ghost legend",
+      "Loftus Hall haunted legend Wexford",
+      "St Michan church Dublin mummies legends",
+      "Modern Irish ghost legends"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "internet_archive"],
+    "result_limit": 20,
+    "review_notes": "Distinguish architectural folklore (haunted Georgian estates) from living folklore traditions."
+  },
+  {
+    "country_code": "GB",
+    "country_name": "United Kingdom",
+    "category": "folklore",
+    "primary_language": "en",
+    "search_queries": [
+      "British folklore traditions and myths",
+      "Black Shuck spectral hound East Anglia",
+      "Arthurian legends British folklore",
+      "Robin Hood Sherwood Forest folklore",
+      "Scottish Highland folklore Kelpie Each-Uisge"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "internet_archive", "europeana_api"],
+    "result_limit": 20,
+    "review_notes": "Specify regional traditions: English, Welsh (Mabinogion), Scottish Gaelic, Cornish."
+  },
+  {
+    "country_code": "GB",
+    "country_name": "United Kingdom",
+    "category": "urban_legend",
+    "primary_language": "en",
+    "search_queries": [
+      "British urban legends modern folklore",
+      "Spring-heeled Jack London legend",
+      "Highgate Vampire London cemetery legend",
+      "London Underground tube phantom legends",
+      "Beast of Bodmin Moor cryptid legend"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "library_of_congress_api"],
+    "result_limit": 20,
+    "review_notes": "Spring-heeled Jack spans Victorian sensationalism and early proto-urban legend newspaper reports."
+  },
+  {
+    "country_code": "BR",
+    "country_name": "Brazil",
+    "category": "folklore",
+    "primary_language": "pt",
+    "search_queries": [
+      "Brazilian folklore traditional tales",
+      "Saci-Perere Brazilian folklore",
+      "Curupira forest guardian Tupi folklore",
+      "Boto Cor-de-Rosa Amazon river dolphin folklore",
+      "Folclore brasileiro lendas tradicionais"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "cnfcp_iphan_brazil"],
+    "result_limit": 20,
+    "review_notes": "Preserve Indigenous Tupi-Guarani, Afro-Brazilian, and Portuguese colonial syncretic origins."
+  },
+  {
+    "country_code": "BR",
+    "country_name": "Brazil",
+    "category": "urban_legend",
+    "primary_language": "pt",
+    "search_queries": [
+      "Brazilian urban legends modern folklore",
+      "Loira do Banheiro bathroom blonde legend Brazil",
+      "Corpo-Seco withered body legend Brazil",
+      "Edificio Joelma ghost legend Sao Paulo",
+      "Lendas urbanas do Brasil"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "internet_archive"],
+    "result_limit": 20,
+    "review_notes": "Loira do Banheiro is the Brazilian schoolroom counterpart to Bloody Mary/Hanako-san."
+  },
+  {
+    "country_code": "GR",
+    "country_name": "Greece",
+    "category": "folklore",
+    "primary_language": "el",
+    "search_queries": [
+      "Greek folklore post-classical traditions",
+      "Kallikantzaroi Christmas goblins Greece",
+      "Vrykolakas undead vampire Greek folklore",
+      "Nereids water nymphs modern Greek folklore",
+      "Ελληνική λαογραφία παραδόσεις"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "europeana_api"],
+    "result_limit": 20,
+    "review_notes": "Focus on demotic folklore and medieval/modern traditions distinct from classical Olympian mythology."
+  },
+  {
+    "country_code": "GR",
+    "country_name": "Greece",
+    "category": "urban_legend",
+    "primary_language": "el",
+    "search_queries": [
+      "Greek urban legends modern myths",
+      "Davelis Cave ghost legend Mount Penteli",
+      "Sanatorium of Parnitha haunted legend Greece",
+      "Thessaloniki haunted mansion Vasilissis Olgas",
+      "Αστικοί θρύλοι Ελλάδα"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "europeana_api"],
+    "result_limit": 20,
+    "review_notes": "Ground stories in documented Greek folkloric surveys (e.g. Nikolaos Politis traditions)."
+  },
+  {
+    "country_code": "CN",
+    "country_name": "China",
+    "category": "folklore",
+    "primary_language": "zh",
+    "search_queries": [
+      "Chinese folklore traditional legends",
+      "Huli jing fox spirit tales",
+      "Liaozhai Zhiyi Strange Tales from a Chinese Studio",
+      "Nian monster Chinese New Year folklore",
+      "中国民间故事 传统传说"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "internet_archive"],
+    "result_limit": 20,
+    "review_notes": "Preserve simplified/traditional Hanzi and Pinyin. Note Pu Songling classical collections."
+  },
+  {
+    "country_code": "CN",
+    "country_name": "China",
+    "category": "urban_legend",
+    "primary_language": "zh",
+    "search_queries": [
+      "Chinese urban legends modern ghost stories",
+      "Beijing Bus 375 Midnight Bus urban legend",
+      "Forbidden City ghost legends Beijing",
+      "Guangzhou Plaza haunted legend",
+      "中国都市传说 灵异故事"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql"],
+    "result_limit": 20,
+    "review_notes": "Contemporary urban legends circulating in Beijing, Shanghai, and Guangzhou documented in cultural studies."
+  },
+  {
+    "country_code": "NG",
+    "country_name": "Nigeria",
+    "category": "folklore",
+    "primary_language": "yo",
+    "search_queries": [
+      "Nigerian folklore traditional tales",
+      "Yoruba mythology and oral traditions",
+      "Ijapa the tortoise trickster tales",
+      "Igbo folklore Mami Wata water spirit",
+      "Hausa folklore traditional stories"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "internet_archive"],
+    "result_limit": 20,
+    "review_notes": "Distinguish Yoruba, Igbo, Hausa, Edo, and Ibibio cultural traditions explicitly."
+  },
+  {
+    "country_code": "NG",
+    "country_name": "Nigeria",
+    "category": "urban_legend",
+    "primary_language": "en",
+    "search_queries": [
+      "Nigerian urban legends school ghost stories",
+      "Madam Koi Koi red heels school legend Nigeria",
+      "Bush baby crying infant Nigerian legend",
+      "Willy Willy television ghost legend Nigeria",
+      "Contemporary Nigerian urban myths"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql"],
+    "result_limit": 20,
+    "review_notes": "Madam Koi Koi is a pervasive boarding school legend across West Africa; track Nigerian origin variants."
+  },
+  {
+    "country_code": "KR",
+    "country_name": "South Korea",
+    "category": "folklore",
+    "primary_language": "ko",
+    "search_queries": [
+      "Korean folklore traditional tales",
+      "Dokkaebi Korean goblin folklore",
+      "Gumiho nine-tailed fox Korean legend",
+      "Cheonyeo Gwishin maiden ghost folklore Korea",
+      "한국 전래동화 민담"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "internet_archive"],
+    "result_limit": 20,
+    "review_notes": "Preserve Hangul and Revised Romanization. Distinguish shamanic (Muism) folklore from Joseon-era moral tales."
+  },
+  {
+    "country_code": "KR",
+    "country_name": "South Korea",
+    "category": "urban_legend",
+    "primary_language": "ko",
+    "search_queries": [
+      "Korean urban legends modern ghost stories",
+      "Fan death urban legend South Korea",
+      "Elevator to another world Korean urban legend",
+      "Jayuro ghost highway legend South Korea",
+      "한국 도시괴담"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql"],
+    "result_limit": 20,
+    "review_notes": "Track modern 'dosigoidam' (city ghost stories) documented in South Korean media."
+  },
+  {
+    "country_code": "PH",
+    "country_name": "Philippines",
+    "category": "folklore",
+    "primary_language": "tl",
+    "search_queries": [
+      "Philippine folklore traditional mythology",
+      "Aswang shapeshifter Philippine folklore",
+      "Manananggal self-segmenting folklore",
+      "Kapre tree giant Philippine mythology",
+      "Tikbalang horse demon folklore Philippines",
+      "Kwentong bayan Pilipinas"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "internet_archive"],
+    "result_limit": 20,
+    "review_notes": "Preserve Tagalog, Ilokano, and Visayan regional variants. Maximo Ramos folklore classifications."
+  },
+  {
+    "country_code": "PH",
+    "country_name": "Philippines",
+    "category": "urban_legend",
+    "primary_language": "tl",
+    "search_queries": [
+      "Philippine urban legends ghost encounters",
+      "White Lady of Balete Drive Quezon City legend",
+      "Ozone Disco fire ghost legends Manila",
+      "Clark Air Base haunted hospital legend",
+      "Mga kwentong multo Pilipinas"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql"],
+    "result_limit": 20,
+    "review_notes": "Balete Drive white lady legend connects traditional animist tree spirits (balete/banyan) with modern vehicular lore."
+  },
+  {
+    "country_code": "ID",
+    "country_name": "Indonesia",
+    "category": "folklore",
+    "primary_language": "id",
+    "search_queries": [
+      "Indonesian folklore traditional tales",
+      "Nyi Roro Kidul Queen of the Southern Sea Java",
+      "Malin Kundang ungrateful son Sumatra folklore",
+      "Sangkuriang West Java legend",
+      "Cerita rakyat Indonesia dongeng nusantara"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "internet_archive"],
+    "result_limit": 20,
+    "review_notes": "Distinguish Javanese, Sundanese, Minangkabau, and Balinese folklore traditions."
+  },
+  {
+    "country_code": "ID",
+    "country_name": "Indonesia",
+    "category": "urban_legend",
+    "primary_language": "id",
+    "search_queries": [
+      "Indonesian urban legends ghost stories",
+      "Kuntilanak Pontianak ghost legend Indonesia",
+      "Pocong shroud ghost Indonesian urban legend",
+      "Genderuwo forest spirit modern encounters Java",
+      "Jeruk Purut cemetery headless pastor legend Jakarta"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql"],
+    "result_limit": 20,
+    "review_notes": "Pocong and Kuntilanak are living urban folklore entities featured heavily in contemporary Indonesian media."
+  },
+  {
+    "country_code": "EG",
+    "country_name": "Egypt",
+    "category": "folklore",
+    "primary_language": "ar",
+    "search_queries": [
+      "Egyptian folklore traditional tales",
+      "Goha Juha trickster folk tales Egypt",
+      "Afrit and Jinn Egyptian folk traditions",
+      "Sirat Sayf ibn Dhi Yazan folk epic Egypt",
+      "الفولكلور المصري حكايات شعبية"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "internet_archive"],
+    "result_limit": 20,
+    "review_notes": "Distinguish Islamic/Coptic demotic folklore from ancient pharaonic dynastic religion."
+  },
+  {
+    "country_code": "EG",
+    "country_name": "Egypt",
+    "category": "urban_legend",
+    "primary_language": "ar",
+    "search_queries": [
+      "Egyptian urban legends modern ghost stories",
+      "El Nedaha Nile Siren urban legend Egypt",
+      "Baron Empain Palace haunted legend Cairo",
+      "Roshdy building haunted Alexandria legend",
+      "أساطير حضرية مصرية"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql"],
+    "result_limit": 20,
+    "review_notes": "El Nedaha (the caller) is an Egyptian countryside-to-city siren legend regarding the Nile canals."
+  },
+  {
+    "country_code": "DE",
+    "country_name": "Germany",
+    "category": "folklore",
+    "primary_language": "de",
+    "search_queries": [
+      "German folklore traditional fairy tales",
+      "Brothers Grimm Kinder und Hausmarchen",
+      "Pied Piper of Hamelin German legend",
+      "Rubezahl mountain spirit folklore Silesia",
+      "Lorelei Rhine river maiden folklore",
+      "Deutsche Volkssagen und Märchen"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "internet_archive", "europeana_api"],
+    "result_limit": 20,
+    "review_notes": "Distinguish Märchen (fairy tales) from Sage (local heroic and supernatural legends tied to specific places)."
+  },
+  {
+    "country_code": "DE",
+    "country_name": "Germany",
+    "category": "urban_legend",
+    "primary_language": "de",
+    "search_queries": [
+      "German urban legends contemporary myths",
+      "Bielefeld Conspiracy modern German satire myth",
+      "White Lady of the Hohenzollern ghost legend",
+      "Black Volga phantom car modern legend Germany",
+      "Moderne Sagen und urbane Mythen Deutschland"
+    ],
+    "preferred_sources": ["wikimedia_wikipedia_api", "wikidata_sparql", "europeana_api"],
+    "result_limit": 20,
+    "review_notes": "Bielefeld Conspiracy is a famous internet-era German pop-folklore phenomenon; Hohenzollern White Lady is a classic royal phantom legend."
+  }
+]

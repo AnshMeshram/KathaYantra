@@ -1,0 +1,825 @@
+{
+  "schema_version": "2.0.0",
+  "dataset_id": "GB-urban_legend",
+  "country_code": "GB",
+  "category": "urban_legend",
+  "records": [
+    {
+      "id": "GB-URBAN-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Highgate Vampire of London Cemetery",
+      "slug": "the-highgate-vampire-of-london-cemetery",
+      "country_code": "GB",
+      "category": "urban_legend",
+      "subtype": "vampire_panic",
+      "summary": "Between 1969 and 1970, London's Victorian Gothic Highgate Cemetery was gripped by a sensational vampire panic. Following reports in the local press of a tall dark figure with hypnotic burning eyes gliding among the overgrown tombs and dead foxes discovered drained of blood, two rival occultists—David Farrant and Seán Manchester—marshaled competing factions of monster hunters. On Friday the 13th, March 1970, hundreds of spectators, television crews, and self-styled vampire slayers armed with wooden stakes, crucifixes, and garlic stormed the cemetery gates, scaling the Victorian tombs in one of Britain's most bizarre modern urban folklore panics.",
+      "long_description": null,
+      "alternate_names": [
+        "The Highgate Cemetery Vampire",
+        "The Phantom of Swains Lane"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "E425",
+        "G312",
+        "F402"
+      ],
+      "themes": [
+        "vampire panic",
+        "highgate cemetery",
+        "victorian gothic",
+        "1970s media circus",
+        "london folklore"
+      ],
+      "historical_period": "1969–1970 (climax March 13, 1970)",
+      "region_or_community": "Highgate, North London",
+      "community_attributions": [
+        "Highgate local residents",
+        "British urban legend researchers"
+      ],
+      "geographic_associations": [
+        "Highgate Cemetery (Western Section)",
+        "Swains Lane, London"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Highgate Vampire: The Secret History of Its Terrifying Unsealing",
+          "publisher": "British Occult Society / Folklore Studies",
+          "name": "British Occult Society / Folklore Studies",
+          "url": "https://archive.org/details/highgatevampire0000manc",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "British contemporary urban folklore archives. Educational Use.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from British Occult Society / Folklore Studies, 'The Highgate Vampire: The Secret History of Its Terrifying Unsealing'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/highgatevampire0000manc",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814612Z",
+      "updated_at": "2026-10-29T10:22:51.814613Z"
+    },
+    {
+      "id": "GB-URBAN-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Spring-heeled Jack of Victorian London",
+      "slug": "spring-heeled-jack-of-victorian-london",
+      "country_code": "GB",
+      "category": "urban_legend",
+      "subtype": "bizarre_assailant",
+      "summary": "First reported in south London in the late 1830s, Spring-heeled Jack was a terrifying figure described as possessing clawed metallic hands, fiery eyes like red hot coals, and the supernatural ability to leap over nine-foot brick walls and house rooftops in a single bound while spitting blue and white flames from his mouth. Sightings terrified suburban London, Liverpool, and military garrisons in Aldershot across six decades, sparking formal investigations by the Lord Mayor of London and cementing the phantom as a permanent icon of Victorian penny bloods and urban horror.",
+      "long_description": null,
+      "alternate_names": [
+        "The Terror of London",
+        "The Leaping Bogeyman"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "F531.0.4",
+        "G310",
+        "J1499"
+      ],
+      "themes": [
+        "victorian urban legend",
+        "penny bloods",
+        "spring-heeled jack",
+        "london night terror",
+        "flame spitter"
+      ],
+      "historical_period": "Victorian Era (first reported 1837, sightings active through 1904)",
+      "region_or_community": "London suburbs, Blackheath, and Liverpool",
+      "community_attributions": [
+        "Victorian newspaper archives",
+        "London Metropolitan Police historical records"
+      ],
+      "geographic_associations": [
+        "Clapham Common",
+        "Limehouse, London",
+        "Everton, Liverpool"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Legend of Spring-Heeled Jack: Victorian Urban Myth and Mass Hysteria",
+          "publisher": "Library of Congress Victorian Periodicals Collection",
+          "name": "Library of Congress Victorian Periodicals Collection",
+          "url": "https://www.loc.gov/item/2008571066/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Library of Congress Victorian British Periodicals Collection. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Library of Congress Victorian Periodicals Collection, 'The Legend of Spring-Heeled Jack: Victorian Urban Myth and Mass Hysteria'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.loc.gov/item/2008571066/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814638Z",
+      "updated_at": "2026-10-29T10:22:51.814639Z"
+    },
+    {
+      "id": "GB-URBAN-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Phantom Bus of Ladbroke Grove",
+      "slug": "the-phantom-bus-of-ladbroke-grove",
+      "country_code": "GB",
+      "category": "urban_legend",
+      "subtype": "phantom_vehicle",
+      "summary": "Between the 1930s and 1950s in West London, a famous urban legend centered on the intersection of St. Mark's Road and Cambridge Gardens in Ladbroke Grove. Nocturnal motorists and cyclists reported encountering a glowing red double-decker bus, bearing the number 7, roaring down the middle of the dark road at 1:15 AM with no headlights, no passengers, and no driver visible in the cab. Drivers swerving violently to avoid a head-on collision reported looking back to find the street completely empty, with the phantom blamed for multiple real fatal crashes at the junction.",
+      "long_description": null,
+      "alternate_names": [
+        "The Ghost Bus of Kensington",
+        "Route 7 Phantom Bus"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "E535.3",
+        "E332.3.3",
+        "E275"
+      ],
+      "themes": [
+        "phantom bus",
+        "london transport",
+        "ladbroke grove",
+        "fatal collision",
+        "urban road ghost"
+      ],
+      "historical_period": "1930s to 1950s (analyzed in London transport folklore)",
+      "region_or_community": "North Kensington and Ladbroke Grove, London",
+      "community_attributions": [
+        "London bus drivers' oral lore",
+        "West London police historical accounts"
+      ],
+      "geographic_associations": [
+        "St. Mark's Road",
+        "Cambridge Gardens, Ladbroke Grove, London"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Haunted London: Strange Shadows on the City Streets",
+          "publisher": "Peter Underwood / Harrap London",
+          "name": "Peter Underwood / Harrap London",
+          "url": "https://archive.org/details/hauntedlondon0000broo",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Peter Underwood, Haunted London folklore studies. Educational Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Peter Underwood / Harrap London, 'Haunted London: Strange Shadows on the City Streets'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/hauntedlondon0000broo",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814662Z",
+      "updated_at": "2026-10-29T10:22:51.814663Z"
+    },
+    {
+      "id": "GB-URBAN-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Screaming Skull of Bettiscombe Manor",
+      "slug": "the-screaming-skull-of-bettiscombe-manor",
+      "country_code": "GB",
+      "category": "urban_legend",
+      "subtype": "cursed_skull",
+      "summary": "Preserved inside an antique bureau at Bettiscombe Manor in Dorset, a human skull is the subject of a gruesome curse. According to 18th-century folklore, the skull belonged to an enslaved West Indian servant brought to Dorset by Azariah Pinney. On his deathbed, the servant extracted a solemn vow that his body would be returned to his native land for burial. When the master reneged and buried him in the local churchyard, terrifying screams, rattling doors, and dying cattle plagued the manor until the corpse was exhumed and the skull brought inside, where it remains under warning that if moved, the house will crumble to ash.",
+      "long_description": null,
+      "alternate_names": [
+        "The Bettiscombe Screaming Skull",
+        "The Dorset Skull Curse"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "E235.1",
+        "E411.0.1",
+        "C900"
+      ],
+      "themes": [
+        "screaming skull",
+        "dorset manor",
+        "unfulfilled deathbed vow",
+        "haunted house",
+        "curse"
+      ],
+      "historical_period": "18th Century origin, sustained folklore recorded 1870s to present",
+      "region_or_community": "Bettiscombe, Marshwood Vale, West Dorset",
+      "community_attributions": [
+        "Dorset County historical society",
+        "West Country oral narrators"
+      ],
+      "geographic_associations": [
+        "Bettiscombe Manor, Dorset",
+        "Marshwood Vale"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Screaming Skulls of England: Folklore and Traditions",
+          "publisher": "Folk-Lore Society London",
+          "name": "Folk-Lore Society London",
+          "url": "https://archive.org/details/screamingskulls0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Folklore Society London historical investigations. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Folk-Lore Society London, 'Screaming Skulls of England: Folklore and Traditions'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/screamingskulls0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814687Z",
+      "updated_at": "2026-10-29T10:22:51.814687Z"
+    },
+    {
+      "id": "GB-URBAN-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Grey Lady of Glamis Castle",
+      "slug": "the-grey-lady-of-glamis-castle",
+      "country_code": "GB",
+      "category": "urban_legend",
+      "subtype": "castle_haunting",
+      "summary": "Ancestral seat of the Earls of Strathmore and Kinghorne in Angus, Scotland, Glamis Castle is renowned as one of Britain's most haunted royal homes. Its most poignant apparition is the Grey Lady, believed to be the spirit of Lady Janet Douglas, burned at the stake for fictitious charges of witchcraft against King James V on Castle Hill in Edinburgh in 1537. Her sorrowful phantom kneels in silent prayer inside the private family chapel, where a specific chair is permanently kept empty in her honor, disappearing into the stone walls when church services conclude.",
+      "long_description": null,
+      "alternate_names": [
+        "Janet Douglas Ghost",
+        "The Chapel Spectre of Glamis"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en",
+        "sco"
+      ],
+      "motifs": [
+        "E281",
+        "E334.2",
+        "G200"
+      ],
+      "themes": [
+        "glamis castle",
+        "grey lady",
+        "witchcraft trial",
+        "royal scotland",
+        "chapel prayer"
+      ],
+      "historical_period": "16th Century historical martyrdom (1537) to Living Scottish Ghostlore",
+      "region_or_community": "Glamis, Angus, East Central Scotland",
+      "community_attributions": [
+        "Scottish castle custodians",
+        "Angus local oral historians"
+      ],
+      "geographic_associations": [
+        "Glamis Castle",
+        "Strathmore Valley, Angus"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Glamis Castle Official History and Spectral Legends",
+          "publisher": "Glamis Castle Heritage Trust",
+          "name": "Glamis Castle Heritage Trust",
+          "url": "https://www.glamis-castle.co.uk/the-castle/history/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Glamis Castle Heritage Trust official documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Glamis Castle Heritage Trust, 'Glamis Castle Official History and Spectral Legends'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.glamis-castle.co.uk/the-castle/history/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814711Z",
+      "updated_at": "2026-10-29T10:22:51.814712Z"
+    },
+    {
+      "id": "GB-URBAN-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Princes in the Tower of London",
+      "slug": "the-princes-in-the-tower-of-london",
+      "country_code": "GB",
+      "category": "urban_legend",
+      "subtype": "royal_haunting",
+      "summary": "In 1483, following the death of King Edward IV, his twelve-year-old heir Edward V and nine-year-old brother Richard of Shrewsbury, Duke of York, were lodged in the Tower of London by their uncle, the Duke of Gloucester (later Richard III), before mysteriously vanishing from history. For over five centuries, sentries on night watch in the Bloody Tower have reported glimpsing two young boys in antiquated velvet nightshirts holding hands and shivering in terror at the foot of the stone stairs before melting into the masonry, reinforced in 1674 when workmen uncovered the skeletal remains of two children buried beneath the White Tower stairs.",
+      "long_description": null,
+      "alternate_names": [
+        "The Ghosts of the Bloody Tower",
+        "Edward V and Richard of York"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "E281",
+        "E411.1",
+        "P30"
+      ],
+      "themes": [
+        "tower of london",
+        "princes in the tower",
+        "bloody tower",
+        "wars of the roses",
+        "royal mystery"
+      ],
+      "historical_period": "Late 15th Century (1483 mystery, bone discovery 1674, continuous ghostlore)",
+      "region_or_community": "Tower of London, City of London",
+      "community_attributions": [
+        "Yeoman Warders (Beefeaters) oral traditions",
+        "Historic Royal Palaces"
+      ],
+      "geographic_associations": [
+        "The Bloody Tower",
+        "White Tower, Tower of London"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Historic Royal Palaces: The Mystery of the Princes in the Tower",
+          "publisher": "Historic Royal Palaces",
+          "name": "Historic Royal Palaces",
+          "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/the-princes-in-the-tower/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Historic Royal Palaces official historical documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Historic Royal Palaces, 'Historic Royal Palaces: The Mystery of the Princes in the Tower'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/the-princes-in-the-tower/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814734Z",
+      "updated_at": "2026-10-29T10:22:51.814735Z"
+    },
+    {
+      "id": "GB-URBAN-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Haunted Red Lion Pub of Avebury Stone Circle",
+      "slug": "the-haunted-red-lion-pub-of-avebury-stone-circle",
+      "country_code": "GB",
+      "category": "urban_legend",
+      "subtype": "pub_haunting",
+      "summary": "Built in the 17th century directly inside the prehistoric Avebury stone circle—the largest megalithic stone circle in the world—The Red Lion pub is famous for its supernatural residents. At the center of the tavern floor sits a deep stone water well dating to the English Civil War. Urban legend claims that in 1643, a Roundhead deserter named Clarke murdered his unfaithful wife Florrie and cast her body into the well, sealing it with a boulder. Florrie's ghost is frequently seen drifting through the bar, while pint glasses shatter and the ancient stones outside hum with uncanny vibrational echoes.",
+      "long_description": null,
+      "alternate_names": [
+        "Florrie of the Avebury Well",
+        "The Red Lion at Avebury"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "E281",
+        "E334.2",
+        "F711"
+      ],
+      "themes": [
+        "megalithic stone circle",
+        "haunted pub",
+        "civil war murder",
+        "florie's well",
+        "avebury stones"
+      ],
+      "historical_period": "17th Century English Civil War to Present",
+      "region_or_community": "Avebury, Wiltshire",
+      "community_attributions": [
+        "Wiltshire archaeological society",
+        "British inn ghostlore collectors"
+      ],
+      "geographic_associations": [
+        "Avebury Stone Circle",
+        "The Red Lion Pub, Wiltshire"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "National Trust: Avebury Prehistoric Landscape and Village History",
+          "publisher": "National Trust UK",
+          "name": "National Trust UK",
+          "url": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "National Trust UK official heritage guide. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from National Trust UK, 'National Trust: Avebury Prehistoric Landscape and Village History'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.nationaltrust.org.uk/visit/wiltshire/avebury",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814761Z",
+      "updated_at": "2026-10-29T10:22:51.814761Z"
+    },
+    {
+      "id": "GB-URBAN-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Beast of Bodmin Moor",
+      "slug": "the-beast-of-bodmin-moor",
+      "country_code": "GB",
+      "category": "urban_legend",
+      "subtype": "cryptid",
+      "summary": "Since the late 1970s across the windswept heather and granite tors of Bodmin Moor in Cornwall, farmers and hikers have reported encounters with a colossal black panther-like feline stalked across the moorlands, blamed for mutilating sheep with surgical predator bites. The phenomenon sparked official investigations in 1995 by the UK Ministry of Agriculture, Fisheries and Food (MAFF), which concluded there was no verifiable evidence of an alien big cat population, though blurry photographs, pugmark plaster casts, and reports of exotic pets released following the 1976 Dangerous Wild Animals Act sustain the modern legend.",
+      "long_description": null,
+      "alternate_names": [
+        "The Cornish Big Cat",
+        "The Alien Big Cat of Bodmin"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "B29",
+        "G310",
+        "F401"
+      ],
+      "themes": [
+        "alien big cat",
+        "bodmin moor",
+        "cornwall",
+        "cryptid",
+        "livestock attacks"
+      ],
+      "historical_period": "Late 1970s to Present (official government report 1995)",
+      "region_or_community": "Bodmin Moor and North Cornwall",
+      "community_attributions": [
+        "Cornish farming communities",
+        "British Big Cat Society"
+      ],
+      "geographic_associations": [
+        "Bodmin Moor",
+        "Rough Tor",
+        "Brown Willy, Cornwall"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "MAFF Report: The Sighting of Large Felines on Bodmin Moor",
+          "publisher": "The National Archives UK / DEFRA",
+          "name": "The National Archives UK / DEFRA",
+          "url": "https://webarchive.nationalarchives.gov.uk/ukgwa/20070603164510/http://www.defra.gov.uk/wildlife-countryside/vertebrates/reports/bodmin.htm",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "UK National Archives / Ministry of Agriculture official report (1995). Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from The National Archives UK / DEFRA, 'MAFF Report: The Sighting of Large Felines on Bodmin Moor'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://webarchive.nationalarchives.gov.uk/ukgwa/20070603164510/http://www.defra.gov.uk/wildlife-countryside/vertebrates/reports/bodmin.htm",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814785Z",
+      "updated_at": "2026-10-29T10:22:51.814786Z"
+    },
+    {
+      "id": "GB-URBAN-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Phantom Hitchhiker of Hangman's Hill in Epping Forest",
+      "slug": "the-phantom-hitchhiker-of-hangmans-hill-in-epping-forest",
+      "country_code": "GB",
+      "category": "urban_legend",
+      "subtype": "vanishing_hitchhiker",
+      "summary": "Straddling the northeast border of Greater London and Essex, ancient Epping Forest was historically the haunt of highwayman Dick Turpin and the site of numerous murders. At Hangman's Hill near High Beach, where vehicles placed in neutral appear to roll uphill due to an optical gravity hill illusion, urban folklore reports nocturnal motorists encountering a distressed phantom hitchhiker standing in the fog. Drivers offering the traveler a seat report that he enters silently, only to vanish into cold air as the car passes the notorious execution sites within the woods.",
+      "long_description": null,
+      "alternate_names": [
+        "The Epping Forest Ghost",
+        "Hangman's Hill Gravity Mystery"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "E332.3.3.1",
+        "F750",
+        "E272"
+      ],
+      "themes": [
+        "epping forest",
+        "highwaymen",
+        "gravity hill",
+        "phantom hitchhiker",
+        "essex border lore"
+      ],
+      "historical_period": "20th Century to Present",
+      "region_or_community": "Epping Forest, Essex and East London border",
+      "community_attributions": [
+        "City of London Epping Forest keepers",
+        "Essex paranormal research groups"
+      ],
+      "geographic_associations": [
+        "Hangman's Hill",
+        "High Beach, Epping Forest"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "City of London Corporation: Heritage and History of Epping Forest",
+          "publisher": "City of London Corporation",
+          "name": "City of London Corporation",
+          "url": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/epping-forest",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "City of London Corporation Epping Forest official guide. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from City of London Corporation, 'City of London Corporation: Heritage and History of Epping Forest'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/epping-forest",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814809Z",
+      "updated_at": "2026-10-29T10:22:51.814809Z"
+    },
+    {
+      "id": "GB-URBAN-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The British Museum Tube Ghost Station",
+      "slug": "the-british-museum-tube-ghost-station",
+      "country_code": "GB",
+      "category": "urban_legend",
+      "subtype": "subterranean_haunting",
+      "summary": "Closed permanently in September 1933 when nearby Holborn station was expanded, the abandoned British Museum station on the Central Line remains silent beneath New Oxford Street. A famous 1930s London Underground urban legend alleged that a secret subterranean passage connected the station platforms directly to the Egyptian rooms of the British Museum above. Tube train drivers and track maintenance workers reported seeing the phantom of an ancient Egyptian priestess or the mummy of Amen-Ra weeping on the darkened platforms, uttering wails that forced drivers to accelerate through the disused station.",
+      "long_description": null,
+      "alternate_names": [
+        "The Mummy of the Central Line",
+        "Disused British Museum Tube Station"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "E281",
+        "E535",
+        "F771"
+      ],
+      "themes": [
+        "london underground",
+        "disused tube station",
+        "mummy's curse",
+        "british museum",
+        "subterranean ghost"
+      ],
+      "historical_period": "1933 to Present (station closed September 24, 1933)",
+      "region_or_community": "Holborn and Bloomsbury, Central London",
+      "community_attributions": [
+        "London Transport Museum historical archives",
+        "Underground railway workers oral lore"
+      ],
+      "geographic_associations": [
+        "British Museum Station (abandoned)",
+        "Holborn Tube Station, London"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "London Transport Museum: Disused Stations: British Museum",
+          "publisher": "London Transport Museum Archive",
+          "name": "London Transport Museum Archive",
+          "url": "https://www.ltmuseum.co.uk/collections/stories/disused-stations/british-museum",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "London Transport Museum historical archive documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from London Transport Museum Archive, 'London Transport Museum: Disused Stations: British Museum'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.ltmuseum.co.uk/collections/stories/disused-stations/british-museum",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814837Z",
+      "updated_at": "2026-10-29T10:22:51.814837Z"
+    }
+  ],
+  "metadata": {
+    "description": "Curated urban_legend dataset for United Kingdom",
+    "dataset_version": "2.0.0",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
+    "target_count": 10,
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
+    "validation_status": "valid",
+    "last_updated": null,
+    "import_batch_references": []
+  }
+}

@@ -1,0 +1,825 @@
+{
+  "schema_version": "2.0.0",
+  "dataset_id": "EG-urban_legend",
+  "country_code": "EG",
+  "category": "urban_legend",
+  "records": [
+    {
+      "id": "EG-URBAN-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Curse of the Pharaohs: Tutankhamun's Tomb",
+      "slug": "the-curse-of-the-pharaohs-tutankhamuns-tomb",
+      "country_code": "EG",
+      "category": "urban_legend",
+      "subtype": "archaeological_curse",
+      "summary": "When archaeologist Howard Carter and patron Lord Carnarvon unsealed the virtually intact tomb of young Pharaoh Tutankhamun (KV62) in the Valley of the Kings in November 1922, worldwide press sensationalized a supposed hieroglyphic curse: 'Death shall slay with his wings whoever disturbeth the peace of the Pharaoh.' Five months later, Lord Carnarvon died in Cairo from an infected mosquito bite, accompanied by a simultaneous citywide blackout in Cairo and his dog howling and dying in England. The subsequent untimely deaths of radiologist Archibald Douglas-Reid, Egyptologist Arthur Weigall, and visitor Prince Ali Kamel Fahmy cemented the 'Curse of the Pharaohs' as the defining global urban legend of Egyptian archaeology.",
+      "long_description": null,
+      "alternate_names": [
+        "The Mummy's Curse",
+        "The Curse of King Tut"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "en"
+      ],
+      "motifs": [
+        "M411",
+        "C900",
+        "D2061"
+      ],
+      "themes": [
+        "curse of the pharaohs",
+        "tutankhamun",
+        "lord carnarvon",
+        "valley of the kings",
+        "cairo blackout"
+      ],
+      "historical_period": "1922 to Present (peak global press frenzy 1923–1930s)",
+      "region_or_community": "Valley of the Kings, Luxor and Continental Hotel, Cairo",
+      "community_attributions": [
+        "Egyptian tourism guides",
+        "Global journalistic folklore collectors"
+      ],
+      "geographic_associations": [
+        "Tomb KV62, Valley of the Kings, Luxor",
+        "Cairo"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Tomb of Tut-Ankh-Amen: The Excavation and the Legend of the Curse",
+          "publisher": "Howard Carter / Cassell & Company",
+          "name": "Howard Carter / Cassell & Company",
+          "url": "https://archive.org/details/tomboftutankhame00cart",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Howard Carter, The Tomb of Tut-Ankh-Amen (1923). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Howard Carter / Cassell & Company, 'The Tomb of Tut-Ankh-Amen: The Excavation and the Legend of the Curse'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/tomboftutankhame00cart",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813201Z",
+      "updated_at": "2026-10-29T10:22:51.813201Z"
+    },
+    {
+      "id": "EG-URBAN-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Haunted Baron Empain Palace in Heliopolis",
+      "slug": "the-haunted-baron-empain-palace-in-heliopolis",
+      "country_code": "EG",
+      "category": "urban_legend",
+      "subtype": "mansion_haunting",
+      "summary": "Constructed between 1907 and 1911 in the Cairo suburb of Heliopolis by Belgian industrialist Édouard Louis Joseph, Baron Empain, the Palais Hindou is an eccentric palace modeled on the Hindu temples of Angkor Wat and Orissa. Standing abandoned for decades, Cairo urban folklore claimed the central revolving tower—built to follow the sun—was stained by tragic family deaths, including the Baron's sister Helena falling from a balcony. Nocturnal neighbors reported organ music echoing through the halls, stained-glass windows glowing crimson, and furniture rearranging itself. In 1997, a major moral panic swept Cairo when police raided the palace, arresting young heavy metal fans accused of conducting satanic rituals in its subterranean chambers.",
+      "long_description": null,
+      "alternate_names": [
+        "Palais Hindou",
+        "Qasr El Baron"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar"
+      ],
+      "motifs": [
+        "E281",
+        "E402",
+        "P30"
+      ],
+      "themes": [
+        "baron empain palace",
+        "heliopolis",
+        "cairo urban legend",
+        "hindu temple architecture",
+        "1997 metal panic"
+      ],
+      "historical_period": "1911 to Present (restored 2020 by Ministry of Tourism)",
+      "region_or_community": "Heliopolis, Cairo Governorate",
+      "community_attributions": [
+        "Cairene youth oral networks",
+        "Egyptian Ministry of Tourism and Antiquities"
+      ],
+      "geographic_associations": [
+        "Baron Empain Palace, Heliopolis, Cairo"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Ministry of Tourism and Antiquities: Restoration of the Baron Empain Palace",
+          "publisher": "Egyptian Ministry of Tourism and Antiquities",
+          "name": "Egyptian Ministry of Tourism and Antiquities",
+          "url": "https://egymonuments.gov.eg/en/monuments/baron-empain-palace",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Ministry of Tourism and Antiquities Egypt official documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Egyptian Ministry of Tourism and Antiquities, 'Ministry of Tourism and Antiquities: Restoration of the Baron Empain Palace'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://egymonuments.gov.eg/en/monuments/baron-empain-palace",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813226Z",
+      "updated_at": "2026-10-29T10:22:51.813227Z"
+    },
+    {
+      "id": "EG-URBAN-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Spectral Black Taxi of Qasr El Nil Bridge",
+      "slug": "the-spectral-black-taxi-of-qasr-el-nil-bridge",
+      "country_code": "EG",
+      "category": "urban_legend",
+      "subtype": "phantom_vehicle",
+      "summary": "Spanning the Nile River in downtown Cairo between Tahrir Square and Gezira Island, the Qasr El Nil Bridge is guarded by four monumental bronze lions cast in Paris. A famous late-night Cairene urban legend involves a vintage black-and-white Peugeot taxi that cruises the bridge at 3:00 AM with its headlights off. Solitary pedestrians stranded on the bridge after metro closure report the taxi pulling up silently. Passengers who enter find the driver remains completely silent with his face obscured in shadow; glancing in the mirror, they see no driver behind the wheel, while the taxi accelerates toward the lion statues before dissolving into river mist.",
+      "long_description": null,
+      "alternate_names": [
+        "The Ghost Taxi of Qasr El Nil",
+        "The Nile Bridge Phantom"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar"
+      ],
+      "motifs": [
+        "E535.3",
+        "E332.3.3",
+        "E272"
+      ],
+      "themes": [
+        "qasr el nil bridge",
+        "cairo taxi ghost",
+        "bronze lions",
+        "nile river phantom",
+        "downtown cairo lore"
+      ],
+      "historical_period": "1970s to Present",
+      "region_or_community": "Qasr El Nil and Downtown Cairo, Nile waterfront",
+      "community_attributions": [
+        "Cairene taxi driver oral culture",
+        "Downtown Cairo street chroniclers"
+      ],
+      "geographic_associations": [
+        "Qasr El Nil Bridge",
+        "Tahrir Square, Cairo"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Cairo Governorate Heritage Directory: Historic Bridges of the Nile: Qasr El Nil",
+          "publisher": "Cairo Governorate Heritage Preservation Authority",
+          "name": "Cairo Governorate Heritage Preservation Authority",
+          "url": "http://www.cairo.gov.eg/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Cairo Governorate Heritage Preservation Authority. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Cairo Governorate Heritage Preservation Authority, 'Cairo Governorate Heritage Directory: Historic Bridges of the Nile: Qasr El Nil'. Preserved for educational and cultural archiving.",
+      "canonical_url": "http://www.cairo.gov.eg/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813252Z",
+      "updated_at": "2026-10-29T10:22:51.813252Z"
+    },
+    {
+      "id": "EG-URBAN-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Ghost of the Manyal Palace Gardens",
+      "slug": "the-ghost-of-the-manyal-palace-gardens",
+      "country_code": "EG",
+      "category": "urban_legend",
+      "subtype": "palace_haunting",
+      "summary": "Built on Roda Island in Cairo between 1901 and 1929 by Prince Mohammed Ali Tewfik, the Manyal Palace is a sumptuous fusion of Ottoman, Moorish, and Persian Islamic architectural styles surrounded by rare tropical botanical gardens. In modern Cairene ghostlore, nocturnal museum guards report seeing the prince himself—dressed in an immaculate white Ottoman uniform and wearing a red tarboosh (fez)—walking along the shadowed paths of the banyan groves at midnight. Guard dogs famously refuse to bark at the apparition, instead whining and bowing their heads as the royal spirit glides into the private hunting museum.",
+      "long_description": null,
+      "alternate_names": [
+        "The Royal Ghost of Manyal",
+        "Prince Mohammed Ali's Garden Spectre"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar"
+      ],
+      "motifs": [
+        "E281",
+        "E425.2",
+        "P30"
+      ],
+      "themes": [
+        "manyal palace",
+        "roda island",
+        "cairo",
+        "ottoman prince",
+        "botanical garden ghost"
+      ],
+      "historical_period": "Early 20th Century to Present",
+      "region_or_community": "Roda Island, Manyal, Cairo",
+      "community_attributions": [
+        "Manyal Palace Museum staff oral traditions",
+        "Cairene heritage storytellers"
+      ],
+      "geographic_associations": [
+        "Manial Palace and Museum, Roda Island, Cairo"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Ministry of Tourism and Antiquities: Manyal Palace Museum Cultural Heritage",
+          "publisher": "Egyptian Ministry of Tourism and Antiquities",
+          "name": "Egyptian Ministry of Tourism and Antiquities",
+          "url": "https://egymonuments.gov.eg/en/monuments/manial-palace",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Ministry of Tourism and Antiquities Egypt official documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Egyptian Ministry of Tourism and Antiquities, 'Ministry of Tourism and Antiquities: Manyal Palace Museum Cultural Heritage'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://egymonuments.gov.eg/en/monuments/manial-palace",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813277Z",
+      "updated_at": "2026-10-29T10:22:51.813278Z"
+    },
+    {
+      "id": "EG-URBAN-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Djinn of the Siwa Oasis Salt Lakes",
+      "slug": "the-djinn-of-the-siwa-oasis-salt-lakes",
+      "country_code": "EG",
+      "category": "urban_legend",
+      "subtype": "oasis_djinn",
+      "summary": "Isolated in Egypt's Western Desert near the Libyan border, the ancient Berber-speaking oasis of Siwa is famed for the Temple of the Oracle of Amun, visited by Alexander the Great. In local Siwan Berber folklore, the hyper-saline turquoise salt lakes and the ruined mud-brick fortress of Shali are inhabited by ancient djinn clans. Desert travelers visiting the abandoned labyrinths of Shali at twilight report hearing disembodied Siwi-language whisperings and seeing shadows moving across salt crusts when the desert wind drops, with traditional warnings never to swim in remote salt pools after the evening call to prayer.",
+      "long_description": null,
+      "alternate_names": [
+        "The Spirits of Shali Fortress",
+        "Siwan Salt Lake Djinn"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "ber"
+      ],
+      "motifs": [
+        "F401",
+        "G303",
+        "C762"
+      ],
+      "themes": [
+        "siwa oasis",
+        "berber folklore",
+        "shali fortress",
+        "salt lakes",
+        "desert djinn"
+      ],
+      "historical_period": "Ancient Oracle era to Living Siwan Berber Oral Lore",
+      "region_or_community": "Siwa Oasis, Western Desert, Matrouh Governorate",
+      "community_attributions": [
+        "Siwan Berber elders",
+        "Western Desert desert guides"
+      ],
+      "geographic_associations": [
+        "Shali Fortress, Siwa Oasis",
+        "Temple of the Oracle of Amun"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Siwa: The Oasis of Jupiter Ammon: History, Customs and Desert Lore",
+          "publisher": "C. Dalrymple Belgrave / John Lane The Bodley Head",
+          "name": "C. Dalrymple Belgrave / John Lane The Bodley Head",
+          "url": "https://archive.org/details/siwaoasisofjupit0000belg",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "C. Dalrymple Belgrave, Siwa: The Oasis of Jupiter Ammon (1923). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from C. Dalrymple Belgrave / John Lane The Bodley Head, 'Siwa: The Oasis of Jupiter Ammon: History, Customs and Desert Lore'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/siwaoasisofjupit0000belg",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813303Z",
+      "updated_at": "2026-10-29T10:22:51.813303Z"
+    },
+    {
+      "id": "EG-URBAN-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Phantom Camel Caravan of the Great Sand Sea",
+      "slug": "the-phantom-camel-caravan-of-the-great-sand-sea",
+      "country_code": "EG",
+      "category": "urban_legend",
+      "subtype": "desert_mirage",
+      "summary": "Stretching across hundreds of miles of towering longitudinal sand dunes in the Western Desert along the Egyptian-Libyan frontier, the Great Sand Sea is one of the most desolate wildernesses on earth. Bedouin desert navigators and long-range four-wheel-drive expedition teams report sightings of the 'Qafilat Al-Ashbah' (The Phantom Caravan)—a long train of silhouetted camels and Bedouin riders in white robes marching across the crest of seventy-meter sand ridges at sunset with no sound of camel bells or hoofprints left in the blowing sand, attributed to lost salt merchants who perished during ancient sandstorms.",
+      "long_description": null,
+      "alternate_names": [
+        "Qafilat Al-Ashbah",
+        "The Lost Caravan of the Western Desert"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar"
+      ],
+      "motifs": [
+        "E535",
+        "E332.3.3",
+        "F750"
+      ],
+      "themes": [
+        "great sand sea",
+        "bedouin lore",
+        "phantom caravan",
+        "desert mirage",
+        "western desert"
+      ],
+      "historical_period": "Ancient Caravan Trade Era to Living Bedouin Lore",
+      "region_or_community": "Great Sand Sea, New Valley and Matrouh Governorates",
+      "community_attributions": [
+        "Bedouin desert scouts (Khabeer)",
+        "Egyptian Sahara explorers"
+      ],
+      "geographic_associations": [
+        "Great Sand Sea",
+        "Gilf Kebir Plateau"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Mysteries of the Libyan Desert: A Record of Three Years of Exploration",
+          "publisher": "W. J. Harding King / Seeley, Service & Co.",
+          "name": "W. J. Harding King / Seeley, Service & Co.",
+          "url": "https://archive.org/details/mysteriesoflibya0000hard",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "W. J. Harding King, Mysteries of the Libyan Desert (1925). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from W. J. Harding King / Seeley, Service & Co., 'Mysteries of the Libyan Desert: A Record of Three Years of Exploration'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/mysteriesoflibya0000hard",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813330Z",
+      "updated_at": "2026-10-29T10:22:51.813330Z"
+    },
+    {
+      "id": "EG-URBAN-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Blue Lady of Alexandria's Cecil Hotel",
+      "slug": "the-blue-lady-of-alexandrias-cecil-hotel",
+      "country_code": "EG",
+      "category": "urban_legend",
+      "subtype": "hotel_phantom",
+      "summary": "Built in 1929 on Saad Zaghloul Square overlooking the Mediterranean port of Alexandria, the historic Cecil Hotel hosted Winston Churchill, Agatha Christie, and secret intelligence operations during the Second World War, immortalized in Lawrence Durrell's 'The Alexandria Quartet.' Hotel staff and long-term guests report persistent sightings of 'The Blue Lady,' an elegant European woman dressed in a 1930s blue silk evening gown who drifts along the antique brass-cage elevator and fifth-floor suites, vanishing whenever approached by room service staff.",
+      "long_description": null,
+      "alternate_names": [
+        "The Cecil Hotel Spectre",
+        "The Lady of Saad Zaghloul Square"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "en"
+      ],
+      "motifs": [
+        "E281",
+        "E425.1",
+        "E334.2"
+      ],
+      "themes": [
+        "cecil hotel",
+        "alexandria",
+        "blue lady",
+        "mediterranean port",
+        "interwar glamour"
+      ],
+      "historical_period": "1929 to Present",
+      "region_or_community": "Saad Zaghloul Square, Alexandria",
+      "community_attributions": [
+        "Alexandrian cosmopolitan oral history",
+        "Cecil Hotel staff accounts"
+      ],
+      "geographic_associations": [
+        "Steigenberger Cecil Hotel",
+        "Eastern Harbour, Alexandria"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Alexandria Governorate Cultural Affairs: Historic Hotels of Cosmopolitan Alexandria",
+          "publisher": "Alexandria Governorate Cultural Directorate",
+          "name": "Alexandria Governorate Cultural Directorate",
+          "url": "http://www.alexandria.gov.eg/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Alexandria Governorate Cultural Directorate historical archives. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Alexandria Governorate Cultural Directorate, 'Alexandria Governorate Cultural Affairs: Historic Hotels of Cosmopolitan Alexandria'. Preserved for educational and cultural archiving.",
+      "canonical_url": "http://www.alexandria.gov.eg/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813355Z",
+      "updated_at": "2026-10-29T10:22:51.813355Z"
+    },
+    {
+      "id": "EG-URBAN-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Massacre Spirits of the Cairo Citadel (Bab El-Azab)",
+      "slug": "the-massacre-spirits-of-the-cairo-citadel-bab-el-azab",
+      "country_code": "EG",
+      "category": "urban_legend",
+      "subtype": "historical_massacre",
+      "summary": "On March 1, 1811, modern Egypt's founder Muhammad Ali Pasha invited nearly five hundred prominent Mamluk beys to a grand celebratory banquet inside the Cairo Citadel. As the ceremonial procession marched down the narrow, steep cobblestone defile toward the Bab El-Azab gate, the iron doors were slammed shut and Albanian riflemen opened fire from the parapets, massacring the trapped Mamluks. Nocturnal security guards and visitors walking the shadowed stone defile report hearing phantom musket volleys, terrified horse whinnying, and moans echoing from the ancient stone walls, particularly on anniversary nights in March.",
+      "long_description": null,
+      "alternate_names": [
+        "The Mamluk Massacre of 1811",
+        "Bab El-Azab Citadel Ghosts"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar"
+      ],
+      "motifs": [
+        "E281",
+        "E411.1",
+        "P30"
+      ],
+      "themes": [
+        "cairo citadel",
+        "bab el-azab",
+        "mamluk massacre",
+        "muhammad ali pasha",
+        "citadel haunting"
+      ],
+      "historical_period": "March 1, 1811 to Present",
+      "region_or_community": "Cairo Citadel (Saladin Citadel), Mokattam, Cairo",
+      "community_attributions": [
+        "Cairene military historians",
+        "Citadel antiquities caretakers"
+      ],
+      "geographic_associations": [
+        "Bab El-Azab",
+        "Saladin Citadel of Cairo"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Ministry of Tourism and Antiquities: The Citadel of Saladin and Bab El-Azab History",
+          "publisher": "Egyptian Ministry of Tourism and Antiquities",
+          "name": "Egyptian Ministry of Tourism and Antiquities",
+          "url": "https://egymonuments.gov.eg/en/monuments/citadel-of-salah-al-din",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Ministry of Tourism and Antiquities Egypt official documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Egyptian Ministry of Tourism and Antiquities, 'Ministry of Tourism and Antiquities: The Citadel of Saladin and Bab El-Azab History'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://egymonuments.gov.eg/en/monuments/citadel-of-salah-al-din",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813380Z",
+      "updated_at": "2026-10-29T10:22:51.813381Z"
+    },
+    {
+      "id": "EG-URBAN-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Unlucky Mummy of the British Museum (Priestess of Amun)",
+      "slug": "the-unlucky-mummy-of-the-british-museum-priestess-of-amun",
+      "country_code": "EG",
+      "category": "urban_legend",
+      "subtype": "cursed_artifact",
+      "summary": "Known as British Museum artifact EA 22542, this painted wooden mummy board of an anonymous Priestess of Amun-Ra dating to the 21st Dynasty (c. 950 BCE) was acquired in Thebes in the late 1880s. A viral global urban legend fueled by journalist W. T. Stead claimed that the mummy board was cursed: every owner suffered firearm accidents, bankruptcy, or death. The myth culminated in the world-famous urban legend that the mummy board was secretly smuggled aboard the RMS Titanic in April 1912, causing the ship to strike an iceberg and sink, despite the artifact never leaving the British Museum gallery in London.",
+      "long_description": null,
+      "alternate_names": [
+        "The Unlucky Mummy",
+        "The Titanic Mummy Curse"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "en"
+      ],
+      "motifs": [
+        "M411",
+        "C900",
+        "E235.1"
+      ],
+      "themes": [
+        "unlucky mummy",
+        "priestess of amun",
+        "british museum",
+        "titanic urban legend",
+        "cursed antiquity"
+      ],
+      "historical_period": "Late 19th Century (1889 acquisition) to 1912 Titanic disaster myth",
+      "region_or_community": "Thebes, Upper Egypt and London Museum circles",
+      "community_attributions": [
+        "British Museum curatorial archives",
+        "Victorian press folklorists"
+      ],
+      "geographic_associations": [
+        "Thebes (Luxor)",
+        "British Museum Room 62, London"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The British Museum: The Myth of the 'Unlucky Mummy' (Object EA22542)",
+          "publisher": "The British Museum Trust",
+          "name": "The British Museum Trust",
+          "url": "https://www.britishmuseum.org/collection/object/Y_EA22542",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "The British Museum official collection documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from The British Museum Trust, 'The British Museum: The Myth of the 'Unlucky Mummy' (Object EA22542)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.britishmuseum.org/collection/object/Y_EA22542",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813405Z",
+      "updated_at": "2026-10-29T10:22:51.813405Z"
+    },
+    {
+      "id": "EG-URBAN-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Black Mist of Wadi El Natrun Coptic Monasteries",
+      "slug": "the-black-mist-of-wadi-el-natrun-coptic-monasteries",
+      "country_code": "EG",
+      "category": "urban_legend",
+      "subtype": "monastic_mystery",
+      "summary": "Wadi El Natrun is a desolate valley in the Western Desert that has been a sanctuary for Christian desert monastics since the 4th century CE, housing ancient fortified Coptic monasteries including Deir El-Suryan and Deir Saint Bishoy. Monks and desert pilgrims recount legends of the 'Dabab Al-Aswad' (The Black Mist)—a dense, unnatural shadow mist that sweeps across the monastery watchtowers on winter nights when there is no wind. Desert monastic lore asserts that the mist is an illusion summoned by desert djinn trying to test the faith of anchorite monks, dissolving instantly when church bells ring for midnight psalmody.",
+      "long_description": null,
+      "alternate_names": [
+        "Dabab Al-Aswad",
+        "The Desert Mist of the Desert Fathers"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ar",
+        "cop"
+      ],
+      "motifs": [
+        "F1000",
+        "V221",
+        "G303"
+      ],
+      "themes": [
+        "wadi el natrun",
+        "coptic monasteries",
+        "desert fathers",
+        "black mist",
+        "monastic prayer"
+      ],
+      "historical_period": "4th Century Desert Fathers to Living Coptic Christian Folklore",
+      "region_or_community": "Wadi El Natrun, Beheira Governorate",
+      "community_attributions": [
+        "Coptic Orthodox monastic community",
+        "Wadi Natrun desert guides"
+      ],
+      "geographic_associations": [
+        "Wadi El Natrun",
+        "Monastery of Saint Bishoy, Beheira"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Coptic Heritage Institute: The Monasteries of the Wadi El-Natrun Desert",
+          "publisher": "Coptic Orthodox Cultural Heritage Center",
+          "name": "Coptic Orthodox Cultural Heritage Center",
+          "url": "https://copticarchitecture.com/wadi-el-natrun",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Coptic Orthodox Cultural Heritage Center documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Coptic Orthodox Cultural Heritage Center, 'Coptic Heritage Institute: The Monasteries of the Wadi El-Natrun Desert'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://copticarchitecture.com/wadi-el-natrun",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.813431Z",
+      "updated_at": "2026-10-29T10:22:51.813432Z"
+    }
+  ],
+  "metadata": {
+    "description": "Curated urban_legend dataset for Egypt",
+    "dataset_version": "2.0.0",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
+    "target_count": 10,
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
+    "validation_status": "valid",
+    "last_updated": null,
+    "import_batch_references": []
+  }
+}

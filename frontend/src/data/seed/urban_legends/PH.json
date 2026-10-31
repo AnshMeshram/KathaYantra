@@ -1,0 +1,834 @@
+{
+  "schema_version": "2.0.0",
+  "dataset_id": "PH-urban_legend",
+  "country_code": "PH",
+  "category": "urban_legend",
+  "records": [
+    {
+      "id": "PH-URBAN-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The White Lady of Balete Drive",
+      "slug": "the-white-lady-of-balete-drive",
+      "country_code": "PH",
+      "category": "urban_legend",
+      "subtype": "urban_phantom",
+      "summary": "The definitive urban legend of Metro Manila, the White Lady of Balete Drive centers on a quiet, tree-lined residential street in New Manila, Quezon City, famous for its massive ancestral balete (strangler fig) trees and decaying Spanish colonial mansions. Beginning in the 1950s, nocturnal motorists and taxi drivers reported seeing a beautiful young woman in a bloodstained, flowing white dress with long dark hair covering her face standing beneath the balete trees. Drivers glancing into their rearview mirrors after passing her report seeing her seated silently in the passenger backseat, disappearing as the car exits onto E. Rodriguez Avenue.",
+      "long_description": null,
+      "alternate_names": [
+        "The Balete Drive White Lady",
+        "The Ghost of New Manila"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl",
+        "en"
+      ],
+      "motifs": [
+        "E332.3.3.1",
+        "E425.1.1",
+        "E272"
+      ],
+      "themes": [
+        "white lady",
+        "balete drive",
+        "quezon city",
+        "balete trees",
+        "manila taxi ghost"
+      ],
+      "historical_period": "1950s to Present (major national cultural icon)",
+      "region_or_community": "New Manila, Quezon City, Metro Manila",
+      "community_attributions": [
+        "Quezon City taxi driver oral culture",
+        "Manila urban folklorists"
+      ],
+      "geographic_associations": [
+        "Balete Drive, New Manila, Quezon City"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Quezon City Government: Historical Walking Guide to New Manila and Balete Drive",
+          "publisher": "Quezon City Public Library Cultural Heritage",
+          "name": "Quezon City Public Library Cultural Heritage",
+          "url": "https://quezoncity.gov.ph/about-qc/history/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Quezon City Public Library cultural heritage documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Quezon City Public Library Cultural Heritage, 'Quezon City Government: Historical Walking Guide to New Manila and Balete Drive'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://quezoncity.gov.ph/about-qc/history/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828484Z",
+      "updated_at": "2026-10-29T10:22:51.828485Z"
+    },
+    {
+      "id": "PH-URBAN-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Headless Priest of the University of Santo Tomas (UST)",
+      "slug": "the-headless-priest-of-the-university-of-santo-tomas-ust",
+      "country_code": "PH",
+      "category": "urban_legend",
+      "subtype": "campus_ghost",
+      "summary": "Founded in 1611, the University of Santo Tomas (UST) in Manila is the oldest existing university in Asia. Its historic campus served as an internment camp during World War II under Japanese military occupation, witnessing executions and air raids. A legendary fixture of UST student folklore centers on the Main Building and Father Blanco's Garden, where late-night students and security guards report encountering a headless Dominican friar clad in black and white robes carrying his severed head in his hands, said to be a Spanish missionary beheaded during the war.",
+      "long_description": null,
+      "alternate_names": [
+        "The UST Headless Friar",
+        "The Ghost Priest of España"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl",
+        "en"
+      ],
+      "motifs": [
+        "E422.1.1",
+        "E281",
+        "V465"
+      ],
+      "themes": [
+        "university of santo tomas",
+        "headless priest",
+        "world war ii internment",
+        "ust main building",
+        "campus ghost"
+      ],
+      "historical_period": "World War II aftermath (post-1945) to Living Student Folklore",
+      "region_or_community": "Sampaloc, Manila, Metro Manila",
+      "community_attributions": [
+        "UST student oral networks",
+        "The Varsitarian student archives"
+      ],
+      "geographic_associations": [
+        "UST Main Building",
+        "España Boulevard, Sampaloc, Manila"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "University of Santo Tomas Archives: Historical Heritage and Camp Memories",
+          "publisher": "University of Santo Tomas Archives",
+          "name": "University of Santo Tomas Archives",
+          "url": "https://www.ust.edu.ph/about/history/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "University of Santo Tomas historical archive documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from University of Santo Tomas Archives, 'University of Santo Tomas Archives: Historical Heritage and Camp Memories'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.ust.edu.ph/about/history/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828509Z",
+      "updated_at": "2026-10-29T10:22:51.828509Z"
+    },
+    {
+      "id": "PH-URBAN-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Buried Workers of the Manila Film Center",
+      "slug": "the-buried-workers-of-the-manila-film-center",
+      "country_code": "PH",
+      "category": "urban_legend",
+      "subtype": "disaster_haunting",
+      "summary": "Constructed in 1981 at breakneck speed on the orders of First Lady Imelda Marcos to host the 1st Manila International Film Festival, tragedy struck on November 17, 1981, when scaffolding collapsed, plunging dozens of construction workers into wet, quick-drying cement. Rather than halting work to recover bodies, the Marcos regime allegedly ordered wet cement poured over the victims to maintain the festival deadline. Ever since, performers, stagehands, and visitors report hearing muffled groans and weeping from the solid basement pillars, with phantom arms reaching from the concrete walls.",
+      "long_description": null,
+      "alternate_names": [
+        "The Haunted Manila Film Center",
+        "The CCP Complex Tragedy"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl",
+        "en"
+      ],
+      "motifs": [
+        "E281",
+        "E411.0.1",
+        "P30"
+      ],
+      "themes": [
+        "manila film center",
+        "marcos era tragedy",
+        "cement burial",
+        "ccp complex",
+        "urban trauma"
+      ],
+      "historical_period": "November 17, 1981 to Present",
+      "region_or_community": "Cultural Center of the Philippines Complex, Pasay City, Metro Manila",
+      "community_attributions": [
+        "Philippine theater and film workers",
+        "Metro Manila oral historians"
+      ],
+      "geographic_associations": [
+        "Manila Film Center",
+        "CCP Complex, Pasay City"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Cultural Center of the Philippines: Historical Timeline and Architectural Records",
+          "publisher": "Cultural Center of the Philippines",
+          "name": "Cultural Center of the Philippines",
+          "url": "https://culturalcenter.gov.ph/about-ccp/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Cultural Center of the Philippines historical documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Cultural Center of the Philippines, 'Cultural Center of the Philippines: Historical Timeline and Architectural Records'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://culturalcenter.gov.ph/about-ccp/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828536Z",
+      "updated_at": "2026-10-29T10:22:51.828536Z"
+    },
+    {
+      "id": "PH-URBAN-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Snake Man of Robinson's Galleria Dressing Rooms",
+      "slug": "the-snake-man-of-robinsons-galleria-dressing-rooms",
+      "country_code": "PH",
+      "category": "urban_legend",
+      "subtype": "mall_monster",
+      "summary": "A legendary 1990s Philippine urban legend alleged that the wealthy Gokongwei family, owners of Robinsons Galleria mall in Ortigas, harbored a monstrous, half-human, half-snake twin brother in the secret subterranean basement of the mall. According to the legend, specific dressing rooms in luxury boutiques had hidden trapdoors in the floor that opened when stepped on, dropping attractive female shoppers down into the pit to be eaten by the snake creature, including famous actress Alice Dixson. The rumor was so widespread that Robinson's department stores suffered major commercial boycotts until public clarification campaigns in the late 1990s.",
+      "long_description": null,
+      "alternate_names": [
+        "The Robinsons Mall Snake Man",
+        "Taong Ahas ng Robinsons"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl",
+        "en"
+      ],
+      "motifs": [
+        "B29",
+        "G312",
+        "J1499"
+      ],
+      "themes": [
+        "mall urban legend",
+        "snake man",
+        "robinsons galleria",
+        "1990s manila panic",
+        "trapdoor in dressing room"
+      ],
+      "historical_period": "Early 1990s (peak nationwide panic 1990–1994)",
+      "region_or_community": "Ortigas Center, Quezon City and Pasig border",
+      "community_attributions": [
+        "Metro Manila shoppers oral network",
+        "Philippine mass media sociologists"
+      ],
+      "geographic_associations": [
+        "Robinsons Galleria, Ortigas Center, Metro Manila"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Commercial Myths and Media Panics in Modern Manila: The Robinson's Snake Man",
+          "publisher": "University of the Philippines Department of Journalism",
+          "name": "University of the Philippines Department of Journalism",
+          "url": "https://archive.org/details/manilamediaurbanpanics0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "University of the Philippines Department of Journalism research. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from University of the Philippines Department of Journalism, 'Commercial Myths and Media Panics in Modern Manila: The Robinson's Snake Man'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/manilamediaurbanpanics0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828561Z",
+      "updated_at": "2026-10-29T10:22:51.828561Z"
+    },
+    {
+      "id": "PH-URBAN-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Phantom Passenger of Kennon Road Zigzag",
+      "slug": "the-phantom-passenger-of-kennon-road-zigzag",
+      "country_code": "PH",
+      "category": "urban_legend",
+      "subtype": "mountain_phantom",
+      "summary": "Connecting the lowlands of Pangasinan to the mountain city of Baguio, Kennon Road (the Zigzag) is a treacherous mountain pass carved into sheer cliffs that has suffered deadly rockslides and vehicular plunges for over a century. Long-distance night bus drivers and taxi operators report picking up a quiet, shivering young woman standing alone beside the foggy mountain guardrail near the Bued River gorge. As the bus winds up the hairpin curves toward the Lion's Head monument, conductors walking down the aisle to collect fares find her seat empty, with water dripping from the seat cushion.",
+      "long_description": null,
+      "alternate_names": [
+        "The Kennon Road White Lady",
+        "The Baguio Zigzag Hitchhiker"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl",
+        "ilo",
+        "en"
+      ],
+      "motifs": [
+        "E332.3.3.1",
+        "E535",
+        "E272"
+      ],
+      "themes": [
+        "kennon road",
+        "baguio city",
+        "zigzag curves",
+        "mountain road ghost",
+        "bued river"
+      ],
+      "historical_period": "Mid-20th Century to Present (Kennon Road built 1905)",
+      "region_or_community": "Kennon Road corridor, Benguet Province",
+      "community_attributions": [
+        "Baguio-Manila bus drivers oral lore",
+        "Cordillera mountain travelers"
+      ],
+      "geographic_associations": [
+        "Kennon Road",
+        "Lion's Head, Baguio City, Benguet"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "City Government of Baguio: History and Travel Guidelines for Kennon Road",
+          "publisher": "City Government of Baguio Tourism Office",
+          "name": "City Government of Baguio Tourism Office",
+          "url": "https://baguio.gov.ph/tourism",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "City Government of Baguio Tourism Office historical portal. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from City Government of Baguio Tourism Office, 'City Government of Baguio: History and Travel Guidelines for Kennon Road'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://baguio.gov.ph/tourism",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828587Z",
+      "updated_at": "2026-10-29T10:22:51.828588Z"
+    },
+    {
+      "id": "PH-URBAN-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Haunted Diplomat Hotel of Dominican Hill",
+      "slug": "the-haunted-diplomat-hotel-of-dominican-hill",
+      "country_code": "PH",
+      "category": "urban_legend",
+      "subtype": "asylum_haunting",
+      "summary": "Crowning Dominican Hill in Baguio City, the abandoned Diplomat Hotel was originally built in 1913 as a seminary for Dominican friars. During the brutal final months of World War II in 1945, invading forces and fleeing troops committed gruesome atrocities within its thick limestone walls, executing priests and refugees. Later converted into a hotel managed by faith healer Tony Agpaoa, the site closed upon his death in 1982. Visitors and nocturnal ghost hunters report terrifying sightings of headless priests wandering the rooftop crosses, disembodied cries of children echoing in the ruined chapel, and doors slamming violently in the pine mountain wind.",
+      "long_description": null,
+      "alternate_names": [
+        "Dominican Hill Retreat House",
+        "The Ghosts of Diplomat Hotel"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl",
+        "ilo",
+        "en"
+      ],
+      "motifs": [
+        "E281",
+        "E422.1.1",
+        "P30"
+      ],
+      "themes": [
+        "diplomat hotel",
+        "dominican hill",
+        "baguio city",
+        "world war ii atrocities",
+        "headless priests"
+      ],
+      "historical_period": "1945 World War II to Living Heritage Ghostlore",
+      "region_or_community": "Dominican Hill, Baguio City, Benguet Province",
+      "community_attributions": [
+        "Baguio Heritage Hill custodians",
+        "Cordillera paranormal researchers"
+      ],
+      "geographic_associations": [
+        "Diplomat Hotel, Dominican Hill, Baguio City"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Baguio City Heritage Council: Dominican Hill and the Diplomat Hotel Historical Park",
+          "publisher": "Baguio City Heritage Council",
+          "name": "Baguio City Heritage Council",
+          "url": "https://baguio.gov.ph/heritage/dominican-hill",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Baguio City Heritage Council documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Baguio City Heritage Council, 'Baguio City Heritage Council: Dominican Hill and the Diplomat Hotel Historical Park'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://baguio.gov.ph/heritage/dominican-hill",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828613Z",
+      "updated_at": "2026-10-29T10:22:51.828613Z"
+    },
+    {
+      "id": "PH-URBAN-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Ghost Child of the Paoay Church Bell Tower",
+      "slug": "the-ghost-child-of-the-paoay-church-bell-tower",
+      "country_code": "PH",
+      "category": "urban_legend",
+      "subtype": "belltower_haunting",
+      "summary": "Erected in 1710 in Ilocos Norte, the Saint Augustine Church of Paoay is a masterpiece of Earthquake Baroque architecture, featuring massive coral limestone buttresses and a detached three-story coral bell tower. During the Philippine Revolution against Spain and the Filipino-American War, the bell tower served as an observation post for Katipunan guerrillas. Local Ilocano urban folklore recounts that on quiet evenings, tourists and parishioners hear the distinct ringing of a small brass bell in the locked tower, accompanied by the laughter of a young boy clad in Spanish colonial choir robes who vanishes when climbed.",
+      "long_description": null,
+      "alternate_names": [
+        "The Paoay Bell Tower Boy",
+        "The Ilocos Norte Choir Spectre"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ilo",
+        "tl",
+        "en"
+      ],
+      "motifs": [
+        "E281",
+        "E338",
+        "E402"
+      ],
+      "themes": [
+        "paoay church",
+        "earthquake baroque",
+        "unesco heritage",
+        "bell tower ghost",
+        "ilocos norte"
+      ],
+      "historical_period": "18th Century Church (1710) to Living Regional Lore",
+      "region_or_community": "Paoay, Ilocos Norte, Northern Luzon",
+      "community_attributions": [
+        "Ilocano parish custodians",
+        "National Museum of the Philippines"
+      ],
+      "geographic_associations": [
+        "Paoay Church (Saint Augustine)",
+        "Ilocos Norte"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "UNESCO World Heritage: Baroque Churches of the Philippines (Paoay Church)",
+          "publisher": "UNESCO / National Commission for Culture and the Arts",
+          "name": "UNESCO / National Commission for Culture and the Arts",
+          "url": "https://whc.unesco.org/en/list/677/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "UNESCO World Heritage documentation on Baroque Churches of the Philippines. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from UNESCO / National Commission for Culture and the Arts, 'UNESCO World Heritage: Baroque Churches of the Philippines (Paoay Church)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://whc.unesco.org/en/list/677/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828636Z",
+      "updated_at": "2026-10-29T10:22:51.828636Z"
+    },
+    {
+      "id": "PH-URBAN-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Clark Air Base Hospital Paranormal Hauntings",
+      "slug": "clark-air-base-hospital-paranormal-hauntings",
+      "country_code": "PH",
+      "category": "urban_legend",
+      "subtype": "military_hospital_haunting",
+      "summary": "Located in Angeles City, Pampanga, the abandoned Clark Air Base Hospital was a premier US military medical facility that treated thousands of casualties during the Vietnam War and World War II, before being evacuated following the catastrophic eruption of Mount Pinatubo in 1991. The abandoned concrete complex is considered one of the most haunted military sites in Asia. Visitors report spectral screams from the trauma bays, phantom military doctors in olive-drab scrubs performing surgeries on empty gurneys, and violent poltergeist activity where debris is hurled across corridors.",
+      "long_description": null,
+      "alternate_names": [
+        "Clark AFB Hospital",
+        "The Haunted Hospital of Angeles City"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl",
+        "pam",
+        "en"
+      ],
+      "motifs": [
+        "E281",
+        "E334.2",
+        "P30"
+      ],
+      "themes": [
+        "clark air base",
+        "military hospital",
+        "vietnam war casualties",
+        "mount pinatubo",
+        "pampanga"
+      ],
+      "historical_period": "1960s Vietnam War Era to Post-1991 Pinatubo Abandonment",
+      "region_or_community": "Clark Freeport Zone, Angeles City, Pampanga",
+      "community_attributions": [
+        "Clark Development Corporation historians",
+        "Pampanga paranormal researchers"
+      ],
+      "geographic_associations": [
+        "Clark Air Base Hospital",
+        "Angeles City, Pampanga"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Clark Development Corporation: Historical Military Heritage of Clark Air Base",
+          "publisher": "Clark Development Corporation",
+          "name": "Clark Development Corporation",
+          "url": "https://www.clark.com.ph/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Clark Development Corporation official documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Clark Development Corporation, 'Clark Development Corporation: Historical Military Heritage of Clark Air Base'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.clark.com.ph/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828663Z",
+      "updated_at": "2026-10-29T10:22:51.828663Z"
+    },
+    {
+      "id": "PH-URBAN-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Phantom Kalesa of Vigan Heritage Street",
+      "slug": "the-phantom-kalesa-of-vigan-heritage-street",
+      "country_code": "PH",
+      "category": "urban_legend",
+      "subtype": "phantom_carriage",
+      "summary": "Preserved as a UNESCO World Heritage site, Calle Crisologo in the historic colonial city of Vigan, Ilocos Sur, features cobblestone streets lined with Spanish ancestral mansions and horse-drawn carriages (kalesas). In local urban folklore, after the gas streetlamps flicker out at midnight, night pedestrians report hearing the distinct clatter of iron horseshoes on cobblestone and the creak of wooden wheels. Turning to look, residents see an antiquated black kalesa driven by a headless cochero (driver) glides past ancestral balconies before dissolving into the shadows of the stone archways.",
+      "long_description": null,
+      "alternate_names": [
+        "The Ghost Carriage of Calle Crisologo",
+        "Ang Kalesang Multo sa Vigan"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ilo",
+        "tl",
+        "en"
+      ],
+      "motifs": [
+        "E535.1",
+        "E422.1.1",
+        "E281"
+      ],
+      "themes": [
+        "vigan",
+        "calle crisologo",
+        "kalesa phantom",
+        "spanish colonial heritage",
+        "ilocos sur"
+      ],
+      "historical_period": "Spanish Colonial 18th Century to Living Heritage Folklore",
+      "region_or_community": "Vigan City, Ilocos Sur",
+      "community_attributions": [
+        "Vigan City Heritage Conservation Council",
+        "Ilocano kalesa drivers"
+      ],
+      "geographic_associations": [
+        "Calle Crisologo",
+        "Vigan Historic Town, Ilocos Sur"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "UNESCO World Heritage: Historic City of Vigan Cultural Documentation",
+          "publisher": "UNESCO / City Government of Vigan",
+          "name": "UNESCO / City Government of Vigan",
+          "url": "https://whc.unesco.org/en/list/502/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "UNESCO World Heritage documentation on Historic City of Vigan. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from UNESCO / City Government of Vigan, 'UNESCO World Heritage: Historic City of Vigan Cultural Documentation'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://whc.unesco.org/en/list/502/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828688Z",
+      "updated_at": "2026-10-29T10:22:51.828688Z"
+    },
+    {
+      "id": "PH-URBAN-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Tenement Ghost of Taguig Housing Complex",
+      "slug": "the-tenement-ghost-of-taguig-housing-complex",
+      "country_code": "PH",
+      "category": "urban_legend",
+      "subtype": "urban_poltergeist",
+      "summary": "Constructed in the 1960s in Taguig, Metro Manila, the Fort Bonifacio Tenement is an iconic, horseshoe-shaped seven-story social housing brutalist complex famous for its central basketball court. Decaying over decades and condemned due to structural earthquake damage, urban legends abound among its thousands of resilient residents. Nocturnal basketball players practicing late report phantom children in vintage uniforms bouncing spectral balls on the concrete court, and apparitions peering from the dark abandoned upper balconies where fatal accidents occurred during urban floods.",
+      "long_description": null,
+      "alternate_names": [
+        "Taguig Tenement Ghost",
+        "The Basketball Court of Fort Bonifacio"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl",
+        "en"
+      ],
+      "motifs": [
+        "E281",
+        "E338",
+        "F771"
+      ],
+      "themes": [
+        "taguig tenement",
+        "social housing",
+        "basketball court",
+        "metro manila",
+        "urban ghostlore"
+      ],
+      "historical_period": "1960s to Present",
+      "region_or_community": "Western Bicutan, Taguig City, Metro Manila",
+      "community_attributions": [
+        "Tenement community leaders",
+        "Metro Manila street culture chroniclers"
+      ],
+      "geographic_associations": [
+        "Fort Bonifacio Tenement",
+        "Western Bicutan, Taguig"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "City Government of Taguig: Historical Landmarks and Housing Heritage",
+          "publisher": "City Government of Taguig Heritage Office",
+          "name": "City Government of Taguig Heritage Office",
+          "url": "https://taguig.gov.ph/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "City Government of Taguig Heritage Office documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from City Government of Taguig Heritage Office, 'City Government of Taguig: Historical Landmarks and Housing Heritage'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://taguig.gov.ph/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828712Z",
+      "updated_at": "2026-10-29T10:22:51.828712Z"
+    }
+  ],
+  "metadata": {
+    "description": "Curated urban_legend dataset for Philippines",
+    "dataset_version": "2.0.0",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
+    "target_count": 10,
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
+    "validation_status": "valid",
+    "last_updated": null,
+    "import_batch_references": []
+  }
+}

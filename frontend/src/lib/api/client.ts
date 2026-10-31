@@ -27,8 +27,22 @@ import {
   StorySource,
 } from "@/types/story";
 
-const BASE_URL =
-  process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8000";
+const getBaseUrl = (): string => {
+  if (process.env.NEXT_PUBLIC_API_BASE_URL) {
+    return process.env.NEXT_PUBLIC_API_BASE_URL;
+  }
+  if (typeof window !== "undefined") {
+    // Client-side in browser: relative URL hits Next.js API routes on Vercel directly
+    return "";
+  }
+  // Server-side execution during SSR or build
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
+  }
+  return "http://127.0.0.1:3000";
+};
+
+const BASE_URL = getBaseUrl();
 const API_PREFIX = process.env.NEXT_PUBLIC_API_PREFIX || "/api/v1";
 
 export class ApiError extends Error {

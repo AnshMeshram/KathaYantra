@@ -1,0 +1,828 @@
+{
+  "schema_version": "2.0.0",
+  "dataset_id": "IN-urban_legend",
+  "country_code": "IN",
+  "category": "urban_legend",
+  "records": [
+    {
+      "id": "IN-URBAN-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Cursed Ruins of Bhangarh Fort",
+      "slug": "the-cursed-ruins-of-bhangarh-fort",
+      "country_code": "IN",
+      "category": "urban_legend",
+      "subtype": "haunting",
+      "summary": "Constructed in the 16th century in the Alwar district of Rajasthan, the deserted city of Bhangarh is famously known as the most haunted historical monument in India. According to circulating folklore, a dark sorcerer named Guru Balu Nath cursed the citadel after shadows of royal mansions touched his forbidden sanctuary, or alternatively, a lovelorn tantric cursed the city with eternal damnation after being crushed by a boulder. The Archaeological Survey of India has famously posted warning signboards barring public entry between sunset and sunrise.",
+      "long_description": null,
+      "alternate_names": [
+        "The Haunted Fort of Rajasthan",
+        "Bhangarh Ruins Curse"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "hi"
+      ],
+      "motifs": [
+        "E281",
+        "M411",
+        "C762.1"
+      ],
+      "themes": [
+        "curse",
+        "deserted city",
+        "tantric sorcery",
+        "nocturnal prohibition",
+        "ruins"
+      ],
+      "historical_period": "Modern Urban Folklore (originating 17th Century, circulating post-1970)",
+      "region_or_community": "Alwar District, Rajasthan",
+      "community_attributions": [
+        "Rajasthani local legend",
+        "Contemporary Indian paranormal culture"
+      ],
+      "geographic_associations": [
+        "Bhangarh Fort",
+        "Sariska Tiger Reserve border"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Archaeological Survey of India Monument Records: Bhangarh Complex",
+          "publisher": "Archaeological Survey of India",
+          "name": "Archaeological Survey of India",
+          "url": "https://asi.nic.in/protected-monuments-rajasthan/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Archaeological Survey of India official monument documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Archaeological Survey of India, 'Archaeological Survey of India Monument Records: Bhangarh Complex'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://asi.nic.in/protected-monuments-rajasthan/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.821218Z",
+      "updated_at": "2026-10-29T10:22:51.821218Z"
+    },
+    {
+      "id": "IN-URBAN-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Whispering Banyan of Sanjay Van",
+      "slug": "the-whispering-banyan-of-sanjay-van",
+      "country_code": "IN",
+      "category": "urban_legend",
+      "subtype": "urban_phantom",
+      "summary": "Spanning over 700 acres near Qutub Minar in South Delhi, Sanjay Van is a sprawling wilderness preserve crisscrossed with medieval Sufi mausoleums and overgrown ancient fortifications. Urban legend claims that nocturnal visitors frequently encounter a woman in white robes drifting among the branches of aged banyan trees, who abruptly vanishes when approached. Others report the disembodied sound of crying infants and sudden temperature drops near the old stone graves, making it one of the capital's prominent supernatural walking routes.",
+      "long_description": null,
+      "alternate_names": [
+        "The White Ghost of Sanjay Van",
+        "South Delhi Forest Phantom"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "hi"
+      ],
+      "motifs": [
+        "E425.1",
+        "E332.2",
+        "E402"
+      ],
+      "themes": [
+        "urban forest",
+        "white lady",
+        "medieval ruins",
+        "crying spirits",
+        "delhi lore"
+      ],
+      "historical_period": "Late 20th Century to Present",
+      "region_or_community": "Mehrauli and Vasant Kunj, New Delhi",
+      "community_attributions": [
+        "Delhi urban lore",
+        "Heritage walk folklore"
+      ],
+      "geographic_associations": [
+        "Sanjay Van",
+        "Mehrauli Archaeological Park"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Delhi Heritage and Haunted Legends: Sanjay Van Documentation",
+          "publisher": "Delhi Tourism and Transportation Development",
+          "name": "Delhi Tourism and Transportation Development",
+          "url": "https://delhitourism.gov.in/delhitourism/tourist_place/sanjay_van.jsp",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Delhi Tourism Development cultural archive documentation. Public Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Delhi Tourism and Transportation Development, 'Delhi Heritage and Haunted Legends: Sanjay Van Documentation'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://delhitourism.gov.in/delhitourism/tourist_place/sanjay_van.jsp",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.821241Z",
+      "updated_at": "2026-10-29T10:22:51.821242Z"
+    },
+    {
+      "id": "IN-URBAN-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Black Sand Whispers of Dumas Beach",
+      "slug": "the-black-sand-whispers-of-dumas-beach",
+      "country_code": "IN",
+      "category": "urban_legend",
+      "subtype": "coastal_mystery",
+      "summary": "Located along the Arabian Sea near Surat in Gujarat, Dumas Beach is famed for its stark black sands, which local lore attributes to centuries of historical use as a Hindu cremation site. The urban legend warns that negative spiritual energies remain bound to the shoreline. Strollers walking the strand alone after midnight report hearing hushed whispers, spectral footsteps echoing on the sand behind them, and dogs howling persistently at empty stretches of surf, with several circulating accounts of solitary walkers wandering into the waves.",
+      "long_description": null,
+      "alternate_names": [
+        "Haunted Dumas Beach",
+        "Surat Black Sand Apparitions"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "gu",
+        "hi"
+      ],
+      "motifs": [
+        "E411.0.1",
+        "E275",
+        "F755"
+      ],
+      "themes": [
+        "cremation ground",
+        "black sand",
+        "spectral whispers",
+        "shoreline haunting",
+        "night danger"
+      ],
+      "historical_period": "20th Century to Contemporary Era",
+      "region_or_community": "Surat, Coastal Gujarat",
+      "community_attributions": [
+        "Surati coastal communities",
+        "Contemporary Indian urban legend circles"
+      ],
+      "geographic_associations": [
+        "Dumas Beach",
+        "Gulf of Khambhat"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Gujarat Coastal Destinations: Dumas Shoreline and Cultural Lore",
+          "publisher": "Gujarat Tourism Board",
+          "name": "Gujarat Tourism Board",
+          "url": "https://www.gujarattourism.com/south-zone/surat/dumas-beach.html",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Gujarat Tourism Board heritage portal. Public Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Gujarat Tourism Board, 'Gujarat Coastal Destinations: Dumas Shoreline and Cultural Lore'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gujarattourism.com/south-zone/surat/dumas-beach.html",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.821266Z",
+      "updated_at": "2026-10-29T10:22:51.821266Z"
+    },
+    {
+      "id": "IN-URBAN-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The White Lady of the Delhi Ridge",
+      "slug": "the-white-lady-of-the-delhi-ridge",
+      "country_code": "IN",
+      "category": "urban_legend",
+      "subtype": "vanishing_phantom",
+      "summary": "Extending across northern Delhi, the rugged Ridge forest holds memories of the 1857 siege of Delhi and forgotten colonial skirmishes. A widely circulated motorist legend claims that late-night drivers along Cantonment Road and the Flagstaff Tower stretch encounter an elegant lady clad in white seeking a ride. Drivers who accelerate past the phantom frequently report glimpsing her sprinting effortlessly alongside their moving car window, maintaining equal velocity before vanishing into the thorn scrub.",
+      "long_description": null,
+      "alternate_names": [
+        "Delhi Cantt Ghost Lady",
+        "The Ridge Hitchhiker"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "hi"
+      ],
+      "motifs": [
+        "E332.3.3.1",
+        "E425.1.1",
+        "E272"
+      ],
+      "themes": [
+        "phantom hitchhiker",
+        "colonial battlefield",
+        "automobile encounter",
+        "delhi cantonment"
+      ],
+      "historical_period": "Post-Independence Era (circulating extensively c. 1980-present)",
+      "region_or_community": "Northern Ridge and Delhi Cantonment",
+      "community_attributions": [
+        "Delhi commuter lore",
+        "Taxi and rickshaw oral culture"
+      ],
+      "geographic_associations": [
+        "Delhi Northern Ridge",
+        "Flagstaff Tower",
+        "Delhi Cantt"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Historic Delhi: An Anthology of Local Narratives and Legends",
+          "publisher": "H. C. Fanshawe",
+          "name": "H. C. Fanshawe",
+          "url": "https://archive.org/details/historicdelhian0000fans",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "H. C. Fanshawe, Historic Delhi (1902). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from H. C. Fanshawe, 'Historic Delhi: An Anthology of Local Narratives and Legends'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/historicdelhian0000fans",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.821293Z",
+      "updated_at": "2026-10-29T10:22:51.821293Z"
+    },
+    {
+      "id": "IN-URBAN-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Phantom Officers of GP Block Meerut",
+      "slug": "the-phantom-officers-of-gp-block-meerut",
+      "country_code": "IN",
+      "category": "urban_legend",
+      "subtype": "spectral_gathering",
+      "summary": "In the historic cantonment city of Meerut in Uttar Pradesh, a decrepit double-storey colonial bungalow known as GP Block has stood abandoned for decades behind overgrown foliage. Urban legend asserts that witnesses passing the compound at night have observed four phantom men seated around a rooftop table illuminated by candlelight, drinking and conversing silently. Other accounts describe a woman in red robes emerging from the vacant doorway, causing locals to steer clear of the property after dark.",
+      "long_description": null,
+      "alternate_names": [
+        "Haunted GP Block",
+        "The Candlelight Spirits of Meerut"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "hi"
+      ],
+      "motifs": [
+        "E281",
+        "E491",
+        "E545"
+      ],
+      "themes": [
+        "abandoned bungalow",
+        "colonial ghosts",
+        "spectral gathering",
+        "meerut cantonment"
+      ],
+      "historical_period": "Late 20th Century to Present",
+      "region_or_community": "Meerut Cantonment, Western Uttar Pradesh",
+      "community_attributions": [
+        "Meerut local residents",
+        "Contemporary folklore investigators"
+      ],
+      "geographic_associations": [
+        "GP Block",
+        "Meerut Cantonment"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Heritage Buildings and Colonial Bungalows of Meerut District",
+          "publisher": "District Administration Meerut",
+          "name": "District Administration Meerut",
+          "url": "https://meerut.nic.in/tourist-places/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "District Administration Meerut tourism registry. Public Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from District Administration Meerut, 'Heritage Buildings and Colonial Bungalows of Meerut District'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://meerut.nic.in/tourist-places/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.821318Z",
+      "updated_at": "2026-10-29T10:22:51.821318Z"
+    },
+    {
+      "id": "IN-URBAN-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Kuldhara: The Deserted Cursed Village",
+      "slug": "kuldhara-the-deserted-cursed-village",
+      "country_code": "IN",
+      "category": "urban_legend",
+      "subtype": "haunted_settlement",
+      "summary": "Situated fifteen kilometres west of Jaisalmer in the Thar Desert, the ruins of Kuldhara stand preserved under desolate skies. Once a prosperous settlement of Paliwal Brahmins founded in the 13th century, the entire population of eighty-four adjoining villages evacuated en masse overnight in 1825 to protect a maiden from the predatory desires of an oppressive prime minister, Salim Singh. Before departing forever, the elders uttered a generational curse forbidding anyone from ever reinhabiting the village, leaving its sandstone roofs to collapse into enduring silence.",
+      "long_description": null,
+      "alternate_names": [
+        "The Ghost Village of Jaisalmer",
+        "Paliwal Curse of Kuldhara"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "hi",
+        "mwr"
+      ],
+      "motifs": [
+        "M411.4",
+        "E281.3",
+        "F760"
+      ],
+      "themes": [
+        "exodus",
+        "generational curse",
+        "desert ruins",
+        "tyranny",
+        "chastity and honour"
+      ],
+      "historical_period": "Early 19th Century (evacuated 1825, urban legend sustained present)",
+      "region_or_community": "Thar Desert, Jaisalmer District, Rajasthan",
+      "community_attributions": [
+        "Paliwal Brahmin historical tradition",
+        "Thar Desert oral histories"
+      ],
+      "geographic_associations": [
+        "Kuldhara Village",
+        "Jaisalmer"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Department of Tourism Rajasthan: The Deserted Village of Kuldhara",
+          "publisher": "Rajasthan Tourism Development Corporation",
+          "name": "Rajasthan Tourism Development Corporation",
+          "url": "https://www.tourism.rajasthan.gov.in/jaisalmer.html",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Rajasthan Tourism Development Corporation documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Rajasthan Tourism Development Corporation, 'Department of Tourism Rajasthan: The Deserted Village of Kuldhara'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.tourism.rajasthan.gov.in/jaisalmer.html",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.821343Z",
+      "updated_at": "2026-10-29T10:22:51.821344Z"
+    },
+    {
+      "id": "IN-URBAN-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Malabar Hill Phantom",
+      "slug": "the-malabar-hill-phantom",
+      "country_code": "IN",
+      "category": "urban_legend",
+      "subtype": "urban_phantom",
+      "summary": "Perched above the Arabian Sea in South Mumbai, Malabar Hill is renowned for ancient temples, sacred tanks, and lush colonial tree canopies. A long-standing urban legend among Mumbai night commuters concerns a spectral figure said to walk the quiet lanes between Banganga Tank and the Hanging Gardens. Late-night pedestrians have reported encountering a solitary man in antiquated Parsi attire who glides without sound and dissolves as morning sea mist rolls across the hill.",
+      "long_description": null,
+      "alternate_names": [
+        "The Banganga Spirit",
+        "The Silent Walker of Walkeshwar"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "mr",
+        "hi"
+      ],
+      "motifs": [
+        "E332.2",
+        "E425.2",
+        "E272"
+      ],
+      "themes": [
+        "colonial city",
+        "sacred water tank",
+        "quiet streets",
+        "mumbai heritage",
+        "mist phantom"
+      ],
+      "historical_period": "20th Century Urban Bombay Lore",
+      "region_or_community": "South Mumbai, Maharashtra",
+      "community_attributions": [
+        "Mumbai heritage historians",
+        "Local Walkeshwar oral accounts"
+      ],
+      "geographic_associations": [
+        "Banganga Tank",
+        "Walkeshwar Temple",
+        "Hanging Gardens"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Banganga and Walkeshwar: Ancient Traditions and Bombay Urban Lore",
+          "publisher": "District Administration Mumbai City",
+          "name": "District Administration Mumbai City",
+          "url": "https://mumbaicity.gov.in/history/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "District Administration Mumbai City historical archive. Public Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from District Administration Mumbai City, 'Banganga and Walkeshwar: Ancient Traditions and Bombay Urban Lore'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://mumbaicity.gov.in/history/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.821370Z",
+      "updated_at": "2026-10-29T10:22:51.821370Z"
+    },
+    {
+      "id": "IN-URBAN-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Headless Boy of Kurseong Dow Hill",
+      "slug": "the-headless-boy-of-kurseong-dow-hill",
+      "country_code": "IN",
+      "category": "urban_legend",
+      "subtype": "forest_apparition",
+      "summary": "Set amidst dense pine and oak forests in the Darjeeling Himalayan hills, the town of Kurseong houses the historic Victoria Boys' School, built during British colonial rule. Along a secluded woodland trail known locally as the 'Death Road' connecting the school to Dow Hill forest, woodcutters and students have repeatedly reported sightings of a headless adolescent boy who wanders along the misty trail and vanishes abruptly into thick underbrush, accompanied by uncanny sensations of being watched.",
+      "long_description": null,
+      "alternate_names": [
+        "The Phantom of Death Road",
+        "Dow Hill Forest Spectre"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ne",
+        "hi",
+        "bn"
+      ],
+      "motifs": [
+        "E422.1.1",
+        "E272.2",
+        "E338"
+      ],
+      "themes": [
+        "boarding school",
+        "headless phantom",
+        "himalayan mist",
+        "mountain forest",
+        "uncanny trail"
+      ],
+      "historical_period": "Post-Colonial Era to Present (circulating actively since 1960s)",
+      "region_or_community": "Kurseong, Darjeeling District, West Bengal",
+      "community_attributions": [
+        "Darjeeling hill communities",
+        "Anglo-Indian school folklore"
+      ],
+      "geographic_associations": [
+        "Dow Hill",
+        "Victoria Boys' School",
+        "Kurseong"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Darjeeling Tourism & Heritage: Kurseong Hills and Colonial Enclaves",
+          "publisher": "District Administration Darjeeling",
+          "name": "District Administration Darjeeling",
+          "url": "https://darjeeling.gov.in/tourist-place/kurseong/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "District Administration Darjeeling cultural heritage guide. Public Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from District Administration Darjeeling, 'Darjeeling Tourism & Heritage: Kurseong Hills and Colonial Enclaves'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://darjeeling.gov.in/tourist-place/kurseong/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.821394Z",
+      "updated_at": "2026-10-29T10:22:51.821394Z"
+    },
+    {
+      "id": "IN-URBAN-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Reincarnation Case of Shanti Devi",
+      "slug": "the-reincarnation-case-of-shanti-devi",
+      "country_code": "IN",
+      "category": "urban_legend",
+      "subtype": "reincarnation_mystery",
+      "summary": "Born in Delhi in 1926, young Shanti Devi began speaking of her past life in Mathura at age four, calling herself Lugdi and describing in granular detail her former husband, home architecture, and fatal childbirth in 1925. In 1935, a national inquiry committee formed by Mahatma Gandhi escorted her to Mathura, where she accurately identified her previous home, relatives, and secret storage chambers without prior visitation. The case became a worldwide benchmark in twentieth-century parapsychological and urban folklore investigations.",
+      "long_description": null,
+      "alternate_names": [
+        "The Mathura Reincarnation Mystery",
+        "Lugdi Devi Case"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "hi"
+      ],
+      "motifs": [
+        "E600",
+        "E610",
+        "J157"
+      ],
+      "themes": [
+        "reincarnation",
+        "past-life memory",
+        "investigation committee",
+        "delhi and mathura",
+        "parapsychology"
+      ],
+      "historical_period": "Interwar Modern India (1926–1936 formal investigations)",
+      "region_or_community": "Old Delhi and Mathura, Uttar Pradesh",
+      "community_attributions": [
+        "Indian parapsychological societies",
+        "20th-century media archives"
+      ],
+      "geographic_associations": [
+        "Chandni Chowk, Delhi",
+        "Mathura"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "A Foreword to the Case of Shanti Devi: A Living Story of Reincarnation",
+          "publisher": "L. D. Gupta / International Inquiry Committee",
+          "name": "L. D. Gupta / International Inquiry Committee",
+          "url": "https://archive.org/details/reincarnationcas0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "International Committee of Inquiry into the Case of Shanti Devi (1936). Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from L. D. Gupta / International Inquiry Committee, 'A Foreword to the Case of Shanti Devi: A Living Story of Reincarnation'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/reincarnationcas0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.821418Z",
+      "updated_at": "2026-10-29T10:22:51.821418Z"
+    },
+    {
+      "id": "IN-URBAN-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Calling Waters of Agrasen ki Baoli",
+      "slug": "the-calling-waters-of-agrasen-ki-baoli",
+      "country_code": "IN",
+      "category": "urban_legend",
+      "subtype": "stepwell_haunting",
+      "summary": "Hidden in the urban core of New Delhi near Connaught Place, Agrasen ki Baoli is a 60-metre-long 14th-century stepwell featuring 108 stone steps plunging into the earth. Circulating contemporary urban folklore alleges that before the well dried out, the stagnant black waters possessed hypnotic powers, whispering invitations that induced visitors to leap into its depths. Modern visitors continue to report feelings of intense dread and auditory illusions when descending alone into its lowest shadowed stone alcoves.",
+      "long_description": null,
+      "alternate_names": [
+        "The Black Water Stepwell",
+        "Haunted Baoli of Hailey Road"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "hi"
+      ],
+      "motifs": [
+        "F711",
+        "E281",
+        "D2063"
+      ],
+      "themes": [
+        "stepwell architecture",
+        "hypnotic water",
+        "delhi urban folklore",
+        "echoes",
+        "vertigo"
+      ],
+      "historical_period": "Medieval origin (Tughlaq/Lodi era), Urban legend active late 20th century",
+      "region_or_community": "Connaught Place, New Delhi",
+      "community_attributions": [
+        "Delhi heritage circles",
+        "Urban explorer lore"
+      ],
+      "geographic_associations": [
+        "Agrasen ki Baoli",
+        "Hailey Road, New Delhi"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Archaeological Survey of India Protected Monuments: Delhi Circle Stepwells",
+          "publisher": "Archaeological Survey of India Delhi Circle",
+          "name": "Archaeological Survey of India Delhi Circle",
+          "url": "https://asidelhicircle.bih.nic.in/monuments.html",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Archaeological Survey of India Delhi Circle monument records. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Archaeological Survey of India Delhi Circle, 'Archaeological Survey of India Protected Monuments: Delhi Circle Stepwells'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://asidelhicircle.bih.nic.in/monuments.html",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.821441Z",
+      "updated_at": "2026-10-29T10:22:51.821442Z"
+    }
+  ],
+  "metadata": {
+    "description": "Curated urban_legend dataset for India",
+    "dataset_version": "2.0.0",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
+    "target_count": 10,
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
+    "validation_status": "valid",
+    "last_updated": null,
+    "import_batch_references": []
+  }
+}

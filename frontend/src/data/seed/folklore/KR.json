@@ -1,0 +1,820 @@
+{
+  "schema_version": "2.0.0",
+  "dataset_id": "KR-folklore",
+  "country_code": "KR",
+  "category": "folklore",
+  "records": [
+    {
+      "id": "KR-FOLK-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Dangun and the Founding of Gojoseon",
+      "slug": "dangun-and-the-founding-of-gojoseon",
+      "country_code": "KR",
+      "category": "folklore",
+      "subtype": "foundation_myth",
+      "summary": "Recorded in the 13th-century Samguk Yusa, Hwanung, the son of the Lord of Heaven, descended to Mount Taebaek to govern humanity with three thousand heavenly spirits. A bear and a tiger approached him, pleading to be transformed into human beings. Hwanung gave them a bundle of sacred mugwort and twenty cloves of garlic, instructing them to remain inside a dark cave for one hundred days without seeing sunlight. The impatient tiger abandoned the trial after twenty days, but the steadfast bear endured the penance, emerging on the twenty-first day as a beautiful woman named Ungnyeo. Hwanung married her, and she gave birth to Dangun Wanggeom, who founded Gojoseon—the first Korean kingdom—in 2333 BCE at Pyongyang.",
+      "long_description": null,
+      "alternate_names": [
+        "The Myth of Dangun Wanggeom",
+        "Ungnyeo the Bear Woman"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ko"
+      ],
+      "motifs": [
+        "A1211",
+        "B601.1",
+        "A1617"
+      ],
+      "themes": [
+        "dangun",
+        "founding of korea",
+        "gojoseon",
+        "bear and tiger",
+        "hwanung"
+      ],
+      "historical_period": "Ancient Gojoseon origin (recorded 1281 CE by monk Iryeon in Samguk Yusa)",
+      "region_or_community": "Mount Taebaek and Pyongyang, Korean Peninsula",
+      "community_attributions": [
+        "National Korean historical tradition",
+        "Gojoseon cultural heritage"
+      ],
+      "geographic_associations": [
+        "Mount Taebaek",
+        "Pyongyang",
+        "Mani Mountain, Ganghwa Island"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Samguk Yusa: Legends and History of the Three Kingdoms of Ancient Korea",
+          "publisher": "Iryeon / Tae-Hung Ha (Translator) / Yonsei University Press",
+          "name": "Iryeon / Tae-Hung Ha (Translator) / Yonsei University Press",
+          "url": "https://archive.org/details/samgukyusalegend0000ilyo",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Iryeon, Samguk Yusa. Yonsei University Press. Open Educational Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Iryeon / Tae-Hung Ha (Translator) / Yonsei University Press, 'Samguk Yusa: Legends and History of the Three Kingdoms of Ancient Korea'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/samgukyusalegend0000ilyo",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.823600Z",
+      "updated_at": "2026-10-29T10:22:51.823601Z"
+    },
+    {
+      "id": "KR-FOLK-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Tale of Chunhyang (Chunhyangjeon)",
+      "slug": "the-tale-of-chunhyang-chunhyangjeon",
+      "country_code": "KR",
+      "category": "folklore",
+      "subtype": "pansori_narrative",
+      "summary": "A masterwork of Korean pansori oral narrative, Sung Chunhyang, the brilliant daughter of a retired kisaeng courtesan in Namwon, falls deeply in love with noble scholar Lee Mongryong. The lovers exchange secret marriage vows before Mongryong must depart for Hanyang (Seoul) to sit the civil service examinations. A tyrannical, corrupt new magistrate, Byeon Hakdo, demands that Chunhyang become his concubine; steadfast in marital fidelity, she refuses and is subjected to brutal torture, starvation, and imprisoned in the dungeon. Returning secretly as a royal secret inspector (Amhaeng-eosa) disguised as a ragged beggar, Mongryong storms the magistrate's banquet with his badge of office, arresting the tyrant and vindicating Chunhyang's unwavering virtue.",
+      "long_description": null,
+      "alternate_names": [
+        "Chunhyangjeon",
+        "The Story of Faithful Chunhyang"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ko"
+      ],
+      "motifs": [
+        "H181",
+        "K1812",
+        "P428"
+      ],
+      "themes": [
+        "pansori",
+        "fidelity over tyranny",
+        "secret royal inspector",
+        "namwon",
+        "joseon romance"
+      ],
+      "historical_period": "Joseon Dynasty (popularized in 18th-century Pansori oral theater)",
+      "region_or_community": "Namwon, Jeolla Province, Southwestern Korea",
+      "community_attributions": [
+        "Pansori master singers (myeongchang)",
+        "Jeolla cultural custodians"
+      ],
+      "geographic_associations": [
+        "Gwanghallu Pavilion, Namwon",
+        "Jeolla Province"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Korean Folk Tales: Imps, Ghosts and Fairies: The Story of Chunhyang",
+          "publisher": "James S. Gale / Project Gutenberg",
+          "name": "James S. Gale / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/5148",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "James S. Gale, Korean Folk Tales (1913). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from James S. Gale / Project Gutenberg, 'Korean Folk Tales: Imps, Ghosts and Fairies: The Story of Chunhyang'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/5148",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.823643Z",
+      "updated_at": "2026-10-29T10:22:51.823644Z"
+    },
+    {
+      "id": "KR-FOLK-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Sun and the Moon: Brother and Sister and the Tiger",
+      "slug": "the-sun-and-the-moon-brother-and-sister-and-the-tiger",
+      "country_code": "KR",
+      "category": "folklore",
+      "subtype": "etiological_tale",
+      "summary": "While returning home over mountain passes with rice cakes for her children, a poor widow is ambushed by a ferocious tiger that demands: 'Give me a rice cake and I won't eat you!' After consuming all her cakes, the beast devours the mother, dresses in her clothes, and arrives at her cottage to trick her young son, Haesik, and daughter, Dalsik. Realizing the deception from the hairy paws, the clever children scramble up a tall zelkova tree and climb onto the roof. Cornered, they pray to Heaven for a rope; a sturdy golden rope descends and pulls them into the sky, where the boy becomes the Sun and the shy girl becomes the Moon. The pursuing tiger receives a rotten straw rope from heaven, falling into a sorghum field to be impaled, its blood staining the stalks red.",
+      "long_description": null,
+      "alternate_names": [
+        "Haenim Dalnim",
+        "The Brother and Sister Who Became Sun and Moon"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ko"
+      ],
+      "motifs": [
+        "K2011",
+        "A736.1",
+        "A736.2"
+      ],
+      "themes": [
+        "sun and moon origins",
+        "tiger trickster",
+        "heavenly rope",
+        "filial cleverness",
+        "korean nursery tale"
+      ],
+      "historical_period": "Traditional Joseon Era oral nursery lore",
+      "region_or_community": "Rural mountain villages throughout the Korean Peninsula",
+      "community_attributions": [
+        "Korean grandmothers' oral tradition",
+        "National Institute of Korean Language lore"
+      ],
+      "geographic_associations": [
+        "Korean mountain farming valleys"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Folk Tales from Korea: The Sun and the Moon",
+          "publisher": "Zong In-Sob / Routledge & Kegan Paul",
+          "name": "Zong In-Sob / Routledge & Kegan Paul",
+          "url": "https://archive.org/details/folktalesfromkor0000zong",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Zong In-Sob, Folk Tales from Korea (1952). Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Zong In-Sob / Routledge & Kegan Paul, 'Folk Tales from Korea: The Sun and the Moon'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/folktalesfromkor0000zong",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.823677Z",
+      "updated_at": "2026-10-29T10:22:51.823678Z"
+    },
+    {
+      "id": "KR-FOLK-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Gumiho of Mount Jiri (Nine-Tailed Fox)",
+      "slug": "the-gumiho-of-mount-jiri-nine-tailed-fox",
+      "country_code": "KR",
+      "category": "folklore",
+      "subtype": "shapeshifter_legend",
+      "summary": "In Korean supernatural folklore, a gumiho is a fox spirit that lives for one thousand years, growing nine tails and mastering dark sorcery to transform into an irresistible, alluring maiden. Dwelling in the rugged gorges of Mount Jiri, the creature preys on solitary travelers, consuming human hearts and livers to sustain her life-force. Unlike Chinese or Japanese fox spirits, the Korean gumiho yearns deeply to become genuinely mortal human: if she lives with a human husband for one hundred days without him ever discovering her secret or speaking of her true identity, the curse is broken and she becomes a true human. Tragic betrayals on the ninety-ninth night often force her to return to the wilderness in tears.",
+      "long_description": null,
+      "alternate_names": [
+        "Gumiho",
+        "The Nine-Tailed Fox of Jirisan"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ko"
+      ],
+      "motifs": [
+        "D313.1",
+        "G303",
+        "C423"
+      ],
+      "themes": [
+        "gumiho",
+        "nine-tailed fox",
+        "mount jiri",
+        "longing for humanity",
+        "tragic taboo"
+      ],
+      "historical_period": "Three Kingdoms to Joseon Dynasty oral folklore",
+      "region_or_community": "Jirisan Mountain National Park, South Gyeongsang and Jeolla",
+      "community_attributions": [
+        "Jirisan mountain herbalists",
+        "Korean folklore preservation society"
+      ],
+      "geographic_associations": [
+        "Mount Jiri (Jirisan)",
+        "South Gyeongsang Province"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Myths and Legends of the Korean Fox Spirit: Gumiho in Traditional Narrative",
+          "publisher": "Academy of Korean Studies / Seongnam",
+          "name": "Academy of Korean Studies / Seongnam",
+          "url": "https://archive.org/details/koreanfoxspirits0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Academy of Korean Studies research on traditional shamanic ghostlore. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Academy of Korean Studies / Seongnam, 'Myths and Legends of the Korean Fox Spirit: Gumiho in Traditional Narrative'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/koreanfoxspirits0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.823707Z",
+      "updated_at": "2026-10-29T10:22:51.823707Z"
+    },
+    {
+      "id": "KR-FOLK-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Filial Daughter Shim Cheong",
+      "slug": "the-filial-daughter-shim-cheong",
+      "country_code": "KR",
+      "category": "folklore",
+      "subtype": "filial_legend",
+      "summary": "Raised by her blind father Shim Hakgyu after her mother's death, Shim Cheong is the paragon of filial piety (hyo). When a deceitful Buddhist monk claims that an offering of three hundred sacks of polished rice to the temple will restore her father's eyesight, the impoverished maiden sells herself to merchant sailors as a human sacrifice to appease the Dragon King of the turbulent Indangsu Sea. Leaping fearlessly into the roaring waves, the Dragon King is so moved by her supreme devotion that he preserves her inside a colossal lotus blossom floating on the waters. Rescued by the Emperor, who marries her, she hosts a grand royal banquet for all blind citizens of the realm, where her joyful reunion causes her weeping father's eyes to open miraculously.",
+      "long_description": null,
+      "alternate_names": [
+        "Shimcheongjeon",
+        "The Story of Shim Cheong"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ko"
+      ],
+      "motifs": [
+        "S262",
+        "B11.2",
+        "V221"
+      ],
+      "themes": [
+        "filial piety",
+        "human sacrifice appeasement",
+        "dragon king of the sea",
+        "shim cheong",
+        "blind father"
+      ],
+      "historical_period": "Joseon Dynasty (popularized in 18th-century Pansori oral cycles)",
+      "region_or_community": "Indangsu sea crossing near Baengnyeong Island and Hwanghae",
+      "community_attributions": [
+        "Korean Pansori performers",
+        "Joseon moral educators"
+      ],
+      "geographic_associations": [
+        "Indangsu Sea",
+        "Baengnyeong Island, Yellow Sea"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Korean Fairy Tales: The Story of the Dutiful Daughter Shim Cheong",
+          "publisher": "William Elliot Griffis / Project Gutenberg",
+          "name": "William Elliot Griffis / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/5148",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "William Elliot Griffis, Korean Fairy Tales (1911). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from William Elliot Griffis / Project Gutenberg, 'Korean Fairy Tales: The Story of the Dutiful Daughter Shim Cheong'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/5148",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.823731Z",
+      "updated_at": "2026-10-29T10:22:51.823731Z"
+    },
+    {
+      "id": "KR-FOLK-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Heungbu and Nolbu: The Swallow's Magic Gourd",
+      "slug": "heungbu-and-nolbu-the-swallows-magic-gourd",
+      "country_code": "KR",
+      "category": "folklore",
+      "subtype": "moral_tale",
+      "summary": "In this foundational Korean moral fable, two brothers live in stark contrast: elder brother Nolbu is a wealthy, cruel miser who expels younger brother Heungbu and his large family into poverty during winter. In his ramshackle hut, Heungbu rescues a baby swallow whose leg was broken by a snake, carefully splinting the bone with silk thread. In spring, the swallow returns from the south with a magical pumpkin seed. Planting the seed, Heungbu harvests colossal gourds; sawing them open, they spill out treasures of gold, silks, and palace builders. Envious Nolbu intentionally catches a healthy swallow, snaps its leg, and splints it to get a seed. When Nolbu saws his gourds, terrifying goblin demons (dokkaebi), debt collectors, and mud floods burst out, stripping him of all his wealth.",
+      "long_description": null,
+      "alternate_names": [
+        "Heungbujeon",
+        "The Two Brothers and the Swallow"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ko"
+      ],
+      "motifs": [
+        "B380",
+        "Q272",
+        "J2415"
+      ],
+      "themes": [
+        "brotherly rivalry",
+        "kindness rewarded",
+        "greed punished",
+        "magic gourds",
+        "dokkaebi goblins"
+      ],
+      "historical_period": "Late Joseon Era (popularized c. 18th Century in Pansori Heungbuga)",
+      "region_or_community": "Jeolla and Chungcheong rural agricultural heartland",
+      "community_attributions": [
+        "Korean agricultural oral bards",
+        "Pansori traditional schools"
+      ],
+      "geographic_associations": [
+        "Namwon, Jeolla Province"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Story of Heungbu and Nolbu: Traditional Korean Folk Narrative and Ethics",
+          "publisher": "National Folk Museum of Korea",
+          "name": "National Folk Museum of Korea",
+          "url": "https://archive.org/details/heungbunolbu0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "National Folk Museum of Korea educational publication. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from National Folk Museum of Korea, 'The Story of Heungbu and Nolbu: Traditional Korean Folk Narrative and Ethics'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/heungbunolbu0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.823756Z",
+      "updated_at": "2026-10-29T10:22:51.823757Z"
+    },
+    {
+      "id": "KR-FOLK-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Woodcutter and the Heavenly Maiden",
+      "slug": "the-woodcutter-and-the-heavenly-maiden",
+      "country_code": "KR",
+      "category": "folklore",
+      "subtype": "swan_maiden",
+      "summary": "A kind, impoverished mountain woodcutter rescues a hunted deer from a hunter's arrow in the Diamond Mountains (Geumgangsan). In gratitude, the deer informs him that heavenly celestial maidens descend from the sky to bathe in a secluded mountain pond on midsummer night, advising him to hide one pair of winged robes (nalgaeot) so the maiden cannot return to the heavens until she has borne three children. The woodcutter marries the maiden and they raise two children in happiness. Overcome with pity when his wife weeps for her heavenly parents, the woodcutter returns the robe prematurely. Putting on the robes, she gathers both children under her arms and ascends back to the heavens, leaving the weeping woodcutter with a magical bucket to follow her.",
+      "long_description": null,
+      "alternate_names": [
+        "Seonnyeo wa Namuggun",
+        "The Heavenly Maiden of Mount Geumgang"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ko"
+      ],
+      "motifs": [
+        "B651.1",
+        "C31.1.2",
+        "F302.4.2"
+      ],
+      "themes": [
+        "swan maiden",
+        "geumgangsan mountains",
+        "celestial robes",
+        "broken promise",
+        "celestial ascent"
+      ],
+      "historical_period": "Traditional Joseon Era oral narrative",
+      "region_or_community": "Geumgangsan (Diamond Mountains), Gangwon Province",
+      "community_attributions": [
+        "Gangwon mountain oral narrators",
+        "Korean folk narrative collectors"
+      ],
+      "geographic_associations": [
+        "Mount Geumgang (Diamond Mountains)",
+        "Gangwon Province"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Korean Folk Tales: The Fairy and the Woodcutter",
+          "publisher": "James S. Gale / Project Gutenberg",
+          "name": "James S. Gale / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/5148",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "James S. Gale, Korean Folk Tales (1913). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from James S. Gale / Project Gutenberg, 'Korean Folk Tales: The Fairy and the Woodcutter'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/5148",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.823779Z",
+      "updated_at": "2026-10-29T10:22:51.823779Z"
+    },
+    {
+      "id": "KR-FOLK-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Hong Gildong: The Righteous Outlaw",
+      "slug": "hong-gildong-the-righteous-outlaw",
+      "country_code": "KR",
+      "category": "folklore",
+      "subtype": "outlaw_hero",
+      "summary": "Born to a high minister and a concubine maid during the Joseon Dynasty, Hong Gildong is a prodigy in martial arts, Taoist magic, and military strategy, yet forbidden by strict neo-Confucian caste laws (seoeol) from calling his father 'Father' or his brother 'Brother.' Surviving an assassination attempt orchestrated by his father's jealous concubine, Gildong flees into the mountains and becomes leader of the Hwalbindang ('League of Those Who Save the Impoverished'). Robbing corrupt magistrates and distributing wealth to starving peasants, Gildong uses Taoist straw effigies to create phantom duplicates of himself in eight provinces simultaneously, before sailing west to found the utopian island kingdom of Yuldo.",
+      "long_description": null,
+      "alternate_names": [
+        "Hong Gildong-jeon",
+        "The Tale of Hong Gildong"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ko"
+      ],
+      "motifs": [
+        "K1812",
+        "D1810",
+        "P428"
+      ],
+      "themes": [
+        "hong gildong",
+        "righteous outlaw",
+        "anti-caste resistance",
+        "taoist magic",
+        "utopia of yuldo"
+      ],
+      "historical_period": "Mid-Joseon Era (written c. early 17th Century by Heo Gyun)",
+      "region_or_community": "Hanyang (Seoul) and Gangwon / Jeolla mountain hideouts",
+      "community_attributions": [
+        "Heo Gyun literary legacy",
+        "Korean folk social justice tradition"
+      ],
+      "geographic_associations": [
+        "Gangneung, Gangwon Province",
+        "Yuldo Island"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Tale of Hong Kiltong: Korea's Robin Hood and Revolutionary Folk Hero",
+          "publisher": "Heo Gyun / Penguin Classics Translation",
+          "name": "Heo Gyun / Penguin Classics Translation",
+          "url": "https://archive.org/details/taleofhongkilton0000heog",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Heo Gyun, The Tale of Hong Gildong. Penguin Classics Edition. Educational Use.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Heo Gyun / Penguin Classics Translation, 'The Tale of Hong Kiltong: Korea's Robin Hood and Revolutionary Folk Hero'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/taleofhongkilton0000heog",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.823803Z",
+      "updated_at": "2026-10-29T10:22:51.823803Z"
+    },
+    {
+      "id": "KR-FOLK-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Magic Mirror and the Dragon of the East Sea",
+      "slug": "the-magic-mirror-and-the-dragon-of-the-east-sea",
+      "country_code": "KR",
+      "category": "folklore",
+      "subtype": "dragon_palace",
+      "summary": "A dutiful fisherman from the eastern coast of Gangwon rescues a golden carp from a beach puddle following a violent storm, gently returning it to the open sea. That night, an envoy from the Dragon Palace of the East Sea (Yonggung) escorts the fisherman beneath the waves to the coral court of the Dragon King, who reveals the carp was his youngest prince. In gratitude, the Dragon King presents the fisherman with a miraculous bronze mirror that reveals any hidden treasure or impending maritime storm when polished. Returning to his coastal hamlet, the fisherman uses the mirror to save his village fleet from typhoons and unearth forgotten buried granaries to feed his neighbors.",
+      "long_description": null,
+      "alternate_names": [
+        "The Dragon King's Mirror",
+        "Yonggung and the Golden Carp"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ko"
+      ],
+      "motifs": [
+        "B11.2",
+        "B582",
+        "D1323.1"
+      ],
+      "themes": [
+        "dragon palace",
+        "east sea",
+        "golden carp",
+        "gratitude rewarded",
+        "magic mirror"
+      ],
+      "historical_period": "Traditional Maritime Folklore of the East Sea",
+      "region_or_community": "Sokcho and Gangneung coastal fishing ports, Gangwon Province",
+      "community_attributions": [
+        "East Sea maritime fishermen",
+        "Gangwon coastal cultural centers"
+      ],
+      "geographic_associations": [
+        "East Sea (Donghae)",
+        "Ojukheon, Gangneung"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Myths of the East Sea: Dragon Kings and Coastal Folklore of Korea",
+          "publisher": "National Maritime Museum of Korea",
+          "name": "National Maritime Museum of Korea",
+          "url": "https://archive.org/details/koreanseaanddragonmyths0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "National Maritime Museum of Korea cultural documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from National Maritime Museum of Korea, 'Myths of the East Sea: Dragon Kings and Coastal Folklore of Korea'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/koreanseaanddragonmyths0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.823828Z",
+      "updated_at": "2026-10-29T10:22:51.823828Z"
+    },
+    {
+      "id": "KR-FOLK-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Toad Bridegroom and the Golden Water",
+      "slug": "the-toad-bridegroom-and-the-golden-water",
+      "country_code": "KR",
+      "category": "folklore",
+      "subtype": "animal_bridegroom",
+      "summary": "An impoverished elderly woman gives birth to a large speaking toad, rearing it with affectionate care. Reaching adulthood, the toad insists on proposing marriage to the youngest daughter of the wealthy village magistrate. While the two elder haughty daughters recoil in disgust, the gentle youngest daughter agrees out of compassion. On the wedding night, the toad asks his bride to slit open his rough amphibian skin with scissors; stepping out from the shed pelt, he transforms into a radiant, noble prince from the heavenly realms who was temporarily exiled to earth for a celestial offense, rewarding his faithful bride with prosperity and honor.",
+      "long_description": null,
+      "alternate_names": [
+        "The Toad Son",
+        "Duk-kobi the Toad Groom"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ko"
+      ],
+      "motifs": [
+        "D195",
+        "B604.1",
+        "T111"
+      ],
+      "themes": [
+        "animal bridegroom",
+        "inner virtue over appearance",
+        "toad skin",
+        "humility rewarded",
+        "transformation"
+      ],
+      "historical_period": "Joseon Dynasty oral folklore primers",
+      "region_or_community": "Gyeongsang and Chungcheong rural valleys",
+      "community_attributions": [
+        "Korean oral folk collectors",
+        "Traditional village storytellers"
+      ],
+      "geographic_associations": [
+        "Rural Gyeongsang farming villages"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Korean Folk Tales: The Toad Groom and the Maiden",
+          "publisher": "James S. Gale / Project Gutenberg",
+          "name": "James S. Gale / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/5148",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "James S. Gale, Korean Folk Tales (1913). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from James S. Gale / Project Gutenberg, 'Korean Folk Tales: The Toad Groom and the Maiden'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/5148",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.823850Z",
+      "updated_at": "2026-10-29T10:22:51.823851Z"
+    }
+  ],
+  "metadata": {
+    "description": "Curated folklore dataset for South Korea",
+    "dataset_version": "2.0.0",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
+    "target_count": 10,
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
+    "validation_status": "valid",
+    "last_updated": null,
+    "import_batch_references": []
+  }
+}

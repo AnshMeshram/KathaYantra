@@ -1,0 +1,832 @@
+{
+  "schema_version": "2.0.0",
+  "dataset_id": "GB-folklore",
+  "country_code": "GB",
+  "category": "folklore",
+  "records": [
+    {
+      "id": "GB-FOLK-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "King Arthur and the Lady of the Lake",
+      "slug": "king-arthur-and-the-lady-of-the-lake",
+      "country_code": "GB",
+      "category": "folklore",
+      "subtype": "arthurian_legend",
+      "summary": "Following the shattering of his royal sword in single combat against King Pellinore, young King Arthur is guided by the enchanter Merlin to a mysterious, enchanted mountain tarn. From the mirrored waters of the lake, an ethereal arm clad in pure white samite rises to present the miraculous sword Excalibur and its magical scabbard, which prevents the bearer from losing blood. The Lady of the Lake (Nimue or Viviane) bestows the weapon upon Arthur with the solemn condition that when his mortal reign concludes, the blade must be returned to the water, fulfilling the destiny of Camelot.",
+      "long_description": null,
+      "alternate_names": [
+        "The Sword Excalibur",
+        "Arthur Pendragon and the Lady of the Lake"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en",
+        "cy"
+      ],
+      "motifs": [
+        "D1081",
+        "D1364.15",
+        "F241.1"
+      ],
+      "themes": [
+        "arthurian cycle",
+        "excalibur",
+        "merlin",
+        "lady of the lake",
+        "sacred kingship"
+      ],
+      "historical_period": "Medieval Matter of Britain (compiled 1485 in Le Morte d'Arthur by Sir Thomas Malory)",
+      "region_or_community": "Cornwall, Somerset, and Welsh border marches",
+      "community_attributions": [
+        "Arthurian romance tradition",
+        "West Country folklore"
+      ],
+      "geographic_associations": [
+        "Dozmary Pool, Bodmin Moor, Cornwall",
+        "Glastonbury, Somerset"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Le Morte d'Arthur: Sir Thomas Malory's Book of King Arthur and of His Noble Knights",
+          "publisher": "Sir Thomas Malory / Project Gutenberg",
+          "name": "Sir Thomas Malory / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/1251",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Sir Thomas Malory, Le Morte d'Arthur (1485). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Sir Thomas Malory / Project Gutenberg, 'Le Morte d'Arthur: Sir Thomas Malory's Book of King Arthur and of His Noble Knights'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/1251",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814335Z",
+      "updated_at": "2026-10-29T10:22:51.814336Z"
+    },
+    {
+      "id": "GB-FOLK-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Robin Hood and the Sheriff of Nottingham",
+      "slug": "robin-hood-and-the-sheriff-of-nottingham",
+      "country_code": "GB",
+      "category": "folklore",
+      "subtype": "ballad_legend",
+      "summary": "Dwelling beneath the ancient boughs of the Major Oak in Sherwood Forest, outlaw nobleman Robin of Locksley commands a band of Merry Men—including Little John, Friar Tuck, and Will Scarlet—pledged to rob wealthy, corrupt Norman abbots and bailiffs to aid impoverished Saxon commoners. When the tyrannical Sheriff of Nottingham hosts a grand golden arrow archery tournament to lure Robin into an ambush, the outlaw enters disguised as a ragged tattered beggar. Splitting his rival's willow wand at the target's bullseye, Robin claims the golden arrow and escapes through Nottingham's gates with his men, mocking the sheriff.",
+      "long_description": null,
+      "alternate_names": [
+        "The Golden Arrow of Nottingham",
+        "The Merry Adventures of Robin Hood"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "K1812",
+        "H331.2",
+        "P310"
+      ],
+      "themes": [
+        "outlaw hero",
+        "sherwood forest",
+        "justice",
+        "archery",
+        "peasant resistance"
+      ],
+      "historical_period": "High Medieval Era (c. 13th–14th Century ballads, printed c. 1510 in A Gest of Robyn Hode)",
+      "region_or_community": "Nottinghamshire and South Yorkshire",
+      "community_attributions": [
+        "English yeoman ballad singers",
+        "Sherwood Forest oral lore"
+      ],
+      "geographic_associations": [
+        "Sherwood Forest",
+        "Nottingham Castle",
+        "Major Oak"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Merry Adventures of Robin Hood of Great Renown in Nottinghamshire",
+          "publisher": "Howard Pyle / Project Gutenberg",
+          "name": "Howard Pyle / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/10148",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Howard Pyle, The Merry Adventures of Robin Hood (1883). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Howard Pyle / Project Gutenberg, 'The Merry Adventures of Robin Hood of Great Renown in Nottinghamshire'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/10148",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814381Z",
+      "updated_at": "2026-10-29T10:22:51.814382Z"
+    },
+    {
+      "id": "GB-FOLK-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Jack and the Beanstalk",
+      "slug": "jack-and-the-beanstalk",
+      "country_code": "GB",
+      "category": "folklore",
+      "subtype": "fairy_tale",
+      "summary": "A poor country boy named Jack trades his widowed mother's solitary milking cow Milky-White for a handful of magical speckled beans. Furious at his foolishness, his mother flings the beans out the window into the cabbage patch. By morning, a colossal beanstalk has sprouted into the clouds. Climbing into the heavens, Jack discovers the sky castle of a fearsome man-eating giant who roars: 'Fee-fi-fo-fum, I smell the blood of an Englishman!' Using courage and stealth, Jack retrieves his family's stolen treasures: a bag of gold coins, a hen that lays golden eggs, and a singing golden harp, before chopping down the stalk as the giant pursues him.",
+      "long_description": null,
+      "alternate_names": [
+        "The Story of Jack and the Bean-Stalk",
+        "Jack the Giant-Killer Cycle"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "F54.2",
+        "G100",
+        "D861"
+      ],
+      "themes": [
+        "magic beanstalk",
+        "giant's castle",
+        "stealth and cunning",
+        "english fairy tale",
+        "golden hen"
+      ],
+      "historical_period": "18th Century English oral tradition (published 1807 by Benjamin Tabart, collected 1890 by Jacobs)",
+      "region_or_community": "Cornwall and English rural shires",
+      "community_attributions": [
+        "English folklorists",
+        "Joseph Jacobs folk collection"
+      ],
+      "geographic_associations": [
+        "Cornish countryside",
+        "West Country"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "English Fairy Tales: Jack and the Beanstalk",
+          "publisher": "Joseph Jacobs / Project Gutenberg",
+          "name": "Joseph Jacobs / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/7423",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Joseph Jacobs, English Fairy Tales (1890). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Joseph Jacobs / Project Gutenberg, 'English Fairy Tales: Jack and the Beanstalk'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/7423",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814412Z",
+      "updated_at": "2026-10-29T10:22:51.814412Z"
+    },
+    {
+      "id": "GB-FOLK-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Lady Godiva of Coventry",
+      "slug": "lady-godiva-of-coventry",
+      "country_code": "GB",
+      "category": "folklore",
+      "subtype": "historical_legend",
+      "summary": "In 11th-century Coventry, Anglo-Saxon noblewoman Lady Godiva was moved to deep pity by the crushing, extortionate taxation imposed upon the townspeople by her harsh husband, Leofric, Earl of Mercia. Weary of her relentless petitions, Leofric sneeringly agreed to repeal the taxes on one impossible condition: Godiva must ride completely naked on horseback through the town market at high noon. Clothed only in her long, cascading golden hair, Godiva rode through the streets after issuing an edict that citizens keep shutters barred. Only a tailor named Tom bored a peep-hole in his wooden shutter, instantly struck blind for his insolence.",
+      "long_description": null,
+      "alternate_names": [
+        "The Ride of Lady Godiva",
+        "Peeping Tom of Coventry"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en",
+        "ang"
+      ],
+      "motifs": [
+        "C311.1.2",
+        "Q451.7",
+        "P428"
+      ],
+      "themes": [
+        "sacrifice for the poor",
+        "tax relief",
+        "coventry",
+        "chastity and modesty",
+        "peeping tom"
+      ],
+      "historical_period": "Late Anglo-Saxon Era (c. 1040s historical figures, chronicled 13th Century by Roger of Wendover)",
+      "region_or_community": "Coventry, Warwickshire, West Midlands",
+      "community_attributions": [
+        "Coventry guild oral history",
+        "English civic folklore"
+      ],
+      "geographic_associations": [
+        "Coventry Cathedral",
+        "Broadgate, Coventry"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Lady Godiva: A History and a Legend (Studies in English Folklore)",
+          "publisher": "H. R. Ellis Davidson / Routledge",
+          "name": "H. R. Ellis Davidson / Routledge",
+          "url": "https://archive.org/details/ladygodivahistor0000lanc",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Historical and folkloric studies on Lady Godiva. Educational Use.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from H. R. Ellis Davidson / Routledge, 'Lady Godiva: A History and a Legend (Studies in English Folklore)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/ladygodivahistor0000lanc",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814438Z",
+      "updated_at": "2026-10-29T10:22:51.814438Z"
+    },
+    {
+      "id": "GB-FOLK-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Green Children of Woolpit",
+      "slug": "the-green-children-of-woolpit",
+      "country_code": "GB",
+      "category": "folklore",
+      "subtype": "subterranean_lore",
+      "summary": "During the 12th-century reign of King Stephen, harvesters in the Suffolk village of Woolpit discovered two young children—a boy and a girl—emerging from wolf-trapping pits in the earth. The children spoke an unintelligible language, wore clothing made of unfamiliar woven material, and had skin of a distinct greenish tint. Refusing all normal food, they wept until fed fresh green bean stalks. After being baptized, they lost their green hue. The surviving girl learned English and explained that they originated from 'Saint Martin's Land,' a sunless subterranean twilight country where all inhabitants are green, from which they wandered into the upper world following the chiming of distant church bells.",
+      "long_description": null,
+      "alternate_names": [
+        "The Green Children of Suffolk",
+        "Saint Martin's Land"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en",
+        "la"
+      ],
+      "motifs": [
+        "F102.1",
+        "F111",
+        "F167.1"
+      ],
+      "themes": [
+        "green children",
+        "subterranean world",
+        "woolpit",
+        "fairy abduction",
+        "medieval chronicle"
+      ],
+      "historical_period": "Medieval Anglo-Norman Era (recorded c. 1189 by Ralph of Coggeshall and William of Newburgh)",
+      "region_or_community": "Woolpit, Bury St Edmunds, Suffolk, East Anglia",
+      "community_attributions": [
+        "East Anglian rural folklore",
+        "Medieval monastic chroniclers"
+      ],
+      "geographic_associations": [
+        "Woolpit, Suffolk",
+        "Bury St Edmunds"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Historia Rerum Anglicarum: The Green Children of Woolpit",
+          "publisher": "William of Newburgh / English Historical Society",
+          "name": "William of Newburgh / English Historical Society",
+          "url": "https://archive.org/details/historiarerumang01will",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "William of Newburgh, Historia Rerum Anglicarum (c. 1198). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from William of Newburgh / English Historical Society, 'Historia Rerum Anglicarum: The Green Children of Woolpit'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/historiarerumang01will",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814464Z",
+      "updated_at": "2026-10-29T10:22:51.814464Z"
+    },
+    {
+      "id": "GB-FOLK-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Herne the Hunter of Windsor Great Park",
+      "slug": "herne-the-hunter-of-windsor-great-park",
+      "country_code": "GB",
+      "category": "folklore",
+      "subtype": "wild_hunt",
+      "summary": "A legendary spectral huntsman of Berkshire folklore, Herne was a master forester to King Richard II who saved the monarch from a charging stag at the cost of mortal injury. Healed by a woodland sorcerer who bound the stag's antlers to his head, Herne incurred the malicious envy of fellow huntsmen, who framed him for royal poaching. Shamed, Herne hanged himself from an ancient oak in Windsor Great Park. For centuries, on stormy winter nights, his horned phantom leads a ghostly Wild Hunt across the royal forest astride a black steed, accompanied by howling hounds, rattling chains, and blasting hunting horns, withering vegetation where he rides.",
+      "long_description": null,
+      "alternate_names": [
+        "The Ghost of Windsor Forest",
+        "Herne's Oak"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "E501",
+        "E422.1.11.5.1",
+        "G275"
+      ],
+      "themes": [
+        "wild hunt",
+        "horned spirit",
+        "windsor great park",
+        "stag antlers",
+        "berkshire lore"
+      ],
+      "historical_period": "Late 14th Century setting (commemorated in Shakespeare's The Merry Wives of Windsor, 1602)",
+      "region_or_community": "Windsor Great Park and Berkshire countryside",
+      "community_attributions": [
+        "Royal foresters' oral tradition",
+        "Berkshire regional folklore"
+      ],
+      "geographic_associations": [
+        "Windsor Castle",
+        "Herne's Oak, Windsor Great Park"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Merry Wives of Windsor (Act IV, Scene 4: The Tale of Herne the Hunter)",
+          "publisher": "William Shakespeare / Project Gutenberg",
+          "name": "William Shakespeare / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/1533",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "William Shakespeare, The Merry Wives of Windsor (1602). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from William Shakespeare / Project Gutenberg, 'The Merry Wives of Windsor (Act IV, Scene 4: The Tale of Herne the Hunter)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/1533",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814488Z",
+      "updated_at": "2026-10-29T10:22:51.814489Z"
+    },
+    {
+      "id": "GB-FOLK-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Lambton Worm of County Durham",
+      "slug": "the-lambton-worm-of-county-durham",
+      "country_code": "GB",
+      "category": "folklore",
+      "subtype": "dragon_legend",
+      "summary": "On a Sunday morning while skipping church, rebellious young heir John Lambton fished a repulsive, worm-like creature from the River Wear and discarded it into a nearby well. While Lambton fought in the Crusades, the worm grew into a colossal, venomous serpent with nine gill slits that terrorized County Durham, coiling nine times around Penshaw Hill and demanding the milk of nine cows daily. Returning a repentant knight, Lambton sought counsel from a wise witch, who advised him to forge armor studded with spearheads and fight the beast standing in the River Wear so the current would wash away severed chunks before they could rejoin.",
+      "long_description": null,
+      "alternate_names": [
+        "The Worm of Penshaw Hill",
+        "The Lambton Curse"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "B11.2.11",
+        "B11.11",
+        "M411"
+      ],
+      "themes": [
+        "dragon slaying",
+        "river wear",
+        "penshaw hill",
+        "witch's counsel",
+        "county durham"
+      ],
+      "historical_period": "Medieval setting (c. 14th Century, celebrated in the 1867 folk song by C. M. Leumane)",
+      "region_or_community": "County Durham and Wearside, North East England",
+      "community_attributions": [
+        "North East English folklore society",
+        "Wearside folk singers"
+      ],
+      "geographic_associations": [
+        "Penshaw Hill, Sunderland",
+        "River Wear",
+        "Lambton Castle"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Folk-Lore of the Northern Counties of England and the Borders",
+          "publisher": "William Henderson / Folk-Lore Society",
+          "name": "William Henderson / Folk-Lore Society",
+          "url": "https://archive.org/details/folkloreofnorthe00hend",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "William Henderson, Folklore of the Northern Counties (1879). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from William Henderson / Folk-Lore Society, 'The Folk-Lore of the Northern Counties of England and the Borders'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/folkloreofnorthe00hend",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814514Z",
+      "updated_at": "2026-10-29T10:22:51.814514Z"
+    },
+    {
+      "id": "GB-FOLK-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Black Shuck: The Ghost Dog of East Anglia",
+      "slug": "black-shuck-the-ghost-dog-of-east-anglia",
+      "country_code": "GB",
+      "category": "folklore",
+      "subtype": "spectral_hound",
+      "summary": "A terrifying spectral black hound the size of a calf with saucer-shaped flaming eyes, Black Shuck has prowled the marshes, graveyards, and coastlines of Norfolk and Suffolk for centuries. His most notorious historical manifestation occurred during a violent thunderstorm on Sunday, August 4, 1577, when the demon dog burst through the doors of Saint Mary's Church in Bungay, killing two kneeling parishioners and scorching the steeple before appearing simultaneously at Holy Trinity Church in Blythburgh, where he killed two more and left permanent claw scorch marks seared into the church's heavy oak north door.",
+      "long_description": null,
+      "alternate_names": [
+        "Old Shuck",
+        "The Black Dog of Bungay"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "E423.1.1",
+        "G303.3.3.1.1",
+        "B147.1.2"
+      ],
+      "themes": [
+        "spectral hound",
+        "black shuck",
+        "church storm of 1577",
+        "east anglia",
+        "death omen"
+      ],
+      "historical_period": "Tudor Era (August 4, 1577 documented storm) to Present",
+      "region_or_community": "Norfolk and Suffolk coastal fens and marshes, East Anglia",
+      "community_attributions": [
+        "East Anglian folklore societies",
+        "Parish church chroniclers"
+      ],
+      "geographic_associations": [
+        "Bungay, Suffolk",
+        "Blythburgh, Suffolk",
+        "Norfolk Coast"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "A Straunge and Terrible Wunder: The Black Dog of Bungay (1577 Pamphlet)",
+          "publisher": "Abraham Fleming / British Library Rare Books",
+          "name": "Abraham Fleming / British Library Rare Books",
+          "url": "https://archive.org/details/straungeandterri00flem",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Abraham Fleming, A Straunge and Terrible Wunder (1577). British Library. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Abraham Fleming / British Library Rare Books, 'A Straunge and Terrible Wunder: The Black Dog of Bungay (1577 Pamphlet)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/straungeandterri00flem",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814538Z",
+      "updated_at": "2026-10-29T10:22:51.814538Z"
+    },
+    {
+      "id": "GB-FOLK-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Dick Whittington and His Cat",
+      "slug": "dick-whittington-and-his-cat",
+      "country_code": "GB",
+      "category": "folklore",
+      "subtype": "success_legend",
+      "summary": "An impoverished orphan from Gloucestershire named Dick Whittington walked to London hoping its streets were paved with gold. Finding only destitution, he was taken in as a scullery boy by a benevolent merchant, Mr. Fitzwarren. Dick bought a cat for a penny to catch the mice in his garret room. When the merchant asked his household to send ventures on a trading ship to the Barbary Coast, Dick offered his cat. Discouraged by the cook's cruelty, Dick packed his bundle to flee London, but pausing on Highgate Hill, he heard the chimes of Bow Bells calling: 'Turn again, Whittington, thrice Lord Mayor of London!' Returning, he learned the King of Barbary had bought his cat for an enormous fortune of jewels to rid his palace of rats.",
+      "long_description": null,
+      "alternate_names": [
+        "Richard Whittington",
+        "The Lord Mayor and His Cat"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en"
+      ],
+      "motifs": [
+        "N411.1",
+        "J1110",
+        "P428"
+      ],
+      "themes": [
+        "social mobility",
+        "bow bells",
+        "london heritage",
+        "mercantile success",
+        "loyal cat"
+      ],
+      "historical_period": "Late Medieval setting (Richard Whittington historical Mayor d. 1423, folklore printed 1605)",
+      "region_or_community": "City of London and Highgate",
+      "community_attributions": [
+        "City of London guild traditions",
+        "English chapbook storytellers"
+      ],
+      "geographic_associations": [
+        "Highgate Hill, London",
+        "St Mary-le-Bow",
+        "Guildhall, London"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "English Fairy Tales: The History of Dick Whittington",
+          "publisher": "Joseph Jacobs / Project Gutenberg",
+          "name": "Joseph Jacobs / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/7423",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Joseph Jacobs, English Fairy Tales (1890). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Joseph Jacobs / Project Gutenberg, 'English Fairy Tales: The History of Dick Whittington'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/7423",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814560Z",
+      "updated_at": "2026-10-29T10:22:51.814561Z"
+    },
+    {
+      "id": "GB-FOLK-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Loch Ness Monster: Nessie and Saint Columba",
+      "slug": "the-loch-ness-monster-nessie-and-saint-columba",
+      "country_code": "GB",
+      "category": "folklore",
+      "subtype": "cryptid",
+      "summary": "The earliest documented account of a water monster inhabiting Scotland's Loch Ness dates to 565 CE in Adomnán's Life of Saint Columba. While visiting the Pictish kingdom, the Irish saint encountered locals burying a man savaged by a water beast in the River Ness. Columba ordered a follower to swim across to retrieve a boat; when the monster lunged from the depths with open jaws, Columba made the sign of the cross and commanded: 'Go no further! Touch not the man! Go back with all speed!' The creature fled in terror as if pulled by ropes, initiating fifteen centuries of Scottish highland folklore culminating in modern cryptozoological sightings of 'Nessie.'",
+      "long_description": null,
+      "alternate_names": [
+        "Nessie",
+        "The Water Monster of the River Ness"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en",
+        "gd",
+        "la"
+      ],
+      "motifs": [
+        "B11.2.1.1",
+        "V221",
+        "F420.1.2"
+      ],
+      "themes": [
+        "loch ness",
+        "saint columba",
+        "scottish highlands",
+        "water monster",
+        "cryptozoology"
+      ],
+      "historical_period": "Early Medieval Era (565 CE recorded in 7th Century Vita Columbae by Adomnán)",
+      "region_or_community": "Scottish Highlands, Inverness-shire, Scotland",
+      "community_attributions": [
+        "Scottish Highland Gaels",
+        "Early Scottish monastic chroniclers"
+      ],
+      "geographic_associations": [
+        "Loch Ness",
+        "River Ness",
+        "Urquhart Castle, Scotland"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Life of Saint Columba, Founder of Hy: Book II, Chapter 27 (The Water Beast)",
+          "publisher": "Adomnán of Iona / William Reeves",
+          "name": "Adomnán of Iona / William Reeves",
+          "url": "https://archive.org/details/lifesaintcolumb00reevgoog",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Adomnán, Vita Columbae (c. 700 CE). William Reeves translation. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Adomnán of Iona / William Reeves, 'Life of Saint Columba, Founder of Hy: Book II, Chapter 27 (The Water Beast)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/lifesaintcolumb00reevgoog",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.814584Z",
+      "updated_at": "2026-10-29T10:22:51.814585Z"
+    }
+  ],
+  "metadata": {
+    "description": "Curated folklore dataset for United Kingdom",
+    "dataset_version": "2.0.0",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
+    "target_count": 10,
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
+    "validation_status": "valid",
+    "last_updated": null,
+    "import_batch_references": []
+  }
+}

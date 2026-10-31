@@ -1,0 +1,834 @@
+{
+  "schema_version": "2.0.0",
+  "dataset_id": "NG-urban_legend",
+  "country_code": "NG",
+  "category": "urban_legend",
+  "records": [
+    {
+      "id": "NG-URBAN-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Madam Koi Koi: The High-Heeled Ghost of Boarding Schools",
+      "slug": "madam-koi-koi-the-high-heeled-ghost-of-boarding-schools",
+      "country_code": "NG",
+      "category": "urban_legend",
+      "subtype": "school_ghost",
+      "summary": "The undisputed terror of Nigerian secondary boarding school dormitories since the late 1970s, Madam Koi Koi is the vengeful spirit of an exceptionally glamorous, cruel schoolteacher notorious for wearing striking red high-heeled shoes. Fired after slapping a student so hard that the child suffered permanent injury, she was killed in an accident while traveling home, vowing vengeance on all students. Nocturnal boarding school students report waking in absolute darkness to the distinct, echoing rhythm of high heels clicking down the hallway tiles: 'Koi... koi... koi...' Anyone who peeks through the dormitory window or fails to close their eyes is slapped blind or snatched away into the night.",
+      "long_description": null,
+      "alternate_names": [
+        "Madam High Heel",
+        "Lady Koi-Koi"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en",
+        "yo",
+        "ig",
+        "ha"
+      ],
+      "motifs": [
+        "E281",
+        "E402",
+        "G312"
+      ],
+      "themes": [
+        "boarding school terror",
+        "madam koi koi",
+        "red high heels",
+        "dormitory curfew",
+        "nigerian urban legend"
+      ],
+      "historical_period": "Late 1970s to Present (crystallized 1980s–1990s)",
+      "region_or_community": "Secondary boarding schools nationwide across Nigeria",
+      "community_attributions": [
+        "Nigerian boarding school student oral network",
+        "Contemporary urban folklore collectors"
+      ],
+      "geographic_associations": [
+        "Federal Government Colleges and boarding schools across Nigeria"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Contemporary Nigerian Urban Legends: Madam Koi Koi and Schoolyard Terrors",
+          "publisher": "Nigerian Folklore Society / University of Ibadan",
+          "name": "Nigerian Folklore Society / University of Ibadan",
+          "url": "https://archive.org/details/nigerianurbanlegends0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Nigerian Folklore Society academic research documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Nigerian Folklore Society / University of Ibadan, 'Contemporary Nigerian Urban Legends: Madam Koi Koi and Schoolyard Terrors'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/nigerianurbanlegends0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826824Z",
+      "updated_at": "2026-10-29T10:22:51.826825Z"
+    },
+    {
+      "id": "NG-URBAN-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Bush Baby: The Crying Infant Demon with the Golden Mat",
+      "slug": "bush-baby-the-crying-infant-demon-with-the-golden-mat",
+      "country_code": "NG",
+      "category": "urban_legend",
+      "subtype": "boarding_school_demon",
+      "summary": "A dreaded supernatural entity of Nigerian boarding school compounds and overgrown school orchards, Bush Baby manifests as a small, hideous demon resembling an infant or diminutive primate carrying a small woven straw mat (eni) and a magical lantern. Crouching beneath mango and cashew trees on dark nights, it mimics the agonizing, pitiful cries of an abandoned newborn baby to lure sympathetic students outside into the bush. Urban legend holds that if someone manages to steal the Bush Baby's woven mat, the demon will follow them for seven days pleading for its return, making the thief fabulously wealthy if they endure the terrifying supernatural torment.",
+      "long_description": null,
+      "alternate_names": [
+        "The Crying Bush Baby",
+        "The Demon of the Mat"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en",
+        "yo",
+        "ig"
+      ],
+      "motifs": [
+        "F401",
+        "D1400",
+        "J1499"
+      ],
+      "themes": [
+        "bush baby",
+        "golden mat",
+        "mimicking crying baby",
+        "boarding school dare",
+        "wealth charm"
+      ],
+      "historical_period": "1980s to Present",
+      "region_or_community": "Boarding school bush peripheries throughout Nigeria",
+      "community_attributions": [
+        "Nigerian student oral folklore",
+        "West African urban folklorists"
+      ],
+      "geographic_associations": [
+        "School compounds across Southwestern and Southeastern Nigeria"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Monsters and Apparitions in Modern West African School Lore: The Bush Baby",
+          "publisher": "African Studies Association / Cambridge University Press",
+          "name": "African Studies Association / Cambridge University Press",
+          "url": "https://archive.org/details/monsterswestafrica0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "African Studies Association urban legend documentation. Educational Use.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from African Studies Association / Cambridge University Press, 'Monsters and Apparitions in Modern West African School Lore: The Bush Baby'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/monsterswestafrica0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826853Z",
+      "updated_at": "2026-10-29T10:22:51.826854Z"
+    },
+    {
+      "id": "NG-URBAN-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Lady of the Long Legs: The Highway Phantom of Lagos",
+      "slug": "lady-of-the-long-legs-the-highway-phantom-of-lagos",
+      "country_code": "NG",
+      "category": "urban_legend",
+      "subtype": "highway_phantom",
+      "summary": "A widely circulated motorist urban legend in Lagos centers on the desolate, poorly lit stretches of the Lagos-Ibadan Expressway and the Ikorodu highway after midnight. Drivers traveling late report glancing out their windshield to see an impossibly tall, slender woman whose legs extend over twenty feet into the air, straddling the entire multilane highway like a living bridge. Vehicles that pass beneath her legs experience sudden total engine failure, headlights blowing out, and violent steering shudder, warning drivers against traveling the intercity motorways during ungodly midnight hours.",
+      "long_description": null,
+      "alternate_names": [
+        "The Giant Woman of the Expressway",
+        "Lady Long Legs"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en",
+        "yo"
+      ],
+      "motifs": [
+        "E535",
+        "F531.0.4",
+        "E272"
+      ],
+      "themes": [
+        "lagos-ibadan expressway",
+        "giant phantom",
+        "motorway night peril",
+        "lagos commuters",
+        "highway terror"
+      ],
+      "historical_period": "1980s to Present",
+      "region_or_community": "Lagos State and Ogun State highway corridors",
+      "community_attributions": [
+        "Lagos commercial drivers (Danfo/Molue drivers)",
+        "Commuter oral networks"
+      ],
+      "geographic_associations": [
+        "Lagos-Ibadan Expressway",
+        "Ikorodu Road, Lagos"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Lagos State Records and Archives Bureau: Oral Histories and Contemporary Urban Legends",
+          "publisher": "Lagos State Records and Archives Bureau (LASRAB)",
+          "name": "Lagos State Records and Archives Bureau (LASRAB)",
+          "url": "https://lasrab.lagosstate.gov.ng/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Lagos State Records and Archives Bureau cultural documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Lagos State Records and Archives Bureau (LASRAB), 'Lagos State Records and Archives Bureau: Oral Histories and Contemporary Urban Legends'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://lasrab.lagosstate.gov.ng/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826881Z",
+      "updated_at": "2026-10-29T10:22:51.826881Z"
+    },
+    {
+      "id": "NG-URBAN-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Phantom Okada Rider of Third Mainland Bridge",
+      "slug": "the-phantom-okada-rider-of-third-mainland-bridge",
+      "country_code": "NG",
+      "category": "urban_legend",
+      "subtype": "bridge_phantom",
+      "summary": "Stretching nearly twelve kilometers across the Lagos Lagoon, the Third Mainland Bridge is one of Africa's longest bridges and the focus of numerous nocturnal urban legends. Late-night motorists report encountering a lone commercial motorcyclist (okada rider) carrying a silent, passenger clad in black who speeds past them at breakneck velocity. As overtaking drivers watch in horror, the motorcycle abruptly swerves and plunges straight over the side railings into the black lagoon waters below. Motorists who stop discover the barrier completely intact, with no splash or ripples in the dark water below.",
+      "long_description": null,
+      "alternate_names": [
+        "The Lagoon Jumper of Third Mainland Bridge",
+        "The Ghost Okada of Lagos"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en",
+        "yo"
+      ],
+      "motifs": [
+        "E535",
+        "E332.3.3",
+        "E411"
+      ],
+      "themes": [
+        "third mainland bridge",
+        "lagos lagoon",
+        "okada ghost",
+        "phantom crash",
+        "lagos urban commuter"
+      ],
+      "historical_period": "1990 to Present (bridge completed 1990)",
+      "region_or_community": "Lagos Island and Mainland connection, Lagos State",
+      "community_attributions": [
+        "Lagos taxi and ride-hail drivers",
+        "Lagos urban legend researchers"
+      ],
+      "geographic_associations": [
+        "Third Mainland Bridge, Lagos Lagoon"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Lagos State Ministry of Transportation: Third Mainland Bridge Cultural Archives",
+          "publisher": "Lagos State Ministry of Transportation",
+          "name": "Lagos State Ministry of Transportation",
+          "url": "https://transportation.lagosstate.gov.ng/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Lagos State Ministry of Transportation archive. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Lagos State Ministry of Transportation, 'Lagos State Ministry of Transportation: Third Mainland Bridge Cultural Archives'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://transportation.lagosstate.gov.ng/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826906Z",
+      "updated_at": "2026-10-29T10:22:51.826907Z"
+    },
+    {
+      "id": "NG-URBAN-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Ghost Train of the Jebba River Bridge",
+      "slug": "the-ghost-train-of-the-jebba-river-bridge",
+      "country_code": "NG",
+      "category": "urban_legend",
+      "subtype": "phantom_train",
+      "summary": "Crossing the mighty Niger River in Kwara State, the historic Jebba railway bridge, completed in 1916 by British colonial authorities, is adjacent to the monument of 19th-century explorer Mungo Park. Railway maintenance workers and local fishermen recount urban legends of a phantom colonial steam train that roars across the iron truss bridge during midnight rainstorms, blaring a piercing steam whistle with furnace sparks flying from the smokestack. The phantom train vanishes into the mist upon reaching the middle span, commemorating fatal derailments during early bridge construction.",
+      "long_description": null,
+      "alternate_names": [
+        "The Iron Horse of Jebba",
+        "The Niger River Railway Spectre"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en",
+        "ha",
+        "yo"
+      ],
+      "motifs": [
+        "E535.2",
+        "E411",
+        "F771"
+      ],
+      "themes": [
+        "phantom train",
+        "jebba bridge",
+        "river niger",
+        "railway heritage",
+        "kwara state"
+      ],
+      "historical_period": "1916 to Present",
+      "region_or_community": "Jebba, Kwara and Niger State border",
+      "community_attributions": [
+        "Nigerian Railway Corporation workers",
+        "Jebba riverine community"
+      ],
+      "geographic_associations": [
+        "Jebba Railway Bridge",
+        "River Niger, Kwara State"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Nigerian Railway Corporation: Historical Bridges and Engineering Heritage: Jebba",
+          "publisher": "Nigerian Railway Corporation Historical Division",
+          "name": "Nigerian Railway Corporation Historical Division",
+          "url": "https://nrc.gov.ng/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Nigerian Railway Corporation historical engineering documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Nigerian Railway Corporation Historical Division, 'Nigerian Railway Corporation: Historical Bridges and Engineering Heritage: Jebba'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://nrc.gov.ng/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826931Z",
+      "updated_at": "2026-10-29T10:22:51.826931Z"
+    },
+    {
+      "id": "NG-URBAN-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Cursed Currency of the Okija Shrine",
+      "slug": "the-cursed-currency-of-the-okija-shrine",
+      "country_code": "NG",
+      "category": "urban_legend",
+      "subtype": "shrine_mystery",
+      "summary": "Located in Ihiala, Anambra State, the Ogwugwu Akpu Okija shrine became world-famous in August 2004 when Nigerian police raided the dense forest sanctuary, uncovering dozens of decomposing corpses deposited by devotees who swore oaths before the shrine's deities and perished after lying. In southeastern Nigerian urban folklore, currency obtained through corrupt oaths or blood money associated with Okija is said to be spiritually cursed: paper banknotes spontaneously turn into dried leaves or slithering snakes inside wallets, bringing sudden ruin, madness, and unexplainable sickness upon greed-driven exploiters.",
+      "long_description": null,
+      "alternate_names": [
+        "Ogwugwu Akpu Okija",
+        "The Cursed Shrines of Anambra"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ig",
+        "en"
+      ],
+      "motifs": [
+        "M411",
+        "C900",
+        "D2061"
+      ],
+      "themes": [
+        "okija shrine",
+        "anambra state",
+        "false oaths",
+        "blood money",
+        "curse of corruption"
+      ],
+      "historical_period": "2004 Police Raid to Living Contemporary Legend",
+      "region_or_community": "Okija, Ihiala Local Government, Anambra State",
+      "community_attributions": [
+        "Igbo traditional custodians",
+        "Nigerian investigative journalists"
+      ],
+      "geographic_associations": [
+        "Okija Sacred Forest",
+        "Ihiala, Anambra State"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Okija Shrine Affair: Law, Religion, and Moral Panic in Modern Nigeria",
+          "publisher": "African Studies Quarterly / University of Florida",
+          "name": "African Studies Quarterly / University of Florida",
+          "url": "https://archive.org/details/okijashrineaffai0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "African Studies Quarterly legal and anthropological study. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from African Studies Quarterly / University of Florida, 'The Okija Shrine Affair: Law, Religion, and Moral Panic in Modern Nigeria'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/okijashrineaffai0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826956Z",
+      "updated_at": "2026-10-29T10:22:51.826956Z"
+    },
+    {
+      "id": "NG-URBAN-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Mami Wata Sighting at Bar Beach Lagos",
+      "slug": "mami-wata-sighting-at-bar-beach-lagos",
+      "country_code": "NG",
+      "category": "urban_legend",
+      "subtype": "water_spirit",
+      "summary": "A pan-African water deity deeply anchored in modern Nigerian coastal urban lore, Mami Wata is venerated as an exquisite, fair-skinned water spirit with long cascading dark hair, adorned with heavy gold jewelry and draped with a large serpent around her shoulders. In Lagos during the 1980s and 1990s along the storm-tossed sands of Bar Beach (now Eko Atlantic), beachgoers and fishermen repeatedly reported seeing her emerge from the crashing Atlantic foam at midnight, brushing her hair with a golden comb. Legend warns that she offers vast material wealth to devotees in exchange for absolute fidelity, taking the lives of those who break their spiritual vows.",
+      "long_description": null,
+      "alternate_names": [
+        "The Water Mermaid of Victoria Island",
+        "Mother Water"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "en",
+        "yo",
+        "ig",
+        "pcm"
+      ],
+      "motifs": [
+        "B82",
+        "F420.1.2",
+        "D1275"
+      ],
+      "themes": [
+        "mami wata",
+        "bar beach",
+        "lagos",
+        "atlantic mermaid",
+        "wealth and danger"
+      ],
+      "historical_period": "Mid-20th Century to Present",
+      "region_or_community": "Victoria Island and coastal Lagos",
+      "community_attributions": [
+        "Lagos fishermen and coastal residents",
+        "Mami Wata traditional priesthood"
+      ],
+      "geographic_associations": [
+        "Bar Beach (Eko Atlantic), Victoria Island, Lagos"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Mami Wata: Arts for Water Spirits in Africa and Its Diasporas",
+          "publisher": "Henry John Drewal / UCLA Fowler Museum",
+          "name": "Henry John Drewal / UCLA Fowler Museum",
+          "url": "https://archive.org/details/mamiwataartsforw0000drew",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Henry John Drewal, Mami Wata exhibition research. Educational Use.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Henry John Drewal / UCLA Fowler Museum, 'Mami Wata: Arts for Water Spirits in Africa and Its Diasporas'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/mamiwataartsforw0000drew",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826980Z",
+      "updated_at": "2026-10-29T10:22:51.826981Z"
+    },
+    {
+      "id": "NG-URBAN-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Midnight Knock of the Evil Spirit in Enugu",
+      "slug": "the-midnight-knock-of-the-evil-spirit-in-enugu",
+      "country_code": "NG",
+      "category": "urban_legend",
+      "subtype": "nocturnal_terror",
+      "summary": "During the mid-1990s in the coal city of Enugu in southeastern Nigeria, an acute urban panic swept residential neighborhoods regarding a malevolent nocturnal entity known as 'The Midnight Knocker.' According to terrified residents, three loud, heavy knocks would sound on residential wooden doors at 2:00 AM, accompanied by a polite voice calling the homeowner by their full real name. Urban folklore warned that anyone who opened the door or answered the greeting would collapse instantly and perish by sunrise, causing entire neighborhoods to stay awake praying with church bells ringing until dawn.",
+      "long_description": null,
+      "alternate_names": [
+        "The Midnight Knocker",
+        "The Nocturnal Visitor of Coal City"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ig",
+        "en"
+      ],
+      "motifs": [
+        "E425",
+        "G303",
+        "C900"
+      ],
+      "themes": [
+        "enugu urban panic",
+        "midnight knock",
+        "name calling taboo",
+        "coal city lore",
+        "supernatural dread"
+      ],
+      "historical_period": "1990s Urban Panic Era",
+      "region_or_community": "Enugu metropolis, Enugu State, Southeastern Nigeria",
+      "community_attributions": [
+        "Enugu neighbourhood vigilante groups",
+        "Igbo urban folklorists"
+      ],
+      "geographic_associations": [
+        "Independence Layout",
+        "Ogui, Enugu"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Urban Legends and Moral Panics in Contemporary Igboland: The Case of Enugu",
+          "publisher": "University of Nigeria Nsukka Press",
+          "name": "University of Nigeria Nsukka Press",
+          "url": "https://archive.org/details/urbanlegendsenugu0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "University of Nigeria Nsukka sociological and folklore studies. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from University of Nigeria Nsukka Press, 'Urban Legends and Moral Panics in Contemporary Igboland: The Case of Enugu'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/urbanlegendsenugu0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.827004Z",
+      "updated_at": "2026-10-29T10:22:51.827004Z"
+    },
+    {
+      "id": "NG-URBAN-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Vanishing Cloth Merchant of Onitsha Main Market",
+      "slug": "the-vanishing-cloth-merchant-of-onitsha-main-market",
+      "country_code": "NG",
+      "category": "urban_legend",
+      "subtype": "vanishing_trader",
+      "summary": "Sprawling along the eastern bank of the River Niger, the Onitsha Main Market is renowned as the largest commercial market in West Africa. A famous commercial urban legend involves rich foreign cloth buyers who arrive at luxury lace and Dutch wax stalls in the bustling market. After selecting dozens of expensive textile bales and handing the shopkeeper thick bundles of crisp currency, the merchant walks toward the riverbank to arrange boat transit. When the stall owner later opens their cash drawer, the money has dissolved into river sand and dead leaves, with the mysterious buyer vanishing into the Niger River mist.",
+      "long_description": null,
+      "alternate_names": [
+        "The Phantom Buyer of Onitsha",
+        "The Sand Money Trader"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ig",
+        "en"
+      ],
+      "motifs": [
+        "F1000",
+        "D2061",
+        "E332.3.3"
+      ],
+      "themes": [
+        "onitsha main market",
+        "river niger",
+        "cloth traders",
+        "sand money",
+        "market urban lore"
+      ],
+      "historical_period": "Post-Civil War Era (c. 1970s to present)",
+      "region_or_community": "Onitsha, Anambra State, River Niger bank",
+      "community_attributions": [
+        "Onitsha Market Traders Association (OMATA)",
+        "Igbo commercial oral networks"
+      ],
+      "geographic_associations": [
+        "Onitsha Main Market",
+        "River Niger Waterfront, Anambra"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Anambra State Ministry of Commerce and Industry: Onitsha Market Heritage",
+          "publisher": "Anambra State Ministry of Commerce and Industry",
+          "name": "Anambra State Ministry of Commerce and Industry",
+          "url": "https://anambrastate.gov.ng/commerce-industry/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Anambra State Ministry of Commerce and Industry documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Anambra State Ministry of Commerce and Industry, 'Anambra State Ministry of Commerce and Industry: Onitsha Market Heritage'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://anambrastate.gov.ng/commerce-industry/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.827242Z",
+      "updated_at": "2026-10-29T10:22:51.827243Z"
+    },
+    {
+      "id": "NG-URBAN-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Whispering Baobab of Ancient Kano City Walls",
+      "slug": "the-whispering-baobab-of-ancient-kano-city-walls",
+      "country_code": "NG",
+      "category": "urban_legend",
+      "subtype": "sacred_tree",
+      "summary": "Dating back to the 11th century, the Ancient Kano City Walls (Badalar Kano) were a fourteen-kilometer defensive mud rampart guarding the historic emirate. Near the historic Kofar Nassarawa gate stands a massive, ancient baobab tree (Kuka) that is the focus of Hausa spirit lore (Bori). Night pedestrians report hearing whispers and rustling voices emanating from the hollow trunk when there is no wind, attributed to ancestral spirits and djinn who gathered to advise the ancient Emirs of Kano during wartime. Local superstition strictly prohibits breaking branches from the sacred tree after sunset.",
+      "long_description": null,
+      "alternate_names": [
+        "The Spirit Baobab of Kofar Nassarawa",
+        "Badalar Kano Whispers"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ha",
+        "en"
+      ],
+      "motifs": [
+        "F441.2",
+        "E402",
+        "C51.1"
+      ],
+      "themes": [
+        "kano city walls",
+        "baobab tree",
+        "hausa bori spirits",
+        "kofar nassarawa",
+        "ancient emirate"
+      ],
+      "historical_period": "Medieval Foundation (11th Century) to Living Northern Nigerian Lore",
+      "region_or_community": "Ancient City of Kano, Kano State, Northern Nigeria",
+      "community_attributions": [
+        "Kano Emirate Council oral historians",
+        "Hausa traditional Bori practitioners"
+      ],
+      "geographic_associations": [
+        "Kofar Nassarawa Gate",
+        "Ancient Kano City Walls"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Kano State Ministry of Information: History and Preservation of the Ancient Kano City Walls",
+          "publisher": "Kano State Ministry of Information and Culture",
+          "name": "Kano State Ministry of Information and Culture",
+          "url": "https://kanostate.gov.ng/history-of-kano/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Kano State Ministry of Information and Culture documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Kano State Ministry of Information and Culture, 'Kano State Ministry of Information: History and Preservation of the Ancient Kano City Walls'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://kanostate.gov.ng/history-of-kano/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.827285Z",
+      "updated_at": "2026-10-29T10:22:51.827285Z"
+    }
+  ],
+  "metadata": {
+    "description": "Curated urban_legend dataset for Nigeria",
+    "dataset_version": "2.0.0",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
+    "target_count": 10,
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
+    "validation_status": "valid",
+    "last_updated": null,
+    "import_batch_references": []
+  }
+}

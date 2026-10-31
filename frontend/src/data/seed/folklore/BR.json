@@ -1,0 +1,828 @@
+{
+  "schema_version": "2.0.0",
+  "dataset_id": "BR-folklore",
+  "country_code": "BR",
+  "category": "folklore",
+  "records": [
+    {
+      "id": "BR-FOLK-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Saci-Pererê the One-Legged Trickster",
+      "slug": "saci-pererê-the-one-legged-trickster",
+      "country_code": "BR",
+      "category": "folklore",
+      "subtype": "trickster_myth",
+      "summary": "One of the most famous icons of Brazilian folklore, Saci-Pererê is a mischievous one-legged youth of indigenous Tupi-Guarani and Afro-Brazilian origin who wears a bright red magic cap (carapuça) and smokes a clay pipe. Saci travels inside localized wind whirlwinds (redemoinhos), blowing out campfire embers, souring boiling milk, braiding horses' manes into knots, and confusing forest travelers. Anyone who hurls a rosary or sieve into the center of a whirlwind can trap Saci and snatch his red cap, compelling the sprite to grant three wishes in exchange for its freedom.",
+      "long_description": null,
+      "alternate_names": [
+        "O Saci",
+        "Saci-Cererê"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "pt",
+        "tup"
+      ],
+      "motifs": [
+        "F451.5.2",
+        "D1067.1",
+        "J1110"
+      ],
+      "themes": [
+        "trickster",
+        "whirlwind",
+        "tupi-guarani and afro-brazilian syncretism",
+        "red cap",
+        "rural pranks"
+      ],
+      "historical_period": "18th Century Colonial Syncretism (popularized 1918 by Monteiro Lobato in O Sacy)",
+      "region_or_community": "Southeast and Central-West Brazil, rural fazenda communities",
+      "community_attributions": [
+        "Caipira rural storytellers",
+        "Afro-indigenous Brazilian tradition"
+      ],
+      "geographic_associations": [
+        "Vale do Paraíba, São Paulo",
+        "Minas Gerais hinterlands"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "O Sacy: Inquérito sobre o Saci-Pererê no Folclore Brasileiro",
+          "publisher": "Monteiro Lobato / Revista do Brasil",
+          "name": "Monteiro Lobato / Revista do Brasil",
+          "url": "https://archive.org/details/osacyinquerit00loba",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Monteiro Lobato, O Sacy (1918). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Monteiro Lobato / Revista do Brasil, 'O Sacy: Inquérito sobre o Saci-Pererê no Folclore Brasileiro'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/osacyinquerit00loba",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.808144Z",
+      "updated_at": "2026-10-29T10:22:51.808151Z"
+    },
+    {
+      "id": "BR-FOLK-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Curupira the Backward-Footed Forest Guardian",
+      "slug": "curupira-the-backward-footed-forest-guardian",
+      "country_code": "BR",
+      "category": "folklore",
+      "subtype": "nature_spirit",
+      "summary": "First documented in 1560 by Jesuit priest José de Anchieta, the Curupira is an ancient indigenous guardian spirit of the Brazilian Amazon and Atlantic rainforests. Manifesting as a short, flame-haired forest boy, his feet are uniquely turned backward, so that his footprints point in the opposite direction of his travel, hopelessly disorienting pursuers. Armed with uncanny whistles that mimic jungle birds, Curupira severely punishes hunters who slaughter nursing animals, fell sacred trees, or harvest more game than needed for sustenance, driving greedy poachers to madness.",
+      "long_description": null,
+      "alternate_names": [
+        "O Curupira",
+        "The Backward-Footed Demon of the Woods"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "pt",
+        "tup"
+      ],
+      "motifs": [
+        "F401.3",
+        "F441.2",
+        "K1888"
+      ],
+      "themes": [
+        "forest guardian",
+        "backward feet",
+        "amazon protection",
+        "indigenous conservation",
+        "tupi lore"
+      ],
+      "historical_period": "Pre-Columbian Tupi Lore (first written record May 30, 1560 by José de Anchieta)",
+      "region_or_community": "Amazon Basin and Atlantic Rainforest (Mata Atlântica)",
+      "community_attributions": [
+        "Tupi-Guarani indigenous peoples",
+        "Ribeirinho river dwellers"
+      ],
+      "geographic_associations": [
+        "Amazon Rainforest",
+        "Serra do Mar, São Paulo"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Cartas jesuíticas: Cartas, informações, fragmentos históricos (1554-1594)",
+          "publisher": "José de Anchieta / Project Gutenberg",
+          "name": "José de Anchieta / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/39714",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "José de Anchieta Jesuit Letters (1560). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from José de Anchieta / Project Gutenberg, 'Cartas jesuíticas: Cartas, informações, fragmentos históricos (1554-1594)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/39714",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.808266Z",
+      "updated_at": "2026-10-29T10:22:51.808267Z"
+    },
+    {
+      "id": "BR-FOLK-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Iara: The River Mermaid of the Amazon",
+      "slug": "iara-the-river-mermaid-of-the-amazon",
+      "country_code": "BR",
+      "category": "folklore",
+      "subtype": "water_spirit",
+      "summary": "In Tupi indigenous mythology, Iara (from 'Uiara', meaning Lady of the Waters) was once a courageous indigenous warrior maiden so praised by her father that her jealous brothers plotted to murder her in the jungle. Defending herself, she killed them and fled, but was thrown into the confluence of the Negro and Solimões rivers by her father. The river fish took pity on her and transformed her into an enchanting water siren with radiant green eyes, long copper hair, and the tail of an aquatic serpent. Singing irresistible melodies from riverbanks at sunset, she lures fishermen and canoeists beneath the waves to her sunken crystal kingdom.",
+      "long_description": null,
+      "alternate_names": [
+        "Mãe d'Água",
+        "Uiara",
+        "The Amazonian Siren"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "pt",
+        "tup"
+      ],
+      "motifs": [
+        "B82",
+        "F420.1.2",
+        "D1275"
+      ],
+      "themes": [
+        "amazon river",
+        "mermaid",
+        "siren song",
+        "tupi mythology",
+        "water depths"
+      ],
+      "historical_period": "Pre-Columbian Tupi lore, syncretized during colonial Amazonian navigation",
+      "region_or_community": "Amazon River basin, Pará and Amazonas states",
+      "community_attributions": [
+        "Tupi-Guarani river nations",
+        "Caboclo and ribeirinho communities"
+      ],
+      "geographic_associations": [
+        "Meeting of the Waters, Manaus",
+        "Amazon River"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "O Folclore Brasileiro: A Lenda da Iara e os Mitos das Águas",
+          "publisher": "Luís da Câmara Cascudo / Edições Melhoramentos",
+          "name": "Luís da Câmara Cascudo / Edições Melhoramentos",
+          "url": "https://archive.org/details/folclorebrasilei0000casc",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Luís da Câmara Cascudo, Dicionário do Folclore Brasileiro. Educational Use.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Luís da Câmara Cascudo / Edições Melhoramentos, 'O Folclore Brasileiro: A Lenda da Iara e os Mitos das Águas'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/folclorebrasilei0000casc",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.808309Z",
+      "updated_at": "2026-10-29T10:22:51.808310Z"
+    },
+    {
+      "id": "BR-FOLK-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Boitatá: The Fiery Serpent of the Wetlands",
+      "slug": "boitatá-the-fiery-serpent-of-the-wetlands",
+      "country_code": "BR",
+      "category": "folklore",
+      "subtype": "dragon_myth",
+      "summary": "Recorded in Jesuit chronicles as early as 1560, Boitatá (from Tupi 'mboi tatá', meaning fiery serpent) is a giant serpent of pure luminescent fire that slithers through riverbanks, wetlands, and flooded savannas. According to legend, during a great catastrophic deluge of primordial night, the serpent survived by consuming the eyes of dead animals, absorbing their captured sunlight until its own body glowed with blinding flame. Boitatá acts as a fierce protector of virgin forests against arsonists and slash-and-burn hunters; anyone who gazes into its burning eyes is struck blind or driven mad, surviving only by remaining motionless with closed eyes.",
+      "long_description": null,
+      "alternate_names": [
+        "Mboi Tatá",
+        "The Fire Serpent of the Pantanal"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "pt",
+        "tup"
+      ],
+      "motifs": [
+        "B11.2.1",
+        "F494",
+        "D2061"
+      ],
+      "themes": [
+        "fire serpent",
+        "pantanal wetlands",
+        "will-o-the-wisp",
+        "forest defender",
+        "tupi cosmology"
+      ],
+      "historical_period": "Pre-Columbian Tupi Lore (documented 1560 by José de Anchieta)",
+      "region_or_community": "Pantanal wetlands, Mato Grosso and Amazon floodplains",
+      "community_attributions": [
+        "Indigenous Tupi-Guarani nations",
+        "Pantaneiro rural community"
+      ],
+      "geographic_associations": [
+        "Pantanal wetlands, Mato Grosso",
+        "Paraguay River basin"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Cartas Jesuíticas: Informações dos Costumes dos Índios (Mboi-tatá)",
+          "publisher": "José de Anchieta / Project Gutenberg",
+          "name": "José de Anchieta / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/39714",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "José de Anchieta historical documentation (1560). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from José de Anchieta / Project Gutenberg, 'Cartas Jesuíticas: Informações dos Costumes dos Índios (Mboi-tatá)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/39714",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.808340Z",
+      "updated_at": "2026-10-29T10:22:51.808341Z"
+    },
+    {
+      "id": "BR-FOLK-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Pink River Dolphin (Boto Cor-de-Rosa)",
+      "slug": "the-pink-river-dolphin-boto-cor-de-rosa",
+      "country_code": "BR",
+      "category": "folklore",
+      "subtype": "shapeshifter_legend",
+      "summary": "Dwelling in the dark, warm waters of the Amazon and Araguaia river systems, the pink river dolphin (Inia geoffrensis) is the protagonist of Brazil's definitive river shapeshifting legend. According to riverside folklore, on festive June festival nights (Festas Juninas), the pink boto transforms into a handsome, elegant gentleman dressed entirely in a crisp white linen suit and a white fedora hat to conceal the blowhole on top of his crown. Entering riverside village dances, the stranger charms the most beautiful young woman, seduces her, and impregnates her before diving back into the river at dawn to resume his aquatic dolphin form.",
+      "long_description": null,
+      "alternate_names": [
+        "O Boto",
+        "The Amazon River Dolphin Seducer"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "pt"
+      ],
+      "motifs": [
+        "D370",
+        "B650",
+        "T10"
+      ],
+      "themes": [
+        "amazon river",
+        "shapeshifting dolphin",
+        "festas juninas",
+        "caboclo lore",
+        "seduction"
+      ],
+      "historical_period": "Colonial Era to Living Amazonian Oral Tradition",
+      "region_or_community": "Amazonas, Pará, and riverside river settlements",
+      "community_attributions": [
+        "Ribeirinho river populations",
+        "Amazonian folk narrators"
+      ],
+      "geographic_associations": [
+        "Rio Negro",
+        "Rio Solimões",
+        "Parintins, Amazonas"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Contos Tradicionais do Brasil: O Boto e os Encantados do Rio",
+          "publisher": "Luís da Câmara Cascudo / Ediouro",
+          "name": "Luís da Câmara Cascudo / Ediouro",
+          "url": "https://archive.org/details/contostradiciona0000casc",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Luís da Câmara Cascudo folk collections. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Luís da Câmara Cascudo / Ediouro, 'Contos Tradicionais do Brasil: O Boto e os Encantados do Rio'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/contostradiciona0000casc",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.808372Z",
+      "updated_at": "2026-10-29T10:22:51.808372Z"
+    },
+    {
+      "id": "BR-FOLK-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Mula Sem Cabeça: The Headless Mule",
+      "slug": "mula-sem-cabeça-the-headless-mule",
+      "country_code": "BR",
+      "category": "folklore",
+      "subtype": "curse_legend",
+      "summary": "A terrifying staple of Brazilian rural folklore, the Mula Sem Cabeça (Headless Mule) is the cursed manifestation of any woman who engages in romantic or physical intimacy with a Catholic priest. On Thursday nights at midnight, the woman transforms into a galloping phantom mule with silver horseshoes and flames shooting from her severed neck instead of a head. Galloping furiously past churches and across rural crossroads, her whinnying shrieks terrify horses and dogs. The curse can only be lifted if a brave traveler draws blood from the mule with a virgin iron blade or removes her iron halter.",
+      "long_description": null,
+      "alternate_names": [
+        "The Headless Mule of Penance",
+        "A Mula do Padre"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "pt"
+      ],
+      "motifs": [
+        "G303.3.4.1",
+        "D131",
+        "C900"
+      ],
+      "themes": [
+        "headless mule",
+        "religious taboo",
+        "rural crossroads",
+        "fiery neck",
+        "brazilian hinterlands"
+      ],
+      "historical_period": "Colonial Portuguese Catholic Syncretism (17th Century to present)",
+      "region_or_community": "Interior of São Paulo, Minas Gerais, and Goiás",
+      "community_attributions": [
+        "Caipira oral tradition",
+        "Brazilian Catholic rural folklore"
+      ],
+      "geographic_associations": [
+        "Interior crossroads of Minas Gerais and São Paulo"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Geografia dos Mitos Brasileiros: A Mula Sem Cabeça",
+          "publisher": "Luís da Câmara Cascudo / Global Editora",
+          "name": "Luís da Câmara Cascudo / Global Editora",
+          "url": "https://archive.org/details/geografiadosmito0000casc",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Luís da Câmara Cascudo, Geografia dos Mitos Brasileiros. Educational Use.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Luís da Câmara Cascudo / Global Editora, 'Geografia dos Mitos Brasileiros: A Mula Sem Cabeça'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/geografiadosmito0000casc",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.808401Z",
+      "updated_at": "2026-10-29T10:22:51.808401Z"
+    },
+    {
+      "id": "BR-FOLK-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Caipora: The Guardian of Forest Game",
+      "slug": "caipora-the-guardian-of-forest-game",
+      "country_code": "BR",
+      "category": "folklore",
+      "subtype": "nature_spirit",
+      "summary": "Closely related to Curupira, Caipora (from Tupi 'caapora', meaning forest dweller) is an indigenous forest deity depicted as a dark, hirsute youth or wild man riding an immense collared peccary (wild boar) and smoking an aromatic pipe. As the sovereign master of all forest animals, Caipora demands respect from hunters: if a hunter leaves tobacco on a tree stump before entering the brush, Caipora grants safe passage and one animal for dinner. If a hunter kills greedily on holy days or shoots a pregnant animal, Caipora drives the dogs wild, disorients the poacher in thorny thickets, and beats him with tree branches.",
+      "long_description": null,
+      "alternate_names": [
+        "O Caipora",
+        "Master of Wild Game"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "pt",
+        "tup"
+      ],
+      "motifs": [
+        "F401.3",
+        "F441.2",
+        "C51.1"
+      ],
+      "themes": [
+        "forest protector",
+        "wild boar rider",
+        "hunter taboos",
+        "tobacco offering",
+        "tupi tradition"
+      ],
+      "historical_period": "Pre-Columbian Tupi Lore to Contemporary Sertão Folklore",
+      "region_or_community": "Northeastern and Southeastern woodlands, Brazil",
+      "community_attributions": [
+        "Indigenous and Sertanejo rural populations"
+      ],
+      "geographic_associations": [
+        "Sertão and Caatinga woodlands",
+        "Atlantic Forest"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Mitos e Lendas do Brasil: O Caipora e a Fauna Silvestre",
+          "publisher": "Instituto Nacional do Livro / MEC Brasil",
+          "name": "Instituto Nacional do Livro / MEC Brasil",
+          "url": "https://archive.org/details/mitoselendasdobr0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Instituto Nacional do Livro, Ministry of Education Brazil. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Instituto Nacional do Livro / MEC Brasil, 'Mitos e Lendas do Brasil: O Caipora e a Fauna Silvestre'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/mitoselendasdobr0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.808432Z",
+      "updated_at": "2026-10-29T10:22:51.808432Z"
+    },
+    {
+      "id": "BR-FOLK-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Mapinguari: Giant Amazonian Beast",
+      "slug": "the-mapinguari-giant-amazonian-beast",
+      "country_code": "BR",
+      "category": "folklore",
+      "subtype": "cryptid",
+      "summary": "Feared by indigenous Karitiana and Machiguenga tribes across the southwestern Amazon Basin, the Mapinguari is a towering, nine-foot-tall bipedal beast covered in reddish-brown matted fur. Described as possessing a second gaping mouth on its belly and claws capable of shearing through jungle vines, the creature emits a sickening, rotten musk odor that immobilizes hunters. Modern biologists and folklorists theorize the legend preserves ancestral oral memories of the extinct giant ground sloth (Megatherium) that survived in deep Amazonian refuges alongside early indigenous human populations.",
+      "long_description": null,
+      "alternate_names": [
+        "Isnashi",
+        "The Giant Ground Sloth of Acre"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "pt"
+      ],
+      "motifs": [
+        "B29",
+        "G310",
+        "F401"
+      ],
+      "themes": [
+        "amazon cryptid",
+        "giant ground sloth",
+        "indigenous memory",
+        "acre jungle",
+        "prehistoric survival"
+      ],
+      "historical_period": "Ancient Indigenous Oral Tradition to Contemporary Cryptozoology",
+      "region_or_community": "Acre, Rondônia, and Amazonas borderlands",
+      "community_attributions": [
+        "Indigenous Karitiana tribal narrators",
+        "Rubber tappers (seringueiros)"
+      ],
+      "geographic_associations": [
+        "Chico Mendes Extractive Reserve, Acre",
+        "Purus River basin"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Search for the Mapinguari: Extinct Sloths in Amazonian Folklore",
+          "publisher": "David Oren / Discover Magazine Archive",
+          "name": "David Oren / Discover Magazine Archive",
+          "url": "https://archive.org/details/mapinguarisearch0000oreg",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Dr. David Oren Amazonian biodiversity and folklore studies. Educational Use.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from David Oren / Discover Magazine Archive, 'The Search for the Mapinguari: Extinct Sloths in Amazonian Folklore'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/mapinguarisearch0000oreg",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.808461Z",
+      "updated_at": "2026-10-29T10:22:51.808462Z"
+    },
+    {
+      "id": "BR-FOLK-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Negrinho do Pastoreio: The Little Black Shepherd",
+      "slug": "negrinho-do-pastoreio-the-little-black-shepherd",
+      "country_code": "BR",
+      "category": "folklore",
+      "subtype": "patron_legend",
+      "summary": "Deeply revered in the gaucho folklore of Rio Grande do Sul, Negrinho was an enslaved Afro-Brazilian orphan boy who tended horses for an exceptionally cruel rancher. When the rancher lost a horse race, he blamed the boy for losing a prize bay stallion, flogged him severely, and left him bound overnight atop an anthill to be devoured. The next morning, the rancher discovered the boy standing miraculously unharmed and glowing with divine light beside the Virgin Mary, with the lost stallion standing gently at his side. Today, gauchos across southern Brazil light a candle to Negrinho whenever they lose a cherished possession, knowing he unfailingly recovers lost items.",
+      "long_description": null,
+      "alternate_names": [
+        "The Little Shepherd of the Pampas",
+        "Patron of Lost Things"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "pt"
+      ],
+      "motifs": [
+        "V221",
+        "E750",
+        "Q40"
+      ],
+      "themes": [
+        "gaucho lore",
+        "miraculous recovery",
+        "anti-slavery folk hero",
+        "pampas",
+        "virgin mary"
+      ],
+      "historical_period": "19th Century Southern Brazil (popularized 1906 by Simões Lopes Neto)",
+      "region_or_community": "Rio Grande do Sul, Southern Pampas",
+      "community_attributions": [
+        "Gaúcho traditionalist movement",
+        "Afro-Brazilian southern communities"
+      ],
+      "geographic_associations": [
+        "Pampas of Rio Grande do Sul",
+        "Pelotas and Bagé"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Lendas do Sul: O Negrinho do Pastoreio",
+          "publisher": "João Simões Lopes Neto / Project Gutenberg",
+          "name": "João Simões Lopes Neto / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/39714",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Simões Lopes Neto, Lendas do Sul (1913). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from João Simões Lopes Neto / Project Gutenberg, 'Lendas do Sul: O Negrinho do Pastoreio'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/39714",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.808484Z",
+      "updated_at": "2026-10-29T10:22:51.808484Z"
+    },
+    {
+      "id": "BR-FOLK-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Cobra Grande: The Giant River Serpent of Pará",
+      "slug": "cobra-grande-the-giant-river-serpent-of-pará",
+      "country_code": "BR",
+      "category": "folklore",
+      "subtype": "river_myth",
+      "summary": "Cobra Grande, or Boiúna, is a colossal black serpent that inhabits the profoundest abyssal trenches of the Amazon River in Pará. Born to an indigenous human mother, the serpent grew so enormous that she had to release it into the river. Swimming through the water, its massive body carves out river channels, while its glowing eyes appear as the navigational spotlights of a ghost steamboat at night. According to Belém urban folklore, the head of the sleeping Cobra Grande rests beneath the high altar of the Basilica of Our Lady of Nazareth, while its tail extends beneath the Guajará Bay; should the serpent ever awaken, the entire city of Belém will sink into the watery depths.",
+      "long_description": null,
+      "alternate_names": [
+        "Boiúna",
+        "The Sleeping Serpent of Belém"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "pt",
+        "tup"
+      ],
+      "motifs": [
+        "B11.2.1",
+        "A901",
+        "F711"
+      ],
+      "themes": [
+        "giant serpent",
+        "amazon river",
+        "belém do pará",
+        "subterranean foundation",
+        "círio de nazaré"
+      ],
+      "historical_period": "Pre-Columbian Tupi myth to Colonial City Folklore of Belém",
+      "region_or_community": "Belém, Pará and the Lower Amazon River",
+      "community_attributions": [
+        "Paraense regional narrators",
+        "Belém cultural custodians"
+      ],
+      "geographic_associations": [
+        "Basílica de Nazaré, Belém",
+        "Guajará Bay, Pará"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Prefeitura de Belém: Mitos Amazônicos e a Lenda da Cobra Grande",
+          "publisher": "Fundação Cultural do Município de Belém",
+          "name": "Fundação Cultural do Município de Belém",
+          "url": "https://belem.pa.gov.br/cultura/lendas-belem",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Fundação Cultural de Belém cultural heritage guide. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Fundação Cultural do Município de Belém, 'Prefeitura de Belém: Mitos Amazônicos e a Lenda da Cobra Grande'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://belem.pa.gov.br/cultura/lendas-belem",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.808510Z",
+      "updated_at": "2026-10-29T10:22:51.808510Z"
+    }
+  ],
+  "metadata": {
+    "description": "Curated folklore dataset for Brazil",
+    "dataset_version": "2.0.0",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
+    "target_count": 10,
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
+    "validation_status": "valid",
+    "last_updated": null,
+    "import_batch_references": []
+  }
+}

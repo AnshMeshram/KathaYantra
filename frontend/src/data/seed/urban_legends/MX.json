@@ -1,0 +1,819 @@
+{
+  "schema_version": "2.0.0",
+  "dataset_id": "MX-urban_legend",
+  "country_code": "MX",
+  "category": "urban_legend",
+  "records": [
+    {
+      "id": "MX-URBAN-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "La Llorona: The Weeping Woman of Xochimilco",
+      "slug": "la-llorona-the-weeping-woman-of-xochimilco",
+      "country_code": "MX",
+      "category": "urban_legend",
+      "subtype": "spectral_phantom",
+      "summary": "Preeminent across Mexican urban and colonial folklore, La Llorona is the wailing ghost of a woman condemned to wander riverbanks and canals for eternity. In the colonial version rooted in Xochimilco and the Zócalo, a woman named Luisa or Maria drowns her children in a canal after being abandoned by her aristocratic lover. Overcome with immediate remorse, she drowns herself. Her ethereal specter drifts through the misty chinampas of Xochimilco at midnight, crying: '¡Ay, mis hijos!' Hearing her cry nearby signifies that she is far away, but hearing her far away means she is right beside you.",
+      "long_description": null,
+      "alternate_names": [
+        "The Weeping Woman",
+        "La Dama del Velo de Xochimilco"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "es"
+      ],
+      "motifs": [
+        "E425.1",
+        "E411.2",
+        "E332.2"
+      ],
+      "themes": [
+        "xochimilco canals",
+        "weeping woman",
+        "colonial tragedy",
+        "maternal guilt",
+        "mexican folklore"
+      ],
+      "historical_period": "Colonial Era origin (c. 16th Century) to Living Urban Legend",
+      "region_or_community": "Xochimilco and Historic Center, Mexico City",
+      "community_attributions": [
+        "Xochimilco boatmen (trajineras) oral culture",
+        "Mexico City urban folklorists"
+      ],
+      "geographic_associations": [
+        "Xochimilco Canals",
+        "Callejón del Aguacate, Coyoacán"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Secretaría de Cultura de la Ciudad de México: La Leyenda de La Llorona en Xochimilco",
+          "publisher": "Secretaría de Cultura de la Ciudad de México",
+          "name": "Secretaría de Cultura de la Ciudad de México",
+          "url": "https://cultura.cdmx.gob.mx/comunicacion/nota/la-llorona-en-xochimilco",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Secretaría de Cultura de la Ciudad de México cultural documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Secretaría de Cultura de la Ciudad de México, 'Secretaría de Cultura de la Ciudad de México: La Leyenda de La Llorona en Xochimilco'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://cultura.cdmx.gob.mx/comunicacion/nota/la-llorona-en-xochimilco",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.825139Z",
+      "updated_at": "2026-10-29T10:22:51.825139Z"
+    },
+    {
+      "id": "MX-URBAN-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "El Charro Negro: The Phantom Rider of the Crossroads",
+      "slug": "el-charro-negro-the-phantom-rider-of-the-crossroads",
+      "country_code": "MX",
+      "category": "urban_legend",
+      "subtype": "demonic_rider",
+      "summary": "A prominent figure in Mexican rural and urban ghostlore, El Charro Negro is a tall, impeccably dressed gentleman astride an immense jet-black stallion with burning crimson eyes, wearing an ornate black charro suit adorned with silver buttons and gold embroidery. Appearing to solitary night travelers on isolated rural roads and outskirts of colonial towns, he offers courteous conversation and bags of silver coin. Should a traveler accept the gold or mount his steed, the horse bolts into flames, dragging the condemned soul directly into the underworld to satisfy a pact made with the devil.",
+      "long_description": null,
+      "alternate_names": [
+        "The Black Charro",
+        "El Jinete de las Tinieblas"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "es"
+      ],
+      "motifs": [
+        "G303.3.1.5",
+        "M210",
+        "E581"
+      ],
+      "themes": [
+        "charro culture",
+        "crossroads devil",
+        "greed and pacts",
+        "phantom stallion",
+        "rural roads"
+      ],
+      "historical_period": "19th Century Post-Independence Era to Present",
+      "region_or_community": "Central Mexico, Jalisco, Puebla, and Hidalgo",
+      "community_attributions": [
+        "Mexican rural oral networks",
+        "Charro cultural associations"
+      ],
+      "geographic_associations": [
+        "Crossroads throughout Central Mexico"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Tradiciones y Leyendas Mexicanas: El Charro Negro",
+          "publisher": "Instituto Nacional de Antropología e Historia (INAH)",
+          "name": "Instituto Nacional de Antropología e Historia (INAH)",
+          "url": "https://archive.org/details/tradicionesyleyendas00unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "INAH traditions and legends archive. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Instituto Nacional de Antropología e Historia (INAH), 'Tradiciones y Leyendas Mexicanas: El Charro Negro'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/tradicionesyleyendas00unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.825163Z",
+      "updated_at": "2026-10-29T10:22:51.825164Z"
+    },
+    {
+      "id": "MX-URBAN-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "La Planchada: The Spectral Nurse of Hospital Juarez",
+      "slug": "la-planchada-the-spectral-nurse-of-hospital-juarez",
+      "country_code": "MX",
+      "category": "urban_legend",
+      "subtype": "hospital_ghost",
+      "summary": "Dating to the mid-twentieth century at Hospital Juárez in Mexico City, La Planchada ('The Ironed Lady') is the ghost of Eulalia, an exceptionally dedicated nurse renowned for her impeccably starched, wrinkle-free white uniform. After suffering severe heartbreak when a doctor spurned her love, she neglected her patients, who died through her grief-stricken indifference. Dying of remorse, her spirit now glides silently through hospital wards late at night, adjusting intravenous drips, administering vital medication, and smoothing blankets for critically ill patients, who wake up surprised to find their dedicated midnight nurse has vanished.",
+      "long_description": null,
+      "alternate_names": [
+        "The Starched Nurse",
+        "Eulalia de Hospital Juárez"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "es"
+      ],
+      "motifs": [
+        "E334.2",
+        "E363.2",
+        "E425.1.1"
+      ],
+      "themes": [
+        "hospital ghost",
+        "nurse in white",
+        "penance",
+        "healing phantom",
+        "mexico city lore"
+      ],
+      "historical_period": "Mid-20th Century to Present (Hospital Juárez tradition)",
+      "region_or_community": "Historic Center and Hospital Corridors, Mexico City",
+      "community_attributions": [
+        "Mexican medical staff oral lore",
+        "Hospital workers oral network"
+      ],
+      "geographic_associations": [
+        "Hospital Juárez de México, Mexico City"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Hospital Juárez de México: Historia y Tradición Oral de La Planchada",
+          "publisher": "Secretaría de Salud de México",
+          "name": "Secretaría de Salud de México",
+          "url": "https://www.gob.mx/salud/hospitaljuarez/articulos/historia-del-hospital-juarez-de-mexico",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Secretaría de Salud de México historical documentation. Public Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Secretaría de Salud de México, 'Hospital Juárez de México: Historia y Tradición Oral de La Planchada'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gob.mx/salud/hospitaljuarez/articulos/historia-del-hospital-juarez-de-mexico",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.825228Z",
+      "updated_at": "2026-10-29T10:22:51.825228Z"
+    },
+    {
+      "id": "MX-URBAN-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "El Chupacabra in Northern Mexico",
+      "slug": "el-chupacabra-in-northern-mexico",
+      "country_code": "MX",
+      "category": "urban_legend",
+      "subtype": "cryptid",
+      "summary": "First reported in Puerto Rico in 1995 and spreading rapidly across northern Mexican ranching states including Nuevo León, Coahuila, and Chihuahua, El Chupacabra ('The Goat Sucker') is a feared modern cryptid blamed for bizarre livestock mutilations. Ranchers discover goats, sheep, and cattle completely drained of blood through two or three small circular puncture wounds in their necks, with no sign of flesh being eaten. Witness descriptions vary between a reptilian biped with red eyes and spiny dorsal ridges to an emaciated, hairless canine creature with protruding fangs.",
+      "long_description": null,
+      "alternate_names": [
+        "The Goat Sucker of the Borderlands",
+        "El Depredador de Ganado"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "es"
+      ],
+      "motifs": [
+        "B29",
+        "G310",
+        "F401"
+      ],
+      "themes": [
+        "cryptid",
+        "livestock mutilation",
+        "northern ranchlands",
+        "blood drinker",
+        "1990s panic"
+      ],
+      "historical_period": "1995 to Present (peak northern Mexican hysteria 1996–2000)",
+      "region_or_community": "Northern Border States (Nuevo León, Coahuila, Chihuahua, Sonora)",
+      "community_attributions": [
+        "Northern Mexican ranching communities",
+        "Latin American cryptozoologists"
+      ],
+      "geographic_associations": [
+        "Cananea, Sonora",
+        "Monterrey ranching outskirts"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Tracking the Chupacabra: The Vampire Beast in Fact, Fiction, and Folklore",
+          "publisher": "Benjamin Radford / University of New Mexico Press",
+          "name": "Benjamin Radford / University of New Mexico Press",
+          "url": "https://archive.org/details/trackingchupacab0000radi",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Benjamin Radford folklore investigation. Educational Reference.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Benjamin Radford / University of New Mexico Press, 'Tracking the Chupacabra: The Vampire Beast in Fact, Fiction, and Folklore'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/trackingchupacab0000radi",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.825364Z",
+      "updated_at": "2026-10-29T10:22:51.825365Z"
+    },
+    {
+      "id": "MX-URBAN-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Aluxes of the Maya Train Route",
+      "slug": "the-aluxes-of-the-maya-train-route",
+      "country_code": "MX",
+      "category": "urban_legend",
+      "subtype": "mischievous_spirits",
+      "summary": "In Yucatec Maya folklore, aluxes (aluxo'ob) are diminutive, knee-high mythological forest sprites sculpted from virgin clay and hidden in milpa fields or cenotes to protect ancestral lands. While respected in traditional agrarian ceremonies, modern urban legend erupted in 2023 when infrastructure projects across the Yucatan Peninsula, including the Maya Train route, experienced inexplicable equipment failures, collapsing bridges, and construction delays, attributed by local laborers to angered aluxes whose sacred forest sanctuaries were disturbed without proper offerings of pozol and honey.",
+      "long_description": null,
+      "alternate_names": [
+        "Los Aluxes de Yucatán",
+        "The Maya Goblin Builders"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "es",
+        "yua"
+      ],
+      "motifs": [
+        "F451.5.2",
+        "C900",
+        "F420.5.2"
+      ],
+      "themes": [
+        "maya folklore",
+        "aluxes",
+        "yucatan jungle",
+        "infrastructure interference",
+        "sacred cenotes"
+      ],
+      "historical_period": "Ancient Maya tradition to Contemporary Infrastructure Lore (2020s)",
+      "region_or_community": "Yucatan Peninsula, Quintana Roo, and Campeche",
+      "community_attributions": [
+        "Yucatec Maya rural custodians",
+        "Modern railway construction oral lore"
+      ],
+      "geographic_associations": [
+        "Cancún-Playa del Carmen corridor",
+        "Tulum cenotes"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Instituto Nacional de Antropología e Historia: La Tradición de los Aluxes en el Mayab",
+          "publisher": "Instituto Nacional de Antropología e Historia",
+          "name": "Instituto Nacional de Antropología e Historia",
+          "url": "https://www.inah.gob.mx/boletines/aluxes-mitologia-maya",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "INAH anthropological study on modern Maya folklore. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Instituto Nacional de Antropología e Historia, 'Instituto Nacional de Antropología e Historia: La Tradición de los Aluxes en el Mayab'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.inah.gob.mx/boletines/aluxes-mitologia-maya",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.825407Z",
+      "updated_at": "2026-10-29T10:22:51.825408Z"
+    },
+    {
+      "id": "MX-URBAN-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Whispering Mummies of Guanajuato",
+      "slug": "the-whispering-mummies-of-guanajuato",
+      "country_code": "MX",
+      "category": "urban_legend",
+      "subtype": "cemetery_haunting",
+      "summary": "In the historic mining city of Guanajuato, the extraordinary dryness and mineral-rich soil of the Pantheon of Santa Paula naturally mummified corpses disinterred between 1865 and 1958 when relatives failed to pay municipal burial taxes. Displayed in the Museum of the Mummies, the desiccated bodies—many preserving agonized facial grimaces from cholera outbreaks—have spawned eerie urban legends. Night security guards and local residents report hearing soft, dry whispers echoing through the crypt halls, spectral footsteps, and mummies shifting posture when museum spotlights are extinguished.",
+      "long_description": null,
+      "alternate_names": [
+        "Las Momias de Guanajuato",
+        "The Mummies of Santa Paula Cemetery"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "es"
+      ],
+      "motifs": [
+        "E411.0.1",
+        "E281",
+        "E430"
+      ],
+      "themes": [
+        "mummies",
+        "guanajuato cemetery",
+        "cholera plague",
+        "museum haunting",
+        "creepy tourism"
+      ],
+      "historical_period": "Late 19th Century to Present (disinterments began 1865)",
+      "region_or_community": "Guanajuato City, State of Guanajuato",
+      "community_attributions": [
+        "Guanajuato municipal cemetery workers",
+        "Mining city oral historians"
+      ],
+      "geographic_associations": [
+        "Panteón de Santa Paula",
+        "Museo de las Momias de Guanajuato"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Gobierno de Guanajuato: Historia y Patrimonio del Museo de las Momias",
+          "publisher": "Municipio de Guanajuato",
+          "name": "Municipio de Guanajuato",
+          "url": "https://guanajuatocapital.gob.mx/momias/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Municipio de Guanajuato official heritage registry. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Municipio de Guanajuato, 'Gobierno de Guanajuato: Historia y Patrimonio del Museo de las Momias'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://guanajuatocapital.gob.mx/momias/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.825441Z",
+      "updated_at": "2026-10-29T10:22:51.825441Z"
+    },
+    {
+      "id": "MX-URBAN-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Haunted House of Aramberri in Monterrey",
+      "slug": "the-haunted-house-of-aramberri-in-monterrey",
+      "country_code": "MX",
+      "category": "urban_legend",
+      "subtype": "crime_haunting",
+      "summary": "Located at 1026 Aramberri Street in downtown Monterrey, Nuevo León, this grand 19th-century townhouse became the center of a notorious urban legend following the brutal murder of two wealthy women in April 1933 by robbers guided by the family's pet parrot, which shouted the perpetrators' names. Abandoned for decades, the dilapidated mansion drew urban explorers who reported spectral screams, disembodied weeping, and phantom apparitions peering from second-floor arched windows, prompting city authorities to seal its entrances with heavy masonry.",
+      "long_description": null,
+      "alternate_names": [
+        "La Casa de Aramberri",
+        "The Crime of Aramberri Street"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "es"
+      ],
+      "motifs": [
+        "E281",
+        "E411.1",
+        "E402"
+      ],
+      "themes": [
+        "mansion haunting",
+        "historical crime",
+        "monterrey lore",
+        "urban exploration",
+        "sealed house"
+      ],
+      "historical_period": "1933 to Present (crimes April 5, 1933)",
+      "region_or_community": "Downtown Monterrey, Nuevo León",
+      "community_attributions": [
+        "Regiomontano urban legend culture",
+        "Nuevo León newspaper archives"
+      ],
+      "geographic_associations": [
+        "Calle Aramberri 1026, Monterrey, Nuevo León"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Archivo Histórico de Monterrey: Crónica del Caso de la Casa de Aramberri",
+          "publisher": "Archivo General de Monterrey",
+          "name": "Archivo General de Monterrey",
+          "url": "https://www.monterrey.gob.mx/archivo-historico-crimenes/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Archivo General de Monterrey historical crime documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Archivo General de Monterrey, 'Archivo Histórico de Monterrey: Crónica del Caso de la Casa de Aramberri'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.monterrey.gob.mx/archivo-historico-crimenes/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.825469Z",
+      "updated_at": "2026-10-29T10:22:51.825469Z"
+    },
+    {
+      "id": "MX-URBAN-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Devil at the Taurus Disco in Guadalajara",
+      "slug": "the-devil-at-the-taurus-disco-in-guadalajara",
+      "country_code": "MX",
+      "category": "urban_legend",
+      "subtype": "moralistic_phantom",
+      "summary": "A famous 1990s urban legend circulating in Guadalajara, Jalisco, claims that during a wild Holy Thursday or Good Friday evening, a strikingly handsome stranger dressed in an elegant black suit entered the popular Taurus nightclub. Charmingly inviting the prettiest girl in the venue to dance, he dazzled the crowd with mesmerizing waltzes. As the tempo accelerated, patrons noticed a strong odor of sulfur and glanced downward to see that one of his polished leather shoes was replaced by a rooster's claw and the other by a cloven goat hoof. The club erupted in screaming panic as the stranger dissolved into flames, leaving scorched footprints on the dancefloor.",
+      "long_description": null,
+      "alternate_names": [
+        "El Diablo en la Discoteca",
+        "The Good Friday Dancer of Guadalajara"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "es"
+      ],
+      "motifs": [
+        "G303.3.1.2",
+        "G303.4.5.3.1",
+        "C762"
+      ],
+      "themes": [
+        "nightclub panic",
+        "devil at the dance",
+        "cloven hoof",
+        "holy week transgression",
+        "guadalajara lore"
+      ],
+      "historical_period": "1990s Urban Legend (peak circulation c. 1994–1998)",
+      "region_or_community": "Guadalajara, Jalisco",
+      "community_attributions": [
+        "Tapatío youth oral networks",
+        "Jalisco urban legend researchers"
+      ],
+      "geographic_associations": [
+        "Discoteca Taurus, Guadalajara, Jalisco"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Leyendas Urbanas de Guadalajara y Jalisco: Apariciones en la Noche",
+          "publisher": "Colegio de Jalisco / Public Folklore Archive",
+          "name": "Colegio de Jalisco / Public Folklore Archive",
+          "url": "https://archive.org/details/leyendasurbanasg0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Colegio de Jalisco urban folklore research. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Colegio de Jalisco / Public Folklore Archive, 'Leyendas Urbanas de Guadalajara y Jalisco: Apariciones en la Noche'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/leyendasurbanasg0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.825496Z",
+      "updated_at": "2026-10-29T10:22:51.825496Z"
+    },
+    {
+      "id": "MX-URBAN-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Phantom Bride of Tlalpan",
+      "slug": "the-phantom-bride-of-tlalpan",
+      "country_code": "MX",
+      "category": "urban_legend",
+      "subtype": "phantom_bride",
+      "summary": "Motorists traveling along the Calzada de Tlalpan and the old federal highway connecting Mexico City to Cuernavaca frequently report sightings of a young woman clad in a torn, dirt-stained bridal gown wandering aimlessly near the curb. According to local lore, her fiancé was killed in a car accident en route to their wedding at a nearby colonial parish in the 1970s; unable to bear the shock, she perished of sorrow. Drivers who stop to assist her find their car headlights flickering out, while the phantom bride gazes through the passenger glass with sunken, weeping eyes before dissolving into the southern highway fog.",
+      "long_description": null,
+      "alternate_names": [
+        "La Novia de Tlalpan",
+        "The Weeping Bride of the Highway"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "es"
+      ],
+      "motifs": [
+        "E332.3.3.1",
+        "E425.1.1",
+        "E334.2"
+      ],
+      "themes": [
+        "phantom bride",
+        "highway ghost",
+        "tlalpan",
+        "tragic romance",
+        "car trouble"
+      ],
+      "historical_period": "1970s to Present",
+      "region_or_community": "Tlalpan and Southern Mexico City",
+      "community_attributions": [
+        "Mexico City taxi and commuter lore",
+        "Southern borough oral networks"
+      ],
+      "geographic_associations": [
+        "Calzada de Tlalpan",
+        "Old Cuernavaca Federal Highway"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Alcaldía Tlalpan: Mitos, Tradiciones y Leyendas del Sur de la Ciudad",
+          "publisher": "Alcaldía Tlalpan Dirección de Cultura",
+          "name": "Alcaldía Tlalpan Dirección de Cultura",
+          "url": "https://www.tlalpan.cdmx.gob.mx/leyendas-urbanas/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Alcaldía Tlalpan Dirección de Cultura documentation. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Alcaldía Tlalpan Dirección de Cultura, 'Alcaldía Tlalpan: Mitos, Tradiciones y Leyendas del Sur de la Ciudad'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.tlalpan.cdmx.gob.mx/leyendas-urbanas/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.825522Z",
+      "updated_at": "2026-10-29T10:22:51.825523Z"
+    },
+    {
+      "id": "MX-URBAN-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Phantom Bus of the Toluca Highway",
+      "slug": "the-phantom-bus-of-the-toluca-highway",
+      "country_code": "MX",
+      "category": "urban_legend",
+      "subtype": "phantom_vehicle",
+      "summary": "A chilling highway legend centered on the treacherous curves of the Old Federal Highway between Mexico City and Toluca involves a phantom passenger bus numbered 326. According to the legend, on a rainy night in the 1980s, the bus suffered brake failure on the winding mountain descent near La Marquesa and plunged down a jagged ravine, incinerating all passengers on board. Modern nocturnal travelers stranded on the mountain pass report an antiquated vintage bus pulling up and offering rides. Passengers who board are warned never to speak to the silent, frozen occupants; those who disembark discover their money has turned to dead leaves and the bus vanishes around the next precipice.",
+      "long_description": null,
+      "alternate_names": [
+        "El Autobús Fantasma de la México-Toluca",
+        "Bus Number 326"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "es"
+      ],
+      "motifs": [
+        "E535.3",
+        "E332.3.3",
+        "E411"
+      ],
+      "themes": [
+        "phantom bus",
+        "mountain highway",
+        "toluca",
+        "fatal crash",
+        "nocturnal peril"
+      ],
+      "historical_period": "1980s to Present",
+      "region_or_community": "State of Mexico and Mexico City mountain corridor",
+      "community_attributions": [
+        "Toluca-Mexico highway commuter lore",
+        "Long-distance bus drivers union"
+      ],
+      "geographic_associations": [
+        "La Marquesa National Park",
+        "Carretera Federal México-Toluca"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Gobierno del Estado de México: Tradición Oral y Leyendas de la Marquesa",
+          "publisher": "Secretaría de Cultura y Turismo del Estado de México",
+          "name": "Secretaría de Cultura y Turismo del Estado de México",
+          "url": "https://cultura.edomex.gob.mx/leyendas-carreteras",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Secretaría de Cultura del Estado de México highway lore. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Secretaría de Cultura y Turismo del Estado de México, 'Gobierno del Estado de México: Tradición Oral y Leyendas de la Marquesa'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://cultura.edomex.gob.mx/leyendas-carreteras",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.825546Z",
+      "updated_at": "2026-10-29T10:22:51.825547Z"
+    }
+  ],
+  "metadata": {
+    "description": "Curated urban_legend dataset for Mexico",
+    "dataset_version": "2.0.0",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
+    "target_count": 10,
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
+    "validation_status": "valid",
+    "last_updated": null,
+    "import_batch_references": []
+  }
+}

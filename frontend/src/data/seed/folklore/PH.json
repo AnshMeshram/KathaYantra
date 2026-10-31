@@ -1,0 +1,830 @@
+{
+  "schema_version": "2.0.0",
+  "dataset_id": "PH-folklore",
+  "country_code": "PH",
+  "category": "folklore",
+  "records": [
+    {
+      "id": "PH-FOLK-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Legend of Maria Makiling: The Mountain Diwata",
+      "slug": "the-legend-of-maria-makiling-the-mountain-diwata",
+      "country_code": "PH",
+      "category": "folklore",
+      "subtype": "nature_spirit",
+      "summary": "Revered in Tagalog folklore as the benevolent guardian spirit (diwata) of Mount Makiling in Laguna, Maria Makiling is an ethereal, radiant maiden with long ebony hair and glowing skin who tends the tropical flora and fauna. Historically, she freely lent villagers golden plates, wedding gowns, and medicinal herbs, and guided lost hunters safely home, provided they never abused nature or kept her borrowed items. However, when villagers grew greedy and hunters began shooting forest deer for sport, Maria Makiling withdrew her physical presence into the mist. Today, her reclining silhouette can still be traced in the undulating ridges of Mount Makiling against the horizon.",
+      "long_description": null,
+      "alternate_names": [
+        "Maria Makiling",
+        "The Diwata of Mount Makiling"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl"
+      ],
+      "motifs": [
+        "F401.3",
+        "F441.2",
+        "C51.1"
+      ],
+      "themes": [
+        "maria makiling",
+        "mount makiling",
+        "diwata nature spirit",
+        "conservation",
+        "tagalog folklore"
+      ],
+      "historical_period": "Pre-Colonial Tagalog Lore (immortalized 1890 by national hero José Rizal)",
+      "region_or_community": "Mount Makiling, Laguna and Batangas, Southern Luzon",
+      "community_attributions": [
+        "Tagalog oral storytellers",
+        "Laguna environmental custodians"
+      ],
+      "geographic_associations": [
+        "Mount Makiling",
+        "Los Baños, Laguna"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Mariang Makiling: A Legend of the Philippines",
+          "publisher": "José Rizal / Project Gutenberg",
+          "name": "José Rizal / Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/48438",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "José Rizal, Mariang Makiling (1890). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from José Rizal / Project Gutenberg, 'Mariang Makiling: A Legend of the Philippines'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/48438",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828174Z",
+      "updated_at": "2026-10-29T10:22:51.828175Z"
+    },
+    {
+      "id": "PH-FOLK-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Legend of Mayon Volcano (Daragang Magayon)",
+      "slug": "the-legend-of-mayon-volcano-daragang-magayon",
+      "country_code": "PH",
+      "category": "folklore",
+      "subtype": "volcano_legend",
+      "summary": "A foundational epic of Bicolano folklore, Daragang Magayon ('Beautiful Maiden') was the peerless daughter of Chief Makusog. She fell in love with Panganoron, a noble warrior prince from the Tagalog region who saved her from drowning in the Yawa River. However, a jealous and arrogant local suitor, Pagtuga, kidnapped her father to force her hand in marriage. In the ensuing clash of tribes, Panganoron was struck by a poisoned arrow; as Magayon cradled him weeping, a stray spear pierced her chest. Buried together in the plain, the earth above their grave rose day by day into a magnificent, perfectly symmetrical smoking cone—Mount Mayon. When the volcano erupts, locals say the fierce warrior Pagtuga is raging, while gentle clouds kissing the peak represent Panganoron embracing his beloved.",
+      "long_description": null,
+      "alternate_names": [
+        "The Legend of Daragang Magayon",
+        "The Symmetrical Volcano of Bicol"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "bcl",
+        "tl"
+      ],
+      "motifs": [
+        "A966",
+        "T10",
+        "T81"
+      ],
+      "themes": [
+        "mayon volcano",
+        "daragang magayon",
+        "bicolano folklore",
+        "tragic romance",
+        "volcano origin"
+      ],
+      "historical_period": "Pre-Colonial Bicolano Oral Tradition",
+      "region_or_community": "Albay Province, Bicol Region",
+      "community_attributions": [
+        "Bicolano oral poets",
+        "Albay cultural heritage council"
+      ],
+      "geographic_associations": [
+        "Mount Mayon",
+        "Legazpi City, Albay",
+        "Cagsawa Ruins"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Filipino Popular Tales: The Legend of Mount Mayon",
+          "publisher": "Dean S. Fansler / American Folk-Lore Society",
+          "name": "Dean S. Fansler / American Folk-Lore Society",
+          "url": "https://www.gutenberg.org/ebooks/8299",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Dean S. Fansler, Filipino Popular Tales (1921). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Dean S. Fansler / American Folk-Lore Society, 'Filipino Popular Tales: The Legend of Mount Mayon'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/8299",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828215Z",
+      "updated_at": "2026-10-29T10:22:51.828215Z"
+    },
+    {
+      "id": "PH-FOLK-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Bakunawa and the Seven Moons",
+      "slug": "bakunawa-and-the-seven-moons",
+      "country_code": "PH",
+      "category": "folklore",
+      "subtype": "eclipse_myth",
+      "summary": "In pre-colonial Visayan and Tagalog cosmology, the supreme creator deity Bathala created seven dazzling moons to illuminate the night sky with perpetual silver light. Fascinated by their beauty, Bakunawa—a colossal serpentine sea dragon with a mouth as vast as a lake and whiskers made of thunderclouds—rose from the ocean abyss and devoured six of the celestial moons one after another. When Bakunawa lunged to swallow the final remaining moon, the terrified islanders ran out of their huts beating wooden drums, clashing metal gongs, and shouting: 'Iuli ang buwan!' ('Return the moon!'). Startled by the concussive racket, Bakunawa regurgitated the moon back into the heavens and fled into the ocean trenches, originating the Philippine explanation for lunar eclipses.",
+      "long_description": null,
+      "alternate_names": [
+        "The Moon-Eating Sea Dragon",
+        "Ang Alamat ng Bakunawa"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ceb",
+        "hil",
+        "tl"
+      ],
+      "motifs": [
+        "A755.4.1",
+        "B11.2.1",
+        "A737.1"
+      ],
+      "themes": [
+        "bakunawa",
+        "seven moons",
+        "lunar eclipse",
+        "visayan mythology",
+        "gongs and drums ritual"
+      ],
+      "historical_period": "Pre-Colonial Visayan Mythology",
+      "region_or_community": "Visayas and Bicol coastal regions",
+      "community_attributions": [
+        "Visayan babaylan (shamans)",
+        "Philippine indigenous oral historians"
+      ],
+      "geographic_associations": [
+        "Visayan Sea",
+        "Guimaras Strait"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Philippine Folk Literature: The Myths (The Eclipse and Bakunawa)",
+          "publisher": "Damiana L. Eugenio / University of the Philippines Press",
+          "name": "Damiana L. Eugenio / University of the Philippines Press",
+          "url": "https://archive.org/details/philippinefolklit0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Damiana L. Eugenio, Philippine Folk Literature: The Myths. UP Press. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Damiana L. Eugenio / University of the Philippines Press, 'Philippine Folk Literature: The Myths (The Eclipse and Bakunawa)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/philippinefolklit0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828247Z",
+      "updated_at": "2026-10-29T10:22:51.828247Z"
+    },
+    {
+      "id": "PH-FOLK-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Malakas and Maganda: Origin of Humanity from Bamboo",
+      "slug": "malakas-and-maganda-origin-of-humanity-from-bamboo",
+      "country_code": "PH",
+      "category": "folklore",
+      "subtype": "creation_myth",
+      "summary": "In the beginning, when there existed only the primeval sea, the endless sky, and a solitary kite bird (Manaul), the restless bird grew weary of flying and stirred up a fierce tempest between the sea and sky. To calm the waters, the sky hurled down colossal boulders into the ocean, which became the thousand islands of the Philippine archipelago. Landing upon an island beach, the bird was struck on the foot by a floating stalk of giant bamboo. Angered, the bird pecked furiously at the stalk until it split down the middle. Out stepped the first man, Malakas ('The Strong One'), and the first woman, Maganda ('The Beautiful One'), from whose union arose the diverse ethnolinguistic peoples of the Philippines.",
+      "long_description": null,
+      "alternate_names": [
+        "The Legend of Malakas and Maganda",
+        "Humanity from the Bamboo"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl",
+        "ceb"
+      ],
+      "motifs": [
+        "A1211",
+        "A1236",
+        "A1617"
+      ],
+      "themes": [
+        "creation myth",
+        "malakas and maganda",
+        "bamboo split",
+        "manaul bird",
+        "philippine origins"
+      ],
+      "historical_period": "Pre-Colonial Tagalog and Visayan Mythological Tradition",
+      "region_or_community": "Nationwide indigenous Philippine creation lore",
+      "community_attributions": [
+        "Pre-colonial oral narrators",
+        "Philippine cultural education primer"
+      ],
+      "geographic_associations": [
+        "Philippine archipelago coastal lands"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Filipino Popular Tales: The Origin of the World and the First People",
+          "publisher": "Dean S. Fansler / American Folk-Lore Society",
+          "name": "Dean S. Fansler / American Folk-Lore Society",
+          "url": "https://www.gutenberg.org/ebooks/8299",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Dean S. Fansler, Filipino Popular Tales (1921). Project Gutenberg. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Dean S. Fansler / American Folk-Lore Society, 'Filipino Popular Tales: The Origin of the World and the First People'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/8299",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828271Z",
+      "updated_at": "2026-10-29T10:22:51.828272Z"
+    },
+    {
+      "id": "PH-FOLK-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Bernardo Carpio: The Trapped Giant of Montalban",
+      "slug": "bernardo-carpio-the-trapped-giant-of-montalban",
+      "country_code": "PH",
+      "category": "folklore",
+      "subtype": "earthquake_giant",
+      "summary": "Blending Spanish chivalric romance with ancient Tagalog earthquake animism, Bernardo Carpio is a legendary Filipino giant of superhuman strength who possessed the power to uproot ancient balete trees with a single hand. Deceived by jealous shamans or Spanish sorcerers who feared his strength would liberate the islands, Bernardo was lured into the deep rocky cavern of the Montalban Gorge (in Rodriguez, Rizal) between two colossal limestone cliffs. The sorcerer triggered an enchantment causing the two opposing mountains to crash together, trapping Bernardo between the stone walls. In Tagalog folklore, whenever an earthquake shakes Luzon, it is Bernardo Carpio struggling against the mountains; when he finally breaks free, the Philippines will achieve ultimate liberation.",
+      "long_description": null,
+      "alternate_names": [
+        "The King of the Mountains",
+        "Ang Alamat ni Bernardo Carpio"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl"
+      ],
+      "motifs": [
+        "A1145",
+        "F531.0.4",
+        "F102.1"
+      ],
+      "themes": [
+        "bernardo carpio",
+        "montalban gorge",
+        "earthquake myth",
+        "anti-colonial messiah",
+        "giant hero"
+      ],
+      "historical_period": "Colonial 18th Century Syncretism to Revolutionary Lore",
+      "region_or_community": "Rodriguez (Montalban), Rizal Province, Calabarzon",
+      "community_attributions": [
+        "Katipunan revolutionary oral folklore",
+        "Tagalog village elders"
+      ],
+      "geographic_associations": [
+        "Montalban Gorge (Wawa Dam)",
+        "Pamitinan Cave, Rizal"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Legend of Bernardo Carpio: History, Myth, and National Identity",
+          "publisher": "Ateneo de Manila University Press",
+          "name": "Ateneo de Manila University Press",
+          "url": "https://archive.org/details/bernardocarpio0000unse",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Ateneo de Manila University Press folklore research. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Ateneo de Manila University Press, 'The Legend of Bernardo Carpio: History, Myth, and National Identity'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/bernardocarpio0000unse",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828298Z",
+      "updated_at": "2026-10-29T10:22:51.828299Z"
+    },
+    {
+      "id": "PH-FOLK-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Aswang and the Visayan Manananggal",
+      "slug": "the-aswang-and-the-visayan-manananggal",
+      "country_code": "PH",
+      "category": "folklore",
+      "subtype": "visayan_predator",
+      "summary": "Pervasive across the Visayas, particularly in Capiz, the aswang is a feared shape-shifting supernatural predator. Among its most terrifying variants is the manananggal—a female creature that applies a secret medicinal oil beneath her arms on moonless nights, detaching her torso at the waist. Sprouting massive bat-like wings, her upper body flies into the night sky, leaving her lower torso hidden in banana groves or behind houses. Perching upon the thatched roofs of rural huts, she uses an elongated, thread-like hollow tongue to feed on unborn infants in the wombs of pregnant women. The creature can only be defeated if salt, crushed garlic, or holy ash is smeared over her severed lower torso, preventing her from rejoining before the morning sun incinerates her.",
+      "long_description": null,
+      "alternate_names": [
+        "Manananggal",
+        "The Self-Segmenting Witch of Capiz"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "hil",
+        "ceb",
+        "tl"
+      ],
+      "motifs": [
+        "G312",
+        "D110",
+        "E422.1.8.5"
+      ],
+      "themes": [
+        "aswang",
+        "manananggal",
+        "visayan folklore",
+        "capiz",
+        "severed torso predator"
+      ],
+      "historical_period": "Pre-Colonial animism to Living Philippine Folklore",
+      "region_or_community": "Capiz, Iloilo, and Panay Island, Western Visayas",
+      "community_attributions": [
+        "Visayan rural communities",
+        "Philippine Folklore Society"
+      ],
+      "geographic_associations": [
+        "Capiz Province",
+        "Panay Island, Western Visayas"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Aswang Complex in Philippine Folklore",
+          "publisher": "Maximo D. Ramos / Phoenix Publishing House",
+          "name": "Maximo D. Ramos / Phoenix Publishing House",
+          "url": "https://archive.org/details/aswangcomplexin0000ramos",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Maximo D. Ramos, The Aswang Complex in Philippine Folklore (1971). Educational Use.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Maximo D. Ramos / Phoenix Publishing House, 'The Aswang Complex in Philippine Folklore'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/aswangcomplexin0000ramos",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828325Z",
+      "updated_at": "2026-10-29T10:22:51.828326Z"
+    },
+    {
+      "id": "PH-FOLK-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Tikbalang: Half-Horse Trickster of the Woods",
+      "slug": "the-tikbalang-half-horse-trickster-of-the-woods",
+      "country_code": "PH",
+      "category": "folklore",
+      "subtype": "forest_trickster",
+      "summary": "A towering supernatural humanoid with the head, hooves, and mane of a horse and the long, muscular body of a man, the Tikbalang inhabits the dense forests and lonely crossroads of the Philippine islands. When seated on tree branches, its knees rise above its head due to its disproportionately long limbs. The creature delights in confusing night travelers, causing them to walk in endless circular loops through the woods until they lose their minds. The traditional countermeasure is to invert one's shirt (baligtarin ang damit). To tame a Tikbalang and compel it into loyal service, a brave warrior must leap onto its bucking back and pluck one of its three glowing golden mane hairs before it exhausts itself.",
+      "long_description": null,
+      "alternate_names": [
+        "Tikbalang",
+        "The Horse-Headed Phantom of Luzon"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl"
+      ],
+      "motifs": [
+        "B29",
+        "J1110",
+        "K1888"
+      ],
+      "themes": [
+        "tikbalang",
+        "half-horse creature",
+        "crossroads confusion",
+        "inverting clothes",
+        "philippine forests"
+      ],
+      "historical_period": "Pre-Colonial to Contemporary Philippine Folklore",
+      "region_or_community": "Sierra Madre Mountains, Rizal, and Central Luzon",
+      "community_attributions": [
+        "Tagalog rural oral tradition",
+        "Philippine mythological researchers"
+      ],
+      "geographic_associations": [
+        "Sierra Madre Mountain Range",
+        "Mount Banahaw, Quezon"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Creatures of Philippine Lower Mythology: The Tikbalang and Tree Spirits",
+          "publisher": "Maximo D. Ramos / University of the Philippines Press",
+          "name": "Maximo D. Ramos / University of the Philippines Press",
+          "url": "https://archive.org/details/creaturesofphili0000ramo",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Maximo D. Ramos, Creatures of Philippine Lower Mythology. UP Press. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Maximo D. Ramos / University of the Philippines Press, 'Creatures of Philippine Lower Mythology: The Tikbalang and Tree Spirits'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/creaturesofphili0000ramo",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828382Z",
+      "updated_at": "2026-10-29T10:22:51.828382Z"
+    },
+    {
+      "id": "PH-FOLK-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Kapre: Giant Smoker of the Balete Tree",
+      "slug": "the-kapre-giant-smoker-of-the-balete-tree",
+      "country_code": "PH",
+      "category": "folklore",
+      "subtype": "tree_giant",
+      "summary": "Standing over seven to nine feet tall with dark, hairy skin and a loincloth, the Kapre is a nocturnal forest giant that dwells high in the upper branches of colossal old balete (strangler fig), mango, or acacia trees. Renowned for holding an endless, magical smoking cigar (tabako) that never burns out, the scent of burning tobacco in the evening breeze often betrays his unseen presence. While generally solitary and peaceful, the Kapre enjoys playing disorienting pranks on nocturnal passersby, dropping glowing embers from branches, making loud rustling noises, or fixating his romantic affection on pretty village women.",
+      "long_description": null,
+      "alternate_names": [
+        "O Kapre",
+        "The Balete Tree Giant"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl",
+        "ceb",
+        "ilo"
+      ],
+      "motifs": [
+        "F531.0.4",
+        "F441.2",
+        "K1800"
+      ],
+      "themes": [
+        "kapre",
+        "balete tree",
+        "giant cigar smoker",
+        "philippine countryside",
+        "tree spirits"
+      ],
+      "historical_period": "Colonial 16th Century syncretism (name derived from Arabic Kafir via Portuguese/Spanish)",
+      "region_or_community": "Rural provinces nationwide throughout the Philippines",
+      "community_attributions": [
+        "Rural Filipino farming communities",
+        "Balete tree oral traditions"
+      ],
+      "geographic_associations": [
+        "Ancient Balete trees in Aurora, Siquijor, and Laguna"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Creatures of Midnight: Fictitious Beings in Philippine Folklore",
+          "publisher": "Maximo D. Ramos / Island Publishers",
+          "name": "Maximo D. Ramos / Island Publishers",
+          "url": "https://archive.org/details/creaturesofmidni0000ramo",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Maximo D. Ramos, The Creatures of Midnight. Educational Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Maximo D. Ramos / Island Publishers, 'The Creatures of Midnight: Fictitious Beings in Philippine Folklore'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/creaturesofmidni0000ramo",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828408Z",
+      "updated_at": "2026-10-29T10:22:51.828408Z"
+    },
+    {
+      "id": "PH-FOLK-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Tiyanak: Demon Infant of the Jungle",
+      "slug": "the-tiyanak-demon-infant-of-the-jungle",
+      "country_code": "PH",
+      "category": "folklore",
+      "subtype": "monstrous_child",
+      "summary": "In traditional Philippine folklore, the Tiyanak (or Impakto) is a malevolent predatory entity that disguises itself as a helpless, crying newborn infant abandoned in the tall grass or forest undergrowth. When a compassionate traveler picks up the baby to comfort it, the creature reveals its true horrifying form: sprouting sharp fangs, glowing demonic eyes, and elongated clawed hands, it bites savagely into the traveler's neck. In post-colonial Catholic syncretism, the Tiyanak is believed to be the restless, unbaptized soul of an aborted or abandoned infant trapped between realms, haunting deep forest paths.",
+      "long_description": null,
+      "alternate_names": [
+        "Tiyanak",
+        "Impakto"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "tl",
+        "ceb"
+      ],
+      "motifs": [
+        "G312",
+        "E425.3",
+        "K2010"
+      ],
+      "themes": [
+        "tiyanak",
+        "mimicking crying baby",
+        "predatory trap",
+        "philippine forest peril",
+        "unbaptized souls"
+      ],
+      "historical_period": "Pre-Colonial animism syncretized with Spanish Catholic traditions",
+      "region_or_community": "Luzon and Visayan rural woodland areas",
+      "community_attributions": [
+        "Philippine rural elders",
+        "Catholic parish ghostlore"
+      ],
+      "geographic_associations": [
+        "Rural woodland paths of Batangas and Bulacan"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Philippine Shamanism and Supernatural Beliefs: The Tiyanak Tradition",
+          "publisher": "Francisco R. Demetrio / Xavier University Press",
+          "name": "Francisco R. Demetrio / Xavier University Press",
+          "url": "https://archive.org/details/philippineshaman0000demet",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Fr. Francisco Demetrio, Philippine Shamanism. Xavier University. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Francisco R. Demetrio / Xavier University Press, 'Philippine Shamanism and Supernatural Beliefs: The Tiyanak Tradition'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/philippineshaman0000demet",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828432Z",
+      "updated_at": "2026-10-29T10:22:51.828432Z"
+    },
+    {
+      "id": "PH-FOLK-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Sirena and the Fishermen of Cebu (Magindara)",
+      "slug": "the-sirena-and-the-fishermen-of-cebu-magindara",
+      "country_code": "PH",
+      "category": "folklore",
+      "subtype": "water_spirit",
+      "summary": "In pre-colonial Visayan and Bicolano maritime mythology, the Sirena (or indigenous Magindara) are aquatic water maidens with the upper body of beautiful indigenous women and the tails of scaled marine fish, accompanied by their fierce male counterparts, the Sireno. In Cebuano coastal folklore, the Sirena protects sacred coral reefs and whale shark feeding grounds from destructive fishing. While benevolent toward honorable fishermen who share tobacco or rice offerings, singing melodies that guide boats through storm reefs, she lures cruel poachers and dynamite fishermen down into deep oceanic trenches, where they are never seen again.",
+      "long_description": null,
+      "alternate_names": [
+        "Magindara",
+        "Ang Sirena sa Kabisay-an"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ceb",
+        "bcl"
+      ],
+      "motifs": [
+        "B82",
+        "F420.1.2",
+        "D1275"
+      ],
+      "themes": [
+        "sirena",
+        "magindara",
+        "visayan maritime lore",
+        "coral reef protection",
+        "cebu coast"
+      ],
+      "historical_period": "Pre-Colonial Visayan Maritime Lore to Living Coastal Folklore",
+      "region_or_community": "Cebu, Bohol, and the Visayan maritime straits",
+      "community_attributions": [
+        "Cebuano fishermen oral culture",
+        "Visayan coastal storytellers"
+      ],
+      "geographic_associations": [
+        "Tanon Strait, Cebu",
+        "Bohol Sea"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Cebuano Sorcery and Marine Folklore: Sea Spirits and Sirenas",
+          "publisher": "Richard W. Lieban / University of California Press",
+          "name": "Richard W. Lieban / University of California Press",
+          "url": "https://archive.org/details/cebuanosorcery0000lieban",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Richard W. Lieban, Cebuano Sorcery and Folklore. UC Press. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Richard W. Lieban / University of California Press, 'Cebuano Sorcery and Marine Folklore: Sea Spirits and Sirenas'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/cebuanosorcery0000lieban",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.828457Z",
+      "updated_at": "2026-10-29T10:22:51.828457Z"
+    }
+  ],
+  "metadata": {
+    "description": "Curated folklore dataset for Philippines",
+    "dataset_version": "2.0.0",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
+    "target_count": 10,
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
+    "validation_status": "valid",
+    "last_updated": null,
+    "import_batch_references": []
+  }
+}

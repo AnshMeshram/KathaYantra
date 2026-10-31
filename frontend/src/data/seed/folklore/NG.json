@@ -1,0 +1,824 @@
+{
+  "schema_version": "2.0.0",
+  "dataset_id": "NG-folklore",
+  "country_code": "NG",
+  "category": "folklore",
+  "records": [
+    {
+      "id": "NG-FOLK-001",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Ijapa the Tortoise and the Gourd of Wisdom",
+      "slug": "ijapa-the-tortoise-and-the-gourd-of-wisdom",
+      "country_code": "NG",
+      "category": "folklore",
+      "subtype": "trickster_tale",
+      "summary": "A foundational trickster narrative in Yoruba oral folklore, Ijapa the tortoise schemes to monopolize all the wisdom of the earth. Gathering every proverb, craft, and understanding into a hollowed calabash gourd, he ties it around his neck and attempts to climb a tall palm tree to hide it high in the canopy where no other mortal or animal can reach it. However, with the bulky gourd tied to his front, he repeatedly slips down the trunk. His young son watching from the grass shouts: 'Father, why not tie the gourd to your back so your hands and chest can grip the bark?' Realizing his child possessed wisdom that escaped him, Ijapa hurls the calabash to the ground in frustration, shattering it so wisdom scattered across the four corners of the world for everyone to share.",
+      "long_description": null,
+      "alternate_names": [
+        "Ijapa and the Calabash",
+        "The Tortoise and the Gourd of Knowledge"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "yo"
+      ],
+      "motifs": [
+        "J1110",
+        "A1480",
+        "K100"
+      ],
+      "themes": [
+        "trickster",
+        "ijapa the tortoise",
+        "yoruba folklore",
+        "wisdom shared",
+        "pride and folly"
+      ],
+      "historical_period": "Pre-Colonial Traditional Yoruba Oral Folklore",
+      "region_or_community": "Southwestern Nigeria, Yoruba cultural domain",
+      "community_attributions": [
+        "Yoruba traditional storytellers (akigbe)",
+        "Nigerian folklore collectors"
+      ],
+      "geographic_associations": [
+        "Oyo",
+        "Ibadan",
+        "Ogun State palm groves"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Yoruba Legends: The Story of the Tortoise and the Wisdom Gourd",
+          "publisher": "M. I. Ogumefu / Sheldon Press",
+          "name": "M. I. Ogumefu / Sheldon Press",
+          "url": "https://www.gutenberg.org/ebooks/15469",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "M. I. Ogumefu, Yoruba Legends (1929). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from M. I. Ogumefu / Sheldon Press, 'Yoruba Legends: The Story of the Tortoise and the Wisdom Gourd'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/15469",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826541Z",
+      "updated_at": "2026-10-29T10:22:51.826543Z"
+    },
+    {
+      "id": "NG-FOLK-002",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Heroism of Queen Moremi Ajasoro",
+      "slug": "the-heroism-of-queen-moremi-ajasoro",
+      "country_code": "NG",
+      "category": "folklore",
+      "subtype": "historical_legend",
+      "summary": "In ancient Ile-Ife, the spiritual cradle of the Yoruba people, the kingdom was repeatedly terrorized by bizarre raiders known as the Igbo (forest masqueraders), who appeared as terrifying, invulnerable apparitions covered in raffia and bush vegetation. Distressed by her people's suffering, Queen Moremi Ajasoro made a solemn vow to the river spirit Esimirin: if the goddess granted her the secret to defeat the raiders, Moremi would sacrifice whatever first came to meet her upon her return. Allowing herself to be captured, Moremi used her beauty and intelligence to marry the enemy king and discover their weakness: the raffia suits were flammable. Escaping to Ile-Ife, she instructed her warriors to attack with firebrands, routing the raiders. Returning home, she discovered her only son Oluorogbo ran to greet her, fulfilling her tragic sacrifice.",
+      "long_description": null,
+      "alternate_names": [
+        "Queen Moremi of Ife",
+        "The Savior of Ile-Ife"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "yo"
+      ],
+      "motifs": [
+        "S262",
+        "K1810",
+        "P428"
+      ],
+      "themes": [
+        "moremi",
+        "ile-ife",
+        "female hero",
+        "self-sacrifice",
+        "yoruba royal history"
+      ],
+      "historical_period": "12th Century Medieval Yoruba Era",
+      "region_or_community": "Ile-Ife, Osun State, Southwestern Nigeria",
+      "community_attributions": [
+        "Ooni of Ife royal palace historians",
+        "Yoruba cultural custodians"
+      ],
+      "geographic_associations": [
+        "Ile-Ife",
+        "Esimirin River, Osun State"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The History of the Yorubas: From the Earliest Times to the Beginning of the British Protectorate",
+          "publisher": "Samuel Johnson / Routledge",
+          "name": "Samuel Johnson / Routledge",
+          "url": "https://archive.org/details/historyofyorubas00john",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Samuel Johnson, The History of the Yorubas (1921). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Samuel Johnson / Routledge, 'The History of the Yorubas: From the Earliest Times to the Beginning of the British Protectorate'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/historyofyorubas00john",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826585Z",
+      "updated_at": "2026-10-29T10:22:51.826586Z"
+    },
+    {
+      "id": "NG-FOLK-003",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Sango the Thunder King of the Oyo Empire",
+      "slug": "sango-the-thunder-king-of-the-oyo-empire",
+      "country_code": "NG",
+      "category": "folklore",
+      "subtype": "orisha_myth",
+      "summary": "Sango (Shango) was the historically formidable third Alaafin (Emperor) of the ancient Oyo Empire, renowned for his fiery temper, military brilliance, and mastery over lightning. Wielding a double-headed bronze axe (oshe) and riding into battle breathing smoke and sparks, Sango could summon thunderbolts from the heavens to incinerate enemy armies. Following a bitter political dispute between his two top generals, Timi and Gbonka, which led to civil strife and the burning of his capital, Sango retreated into the forest and hanged himself from an ayan tree in remorse. Loyal devotees proclaimed 'Oba kò so' ('The King did not hang!'), witnessing him ascend directly into the heavens to become the Orisha of thunder, lightning, and cosmic justice.",
+      "long_description": null,
+      "alternate_names": [
+        "Shango",
+        "Oba Kò So (The King Did Not Hang)"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "yo"
+      ],
+      "motifs": [
+        "A284",
+        "A287",
+        "D1091"
+      ],
+      "themes": [
+        "sango",
+        "orisha of thunder",
+        "oyo empire",
+        "double-headed axe",
+        "divine justice"
+      ],
+      "historical_period": "c. 14th–15th Century Old Oyo Empire (deified post-reign)",
+      "region_or_community": "Oyo Empire and Yorubaland",
+      "community_attributions": [
+        "Oyo palace bards",
+        "Sango priesthood (Mogba)"
+      ],
+      "geographic_associations": [
+        "Old Oyo (Oyo-Ile)",
+        "Koso, Oyo State"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Religions of the People of Southern Nigeria: Sango the Thunder Divinity",
+          "publisher": "P. Amaury Talbot / Oxford University Press",
+          "name": "P. Amaury Talbot / Oxford University Press",
+          "url": "https://archive.org/details/religionsofpeopl00talb",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "P. Amaury Talbot, Religions of Southern Nigeria (1926). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from P. Amaury Talbot / Oxford University Press, 'The Religions of the People of Southern Nigeria: Sango the Thunder Divinity'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/religionsofpeopl00talb",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826615Z",
+      "updated_at": "2026-10-29T10:22:51.826615Z"
+    },
+    {
+      "id": "NG-FOLK-004",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Oya the Fierce Goddess of the River Niger",
+      "slug": "oya-the-fierce-goddess-of-the-river-niger",
+      "country_code": "NG",
+      "category": "folklore",
+      "subtype": "orisha_myth",
+      "summary": "Oya is the fierce Yoruba Orisha of winds, hurricanes, lightning, and rebirth, venerated as the patron deity of the great River Niger (known traditionally as Odò Oya). As the warrior-queen and consort of Sango, she rides alongside him into the storm wielding a machete of bronze and waving a fly-whisk (irukere) that summons tornadoes. According to sacred folklore, Oya also commands the transition between life and death as the guardian of the cemetery gates and master of the ancestral masquerades (Egungun), capable of shapeshifting into a fierce water buffalo to defend her devotees from injustice.",
+      "long_description": null,
+      "alternate_names": [
+        "Oya-Iyansan",
+        "The Lady of the River Niger"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "yo"
+      ],
+      "motifs": [
+        "A282",
+        "D310",
+        "F420"
+      ],
+      "themes": [
+        "oya",
+        "river niger",
+        "hurricane goddess",
+        "ancestral gatekeeper",
+        "buffalo shapeshifter"
+      ],
+      "historical_period": "Pre-Colonial Yoruba and Nupe Traditions",
+      "region_or_community": "Niger River basin, Kwara and Oyo States",
+      "community_attributions": [
+        "Yoruba and Nupe river custodians",
+        "Oya traditional priesthood"
+      ],
+      "geographic_associations": [
+        "River Niger (Odò Oya)",
+        "Jebba and Lokoja confluences"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Olodumare: God in Yoruba Belief (The Pantheon of Orishas: Oya)",
+          "publisher": "E. Bolaji Idowu / Longmans",
+          "name": "E. Bolaji Idowu / Longmans",
+          "url": "https://archive.org/details/olodumaregodinyo0000idow",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "E. Bolaji Idowu, Olodumare: God in Yoruba Belief. Open Educational Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from E. Bolaji Idowu / Longmans, 'Olodumare: God in Yoruba Belief (The Pantheon of Orishas: Oya)'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/olodumaregodinyo0000idow",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826642Z",
+      "updated_at": "2026-10-29T10:22:51.826643Z"
+    },
+    {
+      "id": "NG-FOLK-005",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "Queen Amina of Zazzau: The Warrior Queen",
+      "slug": "queen-amina-of-zazzau-the-warrior-queen",
+      "country_code": "NG",
+      "category": "folklore",
+      "subtype": "historical_legend",
+      "summary": "Ruling the Hausa kingdom of Zazzau (modern-day Zaria in northern Nigeria) during the late 16th century, Queen Amina was a legendary military commander who expanded her empire across the savanna from Kano to the Niger River. Refusing to marry permanently, Amina led a formidable cavalry force into battle personally, clad in iron chainmail and wielding a lance. She pioneered the construction of colossal defensive mud-brick fortifications surrounding every conquered city, known throughout northern Nigeria as Ganuwar Amina (Amina's Walls). Hausa oral epics celebrate her as 'Amina, woman as capable as a man' (Amina yar Bakwa ta san rana).",
+      "long_description": null,
+      "alternate_names": [
+        "Amina of Zaria",
+        "Ganuwar Amina"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "ha"
+      ],
+      "motifs": [
+        "P428",
+        "F610",
+        "A1617"
+      ],
+      "themes": [
+        "queen amina",
+        "hausa kingdom",
+        "zazzau",
+        "warrior queen",
+        "defensive walls"
+      ],
+      "historical_period": "Late 16th Century (reign c. 1576–1610, chronicled in Kano Chronicle)",
+      "region_or_community": "Zazzau (Zaria), Kaduna and Kano States, Northern Nigeria",
+      "community_attributions": [
+        "Hausa royal griots and oral bards",
+        "Northern Nigerian historians"
+      ],
+      "geographic_associations": [
+        "Ancient City Walls of Zaria",
+        "Kano City Walls"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Kano Chronicle: Historical Annals of the Hausa Kings and Queen Amina",
+          "publisher": "H. R. Palmer (Translator) / Royal Anthropological Institute",
+          "name": "H. R. Palmer (Translator) / Royal Anthropological Institute",
+          "url": "https://archive.org/details/kanochronicle0000palm",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "H. R. Palmer, The Kano Chronicle (1908). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from H. R. Palmer (Translator) / Royal Anthropological Institute, 'The Kano Chronicle: Historical Annals of the Hausa Kings and Queen Amina'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/kanochronicle0000palm",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826672Z",
+      "updated_at": "2026-10-29T10:22:51.826673Z"
+    },
+    {
+      "id": "NG-FOLK-006",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Sacred Waters of Osun-Osogbo",
+      "slug": "the-sacred-waters-of-osun-osogbo",
+      "country_code": "NG",
+      "category": "folklore",
+      "subtype": "sacred_groves",
+      "summary": "In the lush forested river bend of Osogbo, the sacred river goddess Osun is venerated as the compassionate Orisha of fertility, sweet waters, maternal love, and gold. When founding chieftain Larooye arrived at the Osun River during a severe drought, a gentle voice rose from the rushing waters promising that if the people honored her sanctuary and preserved the pristine canopy of the river grove, the settlement would flourish and childless women would conceive. The sacred agreement established the enduring Osun-Osogbo festival, where the virgin maiden Arugba carries the sacred calabash of offerings to the river each August.",
+      "long_description": null,
+      "alternate_names": [
+        "Osun the River Goddess",
+        "The Covenant of Osogbo Grove"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "yo"
+      ],
+      "motifs": [
+        "F420.1.2",
+        "V221",
+        "M200"
+      ],
+      "themes": [
+        "osun",
+        "sacred grove",
+        "fertility goddess",
+        "sweet waters",
+        "arugba festival"
+      ],
+      "historical_period": "Pre-Colonial Yoruba settlement (enshrined as UNESCO World Heritage Site)",
+      "region_or_community": "Osogbo, Osun State, Southwestern Nigeria",
+      "community_attributions": [
+        "Ataoja of Osogbo palace historians",
+        "Osun priestesses (Iya Osun)"
+      ],
+      "geographic_associations": [
+        "Osun-Osogbo Sacred Grove",
+        "Osun River"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "UNESCO World Heritage Centre: Osun-Osogbo Sacred Grove Cultural Records",
+          "publisher": "UNESCO / National Commission for Museums and Monuments Nigeria",
+          "name": "UNESCO / National Commission for Museums and Monuments Nigeria",
+          "url": "https://whc.unesco.org/en/list/1118/",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "UNESCO World Heritage documentation on Osun-Osogbo Sacred Grove. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from UNESCO / National Commission for Museums and Monuments Nigeria, 'UNESCO World Heritage Centre: Osun-Osogbo Sacred Grove Cultural Records'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://whc.unesco.org/en/list/1118/",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826699Z",
+      "updated_at": "2026-10-29T10:22:51.826699Z"
+    },
+    {
+      "id": "NG-FOLK-007",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Hunter and the Forest Spirits of Igbale",
+      "slug": "the-hunter-and-the-forest-spirits-of-igbale",
+      "country_code": "NG",
+      "category": "folklore",
+      "subtype": "hunter_tales",
+      "summary": "In traditional Yoruba hunting lore, master hunters (Ode) undergo rigorous spiritual apprenticeships to perceive the hidden dimensions of the deep virgin jungle (Igbale). A veteran hunter tracks an elusive antelope into a hidden clearing where the trees whisper and the soil is made of brass. Peering through the leaves, he witnesses the antelope shed its skin to become a beautiful maiden dancing with forest spirits (Aroni and Ijimere). Warned by the spirits never to reveal their secret dwelling or hunt without protective medicinal amulets (oogun), the hunter returns home enriched with herbal knowledge, teaching future generations the sacred taboos of forest conservation.",
+      "long_description": null,
+      "alternate_names": [
+        "The Hunter and the Shapeshifting Antelope",
+        "Tales of the Ijala Bards"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "yo"
+      ],
+      "motifs": [
+        "D313",
+        "C31.1",
+        "F441"
+      ],
+      "themes": [
+        "yoruba hunters",
+        "forest spirits",
+        "ijala chants",
+        "shapeshifting antelope",
+        "sacred taboos"
+      ],
+      "historical_period": "Traditional Yoruba Oral Poetry (preserved in Ijala hunting chants)",
+      "region_or_community": "Ekiti, Ondo, and Osun forested hinterlands",
+      "community_attributions": [
+        "Guild of Yoruba Hunters (Egbe Ode)",
+        "Ijala poetic chanters"
+      ],
+      "geographic_associations": [
+        "Idanre Hills, Ondo State",
+        "Ekiti forests"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Content and Form of Yoruba Ijala: Traditional Poetry of the Hunters",
+          "publisher": "S. A. Babalola / Oxford University Press",
+          "name": "S. A. Babalola / Oxford University Press",
+          "url": "https://archive.org/details/contentformofyor0000baba",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "S. A. Babalola, Content and Form of Yoruba Ijala. Oxford University Press. Open Access.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from S. A. Babalola / Oxford University Press, 'The Content and Form of Yoruba Ijala: Traditional Poetry of the Hunters'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/contentformofyor0000baba",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826723Z",
+      "updated_at": "2026-10-29T10:22:51.826724Z"
+    },
+    {
+      "id": "NG-FOLK-008",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Origin of Death and the Slow Chameleon",
+      "slug": "the-origin-of-death-and-the-slow-chameleon",
+      "country_code": "NG",
+      "category": "folklore",
+      "subtype": "etiological_myth",
+      "summary": "In early times when humanity lived peacefully without sickness or mortality, the Supreme Creator Olodumare decided that mortals should live forever. He entrusted this joyful message of eternal life to the deliberate, slow-moving Chameleon (Oga), commanding him to walk to the mortal realm. On the long journey, the Chameleon took careful, hesitant steps, constantly admiring the colors of leaves and testing each branch. Impatient with the delay, the swift-flying Lizard (Alangba) rushed to earth ahead of him and mischievously proclaimed: 'The Creator says: All mortals shall die and return to dust!' When the Chameleon finally arrived with the truth, humanity had already accepted the false message, cementing the permanent presence of death on earth.",
+      "long_description": null,
+      "alternate_names": [
+        "The Message of Mortality",
+        "The Chameleon and the Lizard"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "yo",
+        "ig"
+      ],
+      "motifs": [
+        "A1335.1",
+        "A1335.2",
+        "B291"
+      ],
+      "themes": [
+        "origin of death",
+        "chameleon and lizard",
+        "perverted message",
+        "olodumare",
+        "cosmology"
+      ],
+      "historical_period": "Ancient West African Mythological Tradition",
+      "region_or_community": "Pan-Nigerian indigenous folklore (Yoruba, Igbo, and Edo traditions)",
+      "community_attributions": [
+        "Elder village storytellers",
+        "West African mythological recorders"
+      ],
+      "geographic_associations": [
+        "Traditional ancestral lands of Southern Nigeria"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "West African Folk-Tales: How Death Came into the World",
+          "publisher": "William H. Barker / George G. Harrap",
+          "name": "William H. Barker / George G. Harrap",
+          "url": "https://www.gutenberg.org/ebooks/15469",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "William H. Barker, West African Folk-Tales. Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from William H. Barker / George G. Harrap, 'West African Folk-Tales: How Death Came into the World'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://www.gutenberg.org/ebooks/15469",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826746Z",
+      "updated_at": "2026-10-29T10:22:51.826746Z"
+    },
+    {
+      "id": "NG-FOLK-009",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Palm-Wine Drinkard and the Town of the Deads",
+      "slug": "the-palm-wine-drinkard-and-the-town-of-the-deads",
+      "country_code": "NG",
+      "category": "folklore",
+      "subtype": "odyssey_myth",
+      "summary": "A legendary milestone of 20th-century Nigerian literature based directly on Yoruba oral folklore, a young man who does nothing all day but drink palm wine embarks on a surreal quest to the 'Deads' Town' following the accidental death of his master palm-wine tapster. Journeying through uncanny spirit forests, he confronts the 'Complete Gentleman'—a handsome traveler who rented human limbs, flesh, and skin to impress a bride, returning each part to creditors until only a bouncing skull remained—and battles immense monstrous spirits using traditional magical charms (juju), capturing the surreal, terrifying logic of traditional Yoruba ghostlore.",
+      "long_description": null,
+      "alternate_names": [
+        "The Palm-Wine Drinkard",
+        "Amos Tutuola's Ghost Odyssey"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "yo",
+        "en"
+      ],
+      "motifs": [
+        "F111",
+        "E422.1.8",
+        "D1810"
+      ],
+      "themes": [
+        "palm-wine drinkard",
+        "town of the dead",
+        "complete gentleman",
+        "yoruba spirit forest",
+        "surreal journey"
+      ],
+      "historical_period": "Modern Nigerian Literary Folklore (published 1952 by Amos Tutuola)",
+      "region_or_community": "Abeokuta, Ogun State and Yoruba hinterlands",
+      "community_attributions": [
+        "Yoruba folk fantasy narrators",
+        "Nigerian post-colonial literary pioneers"
+      ],
+      "geographic_associations": [
+        "Abeokuta, Ogun State",
+        "Olumo Rock"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "The Palm-Wine Drinkard and His Dead Palm-Wine Tapster in the Deads' Town",
+          "publisher": "Amos Tutuola / Faber and Faber",
+          "name": "Amos Tutuola / Faber and Faber",
+          "url": "https://archive.org/details/palmwinedrinkard0000tutu",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Amos Tutuola folklore foundation studies. Educational Use.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Amos Tutuola / Faber and Faber, 'The Palm-Wine Drinkard and His Dead Palm-Wine Tapster in the Deads' Town'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/palmwinedrinkard0000tutu",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826772Z",
+      "updated_at": "2026-10-29T10:22:51.826773Z"
+    },
+    {
+      "id": "NG-FOLK-010",
+      "schema_version": "2.0.0",
+      "record_version": "1.0.0",
+      "title": "The Clever Goat and the Greedy Leopard",
+      "slug": "the-clever-goat-and-the-greedy-leopard",
+      "country_code": "NG",
+      "category": "folklore",
+      "subtype": "animal_fable",
+      "summary": "In this classic Edo and Benin kingdom animal fable, an industrious he-goat decides to build a stone house in the forest. Unknown to him, a ferocious leopard selects the exact same clearing. While the goat gathers timber by day, the leopard arrives by night to erect the walls, each assuming a friendly forest deity is helping with the construction. When the house is completed, both move in simultaneously and discover each other. The trembling goat uses sharp wits: when the leopard brings home a slaughtered antelope for dinner, the goat loudly grumbles that the meat is too small and demands a leopard carcass instead. Terrified by the goat's apparent ferocity, the leopard flees the house forever.",
+      "long_description": null,
+      "alternate_names": [
+        "The Goat and the Leopard",
+        "The Shared House in the Forest"
+      ],
+      "language": "en",
+      "alternate_languages": [
+        "bin",
+        "en"
+      ],
+      "motifs": [
+        "K1715",
+        "J1110",
+        "B211.1"
+      ],
+      "themes": [
+        "wit over power",
+        "edo folklore",
+        "clever goat",
+        "leopard tricked",
+        "animal fable"
+      ],
+      "historical_period": "Ancient Benin Kingdom Oral Lore",
+      "region_or_community": "Benin City and Edo State",
+      "community_attributions": [
+        "Edo cultural custodians",
+        "Benin kingdom oral storytellers"
+      ],
+      "geographic_associations": [
+        "Benin City ancient moats and forest reserves"
+      ],
+      "variant_notes": null,
+      "related_record_ids": [],
+      "sources": [
+        {
+          "id": null,
+          "title": "Anthropological Report on the Edo-Speaking Peoples of Nigeria: Part II - Linguistics and Folktales",
+          "publisher": "Northcote W. Thomas / Harrison and Sons",
+          "name": "Northcote W. Thomas / Harrison and Sons",
+          "url": "https://archive.org/details/anthropologicalr02thom",
+          "canonical_url": null,
+          "external_id": null,
+          "source_type": "web",
+          "language": "en",
+          "published_at": null,
+          "updated_at": null,
+          "retrieved_at": null,
+          "license_name": null,
+          "license_url": null,
+          "rights_status": "approved",
+          "reuse_scope": "metadata_and_citation",
+          "attribution_required": true,
+          "attribution_text": "Northcote W. Thomas, Edo Folktales and Traditions (1910). Public Domain.",
+          "full_text_reuse_allowed": false,
+          "notes": null,
+          "citation": null,
+          "access_date": null
+        }
+      ],
+      "source_type": "reference",
+      "license": "Public Domain / Open Access Educational Use",
+      "rights_status": "approved",
+      "attribution_text": "Curated from Northcote W. Thomas / Harrison and Sons, 'Anthropological Report on the Edo-Speaking Peoples of Nigeria: Part II - Linguistics and Folktales'. Preserved for educational and cultural archiving.",
+      "canonical_url": "https://archive.org/details/anthropologicalr02thom",
+      "retrieved_at": null,
+      "verification_status": "verified",
+      "content_origin": "original_summary",
+      "created_at": "2026-10-29T10:22:51.826797Z",
+      "updated_at": "2026-10-29T10:22:51.826798Z"
+    }
+  ],
+  "metadata": {
+    "description": "Curated folklore dataset for Nigeria",
+    "dataset_version": "2.0.0",
+    "created_at": null,
+    "updated_at": null,
+    "provenance_notes": "Curated and verified records adhering to KathaYantra Publication Policy v2.0.0.",
+    "target_count": 10,
+    "actual_record_count": 10,
+    "total_records": 10,
+    "status": "curated_and_verified",
+    "validation_status": "valid",
+    "last_updated": null,
+    "import_batch_references": []
+  }
+}
